@@ -1,0 +1,490 @@
+
+.logoImage{
+	width: 26%;
+	height: auto;
+	margin-top: 11px;
+}
+
+/* This is the selector i used for my menu, it needs to be set as position:absolute; */
+.subMenu {
+	position: absolute;
+	top: 105px;
+	z-index: 1000;
+	width: 100%;
+	background-color: white;
+}
+
+/* ------------SECTIONS------------ */
+.homeButton {
+	text-align: center;
+	padding: 5px 0px 12px 0px;
+	background-color: #009ac9;
+}
+
+.storyButton {
+	min-height: 500px;
+	background: gray;
+	margin-top: 120px;
+}
+
+.playButton {
+	min-height: 500px;
+	background: #3f3f3f;
+}
+
+
+.makeButton {
+	min-height: 500px;
+	background: #504f4f;
+}
+
+
+.factsButton {
+	min-height: 500px;
+	background: #6e87a1;
+	color: white;
+}
+
+.grownupsButton {
+	min-height: 500px;
+	background: #293b4d;
+	color: white;
+}
+
+/* ---------GLOBAL--------------- */
+body {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 100;
+	font-size: 1.125em;
+	/*color: #faf3bc;
+	background: #420600 url('img/bg-texture.jpg') repeat;*/
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+img, object {
+	max-width: 100%;
+}
+
+/* -------TYPOGRAPHY----------- */
+h1 {
+	font-size: 1.750em;
+	font-weight: 100;
+	letter-spacing: -1.5px;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 1.500em;
+	color: #b4c34f;
+}
+
+h3 {
+	font-weight: 100;
+	font-size: 1.125em;
+	color: #ed6c85;
+}
+
+/* -------BUTTONS------------- */
+#nav {
+	background-color: white;
+	height: 88px;
+	margin-top: 5px;
+	padding-left: 285px;
+}	
+
+#nav ul {
+	width: 100%;
+	margin: 0% 0 2% 0;
+	list-style: none;
+	float: none;
+	text-align: center;
+}
+	
+#nav ul li {
+	float: left;
+	}
+	#nav ul li.home {
+		width: 16%;
+	}
+	#nav ul li.story {
+		width: 16%;
+	}
+	#nav ul li.play {
+		width: 16%;
+	}
+	#nav ul li.make {
+		width: 16%;
+	}
+	#nav ul li.facts {
+		width: 16%;
+	}
+	#nav ul li.grownups {
+		width: 16%;
+	}
+
+#nav ul li a {
+	display: block;
+	text-decoration: none;
+}
+	
+
+/* ----------CONTENT------------- */
+
+#intro {
+	margin: 0 0 5% 0;
+}
+
+#logo {
+	text-align:center;
+}
+
+.clear {
+	clear: both;
+}
+
+.leftSidebar {
+	width: 10%;
+	height: 1000px;
+	float: left;
+	background-color: black;
+	position: fixed;
+	top: 93px;
+	z-index: 1000;
+}
+
+.mainWrapper {
+	width: 80%;
+	margin: auto;
+}
+
+.rightSidebar {
+	width: 10%;
+	height: 1000px;
+	float: right;
+	background-color: black;
+	position: fixed;
+	right: 0px;
+	top: 93px;
+	z-index: 1000;
+}
+
+.section {
+	width: 100%;
+	z-index: 10;
+	position: relative;
+}
+
+#contentContainer{
+	height: 965px;
+	margin-left: 31px;
+}
+
+#box1, #box2, #box3, #box4, #box5, #box6{
+	text-align:center;
+	height: 300px;
+	border: 1px solid black;
+}
+
+#copyright {
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 75px;
+	width: 100%;
+	background: white;
+	text-align: center;
+	z-index: 1000;
+}
+
+.contestImg{
+	float:left;
+}
+
+.socialButtons{
+	float:right;
+}
+
+.bottomMenu li{
+	display: inline;
+	margin-left:5px;
+}
+
+/* ----------------------------MEDIA QUERIES---------------------------- */
+
+/* Larger --------------------------------------- */
+@media screen and (max-width: 1024px) {
+
+.logoImage{
+	width: 38%;
+}
+
+/*navigation*/
+#nav {
+	width: 96%;
+	padding-left: 78px;
+}
+#nav ul {
+	margin: 0;
+}
+
+#nav ul li {
+	float: left;
+	margin: 0% 0 0 0;
+	}
+	#nav ul li.home {
+		width: 16%;
+	}
+	#nav ul li.story {
+		width: 16%;
+	}
+	#nav ul li.play {
+		width: 16%;
+	}
+	#nav ul li.make {
+		width: 16%;
+		margin: 0% 0 2% 0;
+	}
+	#nav ul li.facts {
+		width: 16%;
+		margin: 0% 0 2% 0;
+	}
+	#nav ul li.grownups {
+		width: 16%;
+		margin: 0% 0 2% 0;
+	}
+}
+
+#homeButton{
+	width:98px;
+	height:85px;
+	background: url('img/KGAP_home_button.png') no-repeat;
+}
+
+#homeButton:hover {
+	background: url('img/KGAP_home_button.png') no-repeat;
+}
+
+#storyButton{
+	width:98px;
+	height:85px;
+	background: url('img/KGAP_home_button.png') no-repeat;
+}
+
+#storyButton:hover {
+	background: url('img/KGAP_home_button.png') no-repeat;
+}
+
+#playButton{
+	width:98px;
+	height:85px;
+	background: url('img/KGAP_home_button.png') no-repeat;
+}
+
+#playButton:hover {
+	background: url('img/KGAP_home_button.png') no-repeat;
+}
+
+#makeButton{
+	width:98px;
+	height:85px;
+	background: url('img/KGAP_home_button.png') no-repeat;
+}
+
+#makeButton:hover {
+	background: url('img/KGAP_home_button.png') no-repeat;
+}
+
+#factsButton{
+	width:98px;
+	height:85px;
+	background: url('img/KGAP_home_button.png') no-repeat;
+}
+
+#factsButton:hover {
+	background: url('img/KGAP_home_button.png') no-repeat;
+}
+
+#grownupsButton{
+	width:98px;
+	height:85px;
+	background: url('img/KGAP_home_button.png') no-repeat;
+}
+
+#grownupsButton:hover {
+	background: url('img/KGAP_home_button.png') no-repeat;
+}
+
+
+/* Smaller --------------------------------------- */
+@media screen and (max-width : 650px) {
+.grid_1,
+.grid_2,
+.grid_3,
+.grid_4,
+.grid_5,
+.grid_6,
+.grid_7,
+.grid_8,
+.grid_9,
+.grid_10,
+.grid_11,
+.grid_12 {
+	width:100%;
+}
+
+.logoImage{
+	width: 80%;
+	max-width: 80%;
+	height: auto;
+}
+
+.subMenu{
+	top: 76px;
+}
+
+
+/*navigation*/
+#nav {
+	height: 151px;
+	padding-left: 6px !important;
+	padding-top: 2px;
+}
+#nav ul {
+	margin: 0% -10%;
+}
+
+#nav ul li a {
+	-webkit-user-select: none;
+	font-size: 1em;
+}
+
+#nav ul li {
+	float: left;
+	margin: 0 0;
+	height: 75px;
+	}
+	
+	#nav ul  li.home {
+		width: 33%;
+		text-align: left;
+	}
+	#nav ul  li.story {
+		width: 33%;
+		text-align: center;
+	}
+	#nav ul  li.play {
+		width: 33%;
+		text-align: right;
+	}
+	#nav ul  li.make {
+		width: 33%;
+		text-align: left;
+	}
+	#nav ul  li.facts {
+		width: 33%;
+		text-align: center;
+	}
+	#nav ul  li.grownups {
+		width: 33%;
+		text-align: right;
+	}
+
+	#homeButton{
+		width:85px;
+		height:85px;
+		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+	}
+
+	#homeButton:hover {
+		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+	}
+
+	#storyButton{
+		width:85px;
+		height:85px;
+		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+	}
+
+	#storyButton:hover {
+		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+	}
+
+	#playButton{
+		width:85px;
+		height:85px;
+		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+	}
+
+	#playButton:hover {
+		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+	}
+
+	#makeButton{
+		width:85px;
+		height:85px;
+		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+	}
+
+	#makeButton:hover {
+		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+	}
+
+	#factsButton{
+		width:85px;
+		height:85px;
+		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+	}
+
+	#factsButton:hover {
+		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+	}
+
+	#grownupsButton{
+		width:85px;
+		height:85px;
+		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+	}
+
+	#grownupsButton:hover {
+		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+	}
+
+	#intro, #about {
+		display: none;
+	}
+
+	.storyButton {
+		margin-top: 169px;
+	}
+	
+	#copyright {
+		position: static;
+		left: 0px;
+		bottom: 0px;
+		height: 60px;
+		width: 100%;
+		background: #999;
+		text-align: center;
+		z-index: 12;
+		float:left;
+	}
+	
+	.mainWrapper {
+		width: 100%;
+		margin: auto;
+	}
+
+	.leftSidebar{
+		display:none;
+	}
+	
+	.rightSidebar{
+		display: none;
+	}
+
+}
+
