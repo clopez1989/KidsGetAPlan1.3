@@ -15,8 +15,22 @@
 }
 
 /* ------------SECTIONS------------ */
-.homeButton {
+.topLeftArt {
+	margin-top: -5px;
+	float: left;
+}
+
+.logoContainer {
 	text-align: center;
+	margin-right: 166px;
+}
+
+.topRightArt {
+	margin-top: -74px;
+	float: right;
+}
+
+.homeButton {
 	padding: 5px 0px 12px 0px;
 	background-color: #00adef;
 }
