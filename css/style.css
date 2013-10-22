@@ -18,18 +18,18 @@
 .homeButton {
 	text-align: center;
 	padding: 5px 0px 12px 0px;
-	background-color: #009ac9;
+	background-color: #00adef;
 }
 
 .storyButton {
 	min-height: 500px;
-	background: gray;
+	background-color: #fbee3c;
 	margin-top: 120px;
 }
 
 .playButton {
 	min-height: 500px;
-	background: #3f3f3f;
+	background-color: #fbee3c;
 }
 
 
@@ -56,8 +56,8 @@ body {
 	font-family: 'Nunito', sans-serif;
 	font-weight: 100;
 	font-size: 1.125em;
-	/*color: #faf3bc;
-	background: #420600 url('img/bg-texture.jpg') repeat;*/
+	/*color: #faf3bc;*/
+	background: #838c75;
 }
 
 a {
@@ -91,9 +91,11 @@ h3 {
 /* -------BUTTONS------------- */
 #nav {
 	background-color: white;
-	height: 88px;
-	margin-top: 5px;
+	height: 121px;
+	margin-top: -11px;
 	padding-left: 285px;
+	padding-right: 360px;
+	background: url('img/top_nav_bg_scaled.png') no-repeat;
 }	
 
 #nav ul {
@@ -109,21 +111,27 @@ h3 {
 	}
 	#nav ul li.home {
 		width: 16%;
+		margin-top: 23px;
 	}
 	#nav ul li.story {
 		width: 16%;
+		margin-top: 23px;
 	}
 	#nav ul li.play {
 		width: 16%;
+		margin-top: 23px;
 	}
 	#nav ul li.make {
 		width: 16%;
+		margin-top: 23px;
 	}
 	#nav ul li.facts {
 		width: 16%;
+		margin-top: 23px;
 	}
 	#nav ul li.grownups {
 		width: 16%;
+		margin-top: 23px;
 	}
 
 #nav ul li a {
@@ -150,9 +158,9 @@ h3 {
 	width: 10%;
 	height: 1000px;
 	float: left;
-	background-color: black;
+	background-color: #838c75;
 	position: fixed;
-	top: 93px;
+	top: 214px;
 	z-index: 1000;
 }
 
@@ -165,10 +173,10 @@ h3 {
 	width: 10%;
 	height: 1000px;
 	float: right;
-	background-color: black;
+	background-color: #838c75;
 	position: fixed;
 	right: 0px;
-	top: 93px;
+	top: 214px;
 	z-index: 1000;
 }
 
@@ -176,6 +184,7 @@ h3 {
 	width: 100%;
 	z-index: 10;
 	position: relative;
+	
 }
 
 #contentContainer{
@@ -195,7 +204,7 @@ h3 {
 	bottom: 0px;
 	height: 75px;
 	width: 100%;
-	background: white;
+	background: #f16022;
 	text-align: center;
 	z-index: 1000;
 }
@@ -260,62 +269,62 @@ h3 {
 
 #homeButton{
 	width:98px;
-	height:85px;
+	height:98px;
 	background: url('img/KGAP_home_button.png') no-repeat;
 }
 
 #homeButton:hover {
-	background: url('img/KGAP_home_button.png') no-repeat;
+	background: url('img/KGAP_home_button_hover.png') no-repeat;
 }
 
 #storyButton{
 	width:98px;
-	height:85px;
+	height:98px;
 	background: url('img/KGAP_home_button.png') no-repeat;
 }
 
 #storyButton:hover {
-	background: url('img/KGAP_home_button.png') no-repeat;
+	background: url('img/KGAP_home_button_hover.png') no-repeat;
 }
 
 #playButton{
 	width:98px;
-	height:85px;
+	height:98px;
 	background: url('img/KGAP_home_button.png') no-repeat;
 }
 
 #playButton:hover {
-	background: url('img/KGAP_home_button.png') no-repeat;
+	background: url('img/KGAP_home_button_hover.png') no-repeat;
 }
 
 #makeButton{
 	width:98px;
-	height:85px;
+	height:98px;
 	background: url('img/KGAP_home_button.png') no-repeat;
 }
 
 #makeButton:hover {
-	background: url('img/KGAP_home_button.png') no-repeat;
+	background: url('img/KGAP_home_button_hover.png') no-repeat;
 }
 
 #factsButton{
 	width:98px;
-	height:85px;
+	height:98px;
 	background: url('img/KGAP_home_button.png') no-repeat;
 }
 
 #factsButton:hover {
-	background: url('img/KGAP_home_button.png') no-repeat;
+	background: url('img/KGAP_home_button_hover.png') no-repeat;
 }
 
 #grownupsButton{
 	width:98px;
-	height:85px;
+	height:98px;
 	background: url('img/KGAP_home_button.png') no-repeat;
 }
 
 #grownupsButton:hover {
-	background: url('img/KGAP_home_button.png') no-repeat;
+	background: url('img/KGAP_home_button_hover.png') no-repeat;
 }
 
 
@@ -400,7 +409,7 @@ h3 {
 	}
 
 	#homeButton:hover {
-		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+		background: url('img/KGAP_home_button_mobile_hover.png') no-repeat;
 	}
 
 	#storyButton{
@@ -410,7 +419,7 @@ h3 {
 	}
 
 	#storyButton:hover {
-		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+		background: url('img/KGAP_home_button_mobile_hover.png') no-repeat;
 	}
 
 	#playButton{
@@ -420,7 +429,7 @@ h3 {
 	}
 
 	#playButton:hover {
-		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+		background: url('img/KGAP_home_button_mobile_hover.png') no-repeat;
 	}
 
 	#makeButton{
@@ -430,7 +439,7 @@ h3 {
 	}
 
 	#makeButton:hover {
-		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+		background: url('img/KGAP_home_button_mobile_hover.png') no-repeat;
 	}
 
 	#factsButton{
@@ -440,7 +449,7 @@ h3 {
 	}
 
 	#factsButton:hover {
-		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+		background: url('img/KGAP_home_button_mobile_hover.png') no-repeat;
 	}
 
 	#grownupsButton{
@@ -450,7 +459,7 @@ h3 {
 	}
 
 	#grownupsButton:hover {
-		background: url('img/KGAP_home_button_mobile.png') no-repeat;
+		background: url('img/KGAP_home_button_mobile_hover.png') no-repeat;
 	}
 
 	#intro, #about {
