@@ -18,6 +18,8 @@
 .topLeftArt {
 	margin-top: -5px;
 	float: left;
+	max-width: 10%;
+	height: auto;
 }
 
 .logoContainer {
@@ -28,6 +30,8 @@
 .topRightArt {
 	margin-top: -74px;
 	float: right;
+	max-width: 10%;
+	height: auto;
 }
 
 .homeButton {
@@ -38,7 +42,7 @@
 .storyButton {
 	min-height: 500px;
 	background-color: #fbee3c;
-	margin-top: 120px;
+	margin-top: 108px;
 }
 
 .playButton {
