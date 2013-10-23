@@ -3,6 +3,7 @@
 	width: 26%;
 	height: auto;
 	margin-top: 11px;
+	
 }
 
 /* This is the selector i used for my menu, it needs to be set as position:absolute; */
@@ -15,34 +16,43 @@
 }
 
 /* ------------SECTIONS------------ */
-.topLeftArt {
-	margin-top: -5px;
-	float: left;
-	max-width: 10%;
-	height: auto;
+#topLeftArt {
+	position:relative;
+	top:-5px;
 }
 
 .logoContainer {
 	text-align: center;
-	margin-right: 166px;
+	position: relative;
+	left: -216px;
 }
 
-.topRightArt {
-	margin-top: -74px;
+.topBolts {
+	left: 191px;
+	top: -28px;
+	position: relative;
+}
+
+#topRightArt {
+	position: relative;
+	top: -122px;
 	float: right;
-	max-width: 10%;
-	height: auto;
+}
+
+#topRightArt img {
+	float: right;
 }
 
 .homeButton {
 	padding: 5px 0px 12px 0px;
 	background-color: #00adef;
+	height: 97px;
 }
 
 .storyButton {
 	min-height: 500px;
 	background-color: #fbee3c;
-	margin-top: 108px;
+	margin-top: 101px;
 }
 
 .playButton {
@@ -112,7 +122,7 @@ h3 {
 	height: 121px;
 	margin-top: -11px;
 	padding-left: 285px;
-	padding-right: 360px;
+	padding-right: 359px;
 	background: url('img/top_nav_bg_scaled.png') no-repeat;
 }	
 
@@ -123,33 +133,47 @@ h3 {
 	float: none;
 	text-align: center;
 }
+
+.navLeftNotch {
+	left: -285px;
+	top: 31px;
+	position: relative;
+	float: left;
+}
+
+.navRightNotch {
+	float: right;
+	position: relative;
+	top: -81px;
+	left: 358px;
+}
 	
 #nav ul li {
 	float: left;
 	}
 	#nav ul li.home {
 		width: 16%;
-		margin-top: 23px;
+		margin-top: 15px;
 	}
 	#nav ul li.story {
 		width: 16%;
-		margin-top: 23px;
+		margin-top: 15px;
 	}
 	#nav ul li.play {
 		width: 16%;
-		margin-top: 23px;
+		margin-top: 15px;
 	}
 	#nav ul li.make {
 		width: 16%;
-		margin-top: 23px;
+		margin-top: 15px;
 	}
 	#nav ul li.facts {
 		width: 16%;
-		margin-top: 23px;
+		margin-top: 15px;
 	}
 	#nav ul li.grownups {
 		width: 16%;
-		margin-top: 23px;
+		margin-top: 15px;
 	}
 
 #nav ul li a {
