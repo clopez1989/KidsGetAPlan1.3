@@ -11,7 +11,7 @@
 	position: absolute;
 	top: 105px;
 	z-index: 1000;
-	width: 100%;
+	width: 99.7%;
 	background-color: #838c75;
 }
 
@@ -31,6 +31,21 @@
 	left: 191px;
 	top: -28px;
 	position: relative;
+}
+
+.navBolt1 {
+	position: relative;
+	top: 88px;
+	left: -167px;
+	z-index: 1001;
+	float: left;
+}
+
+.navBolt2 {
+	position: relative;
+	top: -30px;
+	left: 821px;
+	z-index: 1001;
 }
 
 #topRightArt {
@@ -209,6 +224,8 @@ h3 {
 .mainWrapper {
 	width: 80%;
 	margin: auto;
+	background-image:url('img/tilable_swiss_cheese.png');
+	background-repeat:repeat;
 }
 
 .rightSidebar {
@@ -232,6 +249,18 @@ h3 {
 #contentContainer{
 	height: 965px;
 	margin-left: 31px;
+}
+
+#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
+	border: 1px solid black;
+	height: 250px;
+	background:url('img/story_frame.png');
+	background-repeat: no-repeat;
+	background-position:center; 
+}
+#name1_box p, #name2_box p, #name3_box p, #name4_box p, #name5_box p, #name6_box p{
+	text-align: center;
+	margin-top: 105px;
 }
 
 #box1, #box2, #box3, #box4, #box5, #box6{
