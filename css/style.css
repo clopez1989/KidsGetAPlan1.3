@@ -246,13 +246,19 @@ h3 {
 	
 }
 
+#leftNotches{
+	display: none;
+}
+#rightNotches{
+	display: none; 
+}
+
 #contentContainer{
 	height: 965px;
 	margin-left: 31px;
 }
 
 #name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
-	border: 1px solid black;
 	height: 250px;
 	background:url('img/story_frame.png');
 	background-repeat: no-repeat;
@@ -285,7 +291,13 @@ h3 {
 }
 
 .socialButtons{
-	float:right;
+	float: right;
+	margin-top: -45px;
+	padding-right: 27px;
+}
+
+.fbicon{
+	padding-bottom:9px;
 }
 
 .bottomMenu li{
