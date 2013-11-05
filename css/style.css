@@ -489,9 +489,13 @@ h3 {
 	max-width: 80%;
 	height: auto;
 }
+.navBolt2 {
+	display: none;
+}
 
 .subMenu{
 	top: 76px;
+	width:100%;
 }
 
 .topBolts {
