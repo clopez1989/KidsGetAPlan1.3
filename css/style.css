@@ -11,7 +11,7 @@
 	position: absolute;
 	top: 105px;
 	z-index: 1000;
-	width: 100%;
+	width: 99.9%;
 	background-color: #838c75;
 }
 
@@ -21,7 +21,7 @@
 	top:-5px;
 }
 
-.logoContainer {
+.logoContainer { 
 	text-align: center;
 	position: relative;
 	left: -216px;
@@ -284,6 +284,8 @@ h3 {
 	background: #f16022;
 	text-align: center;
 	z-index: 1000;
+	background-image: url('img/footer_etching.png') no-repeat;
+	
 }
 
 .characterImg {
@@ -357,12 +359,12 @@ h3 {
 
 /*navigation*/
 #nav {
-	width: 67%;
+	width: 50.1%;
 	padding-left: 154px;
 	color: #838c75;
 }
 #nav ul {
-	margin: 0;
+	margin: 0 0 0 70px;
 }
 
 .navLeftNotch {
@@ -376,7 +378,7 @@ h3 {
 	float: right;
 	position: relative;
 	top: -81px;
-	left: 184px;
+	right: 0px;
 }
 	
 
@@ -385,22 +387,22 @@ h3 {
 	margin: 0% 0 0 0;
 	}
 	#nav ul li.home {
-		width: 16%;
+		width: 16.5%;
 	}
 	#nav ul li.story {
-		width: 16%;
+		width: 16.5%;
 	}
 	#nav ul li.play {
-		width: 16%;
+		width: 16.5%;
 	}
 	#nav ul li.make {
-		width: 16%;
+		width: 16.5%;
 	}
 	#nav ul li.facts {
-		width: 16%;
+		width: 16.5%;
 	}
 	#nav ul li.grownups {
-		width: 16%;
+		width: 16.5%;
 	}
 }
 
@@ -675,6 +677,14 @@ h3 {
 	}
 	
 	.rightSidebar{
+		display: none;
+	}
+	
+	.characterImg {
+		display: none;
+	}
+
+	.machineImg {
 		display: none;
 	}
 
