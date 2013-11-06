@@ -207,6 +207,12 @@ h3 {
 	text-align:center;
 }
 
+.logoImage{
+	height: auto;
+	margin-top: 11px;
+	margin-right: 12px;
+}
+
 .clear {
 	clear: both;
 }
@@ -330,7 +336,7 @@ h3 {
 .logoImage{
 	height: auto;
 	margin-top: 11px;
-	margin-right: -26px;
+	margin-right: -22px;
 }
 
 #topLeftArt {
@@ -533,6 +539,7 @@ h3 {
 	background-image:none;
 	width: 100%;
 	margin-left: -25px;
+	padding-right:0px;
 }
 
 .navLeftNotch {
@@ -570,7 +577,7 @@ h3 {
 		margin-top: 0px;
 	}
 	#nav ul  li.play {
-		width: 33%;
+		width: 30%;
 		text-align: right;
 		margin-top: 0px;
 	}
@@ -585,7 +592,7 @@ h3 {
 		margin-top: 0px;
 	}
 	#nav ul  li.grownups {
-		width: 33%;
+		width: 30%;
 		text-align: right;
 		margin-top: 0px;
 	}
@@ -690,6 +697,12 @@ h3 {
 
 	.machineImg {
 		display: none;
+	}
+	
+	.socialButtons{
+		position: static;
+		bottom: 7px;
+		right: 11px;
 	}
 
 }
