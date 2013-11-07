@@ -318,7 +318,7 @@ h3 {
 }
 
 .bottomMenu{
-	margin-left:0;
+	margin-left:241px;
 }
 
 .bottomMenu a {
@@ -429,10 +429,9 @@ h3 {
 		#nav ul li.adults {
 			width: 16.5%;
 		}
-	}
 
 	.bottomMenu{
-		margin-left: 250px;
+		margin-left: 124px;
 	}
 
 	#homeButton{
@@ -546,9 +545,36 @@ h3 {
 }
 
 .mainButton {
-	min-height: 500px;
+	min-height: 1500px;
 	background-color: #fbee3c;
 	margin-top: 151px;
+}
+
+#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
+	height: 250px;
+	background: url('img/story_frame.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	width:45%;
+	margin-left:20px;
+}
+
+.bottomMenu{
+	margin-left:0;
+	width:80%;
+}
+
+.bottomMenu a {
+	color: white;
+}
+
+.bottomMenu li{
+	margin-left: 14px;
+	list-style-type: none;
+	list-style-position: inside;
+	float: left;
+	color: white;
+	font-size:16px;
 }
 	
 }
@@ -743,13 +769,14 @@ h3 {
 
 .mainButton {
 	margin-top: 129px;
+	min-height:1500px;
 }
 
 #copyright {
 	position: static;
 	left: 0px;
 	bottom: 0px;
-	height: 60px;
+	height: 260px;
 	width: 100%;
 	background: #999;
 	text-align: center;
@@ -785,9 +812,26 @@ h3 {
 }
 
 .socialButtons{
-	position: static;
-	bottom: 7px;
-	right: 11px;
+	position:static;
+	float:left;
+	margin-top:5%;
+}
+
+.socialButtons img{
+	width:80%;
+	height:auto;
+	margin:auto;
+	text-align:center;
+}
+
+.contestImg {
+	margin:auto;
+	padding-top:10px;
+	float:none;
+}
+
+.bottomMenu li:first-child{
+	list-style-type:circle;
 }
 
 }
