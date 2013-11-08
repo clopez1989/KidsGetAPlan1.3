@@ -69,6 +69,14 @@
 	margin-top: 101px;
 }
 
+.mainButton h2 {
+	display:none;
+}
+
+.mainButton p {
+	display:none;
+}
+
 .storyButton {
 	min-height: 500px;
 	background-color: #fbee3c;
@@ -465,6 +473,9 @@ h3 {
 		right: 0px;
 	}
 	
+	.mainButton h2 {
+		display:none;
+	}
 
 	#nav ul li {
 		float: left;
@@ -656,9 +667,11 @@ h3 {
 }
 
 .logoImage{
-	width: 61%;
+	width: 70%;
 	max-width: 80%;
 	height: auto;
+	margin: 0 0 18px 0;
+	padding-top: 6px;
 }
 .navBolt2 {
 	display: none;
@@ -667,6 +680,8 @@ h3 {
 .subMenu{
 	top: 76px;
 	width:100%;
+	background: #DDD url('img/nav_bg_m.png') repeat;
+	
 }
 
 .topBolts {
@@ -685,8 +700,10 @@ h3 {
 
 .logoContainer {
 	text-align: center;
-	position: relative;
-	left: -21px;
+	position: static;
+	background: url('img/top_etching_m.png') no-repeat;
+	background-size:320px 60px;
+	
 }
 
 #topRightArt {
@@ -829,6 +846,23 @@ h3 {
 .mainButton {
 	margin-top: 129px;
 	min-height:1500px;
+}
+
+#mobileTextBox {
+	text-align:center;
+}
+
+#mobileTextBox h2 {
+	display:inline;
+	text-align: center;
+}
+
+#mobileTextBox p {
+	display:inline;
+	text-align: center;
+	margin: auto;
+	float: left;
+	font-size:16px;
 }
 
 #copyright {
