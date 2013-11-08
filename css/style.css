@@ -192,7 +192,66 @@ h3 {
 	display: block;
 	text-decoration: none;
 }
-	
+
+#homeButton{
+	width:98px;
+	height:98px;
+	background: url('img/Top%20Nav/home_down_d.png') no-repeat;
+}
+
+#homeButton:hover {
+	background: url('img/Top%20Nav/home_up_d.png') no-repeat;
+}
+
+#storyButton{
+	width:98px;
+	height:98px;
+	background: url('img/Top%20Nav/story_down_d.png') no-repeat;
+}
+
+#storyButton:hover {
+	background: url('img/Top%20Nav/story_up_d.png') no-repeat;
+}
+
+#playButton{
+	width:98px;
+	height:98px;
+	background: url('img/Top%20Nav/play_down_d.png') no-repeat;
+}
+
+#playButton:hover {
+	background: url('img/Top%20Nav/play_up_d.png') no-repeat;
+}
+
+#makeButton{
+	width:98px;
+	height:98px;
+	background: url('img/Top%20Nav/make_down_d.png') no-repeat;
+}
+
+#makeButton:hover {
+	background: url('img/Top%20Nav/make_up_d.png') no-repeat;
+}
+
+#factsButton{
+	width:98px;
+	height:98px;
+	background: url('img/Top%20Nav/facts_down_d.png') no-repeat;
+}
+
+#factsButton:hover {
+	background: url('img/Top%20Nav/facts_up_d.png') no-repeat;
+}
+
+#adultsButton{
+	width:98px;
+	height:98px;
+	background: url('img/Top%20Nav/adults_down_d.png') no-repeat;
+}
+
+#adultsButton:hover {
+	background: url('img/Top%20Nav/adults_up_d.png') no-repeat;
+}	
 
 /* ----------CONTENT------------- */
 
