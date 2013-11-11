@@ -276,6 +276,13 @@ h3 {
 	height: auto;
 	margin-top: 11px;
 	margin-right: 12px;
+	transition:width 2s, height 2s, transform 1s;
+	-webkit-transition:width 2s, height 2s, -webkit-transform 1s; /* Safari */
+}
+
+.logoImage:hover{
+	transform:rotate(360deg);
+	-webkit-transform:rotate(360deg); /* Safari */
 }
 
 .clear {
