@@ -64,9 +64,10 @@
 }
 
 .mainButton {
-	min-height: 500px;
+	min-height: 449px;
 	background-color: #fbee3c;
 	margin-top: 101px;
+	text-align: center;
 }
 
 .mainButton h2 {
@@ -78,13 +79,13 @@
 }
 
 .storyButton {
-	min-height: 500px;
-	background-color: #fbee3c;
+	min-height: 555px;
+	background-color: #6dcef5;
 }
 
 .playButton {
 	min-height: 500px;
-	background: #504f4f;
+	background: #f06022;
 }
 
 .makeButton {
@@ -329,15 +330,14 @@ h3 {
 }
 
 #name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
-	height: 250px;
-	background:url('img/story_frame.png');
-	background-repeat: no-repeat;
-	background-position:center; 
+	margin-top:18px;
 }
 
-#name1_box p, #name2_box p, #name3_box p, #name4_box p, #name5_box p, #name6_box p{
+#name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
 	text-align: center;
-	margin-top: 105px;
+	margin-bottom:5px;
+	margin-top:10px;
+
 }
 
 #box1, #box2, #box3, #box4, #box5, #box6{
@@ -564,12 +564,12 @@ h3 {
 		background: url('img/Top%20Nav/adults_up_d.png') no-repeat;
 	}
 
-	#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
+	/*#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
 		height: 250px;
 		background:url('img/story_frame.png');
 		background-repeat: no-repeat;
 		background-position:center; 
-	}
+	}*/
 	
 /* iPads (portrait) ----------- */	
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
@@ -621,12 +621,12 @@ h3 {
 }
 
 #name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
-	height: 250px;
+	/*height: 250px;
 	background: url('img/story_frame.png');
 	background-repeat: no-repeat;
 	background-position: center;
 	width:45%;
-	margin-left:20px;
+	margin-left:20px;*/
 }
 
 .bottomMenu{
@@ -779,6 +779,18 @@ h3 {
 		margin-top: 0px;
 	}
 
+#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
+	text-align: center;
+	margin-bottom:10px;
+	margin-top:0px;
+}
+
+#name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
+	text-align: center;
+	margin-bottom:5px;
+	margin-top:10px;
+}
+
 #homeButton{
 	width:85px;
 	height:78px;
@@ -845,16 +857,28 @@ h3 {
 
 .mainButton {
 	margin-top: 129px;
-	min-height:1500px;
+	min-height:1287px;
+}
+
+.storyButton {
+	min-height:1387px;
+}
+
+.playButton {
+	min-height:1387px;
 }
 
 #mobileTextBox {
 	text-align:center;
+	padding-top:5px;
 }
 
 #mobileTextBox h2 {
 	display:inline;
 	text-align: center;
+	font-family: 'Paytone One', sans-serif;
+	font-size:28px;
+	color: #ef332e;
 }
 
 #mobileTextBox p {
@@ -862,7 +886,10 @@ h3 {
 	text-align: center;
 	margin: auto;
 	float: left;
+	font-family: 'Helvetica LT Std', Helvetica, Arial, 'Lucida Grande', sans-serif; 
+	font-weight: bold;
 	font-size:16px;
+	padding-bottom:10px;
 }
 
 #copyright {
