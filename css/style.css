@@ -100,6 +100,22 @@
 	color: white;
 }
 
+#facts1image {
+	margin-left:7%;
+	border:10px solid red;
+	height: 244px;
+}
+
+#facts1image img{
+	text-align:center;
+	display: block;
+	padding-top: 26px;
+}
+
+#facts1text {
+	border:10px solid black;
+}
+
 /* ---------GLOBAL--------------- */
 body {
 	font-family: 'Nunito', sans-serif;
@@ -276,12 +292,12 @@ h3 {
 	height: auto;
 	margin-top: 11px;
 	margin-right: 12px;
-	transition:width 2s, height 2s, transform 1s;
+	/*transition:width 2s, height 2s, transform 1s;
 	-webkit-transition:width 2s, height 2s, -webkit-transform 1s; /* Safari */
 }
 
 .logoImage:hover{
-	transform:rotate(360deg);
+	/*transform:rotate(360deg);
 	-webkit-transform:rotate(360deg); /* Safari */
 }
 
