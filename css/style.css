@@ -4,9 +4,10 @@
 	position: absolute;
 	top: 105px;
 	z-index: 1000;
-	width: 99.9%;
+	width: 100%;
 	background-color: #838c75;
 }
+
 
 /* ------------SECTIONS------------ */
 #topLeftArt {
@@ -221,11 +222,17 @@ h3 {
 #homeButton{
 	width:98px;
 	height:98px;
+	color: white;
 	background: url('img/Top%20Nav/home_down_d.png') no-repeat;
 }
 
-#homeButton:hover {
+#homeButton:hover{
 	background: url('img/Top%20Nav/home_up_d.png') no-repeat;
+}
+
+#homeButton.active {
+	background: url('img/Top%20Nav/home_up_d.png') no-repeat !important;
+	/*color: black;*/
 }
 
 #storyButton{
@@ -235,6 +242,10 @@ h3 {
 }
 
 #storyButton:hover {
+	background: url('img/Top%20Nav/story_up_d.png') no-repeat;
+}
+
+#storyButton.active {
 	background: url('img/Top%20Nav/story_up_d.png') no-repeat;
 }
 
@@ -248,6 +259,10 @@ h3 {
 	background: url('img/Top%20Nav/play_up_d.png') no-repeat;
 }
 
+#playButton.active {
+	background: url('img/Top%20Nav/play_up_d.png') no-repeat;
+}
+
 #makeButton{
 	width:98px;
 	height:98px;
@@ -255,6 +270,10 @@ h3 {
 }
 
 #makeButton:hover {
+	background: url('img/Top%20Nav/make_up_d.png') no-repeat;
+}
+
+#makeButton.active {
 	background: url('img/Top%20Nav/make_up_d.png') no-repeat;
 }
 
@@ -268,6 +287,10 @@ h3 {
 	background: url('img/Top%20Nav/facts_up_d.png') no-repeat;
 }
 
+#factsButton.active {
+	background: url('img/Top%20Nav/facts_up_d.png') no-repeat;
+}
+
 #adultsButton{
 	width:98px;
 	height:98px;
@@ -275,6 +298,10 @@ h3 {
 }
 
 #adultsButton:hover {
+	background: url('img/Top%20Nav/adults_up_d.png') no-repeat;
+}
+
+#adultsButton.active {
 	background: url('img/Top%20Nav/adults_up_d.png') no-repeat;
 }	
 
@@ -292,13 +319,13 @@ h3 {
 	height: auto;
 	margin-top: 11px;
 	margin-right: 12px;
-	/*transition:width 2s, height 2s, transform 1s;
+	transition:width 2s, height 2s, transform 1s;
 	-webkit-transition:width 2s, height 2s, -webkit-transform 1s; /* Safari */
 }
 
 .logoImage:hover{
-	/*transform:rotate(360deg);
-	-webkit-transform:rotate(360deg); /* Safari */
+	transform:rotate(360deg);
+	-webkit-transform:rotateX(360deg); /* Safari */
 }
 
 .clear {
