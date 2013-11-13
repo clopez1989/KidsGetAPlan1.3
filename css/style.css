@@ -851,6 +851,10 @@ h3 {
 	background: url('img/Top%20Nav/home_up_m.png') no-repeat;
 }
 
+#homeButton.active {
+	background: url('img/Top%20Nav/home_up_m.png') no-repeat !important;
+}
+
 #storyButton{
 	width:85px;
 	height:78px;
@@ -858,6 +862,10 @@ h3 {
 }
 
 #storyButton:hover {
+	background: url('img/Top%20Nav/story_up_m.png') no-repeat;
+}
+
+#storyButton.active {
 	background: url('img/Top%20Nav/story_up_m.png') no-repeat;
 }
 
@@ -871,6 +879,10 @@ h3 {
 	background: url('img/Top%20Nav/play_up_m.png') no-repeat;
 }
 
+#playButton.active {
+	background: url('img/Top%20Nav/play_up_m.png') no-repeat;
+}
+
 #makeButton{
 	width:85px;
 	height:78px;
@@ -878,6 +890,10 @@ h3 {
 }
 
 #makeButton:hover {
+	background: url('img/Top%20Nav/make_up_m.png') no-repeat;
+}
+
+#makeButton.active {
 	background: url('img/Top%20Nav/make_up_m.png') no-repeat;
 }
 
@@ -891,6 +907,10 @@ h3 {
 	background: url('img/Top%20Nav/facts_up_m.png') no-repeat;
 }
 
+#factsButton.active {
+	background: url('img/Top%20Nav/facts_up_m.png') no-repeat;
+}
+
 #adultsButton{
 	width:85px;
 	height:78px;
@@ -898,6 +918,10 @@ h3 {
 }
 
 #adultsButton:hover {
+	background: url('img/Top%20Nav/adults_up_m.png') no-repeat;
+}
+
+#adultsButton.active {
 	background: url('img/Top%20Nav/adults_up_m.png') no-repeat;
 }
 
