@@ -698,9 +698,84 @@ h3 {
 }
 	
 }
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /* styles go here */
+	body{
+		overflow-x: hidden;
+	}
+	
+	.logoImage{
+		width:45% !important;
+	}
+	
+	.topBolts {
+		width:100% !important;
+	}
+	
+	.logoContainer {
+		background: none !important;
+	
+	}
+	
+	#nav{
+		height:93px !important;
+	}
+	
+	#nav ul li {
+		float: left;
+		margin: 0 0;
+		height: 68px;
+		}
+	
+		#nav ul  li.home {
+			width: 17% !important;
+			text-align: left;
+			margin-top: 0px;
+			margin-left:-9px;
+		}
+		#nav ul  li.story {
+			width: 17% !important;
+			text-align: center;
+			margin-top: 0px;
+		}
+		#nav ul  li.play {
+			width: 17% !important;
+			text-align: right;
+			margin-top: 0px;
+		}
+		#nav ul  li.make {
+			width: 17% !important;
+			text-align: left;
+			margin-top: 0px;
+		}
+		#nav ul  li.facts {
+			width: 17% !important;
+			text-align: center;
+			margin-top: 0px;
+		}
+		#nav ul  li.adults {
+			width: 17% !important;
+			text-align: right;
+			margin-top: 0px;
+		}
+		
+	.mainButton {
+		margin-top:46px !important;
+	}
+	
+	#mobileTextBox p {
+		margin-left:15% !important;
+	}
+}
 	
 /* Smaller --------------------------------------- */
 @media screen and (max-width : 650px) {
+
+body{
+	overflow-x: hidden;
+}	
+	
 .grid_1,
 .grid_2,
 .grid_3,
@@ -765,7 +840,7 @@ h3 {
 
 /*navigation*/
 #nav {
-	height: 157px;
+	height: 149px;
 	padding-left:0px !important;
 	padding-top: 2px;
 	background-image:none;
@@ -795,7 +870,7 @@ h3 {
 #nav ul li {
 	float: left;
 	margin: 0 0;
-	height: 75px;
+	height: 68px;
 	}
 	
 	#nav ul  li.home {
@@ -930,7 +1005,7 @@ h3 {
 }
 
 .mainButton {
-	margin-top: 110px;
+	margin-top: 102px;
 	min-height:1287px;
 }
 
