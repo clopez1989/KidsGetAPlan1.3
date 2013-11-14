@@ -765,7 +765,7 @@ h3 {
 
 /*navigation*/
 #nav {
-	height: 176px;
+	height: 157px;
 	padding-left:0px !important;
 	padding-top: 2px;
 	background-image:none;
@@ -784,7 +784,7 @@ h3 {
 	
 
 #nav ul {
-	margin: 7% 0% 0% 0%;
+	margin: 4% 0% 0% 0%;
 }
 
 #nav ul li a {
@@ -885,7 +885,7 @@ h3 {
 
 #makeButton{
 	width:85px;
-	height:78px;
+	height:69px;
 	background: url('img/Top%20Nav/make_down_m.png') no-repeat;
 }
 
@@ -899,7 +899,7 @@ h3 {
 
 #factsButton{
 	width:85px;
-	height:78px;
+	height:69px;
 	background: url('img/Top%20Nav/facts_down_m.png') no-repeat;
 }
 
@@ -913,7 +913,7 @@ h3 {
 
 #adultsButton{
 	width:85px;
-	height:78px;
+	height:69px;
 	background: url('img/Top%20Nav/adults_down_m.png') no-repeat;
 }
 
@@ -930,7 +930,7 @@ h3 {
 }
 
 .mainButton {
-	margin-top: 129px;
+	margin-top: 110px;
 	min-height:1287px;
 }
 
