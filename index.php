@@ -1,54 +1,18 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-<title>Kids Get A Plan</title>
-<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-<link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
-
-<meta name = "keywords" content = "" />
-<meta name = "description" content = "" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1 user-scalable=no">
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" 	src="js/jquery.smint.js"></script>
-
-<script type="text/javascript">	
-	$(document).ready( function() {
-    	$('.subMenu').smint({
-    		'scrollSpeed' : 1000
-    	});
-	});
-</script>
-</head>
+<?php include 'header.php'; ?>
 
 <body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
 
-	<div class="subMenu" >
-		<div id="nav" class="grid_6 prefix_3">
-			<img src="css/img/top_nav_left_notch.png" width="20" height="89" alt="Top Nav Left Notch" class="navLeftNotch">
-			<img src="css/img/bolt.png" width="11" height="12" alt="Bolt" class="navBolt1">
-			<ul>
- 				<li class="home"><a href="#" id="homeButton" class="subNavBtn"></a></li> 
-				<li class="story"><a href="#" id="storyButton" class="subNavBtn"></a></li>
-				<li class="play"><a href="#" id="playButton" class="subNavBtn"></a></li>
-				<li class="make"><a href="#" id="makeButton" class="subNavBtn"></a></li>
-				<li class="facts"><a href="#" id="factsButton" class="subNavBtn"></a></li>
-				<li class="adults"><a href="#" id="adultsButton" class="subNavBtn end"></a></li>
-			</ul>
-			<img src="css/img/bolt.png" width="11" height="12" alt="Bolt" class="navBolt2">
-			<img src="css/img/top_nav_right_notch.png" width="20" height="89" alt="Top Nav Right Notch" class="navRightNotch">	
-		</div>		
-	</div>
+<?php include 'nav.php'; ?>
 
 	<div class="section homeButton">
 		<div id="topLeftArt" class="grid_4">
 			<img src="css/img/top_left_panel_art.png" />
 		</div>
 		<div class="logoContainer" class="grid_4">
-			<a href="index.html"><img src="css/img/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
+			<a href="index.php"><img src="css/img/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
 			<img src="css/img/top_bolts_and_etching.png" class="topBolts" width="804" height="36" alt="Top Bolts And Etching">
 		</div>
 		<div id="topRightArt" class="grid_4">
@@ -70,23 +34,23 @@
 				<h2>Explore the Stories</h2>
 				<p>See all the fun things related to each of the stories</p>
 			</div>
-			<div id="name1_box" class="grid_4">
-				<a href="3030rule.html"><img src="css/img/3030rule_main_m_cropped.png" width="300" height="182" alt="30/30 Rule Story"></a>
+			<div id="name1_box" class="grid_4 morph">
+				<a href="3030rule.php"><img src="css/img/3030rule_main_m_cropped.png" width="300" height="182" alt="30/30 Rule Story"></a>
 			</div>
-			<div id="name2_box" class="grid_4">
-				<img src="css/img/TheOakTreeClub_main_m_cropped.png" width="300" height="182" alt="The Oak Tree Club Story">
+			<div id="name2_box" class="grid_4 morph">
+				<a href="oaktreeclub.php"><img src="css/img/TheOakTreeClub_main_m_cropped.png" width="300" height="182" alt="The Oak Tree Club Story"></a>
 			</div>
-			<div id="name3_box" class="grid_4">
-				<img src="css/img/tinkermesiter_main_m_cropped.png" width="300" height="183" alt="Tinkermeister Story">
+			<div id="name3_box" class="grid_4 morph">
+				<a href="tinkermeister.php"><img src="css/img/tinkermesiter_main_m_cropped.png" width="300" height="183" alt="Tinkermeister Story"></a>
 			</div>
-			<div id="name4_box" class="grid_4">
-				<img src="css/img/megatrackHTW_cropped.png" width="300" height="183" alt="Mega Track HTW Story">
+			<div id="name4_box" class="grid_4 morph">
+				<a href="megatrack.php"><img src="css/img/megatrackHTW_cropped.png" width="300" height="183" alt="Mega Track HTW Story"></a>
 			</div>
-			<div id="name5_box" class="grid_4">
+			<div id="name5_box" class="grid_4 morph">
 				<img src="css/img/rabbitinthewater_cropped.png" width="300" height="182" alt="Rabbit in the Water Coming Soon">
 			</div>
-			<div id="name6_box" class="grid_4">
-				<img src="css/img/getaplanactivity_main_cropped.png" width="300" height="182" alt="Get A P lan Activity Coming Soon">
+			<div id="name6_box" class="grid_4 morph">
+				<img src="css/img/getaplanactivity_main_cropped.png" width="300" height="182" alt="Get A Plan Activity Coming Soon">
 			</div>
 		</div>
 
@@ -110,7 +74,6 @@
 		</div>
 
 		<div class="section makeButton">
-			<h1>Make Section</h1>
 		</div>
 
 		<div class="section factsButton">

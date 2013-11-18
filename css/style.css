@@ -6,6 +6,9 @@
 	z-index: 1000;
 	width: 100%;
 	background-color: #838c75;
+	-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
 }
 
 
@@ -85,14 +88,13 @@
 }
 
 .playButton {
-	min-height: 500px;
+	min-height: 350px;
 	background: #f06022;
 }
 
 .makeButton {
 	min-height: 500px;
 	background: #6e87a1;
-	color: white;
 }
 
 .factsButton {
@@ -103,7 +105,7 @@
 
 #facts1image {
 	margin-left:7%;
-	border:10px solid red;
+	/*border:10px solid red;*/
 	height: 244px;
 }
 
@@ -114,7 +116,9 @@
 }
 
 #facts1text {
-	border:10px solid black;
+	/*border:10px solid black;*/
+	font-size:.9em;
+	margin-top:10px;
 }
 
 /* ---------GLOBAL--------------- */
@@ -304,6 +308,8 @@ h3 {
 #adultsButton.active {
 	background: url('img/Top%20Nav/adults_up_d.png') no-repeat;
 }	
+
+
 
 /* ----------CONTENT------------- */
 

@@ -1,47 +1,11 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-<title>Kids Get A Plan- 30/30 Rule</title>
-<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-<link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
-
-<meta name = "keywords" content = "" />
-<meta name = "description" content = "" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1 user-scalable=no">
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" 	src="js/jquery.smint.js"></script>
-
-<script type="text/javascript">	
-	$(document).ready( function() {
-    	$('.subMenu').smint({
-    		'scrollSpeed' : 1000
-    	});
-	});
-</script>
-</head>
+<?php include 'header.php'; ?>
 
 <body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
 
-	<div class="subMenu" >
-		<div id="nav" class="grid_6 prefix_3">
-			<img src="css/img/top_nav_left_notch.png" width="20" height="89" alt="Top Nav Left Notch" class="navLeftNotch">
-			<img src="css/img/bolt.png" width="11" height="12" alt="Bolt" class="navBolt1">
-			<ul>
- 				<li class="home"><a href="#" id="homeButton" class="subNavBtn"></a></li> 
-				<li class="story"><a href="#" id="storyButton" class="subNavBtn"></a></li>
-				<li class="play"><a href="#" id="playButton" class="subNavBtn"></a></li>
-				<li class="make"><a href="#" id="makeButton" class="subNavBtn"></a></li>
-				<li class="facts"><a href="#" id="factsButton" class="subNavBtn"></a></li>
-				<li class="adults"><a href="#" id="adultsButton" class="subNavBtn end"></a></li>
-			</ul>
-			<img src="css/img/bolt.png" width="11" height="12" alt="Bolt" class="navBolt2">
-			<img src="css/img/top_nav_right_notch.png" width="20" height="89" alt="Top Nav Right Notch" class="navRightNotch">	
-		</div>		
-	</div>
+<?php include 'nav.php'; ?>
 
 	<div class="section homeButton">
 		<div id="topLeftArt" class="grid_4">
@@ -66,7 +30,12 @@
 	
 	<div class="mainWrapper">
 		<div class="section mainButton">
-			
+			<object width="800" height="800">
+			    <param name="movie" value="30_game.swf">
+				<param name="allowFullScreen" value="true" />
+			    <embed src="30_game.swf" width="400" height="400">
+			    </embed>
+			</object>
 		</div>
 
 		<div class="section storyButton">
