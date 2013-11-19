@@ -19,4 +19,11 @@
     	});
 	});
 </script>
+
+<script type="text/javascript">	
+	$('#accordion a').click(function(){
+		return false;
+	});
+</script>
+
 </head>

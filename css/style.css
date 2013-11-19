@@ -11,6 +11,10 @@
 	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
 }
 
+.offleft {
+  margin-left: -9000px;
+  position: absolute;
+}
 
 /* ------------SECTIONS------------ */
 #topLeftArt {
@@ -89,17 +93,23 @@
 
 .playButton {
 	min-height: 350px;
-	background: #f06022;
+	background: #fbee3d;
 }
 
 .makeButton {
 	min-height: 500px;
-	background: #6e87a1;
+	background: #9fcb3a;
 }
 
 .factsButton {
 	min-height: 500px;
-	background: #293b4d;
+	background: #29aae1;
+	color: white;
+}
+
+.adultsButton {
+	min-height: 500px;
+	background: #fbee3d;
 	color: white;
 }
 
@@ -627,6 +637,10 @@ h3 {
 		background-position:center; 
 	}*/
 	
+	object {
+		display:none;
+	}	
+	
 /* iPads (portrait) ----------- */	
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	
@@ -915,11 +929,13 @@ body{
 	margin-bottom:10px;
 	margin-top:0px;
 }
-
-#name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
+ 
+#name1_story_box img, #name2_story_box img, #name3_story_box img, #name4_story_box img, #name5_story_box img, #name6_story_box img{
 	text-align: center;
 	margin-bottom:5px;
 	margin-top:10px;
+	width:98%;
+	height:auto;
 }
 
 #homeButton{
@@ -1011,12 +1027,97 @@ body{
 }
 
 .mainButton {
+	min-height: 1268px;
+	background-color: #fbee3c;
+	margin-top: 101px;
+	text-align: center;
+}
+
+#thirtyMain {
+	margin-top: 102px;
+	min-height:266px;
+	background-color: #ef332e;
+}
+
+#thirtyStory {
+	background-color:#ef332e;
+	text-align:center;
+	min-height: 216px;
+}
+
+#thirtyStory img{
+	width:98%;
+	height:auto;
+}
+
+#thirtyPlay {
+	background-color:#ef332e;
+	text-align:center;
+}
+
+#thirtyPlay img{
+	width:98%;
+	height:auto;
+}
+
+#oaktreeMain {
 	margin-top: 102px;
 	min-height:1287px;
+	background-color: #29aae1;
+}
+
+#tinkermeisterMain {
+	margin-top: 102px;
+	min-height:224px;
+	background-color: #9fcb3a;
+}
+
+#tinkermeisterStory {
+	background-color:#9fcb3a;
+	text-align:center;
+	min-height: 216px;
+}
+
+#tinkermeisterStory img{
+	width:98%;
+	height:auto;
+}
+
+#tinkermeisterPlay {
+	background-color:#9fcb3a;
+	text-align:center;
+}
+
+#tinkermeisterPlay img{
+	width:98%;
+	height:auto;
+}
+
+#megatrackMain {
+	margin-top: 102px;
+	min-height:1287px;
+	background-color: #fbee3d;
+}
+
+.bookTitle img{
+	width: 80%;
+	height: auto;
+	margin-top: 7%;
+}
+
+.bookTitle p{
+	display:block !important;
+	text-align: center;
+	margin: auto;
+	font-family: 'Helvetica LT Std', Helvetica, Arial, 'Lucida Grande', sans-serif; 
+	font-weight: bold;
+	font-size:16px;
+	padding-top:10px;
+	color:#FFF;
 }
 
 .storyButton {
-	min-height:1387px;
+	min-height:1216px;
 }
 
 .playButton {

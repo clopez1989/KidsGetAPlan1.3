@@ -12,7 +12,7 @@
 			<img src="css/img/top_left_panel_art.png" />
 		</div>
 		<div class="logoContainer" class="grid_4">
-			<a href="index.html"><img src="css/img/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
+			<a href="index.php"><img src="css/img/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
 			<img src="css/img/top_bolts_and_etching.png" class="topBolts" width="804" height="36" alt="Top Bolts And Etching">
 		</div>
 		<div id="topRightArt" class="grid_4">
@@ -29,16 +29,25 @@
 	
 	
 	<div class="mainWrapper">
-		<div class="section mainButton">
-			
+		<div class="section mainButton" id="tinkermeisterMain">
+			<object width="800" height="800">
+			    <param name="movie" value="30_game.swf">
+				<param name="allowFullScreen" value="true" />
+			    <embed src="30_game.swf" width="400" height="400">
+			    </embed>
+			</object>
+			<div class="bookTitle">
+				<img src="css/img/tinkermeister_m_title.png" width="666" height="426" alt="Tinkermeister M Title">
+				<p>A book about lightening awareness</p>
+			</div>
 		</div>
 
-		<div class="section storyButton">
-			
+		<div class="section storyButton" id="tinkermeisterStory">
+			<img src="css/img/tinkermeister_m_read.png" width="600" height="426" alt="Tinkermeister M Read">
 		</div>
 
-		<div class="section playButton">
-			<a href="http://onelink.to/f5csuw" target="itunes_store">KGAP - Firewise Megatrack - IDEAS Orlando</a>
+		<div class="section playButton" id="tinkermeisterPlay">
+			<a href="http://onelink.to/f5csuw" target="itunes_store"><img src="css/img/tinkermeister_m_play.png" width="598" height="520" alt="Tinkermeister M Play"></a>
 		</div>
 
 		<div class="section makeButton">
@@ -46,7 +55,17 @@
 		</div>
 
 		<div class="section factsButton">
-			<h1>Facts Section</h1>
+			<div class="accordion">
+				<a href="#accordion-1">Aliquam tincidunt mauris eu risus</a>
+				<p id="accordion-1">lorem ipsum dolor....</p>
+				<a href="#accordion-2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h2>
+				<p id="accordion-2">lorem ipsum dolor....</h2>
+				<a href="#accordion-3">Aliquam tincidunt mauris eu risus</a>
+				<div id="accordion-3">
+					<p>lorem ipsum dolor....</p>
+					<p>lorem ipsum dolor....</p>
+				</div>
+			</div>
 		</div>
 	
 		<div class="section adultsButton" id="contentContainer">

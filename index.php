@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 
+<!-- include Header -->
 <?php include 'header.php'; ?>
 
-<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+<!-- Set scroll speed for anchor points -->
+<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 50);">
 
+<!-- include Navigation -->
 <?php include 'nav.php'; ?>
 
 	<div class="section homeButton">
@@ -29,7 +32,8 @@
 	
 	
 	<div class="mainWrapper">
-		<div class="section mainButton">
+		<div class="section mainSection mainButton">
+			<!-- Text box for mobile site -->
 			<div id="mobileTextBox">
 				<h2>Explore the Stories</h2>
 				<p>See all the fun things related to each of the stories</p>
@@ -38,7 +42,7 @@
 				<a href="3030rule.php"><img src="css/img/3030rule_main_m_cropped.png" width="300" height="182" alt="30/30 Rule Story"></a>
 			</div>
 			<div id="name2_box" class="grid_4 morph">
-				<a href="oaktreeclub.php"><img src="css/img/TheOakTreeClub_main_m_cropped.png" width="300" height="182" alt="The Oak Tree Club Story"></a>
+				<a href="oaktree.php"><img src="css/img/TheOakTreeClub_main_m_cropped.png" width="300" height="182" alt="The Oak Tree Club Story"></a>
 			</div>
 			<div id="name3_box" class="grid_4 morph">
 				<a href="tinkermeister.php"><img src="css/img/tinkermesiter_main_m_cropped.png" width="300" height="183" alt="Tinkermeister Story"></a>
@@ -64,12 +68,24 @@
 			<div id="name3_story_box" class="grid_4">
 				<img src="css/img/tinkermeister_interact_cropped.png" width="324" height="250" alt="Tinkermeister Interact Cropped">
 			</div>
-			<div id="name4_story_box" class="grid_4">
+			<div id="name4_story_box" class="grid_12">
 				<img src="css/img/megatrackHTW_interact_cropped.png" width="324" height="250" alt="MegatrackHTW Interact Cropped">
 			</div>
 		</div>
 
 		<div class="section playButton">
+			<div id="name1_story_box" class="grid_6">
+				<img src="css/img/thirty_m_play.png" width="598" height="546" alt="Thirty M Play">
+			</div>
+			<div id="name2_story_box" class="grid_6">
+				<img src="css/img/theoaktreeclub_interact-cropped.png" width="324" height="250" alt="Theoaktreeclub Interact Cropped">
+			</div>
+			<div id="name3_story_box" class="grid_6">
+				<img src="css/img/tinkermeister_interact_cropped.png" width="324" height="250" alt="Tinkermeister Interact Cropped">
+			</div>
+			<div id="name4_story_box" class="grid_6">
+				<img src="css/img/megatrackHTW_interact_cropped.png" width="324" height="250" alt="MegatrackHTW Interact Cropped">
+			</div>
 			<a href="http://onelink.to/f5csuw">KGAP - Firewise Megatrack - IDEAS Orlando</a>
 		</div>
 
@@ -86,7 +102,6 @@
 		</div>
 	
 		<div class="section adultsButton" id="contentContainer">
-			<h1>Adults Section</h1>
 		</div>
 	</div>
 	
