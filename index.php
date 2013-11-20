@@ -19,7 +19,10 @@
 			<img src="css/img/top_bolts_and_etching.png" class="topBolts" width="804" height="36" alt="Top Bolts And Etching">
 		</div>
 		<div id="topRightArt" class="grid_4">
-			<a href="#myPanel"><img src="css/img/top_right_panel_art.png" /></a>
+			<img src="css/img/top_right_panel_art.png" />
+		</div>
+		<div id="topMobileMenuBar" class="grid_4">
+			<a href="#myPanel"><img src="css/img/mobile_top_menu.png" width="672" height="107" alt="Mobile Top Menu"></a>
 		</div>
 		<div data-role="panel" id="myPanel" data-theme="b" data-display="push" data-position="left" data-position-fixed="true">
 			<a href="" data-role="button" data-rel="close">Close</a>
