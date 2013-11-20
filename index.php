@@ -5,12 +5,12 @@
 <?php include 'header.php'; ?>
 
 <!-- Set scroll speed for anchor points -->
-<body onload="setTimeout(function() { window.scrollTo(0, 1) }, 50);">
+<body onload="window.scrollTo(0,150);">
 
 <!-- include Navigation -->
 <?php include 'nav.php'; ?>
 
-	<div class="section homeButton">
+	<div class="section homeButton" id="homeMain">
 		<div id="topLeftArt" class="grid_4">
 			<img src="css/img/top_left_panel_art.png" />
 		</div>
@@ -19,7 +19,12 @@
 			<img src="css/img/top_bolts_and_etching.png" class="topBolts" width="804" height="36" alt="Top Bolts And Etching">
 		</div>
 		<div id="topRightArt" class="grid_4">
-			<img src="css/img/top_right_panel_art.png" />
+			<a href="#myPanel"><img src="css/img/top_right_panel_art.png" /></a>
+		</div>
+		<div data-role="panel" id="myPanel" data-theme="b" data-display="push" data-position="left" data-position-fixed="true">
+			<a href="" data-role="button" data-rel="close">Close</a>
+			<a href="#homeMain" id="homeButton" class="subNavBtn" data-ajax="false">Home</a>
+			<a href="#homeStory" id="storyButton" class="subNavBtn" data-ajax="false">Story</a>
 		</div>
 		<br class="clear">
 	</div>
@@ -58,7 +63,7 @@
 			</div>
 		</div>
 
-		<div class="section storyButton">
+		<div class="section storyButton" id="homeStory">
 			<div id="name1_story_box" class="grid_4">
 				<img src="css/img/3030rule_interact_cropped.png" width="324" height="250" alt="3030 Rule Interactive">
 			</div>

@@ -3,7 +3,7 @@
 .subMenu {
 	position: absolute;
 	top: 105px;
-	z-index: 1000;
+	z-index: 1001 !important;
 	width: 100%;
 	background-color: #838c75;
 	-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
@@ -354,7 +354,7 @@ h3 {
 	float: left;
 	background-color: #838c75;
 	position: fixed;
-	top: 214px;
+	top: 97px;
 	z-index: 1000;
 }
 
@@ -372,13 +372,12 @@ h3 {
 	background-color: #838c75;
 	position: fixed;
 	right: 0px;
-	top: 214px;
+	top: 97px;
 	z-index: 1000;
 }
 
 .section {
 	width: 100%;
-	z-index: 10;
 	position: relative;
 	
 }
@@ -811,6 +810,10 @@ body{
 	width:100%;
 }
 
+.homeButton{
+	padding-top:47px;
+}
+
 .logoImage{
 	width: 70%;
 	max-width: 80%;
@@ -823,9 +826,7 @@ body{
 }
 
 .subMenu{
-	top: 76px;
-	width:100%;
-	background: #DDD url('img/nav_bg_m.png') repeat;
+	display: none;
 	
 }
 
@@ -841,6 +842,7 @@ body{
 	position:relative;
 	top:-5px;
 	display: none;
+	z-index:2000;
 }
 
 .logoContainer {
@@ -852,10 +854,12 @@ body{
 }
 
 #topRightArt {
-	position: relative;
-	top: -114px;
-	float: right;
-	display: none;
+	position: fixed;
+	top: 0px;
+	float: none;
+	right: 101px;
+	text-align: center;
+	z-index:2000 !important;
 }
 
 /*navigation*/
@@ -1029,7 +1033,7 @@ body{
 .mainButton {
 	min-height: 1268px;
 	background-color: #fbee3c;
-	margin-top: 101px;
+	margin-top: -23px;
 	text-align: center;
 }
 
@@ -1208,6 +1212,10 @@ body{
 
 .bottomMenu li:first-child{
 	list-style-type:circle;
+}
+
+.section {
+
 }
 
 }
