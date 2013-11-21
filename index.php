@@ -12,22 +12,26 @@
 
 	<div class="section homeButton" id="homeMain">
 		<div id="topLeftArt" class="grid_4">
-			<img src="css/img/top_left_panel_art.png" />
+			<img src="css/img/top_left_panel_art.png" alt=""/>
 		</div>
 		<div class="logoContainer" class="grid_4">
 			<a href="index.php"><img src="css/img/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
 			<img src="css/img/top_bolts_and_etching.png" class="topBolts" width="804" height="36" alt="Top Bolts And Etching">
 		</div>
 		<div id="topRightArt" class="grid_4">
-			<img src="css/img/top_right_panel_art.png" />
+			<img src="css/img/top_right_panel_art.png" alt=""/>
 		</div>
 		<div id="topMobileMenuBar" class="grid_4">
 			<a href="#myPanel"><img src="css/img/mobile_top_menu.png" width="672" height="107" alt="Mobile Top Menu"></a>
 		</div>
-		<div data-role="panel" id="myPanel" data-theme="b" data-display="push" data-position="left" data-position-fixed="true">
-			<a href="" data-role="button" data-rel="close">Close</a>
-			<a href="#homeMain" id="homeButton" class="subNavBtn" data-ajax="false">Home</a>
-			<a href="#homeStory" id="storyButton" class="subNavBtn" data-ajax="false">Story</a>
+		<div data-role="panel" id="myPanel" data-theme="b" data-display="push" data-position="left" data-position-fixed="true" style="background-color:#7c846b">
+			<a href="" data-rel="close" id="closePanelButton"><img src="css/img/btn_exit.png" width="120" height="119" alt="Btn Exit"></a>
+			<a href="#homeMain" id="homePanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_home_normal.png" width="580" height="164" alt="Btn Home Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#homeStory" id="storyPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_read_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#homePlay" id="playPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_play_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#homeMake" id="makePanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_make_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#homeFacts" id="factsPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_facts_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#homeAdults" id="adultsPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_adults_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
 		</div>
 		<br class="clear">
 	</div>
@@ -82,16 +86,16 @@
 		</div>
 
 		<div class="section playButton">
-			<div id="name1_story_box" class="grid_6">
+			<div id="name1_play_box" class="grid_6">
 				<img src="css/img/thirty_m_play.png" width="598" height="546" alt="Thirty M Play">
 			</div>
-			<div id="name2_story_box" class="grid_6">
+			<div id="name2_play_box" class="grid_6">
 				<img src="css/img/theoaktreeclub_interact-cropped.png" width="324" height="250" alt="Theoaktreeclub Interact Cropped">
 			</div>
-			<div id="name3_story_box" class="grid_6">
+			<div id="name3_play_box" class="grid_6">
 				<img src="css/img/tinkermeister_interact_cropped.png" width="324" height="250" alt="Tinkermeister Interact Cropped">
 			</div>
-			<div id="name4_story_box" class="grid_6">
+			<div id="name4_play_box" class="grid_6">
 				<img src="css/img/megatrackHTW_interact_cropped.png" width="324" height="250" alt="MegatrackHTW Interact Cropped">
 			</div>
 			<a href="http://onelink.to/f5csuw">KGAP - Firewise Megatrack - IDEAS Orlando</a>

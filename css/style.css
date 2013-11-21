@@ -22,7 +22,7 @@
 	top:-5px;
 }
 
-.logoContainer { 
+#logoContainer { 
 	text-align: center;
 	position: relative;
 	left: -216px;
@@ -115,6 +115,72 @@
 	min-height: 500px;
 	background: #fbee3d;
 	color: white;
+}
+
+#closePanelButton img{
+	width: 10%;
+	height: auto;
+	margin: 2% 17%;
+}
+
+#homePanelButton{
+	background:url('img/btn_home_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#homePanelButton:hover{
+	background:url('img/btn_home_active.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#storyPanelButton{
+	background:url('img/btn_read_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#storyPanelButton:active;{
+	background:url('img/btn_read_active.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#playPanelButton{
+	background:url('img/btn_play_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#playPanelButton:active{
+	background:url('img/btn_play_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#makePanelButton{
+	background:url('img/btn_make_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#makePanelButton:active{
+	background:url('img/btn_make_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#factsPanelButton{
+	background:url('img/btn_facts_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#adultsPanelButton{
+	background:url('img/btn_adults_normal.png');
+	height:auto;
+	margin-bottom: -4px;
 }
 
 #facts1image {
@@ -338,7 +404,7 @@ h3 {
 .logoImage{
 	height: auto;
 	margin-top: 11px;
-	margin-right: 12px;
+	margin-left: 19px;
 	transition:width 2s, height 2s, transform 1s;
 	-webkit-transition:width 2s, height 2s, -webkit-transform 1s; /* Safari */
 }
@@ -481,7 +547,7 @@ h3 {
 	.logoImage{
 		height: auto;
 		margin-top: 11px;
-		margin-right: -22px;
+		margin-left: 55px;
 	}
 
 	#topLeftArt {
@@ -489,7 +555,7 @@ h3 {
 		top:-5px;
 	}
 
-	.logoContainer {
+	#logoContainer {
 		text-align: center;
 		position: relative;
 		left: -171px;
@@ -736,7 +802,7 @@ h3 {
 		width:100% !important;
 	}
 	
-	.logoContainer {
+	#logoContainer {
 		background: none !important;
 	
 	}
@@ -817,7 +883,7 @@ body{
 .homeButton{
 	padding-top:70px;
 	height: 61px;
-	box-shadow: 2px 2px 2px 2px #888888;
+	box-shadow: 2px 2px 2px 2px #7c846b;
 }
 
 .logoImage{
@@ -826,6 +892,7 @@ body{
 	height: auto;
 	margin: 0 0 18px 0;
 	padding-top: 6px;
+	margin-left: 45px;
 }
 .navBolt2 {
 	display: none;
@@ -851,7 +918,7 @@ body{
 	z-index:2000;
 }
 
-.logoContainer {
+#logoContainer {
 	text-align: center;
 	position: static;
 	background: url('img/top_etching_m.png') no-repeat;
@@ -893,10 +960,14 @@ body{
 	text-align: center;
 }
 
+#storyKGAPLogo{
+	display:none;
+}
+
 #topMobileMenuBar img{
 	height: auto;
 	width: 100%;
-	box-shadow: 3px 3px 3px #888888;
+	box-shadow: 5px 5px 5px #888888;
 }		
 
 #nav ul {
@@ -1055,7 +1126,7 @@ body{
 }
 
 #thirtyMain {
-	margin-top: 102px;
+	margin-top: -92px;
 	min-height:266px;
 	background-color: #ef332e;
 }
@@ -1082,13 +1153,13 @@ body{
 }
 
 #oaktreeMain {
-	margin-top: 102px;
+	margin-top: -87px;
 	min-height:1287px;
 	background-color: #29aae1;
 }
 
 #tinkermeisterMain {
-	margin-top: 102px;
+	margin-top: -93px;
 	min-height:224px;
 	background-color: #9fcb3a;
 }
@@ -1115,7 +1186,7 @@ body{
 }
 
 #megatrackMain {
-	margin-top: 102px;
+	margin-top: -92px;
 	min-height:1287px;
 	background-color: #fbee3d;
 }
