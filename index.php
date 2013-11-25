@@ -5,7 +5,7 @@
 <?php include 'header.php'; ?>
 
 <!-- Set scroll speed for anchor points -->
-<body onload="window.scrollTo(0,150);">
+<body onload="window.scrollTo(0,100);">
 
 <!-- include Navigation -->
 <?php include 'nav.php'; ?>
