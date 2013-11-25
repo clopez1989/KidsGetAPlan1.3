@@ -65,7 +65,7 @@
 
 		<div class="section makeButton">
 			<div id="accordion">
-			  <h3>Section 1</h3>
+			  <p>Section 1</p>
 			  <div>
 			    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget.
 			    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
@@ -76,11 +76,9 @@
 		</div>
 
 		<div class="section factsButton">
-			<h1>Facts Section</h1>
 		</div>
 	
 		<div class="section adultsButton" id="contentContainer">
-			<h1>Adults Section</h1>
 		</div>
 	</div>
 	
