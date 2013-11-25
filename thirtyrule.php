@@ -4,6 +4,7 @@
 <?php include 'header.php'; ?>
 
 <body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
+	
 
 <?php include 'nav.php'; ?>
 
@@ -21,10 +22,14 @@
 		<div id="topMobileMenuBar" class="grid_4">
 			<a href="#myPanel"><img src="css/img/mobile_top_menu.png" width="672" height="107" alt="Mobile Top Menu"></a>
 		</div>
-		<div data-role="panel" id="myPanel" data-theme="b" data-display="push" data-position="left" data-position-fixed="true">
-			<a href="" data-role="button" data-rel="close">Close</a>
-			<a href="index.php" id="homeButton" class="subNavBtn" data-ajax="false">Home</a>
-			<a href="#thirtyStory" id="storyButton" class="subNavBtn" data-ajax="false">Story</a>
+		<div data-role="panel" id="myPanel" data-theme="b" data-display="push" data-position="left" data-position-fixed="true" style="background-color:#7c846b">
+			<a href="" data-rel="close" id="closePanelButton"><img src="css/img/btn_exit.png" width="120" height="119" alt="Btn Exit"></a>
+			<a href="index.php" id="homePanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_home_normal.png" width="580" height="164" alt="Btn Home Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#thirtyStory" id="storyPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_read_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#thirtyPlay" id="playPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_play_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#thirtyMake" id="makePanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_make_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#thirtyFacts" id="factsPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_facts_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#thirtyAdults" id="adultsPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_adults_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
 		</div>
 		<br class="clear">
 	</div>
@@ -59,7 +64,15 @@
 		</div>
 
 		<div class="section makeButton">
-			<h1>Make Section</h1>
+			<div id="accordion">
+			  <h3>Section 1</h3>
+			  <div>
+			    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget.
+			    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
+			    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
+			    Nam mi. Proin viverra leo ut odio.</p>
+			  </div>
+		  	</div>
 		</div>
 
 		<div class="section factsButton">
@@ -98,6 +111,6 @@
 			<a href="#"><img src="css/img/fb_icon.png" width="33" height="33" alt="Fb Icon" class="fbicon"></a>
 		</div>
 		
-	</div>		
+	</div>	
 </body>
 </html>

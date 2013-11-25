@@ -4,7 +4,6 @@
 <!-- include Header -->
 <?php include 'header.php'; ?>
 
-<!-- Set scroll speed for anchor points -->
 <body onload="window.scrollTo(0,100);">
 
 <!-- include Navigation -->
@@ -51,7 +50,7 @@
 				<p>See all the fun things related to each of the stories</p>
 			</div>
 			<div id="name1_box" class="grid_4 morph">
-				<a href="3030rule.php"><img src="css/img/3030rule_main_m_cropped.png" width="300" height="182" alt="30/30 Rule Story"></a>
+				<a href="thirtyrule.php"><img src="css/img/3030rule_main_m_cropped.png" width="300" height="182" alt="30/30 Rule Story"></a>
 			</div>
 			<div id="name2_box" class="grid_4 morph">
 				<a href="oaktree.php"><img src="css/img/TheOakTreeClub_main_m_cropped.png" width="300" height="182" alt="The Oak Tree Club Story"></a>

@@ -117,72 +117,6 @@
 	color: white;
 }
 
-#closePanelButton img{
-	width: 10%;
-	height: auto;
-	margin: 2% 17%;
-}
-
-#homePanelButton{
-	background:url('img/btn_home_normal.png');
-	height:auto;
-	margin-bottom: -4px;
-}
-
-#homePanelButton:hover{
-	background:url('img/btn_home_active.png');
-	height:auto;
-	margin-bottom: -4px;
-}
-
-#storyPanelButton{
-	background:url('img/btn_read_normal.png');
-	height:auto;
-	margin-bottom: -4px;
-}
-
-#storyPanelButton:active;{
-	background:url('img/btn_read_active.png');
-	height:auto;
-	margin-bottom: -4px;
-}
-
-#playPanelButton{
-	background:url('img/btn_play_normal.png');
-	height:auto;
-	margin-bottom: -4px;
-}
-
-#playPanelButton:active{
-	background:url('img/btn_play_normal.png');
-	height:auto;
-	margin-bottom: -4px;
-}
-
-#makePanelButton{
-	background:url('img/btn_make_normal.png');
-	height:auto;
-	margin-bottom: -4px;
-}
-
-#makePanelButton:active{
-	background:url('img/btn_make_normal.png');
-	height:auto;
-	margin-bottom: -4px;
-}
-
-#factsPanelButton{
-	background:url('img/btn_facts_normal.png');
-	height:auto;
-	margin-bottom: -4px;
-}
-
-#adultsPanelButton{
-	background:url('img/btn_adults_normal.png');
-	height:auto;
-	margin-bottom: -4px;
-}
-
 #facts1image {
 	margin-left:7%;
 	/*border:10px solid red;*/
@@ -473,6 +407,11 @@ h3 {
 	margin-bottom:5px;
 	margin-top:10px;
 
+}
+
+#name1_play_box img{
+	width:86%;
+	height:auto;
 }
 
 #box1, #box2, #box3, #box4, #box5, #box6{
@@ -1112,6 +1051,72 @@ body{
 
 #adultsButton.active {
 	background: url('img/Top%20Nav/adults_up_m.png') no-repeat;
+}
+
+#closePanelButton img{
+	width: 10%;
+	height: auto;
+	margin: 2% 0% 0% 17%;
+}
+
+#homePanelButton{
+	background:url('img/btn_home_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#homePanelButton:hover{
+	background:url('img/btn_home_active.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#storyPanelButton{
+	background:url('img/btn_read_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#storyPanelButton:active;{
+	background:url('img/btn_read_active.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#playPanelButton{
+	background:url('img/btn_play_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#playPanelButton:active{
+	background:url('img/btn_play_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#makePanelButton{
+	background:url('img/btn_make_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#makePanelButton:active{
+	background:url('img/btn_make_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#factsPanelButton{
+	background:url('img/btn_facts_normal.png');
+	height:auto;
+	margin-bottom: -4px;
+}
+
+#adultsPanelButton{
+	background:url('img/btn_adults_normal.png');
+	height:auto;
+	margin-bottom: -4px;
 }
 
 #intro, #about {
