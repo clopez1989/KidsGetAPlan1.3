@@ -50,7 +50,7 @@
 				<p>See all the fun things related to each of the stories</p>
 			</div>
 			<div id="name1_box" class="grid_4 morph">
-				<a href="thirtyrule.php"><img src="css/img/3030rule_main_m_cropped.png" width="300" height="182" alt="30/30 Rule Story"></a>
+				<a href="thirtyrule.php" rel="external"><img src="css/img/3030rule_main_m_cropped.png" width="300" height="182" alt="30/30 Rule Story"></a>
 			</div>
 			<div id="name2_box" class="grid_4 morph">
 				<a href="oaktree.php"><img src="css/img/TheOakTreeClub_main_m_cropped.png" width="300" height="182" alt="The Oak Tree Club Story"></a>
@@ -143,6 +143,15 @@
 			<a href="https://www.facebook.com/kidsgetaplan"><img src="css/img/fb_icon.png" width="33" height="33" alt="Fb Icon" class="fbicon"></a>
 		</div>
 		
-	</div>		
+	</div>
+	
+	<script type="text/javascript">	
+		$(document).ready( function() {
+	    	$('.subMenu').smint({
+	    		'scrollSpeed' : 1000
+	    	});
+		});
+	</script>
+			
 </body>
 </html>

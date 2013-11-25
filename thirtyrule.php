@@ -13,7 +13,7 @@
 			<img src="css/img/top_left_panel_art.png" />
 		</div>
 		<div class="logoContainer" class="grid_4" id="storyKGAPLogo">
-			<a href="index.php"><img src="css/img/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
+			<a href="index.php" rel="external"><img src="css/img/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
 			<img src="css/img/top_bolts_and_etching.png" class="topBolts" width="804" height="36" alt="Top Bolts And Etching">
 		</div>
 		<div id="topRightArt" class="grid_4">
@@ -111,6 +111,21 @@
 			<a href="#"><img src="css/img/fb_icon.png" width="33" height="33" alt="Fb Icon" class="fbicon"></a>
 		</div>
 		
-	</div>	
+	</div>
+	
+	<script type="text/javascript">	
+			$(document).ready( function(){
+				$("#accordion").accordion({ collapsible: true });
+			});
+	</script>
+	
+	<script type="text/javascript">	
+		$(document).ready( function() {
+	    	$('.subMenu').smint({
+	    		'scrollSpeed' : 1000
+	    	});
+		});
+	</script>
+		
 </body>
 </html>
