@@ -22,7 +22,7 @@
 	top:-5px;
 }
 
-#logoContainer { 
+.logoContainer { 
 	text-align: center;
 	position: relative;
 	left: -216px;
@@ -338,7 +338,7 @@ h3 {
 .logoImage{
 	height: auto;
 	margin-top: 11px;
-	margin-left: 19px;
+	margin-right: 12px;
 	transition:width 2s, height 2s, transform 1s;
 	-webkit-transition:width 2s, height 2s, -webkit-transform 1s; /* Safari */
 }
@@ -486,7 +486,7 @@ h3 {
 	.logoImage{
 		height: auto;
 		margin-top: 11px;
-		margin-left: 55px;
+		margin-right: -22px;
 	}
 
 	#topLeftArt {
@@ -494,7 +494,7 @@ h3 {
 		top:-5px;
 	}
 
-	#logoContainer {
+	.logoContainer {
 		text-align: center;
 		position: relative;
 		left: -171px;
@@ -741,7 +741,7 @@ h3 {
 		width:100% !important;
 	}
 	
-	#logoContainer {
+	.logoContainer {
 		background: none !important;
 	
 	}
@@ -822,7 +822,7 @@ body{
 .homeButton{
 	padding-top:70px;
 	height: 61px;
-	box-shadow: 2px 2px 2px 2px #7c846b;
+	box-shadow: 2px 2px 2px 2px #888888;
 }
 
 .logoImage{
@@ -831,7 +831,6 @@ body{
 	height: auto;
 	margin: 0 0 18px 0;
 	padding-top: 6px;
-	margin-left: 45px;
 }
 .navBolt2 {
 	display: none;
@@ -857,7 +856,7 @@ body{
 	z-index:2000;
 }
 
-#logoContainer {
+.logoContainer {
 	text-align: center;
 	position: static;
 	background: url('img/top_etching_m.png') no-repeat;
@@ -899,14 +898,10 @@ body{
 	text-align: center;
 }
 
-#storyKGAPLogo{
-	display:none;
-}
-
 #topMobileMenuBar img{
 	height: auto;
 	width: 100%;
-	box-shadow: 5px 5px 5px #888888;
+	box-shadow: 3px 3px 3px #888888;
 }		
 
 #nav ul {
@@ -1131,7 +1126,7 @@ body{
 }
 
 #thirtyMain {
-	margin-top: -92px;
+	margin-top: 102px;
 	min-height:266px;
 	background-color: #ef332e;
 }
@@ -1158,13 +1153,13 @@ body{
 }
 
 #oaktreeMain {
-	margin-top: -87px;
+	margin-top: 102px;
 	min-height:1287px;
 	background-color: #29aae1;
 }
 
 #tinkermeisterMain {
-	margin-top: -93px;
+	margin-top: 102px;
 	min-height:224px;
 	background-color: #9fcb3a;
 }
@@ -1191,7 +1186,7 @@ body{
 }
 
 #megatrackMain {
-	margin-top: -92px;
+	margin-top: 102px;
 	min-height:1287px;
 	background-color: #fbee3d;
 }

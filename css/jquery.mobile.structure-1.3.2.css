@@ -2089,8 +2089,8 @@ div.ui-slider-switch.ui-mini {
 /* panel */
 .ui-panel {
 	width: 14em;
-	height:445px;
-	min-height:64%;
+	min-height: 100%;
+	max-height: none;
 	border-width: 0;
 	position: fixed;
 	top: 0;
@@ -2117,8 +2117,7 @@ div.ui-slider-switch.ui-mini {
 	z-index: 9999;
 }
 .ui-panel-inner {
-	padding: 0px !important;
-	background-color: #7c846b;
+	padding: 15px;
 }
 /* content-wrap */
 .ui-panel-content-wrap {
