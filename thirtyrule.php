@@ -12,14 +12,13 @@
 		<div id="topLeftArt" class="grid_4">
 			<img src="css/img/top_left_panel_art.png" />
 		</div>
-		<div class="logoContainer" class="grid_4">
+		<div class="logoContainer" class="grid_4" id="storyKGAPLogo">
 			<a href="index.php"><img src="css/img/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
 			<img src="css/img/top_bolts_and_etching.png" class="topBolts" width="804" height="36" alt="Top Bolts And Etching">
 		</div>
 		<div id="topRightArt" class="grid_4">
 			<img src="css/img/top_right_panel_art.png" />
 		</div>
-<<<<<<< HEAD:thirtyrule.php
 		<div id="topMobileMenuBar" class="grid_4">
 			<a href="#myPanel"><img src="css/img/mobile_top_menu.png" width="672" height="107" alt="Mobile Top Menu"></a>
 		</div>
@@ -32,8 +31,6 @@
 			<a href="#thirtyFacts" id="factsPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_facts_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
 			<a href="#thirtyAdults" id="adultsPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_adults_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
 		</div>
-=======
->>>>>>> parent of 18e1ee1... new panel buttons for mobile and new icons for desktop nav:3030rule.php
 		<br class="clear">
 	</div>
 	
