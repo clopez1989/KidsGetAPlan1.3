@@ -2089,8 +2089,8 @@ div.ui-slider-switch.ui-mini {
 /* panel */
 .ui-panel {
 	width: 14em;
-	height:445px;
-	min-height:64%;
+	/*height:445px;
+	min-height:64%;*/
 	border-width: 0;
 	position: fixed;
 	top: 0;

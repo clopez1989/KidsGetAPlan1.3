@@ -2,10 +2,9 @@
 <html>
 
 <?php include 'header.php'; ?>
-
+	
 <body onload="setTimeout(function() { window.scrollTo(0, 1) }, 100);">
 	
-
 <?php include 'nav.php'; ?>
 
 	<div class="section homeButton">
@@ -56,14 +55,14 @@
 		</div>
 
 		<div class="section storyButton" id="thirtyStory">
-			<img src="css/img/thirty_m_read.png" width="600" height="426" alt="Thirty M Read">
+			<a href="#thirtyFacts"><img src="css/img/thirty_m_read.png" width="600" height="426" alt="Thirty M Read"></a>
 		</div>
 
 		<div class="section playButton" id="thirtyPlay">
 			<a href="http://onelink.to/f5csuw" target="itunes_store"><img src="css/img/thirty_m_play.png" width="598" height="546" alt="Thirty M Play"></a>
 		</div>
 
-		<div class="section makeButton">
+		<div class="section makeButton" id="thirtyMake">
 			<div id="accordion">
 			  <p>Section 1</p>
 			  <div>
@@ -75,7 +74,7 @@
 		  	</div>
 		</div>
 
-		<div class="section factsButton">
+		<div class="section factsButton" id="thirtyFacts">
 		</div>
 	
 		<div class="section adultsButton" id="contentContainer">
@@ -117,12 +116,21 @@
 			});
 	</script>
 	
+	
 	<script type="text/javascript">	
 		$(document).ready( function() {
 	    	$('.subMenu').smint({
 	    		'scrollSpeed' : 1000
 	    	});
 		});
+	</script>
+	
+	<script type="text/javascript">
+		$(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {
+
+		             var new_position = $(anchor_id).offset(); 
+		             window.scrollTo(new_position.left,new_position.top); 
+		} });
 	</script>
 		
 </body>

@@ -19,37 +19,17 @@
 <script type="text/javascript" 	src="js/jquery.smint.js"></script>
 
 <script type="text/javascript">	
+$.ajaxSetup ({
+    // Disable caching of AJAX responses
+    cache: false
+});
+</script>
+
+<script type="text/javascript">	
 	$(document).ready( function() {
     	$('.subMenu').smint({
     		'scrollSpeed' : 1000
     	});
-	});
-</script>
-
-<script type="text/javascript">	
-	$(function(){
-	  $("a[rel='tab']").click(function(e){
-	    //e.preventDefault();
-	    /*
-	    if uncomment the above line, html5 nonsupported browers won't change the url but will display the ajax content;
-	    if commented, html5 nonsupported browers will reload the page to the specified link.
-	    */
- 
-	    //get the link location that was clicked
-	    pageurl = $(this).attr('href');
- 
-	    //to get the ajax content and display in div with id 'content'
-	    $.ajax({url:pageurl+'?rel=tab',success: function(data){
-	      $('#content').html(data);
-	    }});
- 
-	    //to change the browser URL to the given link location
-	    if(pageurl!=window.location){
-	      window.history.pushState({path:pageurl},'',pageurl);
-	    }
-	    //stop refreshing to the page given in
-	    return false;
-	  });
 	});
 </script>
 
