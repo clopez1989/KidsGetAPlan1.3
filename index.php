@@ -14,11 +14,10 @@
 			<img src="css/img/top_left_panel_art.png" alt=""/>
 		</div>
 		<div class="logoContainer" class="grid_4">
-			<a href="index.php"><img src="css/img/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
-			<img src="css/img/top_bolts_and_etching.png" class="topBolts" width="804" height="36" alt="Top Bolts And Etching">
+			<a href="index.php" data-ajax="false"><img src="css/img/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
 		</div>
 		<div id="topRightArt" class="grid_4">
-			<img src="css/img/top_right_panel_art.png" alt=""/>
+			<img src="css/img/Header_element_right.png" alt=""/>
 		</div>
 		<div id="topMobileMenuBar" class="grid_4">
 			<a href="#myPanel"><img src="css/img/mobile_top_menu.png" width="672" height="107" alt="Mobile Top Menu"></a>

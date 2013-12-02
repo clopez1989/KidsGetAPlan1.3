@@ -2,13 +2,13 @@
 /* This is the selector i used for my menu, it needs to be set as position:absolute; */
 .subMenu {
 	position: absolute;
-	top: 105px;
+	top: 84px;
 	z-index: 1001 !important;
 	width: 100%;
 	background-color: #838c75;
-	-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
-	-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
-	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 3px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 3px 5px rgba(50, 50, 50, 0.75);
 }
 
 .offleft {
@@ -29,7 +29,7 @@
 }
 
 .logoImage{
-	width: 26%;
+	width: 23%;
 	height: auto;
 	margin-top: 11px;	
 }
@@ -44,24 +44,10 @@
 	position: relative;
 }
 
-.navBolt1 {
-	position: relative;
-	top: 88px;
-	left: -167px;
-	z-index: 1001;
-	float: left;
-}
-
-.navBolt2 {
-	position: relative;
-	top: -30px;
-	left: 821px;
-	z-index: 1001;
-}
 
 #topRightArt {
 	position: relative;
-	top: -122px;
+	top: -69px;
 	float: right;
 }
 
@@ -70,9 +56,10 @@
 }
 
 .homeButton {
-	padding: 5px 0px 12px 0px;
-	background-color: #00adef;
-	height: 97px;
+	padding: 5px 0px 0px 0px;
+	background: #00adef url('img/Header_Blue.png') no-repeat;
+	background-position:48% 7%; 
+	height: 73px;
 }
 
 .mainButton {
@@ -169,12 +156,14 @@ h3 {
 
 /* -------BUTTONS------------- */
 #nav {
-	background-color: #838c75;
 	height: 121px;
 	margin-top: -11px;
-	padding-left: 285px;
-	padding-right: 359px;
-	background: url('img/top_nav_bg_scaled.png') no-repeat;
+	padding-left: 304px;
+	padding-right: 376px;
+	background: #00adef url('img/Header_metal.png') no-repeat;
+	background-position: 0% 100%;
+	background-size: 99% 73%;
+	
 }	
 
 #nav ul {
@@ -185,20 +174,6 @@ h3 {
 	text-align: center;
 }
 
-.navLeftNotch {
-	left: -285px;
-	top: 31px;
-	position: relative;
-	float: left;
-}
-
-.navRightNotch {
-	float: right;
-	position: relative;
-	top: -81px;
-	left: 358px;
-}
-	
 #nav ul li {
 	float: left;
 }
@@ -332,10 +307,10 @@ h3 {
 
 .logoImage{
 	height: auto;
-	margin-top: 11px;
-	margin-left: 19px;
+	margin-top: 3px;
+	margin-left: 69px;
 	transition:width 2s, height 2s, transform 1s;
-	-webkit-transition:width 2s, height 2s, -webkit-transform 1s; /* Safari */
+	-webkit-transition:width 0s, height 0s, -webkit-transform 1s; /* Safari */
 }
 
 .logoImage:hover{
@@ -473,13 +448,19 @@ h3 {
 
 	.logoImage{
 		height: auto;
-		margin-top: 11px;
-		margin-left: 55px;
+		margin-top: 2px;
+		margin-left: 30px;
+		width: 29%;
 	}
 
 	#topLeftArt {
 		position:relative;
 		top:-5px;
+	}
+	
+	#topLeftArt img{
+		width:26%;
+		height:auto;
 	}
 
 	#logoContainer {
@@ -497,8 +478,13 @@ h3 {
 
 	#topRightArt {
 		position: relative;
-		top: -114px;
+		top: -70px;
 		float: right;
+	}
+	
+	#topRightArt img{
+		width:26%;
+		height:auto;
 	}
 
 	/*navigation*/
@@ -636,20 +622,20 @@ h3 {
 	object {
 		display:none;
 	}	
-	
+}	
 /* iPads (portrait) ----------- */	
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	
 /* Styles */
 .logoImage{
-	margin-left: 60px;
+	margin-left: -15px;
 	width:40%;
 	height:auto;
 }
 	
 /*navigation*/
 #nav {
-	height: 176px;
+	height: 116px;
 	padding-left:0px !important;
 	padding-top: 2px;
 	width: 100%;
@@ -683,7 +669,7 @@ h3 {
 .mainButton {
 	min-height: 1500px;
 	background-color: #fbee3c;
-	margin-top: 151px;
+	margin-top: 111px;
 }
 
 #name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
@@ -722,7 +708,8 @@ h3 {
 	}
 	
 	.logoImage{
-		width:45% !important;
+		width: 40% !important;
+		margin-left: -10px;
 	}
 	
 	.topBolts {
@@ -808,9 +795,10 @@ body{
 }
 
 .homeButton{
-	padding-top:70px;
+	padding-top:58px;
 	height: 61px;
 	box-shadow: 2px 2px 2px 2px #7c846b;
+	background-image:none;
 }
 
 .logoImage{
