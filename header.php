@@ -4,9 +4,8 @@
 <link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
 <link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 <link href='http://fonts.googleapis.com/css?family=Paytone+One' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+<link rel="stylesheet" href="css/jquery.mobile-1.3.2.css" type="text/css" media="screen" title="no title" charset="utf-8">
 <link rel="stylesheet" href="css/jquery.mobile.structure-1.3.2.css" type="text/css" media="screen" title="no title" charset="utf-8">
-<link rel="stylesheet" href="css/jquery.mobile.theme-1.3.2.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
 <meta name = "keywords" content = "" />
 <meta name = "description" content = "" />

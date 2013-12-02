@@ -123,7 +123,6 @@ body {
 	font-weight: 100;
 	font-size: 1.125em;
 	/*color: #faf3bc;*/
-	background: #838c75;
 }
 
 a {
@@ -323,45 +322,44 @@ h3 {
 }
 
 .leftSidebar {
-	width: 10%;
-	height: 1000px;
+	width: 5%;
 	float: left;
 	background-color: #838c75;
-	position: fixed;
+	height: 4800px;
+	background: #838c75 url('img/wrapper_notches_left.png') repeat-y;
+	background-position: 0% 3%;
 	top: 97px;
+	bottom:0px;
 	z-index: 1000;
+	overflow:hidden;
+	 
 }
 
 .mainWrapper {
-	width: 80%;
+	width: 90%;
 	margin: auto;
 	background-image:url('img/tilable_swiss_cheese.png');
 	background-repeat:repeat;
 }
 
 .rightSidebar {
-	width: 10%;
-	height: 1000px;
+	width: 5%;
 	float: right;
 	background-color: #838c75;
-	position: fixed;
+	background: #838c75 url('img/wrapper_notches_right.png') repeat-y;
 	right: 0px;
-	top: 97px;
+	top: 77px;
+	bottom:0px;
 	z-index: 1000;
+	background-position: 100% 3%;
+	position: absolute;
+	overflow:hidden;
 }
 
 .section {
 	width: 100%;
 	position: relative;
 	
-}
-
-#leftNotches{
-	display: none;
-}
-
-#rightNotches{
-	display: none; 
 }
 
 #contentContainer{
@@ -440,6 +438,16 @@ h3 {
 .bottomMenu li:first-child{
 	list-style-type:none;
 }
+
+#thirty_story_title_box{
+
+	
+}
+
+#thirty_story_read_box{
+	
+}
+
 
 /* ----------------------------MEDIA QUERIES---------------------------- */
 

@@ -41,90 +41,40 @@
 	
 	
 	<div class="mainWrapper">
-		<div class="section mainSection mainButton">
-			<!-- Text box for mobile site -->
-			<div id="mobileTextBox">
-				<h2>Explore the Stories</h2>
-				<p>See all the fun things related to each of the stories</p>
-			</div>
-			<div id="name1_box" class="grid_2 morph">
-				<a href="thirtyrule.php" rel="external"><img src="css/img/thirty_main_m.png" width="253" height="247" alt="Thirty Main M"></a>
-			</div>
-			<div id="name2_box" class="grid_2 morph">
-				<a href="tinkermeister.php"><img src="css/img/tinker_main_m.png" width="226" height="288" alt="Tinker Main M"></a>
-			</div>
-			<div id="name3_box" class="grid_2 morph">
-				<a href="oaktree.php"><img src="css/img/oak_main_m.png" width="236" height="270" alt="Oak Main M"></a>
-			</div>
-			<div id="name4_box" class="grid_2 morph">
-				<a href="megatrack.php"><img src="css/img/tinker_main_m.png" width="226" height="288" alt="Tinker Main M"></a>
-			</div>
-			<div id="name5_box" class="grid_2 morph">
-				<img src="css/img/comingsoon_main_m.png" width="225" height="226" alt="Comingsoon Main M">
-			</div>
-			<div id="name6_box" class="grid_2 morph">
-				<img src="css/img/comingsoon_main_m.png" width="225" height="226" alt="Comingsoon Main M">
-			</div>
-			<div id="bottomMainEtching">
-				<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M">
+		<div class="section mainButton" id="thirtyMain">
+			<object width="800" height="800">
+			    <param name="movie" value="30_game.swf">
+				<param name="allowFullScreen" value="true" />
+			    <embed src="30_game.swf" width="400" height="400">
+			    </embed>
+			</object>
+			<div class="bookTitle">
+				<img src="css/img/3030rule_m_title.png" width="552" height="420" alt="3030rule M Title" >
+				<p>A book about lightening awareness</p>
 			</div>
 		</div>
 
-		<div class="section storyButton" id="homeStory">
-			<div id="name1_story_box" class="grid_4">
-				<img src="css/img/thirty_story_m.png" width="600" height="482" alt="Thirty Story M">
-			</div>
-			<div id="name2_story_box" class="grid_4">
-				<img src="css/img/oak_story_m.png" width="600" height="482" alt="Oak Story M">
-			</div>
-			<div id="name3_story_box" class="grid_4">
-				<img src="css/img/tinker_story_m.png" width="600" height="482" alt="Tinker Story M">
-			</div>
-			<div id="name4_story_box" class="grid_12">
-				<img src="css/img/megatrack_story_m.png" width="600" height="482" alt="Megatrack Story M">
-			</div>
+		<div class="section storyButton" id="thirtyStory">
+			<a href="#thirtyFacts"><img src="css/img/thirty_m_read.png" width="600" height="426" alt="Thirty M Read"></a>
 		</div>
 
-		<div class="section playButton" id="homePlay">
-			<div id="topStoryEtching">
-				<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M">
-			</div>
-			<div id="name1_play_box" class="grid_6">
-				<img src="css/img/thirty_m_play.png" width="598" height="546" alt="Thirty M Play">
-			</div>
-			<div id="name2_play_box" class="grid_6">
-				<img src="css/img/disaster_play_m.png" width="598" height="557" alt="Disaster Play M">
-			</div>
-			<div id="name3_play_box" class="grid_6">
-				<img src="css/img/whiz_play_m.png" width="598" height="519" alt="Whiz Play M">
-			</div>
-			<div id="name4_play_box" class="grid_6">
-				<a href="http://onelink.to/f5csuw"><img src="css/img/firewise_play_m.png" width="598" height="519" alt="Firewise Play M"></a>
-			</div>
+		<div class="section playButton" id="thirtyPlay">
+			<a href="http://onelink.to/f5csuw" target="itunes_store"><img src="css/img/thirty_m_play.png" width="598" height="546" alt="Thirty M Play"></a>
 		</div>
 
-		<div class="section makeButton" id="homeMake">
-			<div id="mainMakeDownload">
-				<img src="css/img/main_make_d_m.png" width="643" height="326" alt="Main Make D M">
-			</div>
-			<div id="mainMakeColoring">
-				<img src="css/img/main_make_c_m.png" width="643" height="326" alt="Main Make D M">
-			</div>
+		<div class="section makeButton" id="thirtyMake">
+			<div id="accordion">
+			  <p>Section 1</p>
+			  <div>
+			    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget.
+			    Integer ut neque. Vivamus nisi metus, molestie vel, gravida in,
+			    condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros.
+			    Nam mi. Proin viverra leo ut odio.</p>
+			  </div>
+		  	</div>
 		</div>
 
-		<div class="section factsButton" id="homeFacts">
-			<div id="facts1image" class="grid_4">
-				  <a href="thirtyrule.php#thirtyMake" rel="external" data-ajax="false"><img src="css/img/facts_lightning_m.png" width="596" height="244" alt="Facts Lightning M"></a>
-			</div>
-			<div id="facts2image" class="grid_4">
-				 <img src="css/img/facts_tornado_m.png" width="595" height="245" alt="Facts Tornado M">
-			</div>
-			<div id="facts3image" class="grid_4">
-				 <img src="css/img/facts_hurricane_m.png" width="595" height="245" alt="Facts Hurricane M">
-			</div>
-			<div id="facts4image" class="grid_4">
-				 <img src="css/img/facts_wildfire_m.png" width="595" height="245" alt="Facts Wildfire M">
-			</div>
+		<div class="section factsButton" id="thirtyFacts">
 		</div>
 	
 		<div class="section adultsButton" id="contentContainer">
