@@ -44,7 +44,6 @@
 	position: relative;
 }
 
-
 #topRightArt {
 	position: relative;
 	top: -69px;
@@ -63,13 +62,13 @@
 }
 
 .mainButton {
-	min-height: 449px;
+	min-height: 620px;
 	background-color: #fbee3c;
 	margin-top: 101px;
 	text-align: center;
 }
 
-.mainButton h2 {
+#mobileTextBox {
 	display:none;
 }
 
@@ -103,7 +102,6 @@
 	background: #fbee3d;
 	color: white;
 }
-
 
 #facts1image img{
 	text-align:center;
@@ -157,17 +155,17 @@ h3 {
 #nav {
 	height: 121px;
 	margin-top: -11px;
-	padding-left: 304px;
-	padding-right: 376px;
 	background: #00adef url('img/Header_metal.png') no-repeat;
 	background-position: 0% 100%;
-	background-size: 99% 73%;
+	background-size: 100% 73%;
+	width: 100%;
 	
 }	
 
 #nav ul {
-	width: 100%;
-	margin: 0% 0 2% 0;
+	width: 53%;
+	margin: auto;
+	height: 118px;
 	list-style: none;
 	float: none;
 	text-align: center;
@@ -292,8 +290,6 @@ h3 {
 	background: url('img/Top%20Nav/adults_up_d.png') no-repeat;
 }	
 
-
-
 /* ----------CONTENT------------- */
 
 #intro {
@@ -367,7 +363,118 @@ h3 {
 }
 
 #name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
-	margin-top:18px;
+	text-align: center;
+	margin-bottom:0px;
+	margin-top:0px;
+	width: 255px;
+	height: 261px;
+	margin-left: 8%;
+}
+
+#name1_box, #name2_box, #name3_box{
+	margin-top:20px;
+}
+
+#name1_box img, #name2_box img, #name3_box img, #name4_box img, #name5_box img, #name6_box img{
+	height: auto;
+	position:relative;
+	
+}
+
+#name1_box{
+	background: url('img/Home Character Buttons/home_d_3030.png') no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+#name1_box:hover{
+	background: url('img/Home Character Buttons/home_d_3030_active.png') no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+#name2_box{
+	background: url('img/Home Character Buttons/home_d_tinkermeister.png') no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+#name2_box:hover{
+	background: url('img/Home Character Buttons/home_d_tinkermeister_active.png') no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+#name3_box{
+	background: url('img/Home Character Buttons/home_d_oaktree.png') no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+#name3_box:hover{
+	background: url('img/Home Character Buttons/home_d_oaktree_active.png') no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+#name4_box{
+	background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+#name4_box:hover{
+		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+#name4_box h2{
+	position: absolute;
+	top: 64%;
+	left: 12%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+	width: 15%;
+	font-size: 2em;
+	line-height: 34px;
+}
+
+#name5_box{
+	background: url('img/Home Character Buttons/home_d_megatruck.png') no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+#name5_box:hover{
+	background: url('img/Home Character Buttons/home_d_megatruck_active.png') no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+#name6_box{
+	background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+#name6_box:hover{
+	background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+	background-size: 90%;
+	background-position: center;
+}
+
+#name6_box h2{
+	position: absolute;
+	top: 64%;
+	right: 12%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+	width: 15%;
+	font-size: 2em;
+	line-height: 34px;
 }
 
 #name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
@@ -655,13 +762,19 @@ h3 {
 
 .bottomMenu{
 	margin-left:270px;
-	background: url('img/footer_etching.png') no-repeat;
-	
-	
+	padding-top:6px;	
 }
 
 .bottomMenu a {
 	color: white !important;
+	text-decoration:none;
+	text-shadow: none;
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	font-size:1em; 
+}
+
+.bottomMenu a:hover {
+	color: #fbee3d !important;
 	text-decoration:none;
 	text-shadow: none;
 	font-family: Arial, Helvetica, Tahoma, sans-serif;
@@ -678,16 +791,6 @@ h3 {
 .bottomMenu li:first-child{
 	list-style-type:none;
 }
-
-#thirty_story_title_box{
-
-	
-}
-
-#thirty_story_read_box{
-	
-}
-
 
 /* ----------------------------MEDIA QUERIES---------------------------- */
 
@@ -799,6 +902,244 @@ h3 {
 	.bottomMenu{
 		margin-left: 124px;
 	}
+	
+	#name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
+		text-align: center;
+		margin-top:1%;
+	}
+
+	#name1_story_box img, #name2_story_box img, #name3_story_box img, #name4_story_box img, #name5_story_box img, #name6_story_box img{
+		position:relative;
+	}
+
+	#name1_story_box{
+		background: url('img/Sub_Story/sub_story_d_30_30.png') no-repeat;
+		background-position: center;
+		width: 33.3%;
+		height: 231px;
+		cursor:pointer;
+	}
+
+	#name1_story_box:hover{
+		background: url('img/Sub_Story/sub_story_d_30_30_active.png') no-repeat;
+		background-position: center;
+		color:black;
+	}
+
+	#name1_story_box h2{
+		position: absolute;
+		top: 35%;
+		left: 6%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name2_story_box{
+		background: url('img/Sub_Story/sub_story_d_oak_tree_new.png') no-repeat;
+		background-position: center;
+		width: 33.3%;
+		height: 231px;
+		cursor:pointer;
+	}
+
+	#name2_story_box:hover{
+		background: url('img/Sub_Story/sub_story_d_oak_tree_active.png') no-repeat;
+		background-position: center;
+		color:black;
+	}
+
+	#name2_story_box h2{
+		position: absolute;
+		top: 35%;
+		left: 37%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name3_story_box{
+		background: url('img/Sub_Story/sub_story_d_tinkermeister.png') no-repeat;
+		background-position: center;
+		width: 33.3%;
+		height: 231px;
+		cursor:pointer;
+	}
+
+	#name3_story_box:hover{
+		background: url('img/Sub_Story/sub_story_d_tinkermeister_active.png') no-repeat;
+		background-position: center;
+		color:black;
+	}
+
+	#name3_story_box h2{
+		position: absolute;
+		top: 35%;
+		right: 6%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name4_story_box h2{
+		position: absolute;
+		top: 84%;
+		left: 8%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name5_story_box{
+		background: url('img/Sub_Story/sub_story_d_megatrack.png') no-repeat;
+		background-position: center;
+		width: 33.3%;
+		height: 231px;
+		cursor:pointer;
+	}
+
+	#name5_story_box:hover{
+		background: url('img/Sub_Story/sub_story_d_megatrack_active.png') no-repeat;
+		background-position: center;
+		color:black;
+	}
+
+	#name5_story_box h2{
+		position: absolute;
+		top: 78%;
+		left: 37%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name6_story_box h2{
+		position: absolute;
+		top: 84%;
+		right: 8%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#name1_play_box, #name2_play_box, #name3_play_box, #name4_play_box, #name5_play_box, #name6_play_box{
+		text-align: center;
+		margin-top:1%;
+	}
+
+	#name1_play_box img, #name2_play_box img, #name3_play_box img, #name4_play_box img, #name5_play_box img, #name6_play_box img{
+		position:relative;
+	}
+
+	#name1_play_box{
+		background: url('img/Sub_Play/sub_play_d_30_30.png') no-repeat;
+		background-position: center;
+		width: 33.3%;
+		height: 231px;
+		cursor:pointer;
+	}
+
+	#name1_play_box:hover{
+		background: url('img/Sub_Play/sub_play_d_30_30_active.png') no-repeat;
+		background-position: center;
+		color:black;
+	}
+
+	#name1_play_box h2{
+		position: absolute;
+		top: 35%;
+		left: 6%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name2_play_box{
+		background: url('img/Sub_Play/sub_play_d_oaktree.png') no-repeat;
+		background-position: center;
+		width: 33.3%;
+		height: 231px;
+		cursor:pointer;
+	}
+
+	#name2_play_box:hover{
+		background: url('img/Sub_Play/sub_play_d_oaktree_active.png') no-repeat;
+		background-position: center;
+		color:black;
+	}
+
+	#name2_play_box h2{
+		position: absolute;
+		top: 35%;
+		left: 37%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name3_play_box{
+		background: url('img/Sub_Play/sub_play_d_tinkermeister.png') no-repeat;
+		background-position: center;
+		width: 33.3%;
+		height: 231px;
+		cursor:pointer;
+	}
+
+	#name3_play_box:hover{
+		background: url('img/Sub_Play/sub_play_d_tinkermeister_active.png') no-repeat;
+		background-position: center;
+		color:black;
+	}
+
+	#name3_play_box h2{
+		position: absolute;
+		top: 35%;
+		right: 6%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name4_play_box h2{
+		position: absolute;
+		top: 84%;
+		left: 8%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name5_play_box{
+		background: url('img/Sub_Play/sub_play_d_megatrack.png') no-repeat;
+		background-position: center;
+		width: 33.3%;
+		height: 231px;
+		cursor:pointer;
+	}
+
+	#name5_play_box:hover{
+		background: url('img/Sub_Play/sub_play_d_megatrack_active.png') no-repeat;
+		background-position: center;
+		color:black;
+	}
+
+	#name5_play_box h2{
+		position: absolute;
+		top: 78%;
+		left: 37%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name6_play_box h2{
+		position: absolute;
+		top: 84%;
+		right: 8%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
 
 	#homeButton{
 		width:98px;
@@ -858,6 +1199,11 @@ h3 {
 
 	#adultsButton:hover {
 		background: url('img/Top%20Nav/adults_up_d.png') no-repeat;
+	}
+	
+	#copyright {
+		background: #f16022;
+		
 	}
 
 	/*#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
@@ -1057,6 +1403,7 @@ body{
 	padding-top: 6px;
 	margin-left: 15px;
 }
+
 .navBolt2 {
 	display: none;
 }
@@ -1189,17 +1536,53 @@ body{
 	text-align: center;
 	margin-bottom:10px;
 	margin-top:0px;
-	width:50%;
+	width: 142px;
+	height: 172px;
+	margin-left:3%;
 }
 
 #name2_box img, #name3_box img, #name4_box img, #name5_box img, #name6_box img{
 	height: auto;
 }
 
-#name1_box img {
-	width: 100%;
-	height: auto;
-	margin-top:19%;
+#name1_box{
+	background: url('img/Home Character Buttons/home_m_3030.png') no-repeat;
+	background-size: 100%;
+}
+
+#name1_box:hover{
+	background: url('img/Home Character Buttons/home_m_3030_active.png') no-repeat;
+	background-size: 100%;
+}
+
+#name2_box{
+	background: url('img/Home Character Buttons/home_m_tinkermeister.png') no-repeat;
+	background-size: 100%;
+}
+
+#name2_box:hover{
+	background: url('img/Home Character Buttons/home_m_tinkermeister_active.png') no-repeat;
+	background-size: 100%;
+}
+
+#name3_box{
+	background: url('img/Home Character Buttons/home_m_oaktree.png') no-repeat;
+	background-size: 100%;
+}
+
+#name3_box:hover{
+	background: url('img/Home Character Buttons/home_m_oaktree_active.png') no-repeat;
+	background-size: 100%;
+}
+
+#name4_box{
+	background: url('img/Home Character Buttons/home_m_megatruck.png') no-repeat;
+	background-size: 100%;
+}
+
+#name4_box:hover{
+	background: url('img/Home Character Buttons/home_m_megatruck_active.png') no-repeat;
+	background-size: 100%;
 }
 
 #homeButton{
@@ -1361,6 +1744,11 @@ body{
 	text-align: center;
 }
 
+#name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
+	width:98%;
+	margin-top:4%;
+}
+
 #name1_story_box img{
 	margin-top:60px !important;
 }
@@ -1371,6 +1759,60 @@ body{
 	margin-top:20px;
 	width:98%;
 	height:auto;
+}
+
+#name1_story_box h2{
+	position: absolute;
+	top: 12.5%;
+	left: 17%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name2_story_box h2{
+	position: absolute;
+	top: 28%;
+	left: 9%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name3_story_box h2{
+	position: absolute;
+	top: 44%;
+	right: 20%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name4_story_box h2{
+	position: absolute;
+	top: 81%;
+	left: 8%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name5_story_box h2{
+	position: absolute;
+	top: 61.5%;
+	left: 11%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name6_story_box h2{
+	position: absolute;
+	top: 81%;
+	right: 8%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
 }
 
 #topStoryEtching img{
@@ -1506,11 +1948,11 @@ body{
 }
 
 .storyButton {
-	min-height:1190px;
+	min-height:1547px;
 }
 
 .playButton {
-	min-height:1257px;
+	min-height:1547px;
 }
 
 #mobileTextBox {
@@ -1614,5 +2056,5 @@ body{
 
 
 }
-
+}
 

@@ -48,25 +48,25 @@
 				<p>See all the fun things related to each of the stories</p>
 			</div>
 			<div id="name1_box" class="grid_4 morph">
-				<a href="thirtyrule.php" rel="external"><img src="css/img/thirty_main_m.png" width="253" height="247" alt="Thirty Main M"></a>
+				<a href="thirtyrule.php" rel="external"></a>
 			</div>
 			<div id="name2_box" class="grid_4 morph">
-				<a href="tinkermeister.php"><img src="css/img/tinker_main_m.png" width="226" height="288" alt="Tinker Main M"></a>
+				<a href="tinkermeister.php"></a>
 			</div>
 			<div id="name3_box" class="grid_4 morph">
-				<a href="oaktree.php"><img src="css/img/oak_main_m.png" width="236" height="270" alt="Oak Main M"></a>
+				<a href="oaktree.php"></a>
 			</div>
 			<div id="name4_box" class="grid_2 morph">
-				<a href="megatrack.php"><img src="css/img/tinker_main_m.png" width="226" height="288" alt="Tinker Main M"></a>
+				<h2>Coming Soon</h2>
 			</div>
 			<div id="name5_box" class="grid_2 morph">
-				<img src="css/img/comingsoon_main_m.png" width="225" height="226" alt="Comingsoon Main M">
+				<a href="megatrack.php"></a>
 			</div>
 			<div id="name6_box" class="grid_2 morph">
-				<img src="css/img/comingsoon_main_m.png" width="225" height="226" alt="Comingsoon Main M">
+				<h2>Coming Soon</h2>
 			</div>
 			<div id="bottomMainEtching">
-				<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M">
+
 			</div>
 		</div>
 
