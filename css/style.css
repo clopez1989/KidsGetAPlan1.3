@@ -83,7 +83,7 @@
 }
 
 .playButton {
-	min-height: 350px;
+	min-height: 555px;
 	background: #fbee3d;
 }
 
@@ -372,7 +372,240 @@ h3 {
 
 #name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
 	text-align: center;
+	margin-top:1%;
+}
 
+#name1_story_box img, #name2_story_box img, #name3_story_box img, #name4_story_box img, #name5_story_box img, #name6_story_box img{
+	position:relative;
+}
+
+#name1_story_box{
+	background: url('img/Sub_Story/sub_story_d_30_30.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name1_story_box:hover{
+	background: url('img/Sub_Story/sub_story_d_30_30_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name1_story_box h2{
+	position: absolute;
+	top: 35%;
+	left: 8%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name2_story_box{
+	background: url('img/Sub_Story/sub_story_d_oak_tree_new.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name2_story_box:hover{
+	background: url('img/Sub_Story/sub_story_d_oak_tree_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name2_story_box h2{
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name3_story_box{
+	background: url('img/Sub_Story/sub_story_d_tinkermeister.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name3_story_box:hover{
+	background: url('img/Sub_Story/sub_story_d_tinkermeister_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name3_story_box h2{
+	position: absolute;
+	top: 35%;
+	right: 8%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name4_story_box h2{
+	position: absolute;
+	top: 84%;
+	left: 8%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name5_story_box{
+	background: url('img/Sub_Story/sub_story_d_megatrack.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name5_story_box:hover{
+	background: url('img/Sub_Story/sub_story_d_megatrack_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name5_story_box h2{
+	position: absolute;
+	top: 78%;
+	left: 40%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name6_story_box h2{
+	position: absolute;
+	top: 84%;
+	right: 8%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name1_play_box, #name2_play_box, #name3_play_box, #name4_play_box, #name5_play_box, #name6_play_box{
+	text-align: center;
+	margin-top:1%;
+}
+
+#name1_play_box img, #name2_play_box img, #name3_play_box img, #name4_play_box img, #name5_play_box img, #name6_play_box img{
+	position:relative;
+}
+
+#name1_play_box{
+	background: url('img/Sub_Play/sub_play_d_30_30.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name1_play_box:hover{
+	background: url('img/Sub_Play/sub_play_d_30_30_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name1_play_box h2{
+	position: absolute;
+	top: 35%;
+	left: 8%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name2_play_box{
+	background: url('img/Sub_Play/sub_play_d_oaktree.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name2_play_box:hover{
+	background: url('img/Sub_Play/sub_play_d_oaktree_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name2_play_box h2{
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name3_play_box{
+	background: url('img/Sub_Play/sub_play_d_tinkermeister.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name3_play_box:hover{
+	background: url('img/Sub_Play/sub_play_d_tinkermeister_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name3_play_box h2{
+	position: absolute;
+	top: 35%;
+	right: 8%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name4_play_box h2{
+	position: absolute;
+	top: 84%;
+	left: 8%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name5_play_box{
+	background: url('img/Sub_Play/sub_play_d_megatrack.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name5_play_box:hover{
+	background: url('img/Sub_Play/sub_play_d_megatrack_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name5_play_box h2{
+	position: absolute;
+	top: 78%;
+	left: 40%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name6_play_box h2{
+	position: absolute;
+	top: 84%;
+	right: 8%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
 }
 
 #box1, #box2, #box3, #box4, #box5, #box6{
@@ -386,11 +619,12 @@ h3 {
 	left: 0px;
 	bottom: 0px;
 	height: 75px;
-	width: 100%;
-	background: #f16022;
+	width: 100%; 
 	text-align: center;
 	z-index: 1000;
-	background-image: url('img/footer_etching.png') no-repeat;
+	background: #f16022 url('img/footer_etching.png') no-repeat;
+	background-position: center;
+	background-size: 77%;
 	
 }
 
@@ -420,17 +654,23 @@ h3 {
 }
 
 .bottomMenu{
-	margin-left:241px;
+	margin-left:270px;
+	background: url('img/footer_etching.png') no-repeat;
+	
+	
 }
 
 .bottomMenu a {
-	color: white;
+	color: white !important;
+	text-decoration:none;
+	text-shadow: none;
+	font-family: Arial, Helvetica, Tahoma, sans-serif;
+	font-size:1em; 
 }
 
 .bottomMenu li{
 	margin-left: 37px;
 	list-style-type: circle;
-	list-style-position: inside;
 	float: left;
 	color: white;
 }

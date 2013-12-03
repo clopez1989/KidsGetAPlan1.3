@@ -348,7 +348,7 @@
 }
 .ui-body-c .ui-link {
 	color: #2489ce /*{c-body-link-color}*/;
-	font-weight: bold;
+	/*font-weight: bold;*/
 }
 .ui-body-c .ui-link:visited {
     color: #2489ce /*{c-body-link-visited}*/;

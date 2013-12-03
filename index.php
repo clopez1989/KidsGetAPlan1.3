@@ -47,13 +47,13 @@
 				<h2>Explore the Stories</h2>
 				<p>See all the fun things related to each of the stories</p>
 			</div>
-			<div id="name1_box" class="grid_2 morph">
+			<div id="name1_box" class="grid_4 morph">
 				<a href="thirtyrule.php" rel="external"><img src="css/img/thirty_main_m.png" width="253" height="247" alt="Thirty Main M"></a>
 			</div>
-			<div id="name2_box" class="grid_2 morph">
+			<div id="name2_box" class="grid_4 morph">
 				<a href="tinkermeister.php"><img src="css/img/tinker_main_m.png" width="226" height="288" alt="Tinker Main M"></a>
 			</div>
-			<div id="name3_box" class="grid_2 morph">
+			<div id="name3_box" class="grid_4 morph">
 				<a href="oaktree.php"><img src="css/img/oak_main_m.png" width="236" height="270" alt="Oak Main M"></a>
 			</div>
 			<div id="name4_box" class="grid_2 morph">
@@ -71,35 +71,48 @@
 		</div>
 
 		<div class="section storyButton" id="homeStory">
-			<div id="name1_story_box" class="grid_4">
-				<img src="css/img/thirty_story_m.png" width="600" height="482" alt="Thirty Story M">
+			<div id="name1_story_box" class="grid_4" onclick="location.href='thirtyrule.php'">
+				<h2>The 30/30 Rule</h2>
 			</div>
 			<div id="name2_story_box" class="grid_4">
-				<img src="css/img/oak_story_m.png" width="600" height="482" alt="Oak Story M">
+				 <h2>The Oak Tree Club</h2>
 			</div>
 			<div id="name3_story_box" class="grid_4">
-				<img src="css/img/tinker_story_m.png" width="600" height="482" alt="Tinker Story M">
+				<h2>Tinkermeister</h2>
 			</div>
-			<div id="name4_story_box" class="grid_12">
-				<img src="css/img/megatrack_story_m.png" width="600" height="482" alt="Megatrack Story M">
+			<div id="name4_story_box" class="grid_4">
+				<img src="css/img/Sub_Story/sub_story_d_megatrack.png" width="295" height="231" alt="Sub Story D Megatrack">
+				<h2></h2>
+			</div>
+			<div id="name5_story_box" class="grid_4">
+				<h2>Mega Track HTW</h2>
+			</div>
+			<div id="name6_story_box" class="grid_4">
+				<img src="css/img/Sub_Story/sub_story_d_megatrack.png" width="295" height="231" alt="Sub Story D Megatrack">
+				<h2></h2>
 			</div>
 		</div>
 
 		<div class="section playButton" id="homePlay">
-			<div id="topStoryEtching">
-				<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M">
+			<div id="name1_play_box" class="grid_4" onclick="location.href='thirtyrule.php'">
+				<h2>The 30/30 Rule</h2>
 			</div>
-			<div id="name1_play_box" class="grid_6">
-				<img src="css/img/thirty_m_play.png" width="598" height="546" alt="Thirty M Play">
+			<div id="name2_play_box" class="grid_4">
+				 <h2>The Oak Tree Club</h2>
 			</div>
-			<div id="name2_play_box" class="grid_6">
-				<img src="css/img/disaster_play_m.png" width="598" height="557" alt="Disaster Play M">
+			<div id="name3_play_box" class="grid_4">
+				<h2>Tinkermeister</h2>
 			</div>
-			<div id="name3_play_box" class="grid_6">
-				<img src="css/img/whiz_play_m.png" width="598" height="519" alt="Whiz Play M">
+			<div id="name4_play_box" class="grid_4">
+				<img src="css/img/Sub_Story/sub_story_d_megatrack.png" width="295" height="231" alt="Sub Story D Megatrack">
+				<h2></h2>
 			</div>
-			<div id="name4_play_box" class="grid_6">
-				<a href="http://onelink.to/f5csuw"><img src="css/img/firewise_play_m.png" width="598" height="519" alt="Firewise Play M"></a>
+			<div id="name5_play_box" class="grid_4">
+				<h2>Mega Track HTW</h2>
+			</div>
+			<div id="name6_play_box" class="grid_4">
+				<img src="css/img/Sub_Story/sub_story_d_megatrack.png" width="295" height="231" alt="Sub Story D Megatrack">
+				<h2></h2>
 			</div>
 		</div>
 
