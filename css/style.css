@@ -20,6 +20,49 @@
 	width: 77%;
 	height: 100%;
 	background: none;
+	border:none;
+}
+
+#opener2{
+	width: 77%;
+	height: 100%;
+	background: none;
+	border:none;
+}
+
+.ui-dialog{
+            position: relative;
+            border: 0;
+            padding: .5em 1em;
+            background: none;
+            overflow: auto;
+            background-color: #ffd;
+            border: solid 1px #ea7;
+			width:75% !important;
+			height:60% !important;
+			margin:auto;
+			z-index: 2001;
+        }
+
+        .ui-widget-content
+        {
+            border:none;
+        }
+
+		.ui-widget-overlay
+		{
+		  opacity: .90 !important; /* Make sure to change both of these, as IE only sees the second one */
+		  filter: Alpha(Opacity=50) !important;
+
+		  background-color: rgb(50, 50, 50) !important; /* This will make it darker */
+		  z-index:2000;
+		  position:fixed !important;
+		}
+
+.ui-dialog .ui-dialog-content {
+	width: auto !important;
+	min-height: 45% !important;
+	max-height: 28% !important;
 }
 
 /* ------------SECTIONS------------ */
@@ -375,6 +418,7 @@ h3 {
 	width: 255px;
 	height: 261px;
 	margin-left: 8%;
+	cursor:pointer;
 }
 
 #name1_box, #name2_box, #name3_box{
@@ -908,6 +952,28 @@ h3 {
 		margin-left: 124px;
 	}
 	
+	#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
+		text-align: center;
+		margin-bottom: 0px;
+		margin-top: 0px;
+		width: 29%;
+		height: 297px;
+		margin-left: 3%;
+	}
+	
+	#opener{
+		width: 96%;
+		height: 100%;
+		background: none;
+		border: none;
+	}
+
+	#opener2{
+		width: 77%;
+		height: 100%;
+		background: none;
+	}
+	
 	#name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
 		text-align: center;
 		margin-top:1%;
@@ -1221,7 +1287,7 @@ h3 {
 	object {
 		display:none;
 	}	
-}	
+	
 /* iPads (portrait) ----------- */	
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	

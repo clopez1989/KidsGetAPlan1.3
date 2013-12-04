@@ -46,7 +46,7 @@
 				<h2>Explore the Stories</h2>
 				<p>See all the fun things related to each of the stories</p>
 			</div>
-			<div id="name1_box" class="grid_4 morph">
+			<div id="name1_box" class="grid_4 morph" onclick="location.href='thirtyrule.php'">
 				<a href="thirtyrule.php" rel="external"></a>
 			</div>
 			<div id="name2_box" class="grid_4 morph">
@@ -71,23 +71,24 @@
 
 		<div class="section storyButton" id="homeStory">
 			<div id="name1_story_box" class="grid_4">
-				<button id="opener">
+				<button id="opener"></button>
 				<h2>The 30/30 Rule</h2>
-				</button>
 				  <div id="dialog" title="Basic dialog">
+					  <img src="css/img/top_bolts_and_etching.png" width="804" height="36" alt="Top Bolts And Etching">
 				    <p>Lorem ipsum dolor sit amet.. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.. Stet clita kasd gubergren, no sea takimata sanctus est. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-At vero eos et accusam et justo duo dolores et ea rebum. Sanctus sea sed takimata ut vero voluptua. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </p>
 				  </div>
 			</div>
 			<div id="name2_story_box" class="grid_4">
+				<button id="opener2"></button>
 				 <h2>The Oak Tree Club</h2>
+				  <div id="dialog2" title="Basic dialog">
+					  <img src="css/img/top_bolts_and_etching.png" width="804" height="36" alt="Top Bolts And Etching">
+				    <p>Lorem ipsum dolor sit amet.. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </p>
+				  </div>
 			</div>
 			<div id="name3_story_box" class="grid_4">
 				<h2>Tinkermeister</h2>
@@ -196,24 +197,60 @@ At vero eos et accusam et justo duo dolores et ea rebum. Sanctus sea sed takimat
 	    $( "#dialog" ).dialog({
 	      autoOpen: false,
 	      show: {
-	        effect: "blind",
+	        effect: "slide",
 	        duration: 1000
 	      },
 	      hide: {
-	        effect: "bounce",
+	        effect: "slide",
 	        duration: 1000
 	      },
-		  modal: true
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
 	    });
  
  	   $('div.ui-resizable-handle').hide();
 	   
  
 	    $( "#opener" ).click(function() {
-	      $( "#dialog" ).dialog( "open" ).next(".ui-widget-overlay").css("background", "#f00ba2");
-		  $('.ui-widget-overlay').css('background', 'white');
+	      $( "#dialog" ).dialog( "open" );
 	    });
+		
+		
+		
 	  });
+	  
+	  $(function() {
+	    $( "#dialog2" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+ 
+	    $( "#opener2" ).click(function() {
+	      $( "#dialog2" ).dialog( "open" );
+	    });
+		
+		
+		
+	  });
+	  
 	  </script>
 	
 	<script type="text/javascript">	
