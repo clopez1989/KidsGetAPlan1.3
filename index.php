@@ -8,7 +8,6 @@
 
 <!-- include Navigation -->
 <?php include 'nav.php'; ?>
-
 	<div class="section homeButton" id="homeMain">
 		<div id="topLeftArt" class="grid_4">
 			<img src="css/img/top_left_panel_art.png" alt=""/>
@@ -71,8 +70,21 @@
 		</div>
 
 		<div class="section storyButton" id="homeStory">
-			<div id="name1_story_box" class="grid_4" onclick="location.href='thirtyrule.php'">
+			<div id="name1_story_box" class="grid_4">
+				<button id="opener">
 				<h2>The 30/30 Rule</h2>
+				</button>
+				  <div id="dialog" title="Basic dialog">
+				    <p>Lorem ipsum dolor sit amet.. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.. Stet clita kasd gubergren, no sea takimata sanctus est. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+At vero eos et accusam et justo duo dolores et ea rebum. Sanctus sea sed takimata ut vero voluptua. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+				  </div>
 			</div>
 			<div id="name2_story_box" class="grid_4">
 				 <h2>The Oak Tree Club</h2>
@@ -127,7 +139,6 @@
 
 		<div class="section factsButton" id="homeFacts">
 			<div id="facts1image" class="grid_4">
-				  <a href="thirtyrule.php#thirtyMake" rel="external" data-ajax="false"><img src="css/img/facts_lightning_m.png" width="596" height="244" alt="Facts Lightning M"></a>
 			</div>
 			<div id="facts2image" class="grid_4">
 				 <img src="css/img/facts_tornado_m.png" width="595" height="245" alt="Facts Tornado M">
@@ -171,6 +182,7 @@
 		</div>
 		
 	</div>
+
 	
 	<script type="text/javascript">
 		$(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {
@@ -179,6 +191,30 @@
 		} });
 	</script>
 	
+	<script>
+	  $(function() {
+	    $( "#dialog" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "blind",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "bounce",
+	        duration: 1000
+	      },
+		  modal: true
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+ 
+	    $( "#opener" ).click(function() {
+	      $( "#dialog" ).dialog( "open" ).next(".ui-widget-overlay").css("background", "#f00ba2");
+		  $('.ui-widget-overlay').css('background', 'white');
+	    });
+	  });
+	  </script>
 	
 	<script type="text/javascript">	
 		$(document).ready( function() {

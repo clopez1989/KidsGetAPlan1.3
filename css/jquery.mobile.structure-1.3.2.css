@@ -1200,7 +1200,7 @@ label.ui-submit { font-size: 16px; line-height: 1.4; font-weight: normal; margin
 	.ui-hide-label .ui-controlgroup-controls { width: 100%; }
 }	
 .ui-dialog {
-	 background: none !important; /* this is to ensure that dialog theming does not apply (by default at least) on the page div */
+	 background: white !important; /* this is to ensure that dialog theming does not apply (by default at least) on the page div */
 }
 .ui-dialog-contain {
 	width: 92.5%;
