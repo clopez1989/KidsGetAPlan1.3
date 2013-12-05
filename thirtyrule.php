@@ -6,6 +6,8 @@
 
 <body onload="window.scrollTo(0,100);" style="overflow-y:hidden;">
 
+<?php include 'story_nav.php'; ?>
+
 <!--  include Navigation -->
 	<!-- <?php include 'story_nav.php'; ?> -->
 
@@ -41,14 +43,22 @@
 	
 	
 	<div class="mainWrapper" style="background-color:#b27ec4; background-image:none; overflow:auto; width: 90%;
-height: auto; margin: 0;">
+height: auto; margin: 0; margin-top: 116px;">
 		<div id="thirty_story_title_box" class="grid_4">
 			<a href="#"><img src="css/img/Sub_Title/sub_title_d_30_30.png" width="295" height="246" alt="Sub Title D 30 30"></a>
 		</div>
-		<div id="thirty_story_read_box" class="grid_4">
-			<a href="#"><img src="css/img/Sub_Story/sub_story_d_30_30.png" width="295" height="231" alt="Sub Story D 30 30"></a>
-		</div>
-		<div id="thirty_story_play_box" class="grid_4">
+			<div id="name1_story_box" class="grid_4">
+				<button id="opener_thirty_story"></button>
+				<h2 style="top: 6%; left: 42%;">The 30/30 Rule</h2>
+				  <div id="dialog_thirty_story" title="Basic dialog">
+					  <img src="css/img/top_bolts_and_etching.png" width="804" height="36" alt="Top Bolts And Etching">
+				    <p>Lorem ipsum dolor sit amet.. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+
+Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </p>
+				  </div>
+			</div>
+		<div id="name1_play_box" class="grid_4" onclick="location.href='thirtyrule.php'">
+			<h2 style="top: 6%; left: 72%;">The 30/30 Rule</h2>
 		</div>
 		<div id="thirty_story_make_box" class="grid_4">
 		</div>
@@ -65,7 +75,7 @@ height: auto; margin: 0;">
 	
 	<div id="copyright">
 		<div class="characterImg">
-			 <img src="css/img/tinker_left.png" width="147" height="150" alt="Tinker Left">
+			 <img src="css/img/FooterCharacters/footer_character1.png" width="106" height="141" alt="Footer 3030">
 		</div>
 		<div class="contestImg">
 			 <img src="css/img/tinker_panel_footer_left.png" width="147" height="82" alt="Tinker Panel Footer Left">
@@ -85,6 +95,38 @@ height: auto; margin: 0;">
 		</div>
 		
 	</div>
+	
+	<script>
+	  $(function() {
+	    $( "#dialog_thirty_story" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+ 
+	    $( "#opener_thirty_story" ).click(function() {
+	      $( "#dialog_thirty_story" ).dialog( "open" );
+	    });
+		
+		
+		
+	  });
+	</script>  
+	
 	
 	<script type="text/javascript">
 		$(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {

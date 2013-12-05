@@ -130,25 +130,35 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 		</div>
 
 		<div class="section makeButton" id="homeMake">
-			<div id="mainMakeDownload">
-				<img src="css/img/main_make_d_m.png" width="643" height="326" alt="Main Make D M">
+			<div id="name1_make_box" class="grid_4">
+				<h2>The 30/30 Rule</h2>
 			</div>
-			<div id="mainMakeColoring">
-				<img src="css/img/main_make_c_m.png" width="643" height="326" alt="Main Make D M">
+			<div id="name2_make_box" class="grid_4">
+				 <h2>The Oak Tree Club</h2>
+			</div>
+			<div id="name3_make_box" class="grid_4">
+				<h2>Tinkermeister</h2>
 			</div>
 		</div>
 
 		<div class="section factsButton" id="homeFacts">
-			<div id="facts1image" class="grid_4">
+			<div id="name1_facts_box" class="grid_4">
+				<h2>The 30/30 Rule</h2>
 			</div>
-			<div id="facts2image" class="grid_4">
-				 <img src="css/img/facts_tornado_m.png" width="595" height="245" alt="Facts Tornado M">
+			<div id="name2_facts_box" class="grid_4">
+				 <h2>The Oak Tree Club</h2>
 			</div>
-			<div id="facts3image" class="grid_4">
-				 <img src="css/img/facts_hurricane_m.png" width="595" height="245" alt="Facts Hurricane M">
+			<div id="name3_facts_box" class="grid_4">
+				<h2>Tinkermeister</h2>
 			</div>
-			<div id="facts4image" class="grid_4">
-				 <img src="css/img/facts_wildfire_m.png" width="595" height="245" alt="Facts Wildfire M">
+			<div id="name4_facts_box" class="grid_4">
+				<h2>Coming Soon</h2>
+			</div>
+			<div id="name5_facts_box" class="grid_4">
+				<h2>Mega Track HTW</h2>
+			</div>
+			<div id="name6_facts_box" class="grid_4">
+				<h2>Coming Soon</h2>
 			</div>
 		</div>
 	
@@ -163,7 +173,8 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 	
 	<div id="copyright">
 		<div class="characterImg">
-			 <img src="css/img/tinker_left.png" width="147" height="150" alt="Tinker Left">
+			<img src="css/img/FooterCharacters/footer_character<?php
+echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 		</div>
 		<div class="contestImg">
 			 <img src="css/img/tinker_panel_footer_left.png" width="147" height="82" alt="Tinker Panel Footer Left">
@@ -183,7 +194,6 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 		</div>
 		
 	</div>
-
 	
 	<script type="text/javascript">
 		$(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {
@@ -260,6 +270,10 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 	    	});
 		});
 	</script>
+	
+	 
+	 
+	 
 			
 </body>
 </html>

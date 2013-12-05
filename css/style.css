@@ -31,33 +31,31 @@
 }
 
 .ui-dialog{
-            position: relative;
-            border: 0;
-            padding: .5em 1em;
-            background: none;
-            overflow: auto;
-            background-color: #ffd;
-            border: solid 1px #ea7;
-			width:75% !important;
-			height:60% !important;
-			margin:auto;
-			z-index: 2001;
-        }
+    position: relative;
+    border: 0;
+    padding: .5em 1em;
+    background: none;
+    overflow: auto;
+    background-color: #ffd;
+    border: solid 1px #ea7;
+	width:75% !important;
+	height:60% !important;
+	margin:auto;
+	z-index: 2001;
+}
 
-        .ui-widget-content
-        {
-            border:none;
-        }
+.ui-widget-content{
+    border:none;
+}
 
-		.ui-widget-overlay
-		{
-		  opacity: .90 !important; /* Make sure to change both of these, as IE only sees the second one */
-		  filter: Alpha(Opacity=50) !important;
+.ui-widget-overlay{
+	opacity: .90 !important; /* Make sure to change both of these, as IE only sees the second one */
+	filter: Alpha(Opacity=50) !important;
 
-		  background-color: rgb(50, 50, 50) !important; /* This will make it darker */
-		  z-index:2000;
-		  position:fixed !important;
-		}
+	background-color: rgb(50, 50, 50) !important; /* This will make it darker */
+	z-index:2000;
+	position:fixed !important;
+}
 
 .ui-dialog .ui-dialog-content {
 	width: auto !important;
@@ -136,7 +134,7 @@
 }
 
 .makeButton {
-	min-height: 460px;
+	min-height: 390px;
 	background: #9fcb3a;
 }
 
@@ -530,6 +528,7 @@ h3 {
 #name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
 	text-align: center;
 	margin-top:1%;
+	position: relative;
 }
 
 #name1_story_box img, #name2_story_box img, #name3_story_box img, #name4_story_box img, #name5_story_box img, #name6_story_box img{
@@ -552,8 +551,8 @@ h3 {
 
 #name1_story_box h2{
 	position: absolute;
-	top: 35%;
-	left: 8%;
+	top: 78%;
+	left: 23%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -575,8 +574,8 @@ h3 {
 
 #name2_story_box h2{
 	position: absolute;
-	top: 35%;
-	left: 40%;
+	top: 78%;
+	left: 18%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -598,8 +597,8 @@ h3 {
 
 #name3_story_box h2{
 	position: absolute;
-	top: 35%;
-	right: 8%;
+	top: 78%;
+	right: 23%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -631,7 +630,7 @@ h3 {
 #name5_story_box h2{
 	position: absolute;
 	top: 78%;
-	left: 40%;
+	left: 21%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -649,6 +648,7 @@ h3 {
 #name1_play_box, #name2_play_box, #name3_play_box, #name4_play_box, #name5_play_box, #name6_play_box{
 	text-align: center;
 	margin-top:1%;
+	position: relative;
 }
 
 #name1_play_box img, #name2_play_box img, #name3_play_box img, #name4_play_box img, #name5_play_box img, #name6_play_box img{
@@ -671,8 +671,8 @@ h3 {
 
 #name1_play_box h2{
 	position: absolute;
-	top: 35%;
-	left: 8%;
+	top: 77%;
+	left: 23%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -694,8 +694,8 @@ h3 {
 
 #name2_play_box h2{
 	position: absolute;
-	top: 35%;
-	left: 40%;
+	top: 77%;
+	left: 18%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -717,8 +717,8 @@ h3 {
 
 #name3_play_box h2{
 	position: absolute;
-	top: 35%;
-	right: 8%;
+	top: 77%;
+	right: 23%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -750,13 +750,220 @@ h3 {
 #name5_play_box h2{
 	position: absolute;
 	top: 78%;
-	left: 40%;
+	left: 20%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
 }
 
 #name6_play_box h2{
+	position: absolute;
+	top: 84%;
+	right: 8%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name1_make_box, #name2_make_box, #name3_make_box, #name4_make_box, #name5_make_box, #name6_make_box{
+	text-align: center;
+	margin-top:1%;
+	position: relative;
+}
+
+#name1_make_box img, #name2_make_box img, #name3_make_box img, #name4_make_box img, #name5_make_box img, #name6_make_box img{
+	position:relative;
+}
+
+#name1_make_box{
+	background: url('img/Sub_Make/sub_make_d_3030.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name1_make_box:hover{
+	background: url('img/Sub_Make/sub_make_d_3030_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name1_make_box h2{
+	position: absolute;
+	top: 79%;
+	left: 22%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name2_make_box{
+	background: url('img/Sub_Make/sub_make_d_oaktree.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name2_make_box:hover{
+	background: url('img/Sub_Make/sub_make_d_oaktree_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name2_make_box h2{
+	position: absolute;
+	top: 79%;
+	left: 18%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name3_make_box{
+	background: url('img/Sub_Make/sub_make_d_tinkermeister.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name3_make_box:hover{
+	background: url('img/Sub_Make/sub_make_d_tinkermeister_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name3_make_box h2{
+	position: absolute;
+	top: 79%;
+	right: 24%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name1_facts_box, #name2_facts_box, #name3_facts_box, #name4_facts_box, #name5_facts_box, #name6_facts_box{
+	text-align: center;
+	margin-top:1%;
+	position: relative;
+}
+
+#name1_facts_box img, #name2_facts_box img, #name3_facts_box img, #name4_facts_box img, #name5_facts_box img, #name6_facts_box img{
+	position:relative;
+}
+
+#name1_facts_box{
+	background: url('img/Facts/facts_d_3030.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name1_facts_box:hover{
+	background: url('img/Facts/facts_d_3030_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name1_facts_box h2{
+	position: absolute;
+	top: 80%;
+	left: 23%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name2_facts_box{
+	background: url('img/Facts/facts_d_oaktree.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name2_facts_box:hover{
+	background: url('img/Facts/facts_d_oaktree_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name2_facts_box h2{
+	position: absolute;
+	top: 80%;
+	left: 19%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name3_facts_box{
+	background: url('img/Facts/facts_d_tinkemeister.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name3_facts_box:hover{
+	background: url('img/Facts/facts_d_tinkemeister_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name3_facts_box h2{
+	position: absolute;
+	top: 80%;
+	right: 23%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name4_facts_box{
+	background: url('img/Facts/facts_d_empty_brightyellow.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name4_facts_box h2{
+	position: absolute;
+	top: 84%;
+	left: 8%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name5_facts_box{
+	background: url('img/Facts/facts_d_megatrack.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+}
+
+#name5_facts_box:hover{
+	background: url('img/Facts/facts_d_megatrack_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name5_facts_box h2{
+	position: absolute;
+	top: 78%;
+	left: 20%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name6_facts_box h2{
 	position: absolute;
 	top: 84%;
 	right: 8%;
