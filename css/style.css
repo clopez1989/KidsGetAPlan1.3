@@ -113,6 +113,7 @@
 	background-color: #fbee3c;
 	margin-top: 101px;
 	text-align: center;
+	position:relative;
 }
 
 #mobileTextBox {
@@ -129,6 +130,7 @@
 	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	position:relative;
 }
 
 .storySectionEtching{
@@ -137,12 +139,14 @@
 	margin: auto;
 	padding: 45px;
 	margin-bottom: 2%;
+	position:relative;
 }
 
 .playButton {
 	min-height: 555px;
 	background: #fbee3d;
 	margin-top: 35px;
+	position:relative;
 }
 
 .makeButton {
@@ -152,6 +156,7 @@
 	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	margin-bottom: 173px;
+	position:relative;
 }
 
 .factsButton {
@@ -163,6 +168,7 @@
 	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	margin-bottom: 60px;
+	position:relative;
 }
 
 .adultsButton {
@@ -404,7 +410,9 @@ h3 {
 	margin: auto;
 	background-color: #fbee3c;
 	background-repeat:repeat;
-	background: #fbee3c url('img/affe_78.gif') repeat;
+	background: #fbee3c url('img/background_gears.png') repeat-y fixed;
+	background-size: 200% 50%;
+	background-position: center;
 	
 }
 

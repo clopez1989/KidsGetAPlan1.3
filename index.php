@@ -40,7 +40,7 @@
 	
 	
 	<div class="mainWrapper">
-		<div class="section mainSection mainButton">
+		<div class="section mainSection mainButton" data-type="background" data-speed="10">
 			<!-- Text box for mobile site -->
 			<div id="mobileTextBox">
 				<h2>Explore the Stories</h2>
@@ -66,7 +66,7 @@
 			</div>
 		</div>
 
-		<div class="section storyButton" id="homeStory">
+		<div class="section storyButton" id="homeStory" data-type="background" data-speed="10">
 			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 			<div id="name1_story_box" class="grid_4">
 				<button id="opener"></button>
@@ -102,7 +102,7 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			</div>
 		</div>
 
-		<div class="section playButton" id="homePlay">
+		<div class="section playButton" id="homePlay" data-type="background" data-speed="10">
 			<div id="name1_play_box" class="grid_4" onclick="location.href='thirtyrule.php'">
 				<h2>The 30/30 Game</h2>
 			</div>
@@ -123,7 +123,7 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			</div>
 		</div>
 
-		<div class="section makeButton" id="homeMake">
+		<div class="section makeButton" id="homeMake" data-type="background" data-speed="10">
 			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 			<div id="name1_make_box" class="grid_4">
 				<h2>The 30/30 Rule<br>Cut-Outs and Coloring Pages</h2>
@@ -136,7 +136,7 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			</div>
 		</div>
 
-		<div class="section factsButton" id="homeFacts">
+		<div class="section factsButton" id="homeFacts" data-type="background" data-speed="10">
 			<div id="name1_facts_box" class="grid_4">
 				<h2>The 30/30 Rule</h2>
 			</div>
@@ -155,7 +155,7 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			</div>
 		</div>
 	
-		<div class="section adultsButton" id="contentContainer">
+		<div class="section adultsButton" id="contentContainer" data-type="background" data-speed="10">
 		</div>
 	</div>
 	
