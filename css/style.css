@@ -109,7 +109,7 @@
 }
 
 .mainButton {
-	min-height: 620px;
+	min-height: 571px;
 	background-color: #fbee3c;
 	margin-top: 101px;
 	text-align: center;
@@ -124,24 +124,45 @@
 }
 
 .storyButton {
-	min-height: 555px;
-	background-color: #6dcef5;
+	min-height: 722px;
+	background-color: #f9cc3e;
+	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+}
+
+.storySectionEtching{
+	float: none;
+	display: block;
+	margin: auto;
+	padding: 45px;
+	margin-bottom: 2%;
 }
 
 .playButton {
 	min-height: 555px;
 	background: #fbee3d;
+	margin-top: 35px;
 }
 
 .makeButton {
-	min-height: 390px;
-	background: #9fcb3a;
+	min-height: 457px;
+	background-color: #f9cc3e;
+	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	margin-bottom: 173px;
 }
 
 .factsButton {
 	min-height: 540px;
-	background: #29aae1;
+	background-color: #f9cc3e;
 	color: white;
+	margin-top: 27px;
+	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	margin-bottom: 60px;
 }
 
 .adultsButton {
@@ -381,8 +402,10 @@ h3 {
 .mainWrapper {
 	width: 90%;
 	margin: auto;
-	background-image:url('img/tilable_swiss_cheese.png');
+	background-color: #fbee3c;
 	background-repeat:repeat;
+	background: #fbee3c url('img/affe_78.gif') repeat;
+	
 }
 
 .rightSidebar {
@@ -479,7 +502,7 @@ h3 {
 
 #name4_box h2{
 	position: absolute;
-	top: 64%;
+	top: 70%;
 	left: 12%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -515,7 +538,7 @@ h3 {
 
 #name6_box h2{
 	position: absolute;
-	top: 64%;
+	top: 70%;
 	right: 12%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -597,11 +620,13 @@ h3 {
 
 #name3_story_box h2{
 	position: absolute;
-	top: 78%;
-	right: 23%;
+	top: 77%;
+	right: 10%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	width: 76%;
+	font-size: 1em;
 }
 
 #name4_story_box h2{
@@ -676,6 +701,7 @@ h3 {
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size: 1.4em;
 }
 
 #name2_play_box{
@@ -699,6 +725,7 @@ h3 {
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size: 1.4em;
 }
 
 #name3_play_box{
@@ -718,10 +745,11 @@ h3 {
 #name3_play_box h2{
 	position: absolute;
 	top: 77%;
-	right: 23%;
+	right: 17%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size: 1.4em;
 }
 
 #name4_play_box h2{
@@ -754,6 +782,7 @@ h3 {
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size: 1.4em;
 }
 
 #name6_play_box h2{
@@ -791,11 +820,12 @@ h3 {
 
 #name1_make_box h2{
 	position: absolute;
-	top: 79%;
-	left: 22%;
+	top: 77%;
+	left: 15%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size: 1em;
 }
 
 #name2_make_box{
@@ -814,11 +844,12 @@ h3 {
 
 #name2_make_box h2{
 	position: absolute;
-	top: 79%;
+	top: 77%;
 	left: 18%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size: 1em;
 }
 
 #name3_make_box{
@@ -837,11 +868,12 @@ h3 {
 
 #name3_make_box h2{
 	position: absolute;
-	top: 79%;
-	right: 24%;
+	top: 77%;
+	right: 15%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size: 1em;
 }
 
 #name1_facts_box, #name2_facts_box, #name3_facts_box, #name4_facts_box, #name5_facts_box, #name6_facts_box{
@@ -1052,6 +1084,21 @@ h3 {
 /* ----------------------------MEDIA QUERIES---------------------------- */
 
 /* Larger --------------------------------------- */
+@media only screen and (min-width : 1667px) {
+	.homeButton{
+	}
+	
+	.logoImage{
+		width: 18%;
+		margin-left: 130px;
+	}
+	
+	#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
+		width: 22%;
+		background-size: 60%;
+	}
+}
+
 @media screen and (max-width: 1024px) {
 
 	.logoImage{
@@ -1133,27 +1180,27 @@ h3 {
 	}
 
 	#nav ul li {
-		float: left;
-		margin: 0% 0 0 0;
-		}
-		#nav ul li.home {
-			width: 16.5%;
-		}
-		#nav ul li.story {
-			width: 16.5%;
-		}
-		#nav ul li.play {
-			width: 16.5%;
-		}
-		#nav ul li.make {
-			width: 16.5%;
-		}
-		#nav ul li.facts {
-			width: 16.5%;
-		}
-		#nav ul li.adults {
-			width: 16.5%;
-		}
+	float: left;
+	margin: 0% 0 0 0;
+	}
+	#nav ul li.home {
+		width: 16.5%;
+	}
+	#nav ul li.story {
+		width: 16.5%;
+	}
+	#nav ul li.play {
+		width: 16.5%;
+	}
+	#nav ul li.make {
+		width: 16.5%;
+	}
+	#nav ul li.facts {
+		width: 16.5%;
+	}
+	#nav ul li.adults {
+		width: 16.5%;
+	}
 
 	.bottomMenu{
 		margin-left: 124px;
@@ -1494,7 +1541,8 @@ h3 {
 	object {
 		display:none;
 	}	
-	
+}
+
 /* iPads (portrait) ----------- */	
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	
@@ -2335,4 +2383,6 @@ body{
 
 }
 }
+
+
 
