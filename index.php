@@ -64,10 +64,10 @@
 			<div id="name6_box" class="grid_2 morph">
 				<h2>Coming Soon</h2>
 			</div>
+			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 		</div>
 
 		<div class="section storyButton" id="homeStory" data-type="background" data-speed="10">
-			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 			<div id="name1_story_box" class="grid_4">
 				<button id="opener"></button>
 				<h2>The 30/30 Rule</h2>
