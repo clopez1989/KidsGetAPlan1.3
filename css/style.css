@@ -11,6 +11,11 @@
 	box-shadow:         0px 3px 5px rgba(50, 50, 50, 0.75);
 }
 
+#menuFix {
+	height: 100px;
+	margin-top: -24px;
+}
+
 .offleft {
   margin-left: -9000px;
   position: absolute;
@@ -109,7 +114,7 @@
 }
 
 .mainButton {
-	min-height: 571px;
+	min-height: 806px;
 	background-color: #fbee3c;
 	margin-top: 101px;
 	text-align: center;
@@ -125,32 +130,32 @@
 }
 
 .storyButton {
-	min-height: 722px;
+	min-height: 544px;
 	background-color: #f9cc3e;
 	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	position:relative;
+	z-index:100;
 }
 
 .storySectionEtching{
 	float: none;
 	display: block;
 	margin: auto;
-	padding: 45px;
-	margin-bottom: 2%;
+	padding: 109px;
 	position:relative;
 }
 
 .playButton {
-	min-height: 555px;
+	min-height: 756px;
 	background: #fbee3d;
-	margin-top: 35px;
+	padding-top: 7px;
 	position:relative;
 }
 
 .makeButton {
-	min-height: 457px;
+	min-height: 506px;
 	background-color: #f9cc3e;
 	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
@@ -411,7 +416,7 @@ h3 {
 	background-color: #fbee3c;
 	background-repeat:repeat;
 	background: #fbee3c url('img/background_gears.png') repeat-y fixed;
-	background-size: 200% 50%;
+	background-size: 115% auto;
 	background-position: center;
 	
 }
@@ -510,7 +515,7 @@ h3 {
 
 #name4_box h2{
 	position: absolute;
-	top: 70%;
+	top: 50%;
 	left: 12%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -546,7 +551,7 @@ h3 {
 
 #name6_box h2{
 	position: absolute;
-	top: 70%;
+	top: 50%;
 	right: 12%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;

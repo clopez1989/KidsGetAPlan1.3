@@ -49,9 +49,9 @@
 			<div id="name1_box" class="grid_4 morph" onclick="location.href='thirtyrule.php'">
 				<a href="thirtyrule.php" rel="external"></a>
 			</div>
+			<a href="http://www.youtube.com/watch?v=2SfGUV0U62g"  rel="prettyPhoto external">
 			<div id="name2_box" class="grid_4 morph">
-				<a href="tinkermeister.php"></a>
-			</div>
+			</div></a>
 			<div id="name3_box" class="grid_4 morph">
 				<a href="oaktree.php"></a>
 			</div>
@@ -64,15 +64,18 @@
 			<div id="name6_box" class="grid_2 morph">
 				<h2>Coming Soon</h2>
 			</div>
+			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 		</div>
 
 		<div class="section storyButton" id="homeStory" data-type="background" data-speed="10">
-			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 			<div id="name1_story_box" class="grid_4">
 				<button id="opener"></button>
 				<h2>The 30/30 Rule</h2>
 				  <div id="dialog" title="Basic dialog">
-					  <img src="css/img/top_bolts_and_etching.png" width="804" height="36" alt="Top Bolts And Etching">
+					  <a href="http://www.youtube.com/watch?v=2SfGUV0U62g"  rel="prettyPhoto" data-ajax="false">
+					                              <img src="css/img/top_bolts_and_etching.png" width="804" height="36" alt="Top Bolts And Etching">
+					                          </a>
+					  <a href="index.php" style="float:left;" target="_blank" rel="prettyPhoto">Launch Game</a>
 				    <p>Lorem ipsum dolor sit amet.. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </p>
@@ -121,10 +124,10 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			<div id="name6_play_box" class="grid_4">
 				<img src="css/img/coming_soon_play.png" width="296" height="232" alt="Coming Soon Play">
 			</div>
+			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 		</div>
 
 		<div class="section makeButton" id="homeMake" data-type="background" data-speed="10">
-			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 			<div id="name1_make_box" class="grid_4">
 				<h2>The 30/30 Rule<br>Cut-Outs and Coloring Pages</h2>
 			</div>
@@ -134,6 +137,7 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			<div id="name3_make_box" class="grid_4">
 				<h2>Tinkermeister<br>Cut-Outs and Coloring Pages</h2>
 			</div>
+			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 		</div>
 
 		<div class="section factsButton" id="homeFacts" data-type="background" data-speed="10">
@@ -147,11 +151,13 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 				<h2>Tinkermeister</h2>
 			</div>
 			<div id="name4_facts_box" class="grid_4">
+				<img src="css/img/wheel_left.png" width="300" height="236" alt="Wheel Left">
 			</div>
 			<div id="name5_facts_box" class="grid_4">
 				<h2>Mega Track HTW</h2>
 			</div>
 			<div id="name6_facts_box" class="grid_4">
+				<img src="css/img/wheel_right.png" width="296" height="236" alt="Wheel Right">
 			</div>
 		</div>
 	
@@ -187,6 +193,12 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 		</div>
 		
 	</div>
+	
+	<script type="text/javascript" charset="utf-8">
+	$(document).ready(function(){
+	    $("a[rel^='prettyPhoto']").prettyPhoto();
+	});
+	</script>
 	
 	<script type="text/javascript">
 		$(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {
@@ -263,6 +275,7 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 	    	});
 		});
 	</script>
+	
 	
 	 
 	 
