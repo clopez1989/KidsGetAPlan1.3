@@ -1,7 +1,7 @@
 <div class="subMenu" >
-	<div id="nav" class="grid_6 prefix_3">
-		<ul>
-			<li class="home"><a href="#" id="homeButton" class="subNavBtn"><h1 class="offleft">Home</h1></a></li> 
+	<div id="thirtynav" class="grid_6 prefix_3">
+		<ul style="list-style-type: none;">
+			<li class="home"><a href="index.php" id="backButton" class="subNavBtn" onclick="location.href='index.php'" style="margin-left: 6%;"><img src="css/img/back_desktop.png" width="163" height="50" alt="Back Desktop"></a></li> 
 		</ul>
 	</div>		
 </div>

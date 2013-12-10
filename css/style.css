@@ -113,6 +113,13 @@
 	height: 73px;
 }
 
+.backButton {
+	padding: 5px 0px 0px 0px;
+	background: #00adef url('img/Header_Blue.png') no-repeat;
+	background-position:48% 7%; 
+	height: 73px;
+}
+
 .mainButton {
 	min-height: 806px;
 	background-color: #fbee3c;
@@ -237,6 +244,16 @@ h3 {
 	background: #00adef url('img/Header_metal.png') no-repeat;
 	background-position: 0% 100%;
 	background-size: 100% 73%;
+	width: 100%;
+	
+}
+
+#thirtynav {
+	height: 75px;
+	margin-top: -11px;
+	background: #00adef url('img/Header_metal_story.png') no-repeat;
+	background-position: 0% 100%;
+	background-size: 100% auto;
 	width: 100%;
 	
 }	
@@ -455,6 +472,24 @@ h3 {
 	cursor:pointer;
 }
 
+#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
+	text-align: center;
+	margin-bottom:0px;
+	margin-top:0px;
+	width: 255px;
+	height: 261px;
+	margin-left: 8%;
+	cursor:pointer;
+}
+
+#thirty_story_title_box{
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	text-align: center;
+	margin-top: 1%;
+}
+
 #name1_box, #name2_box, #name3_box{
 	margin-top:20px;
 }
@@ -594,6 +629,30 @@ h3 {
 	text-shadow: none;
 }
 
+#name1_story_box_story{
+	background: url('img/Sub_Story/sub_story_d_30_30.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top: 2%;
+}
+
+#name1_story_box_story:hover{
+	background: url('img/Sub_Story/sub_story_d_30_30_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name1_story_box_story h2{
+	position: absolute;
+	top: 78%;
+	left: 23%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
 #name2_story_box{
 	background: url('img/Sub_Story/sub_story_d_oak_tree_new.png') no-repeat;
 	background-position: center;
@@ -708,6 +767,31 @@ h3 {
 }
 
 #name1_play_box h2{
+	position: absolute;
+	top: 77%;
+	left: 23%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+	font-size: 1.4em;
+}
+
+#name1_play_box_story{
+	background: url('img/Sub_Play/sub_play_d_30_30.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top: 2%;
+}
+
+#name1_play_box_story:hover{
+	background: url('img/Sub_Play/sub_play_d_30_30_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name1_play_box_story h2{
 	position: absolute;
 	top: 77%;
 	left: 23%;
@@ -917,6 +1001,30 @@ h3 {
 	position: absolute;
 	top: 80%;
 	left: 23%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name1_facts_box_story{
+	background: url('img/Sub_Facts/sub_facts_d_3030.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top:1%;
+}
+
+#name1_facts_box_story:hover{
+	background: url('img/Sub_Facts/sub_facts_d_3030_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name1_facts_box_story h2{
+	position: absolute;
+	top: 12.1%;
+	left: 42%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;

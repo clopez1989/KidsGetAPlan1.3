@@ -4,14 +4,14 @@
 <!-- include Header -->
 <?php include 'header.php'; ?>
 
-<body onload="window.scrollTo(0,100);" style="overflow-y:hidden;">
+<body onload="window.scrollTo(0,100);" style="background-color:#b27ec4;">
 
 <?php include 'story_nav.php'; ?>
 
 <!--  include Navigation -->
 	<!-- <?php include 'story_nav.php'; ?> -->
 
-	<div class="section homeButton" id="homeMain">
+	<div class="section backButton" id="homeMain">
 		<div id="topLeftArt" class="grid_4">
 			<img src="css/img/top_left_panel_art.png" alt=""/>
 		</div>
@@ -43,13 +43,12 @@
 	
 	
 	<div class="mainWrapper" style="background-color:#b27ec4; background-image:none; overflow:auto; width: 90%;
-height: auto; margin: 0; margin-top: 116px;">
+height: auto; margin: 0; margin-top: 64px; ">
 		<div id="thirty_story_title_box" class="grid_4">
 			<a href="#"><img src="css/img/Sub_Title/sub_title_d_30_30.png" width="295" height="246" alt="Sub Title D 30 30"></a>
 		</div>
-			<div id="name1_story_box" class="grid_4">
-				<button id="opener_thirty_story"></button>
-				<h2 style="top: 6%; left: 42%;">The 30/30 Rule</h2>
+			<div id="name1_story_box_story" class="grid_4">
+				<h2 style="top: 7%; left: 42%;">The 30/30 Rule</h2>
 				  <div id="dialog_thirty_story" title="Basic dialog">
 					  <img src="css/img/top_bolts_and_etching.png" width="804" height="36" alt="Top Bolts And Etching">
 				    <p>Lorem ipsum dolor sit amet.. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
@@ -57,14 +56,17 @@ height: auto; margin: 0; margin-top: 116px;">
 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </p>
 				  </div>
 			</div>
-		<div id="name1_play_box" class="grid_4" onclick="location.href='thirtyrule.php'">
-			<h2 style="top: 6%; left: 72%;">The 30/30 Rule</h2>
+		<div id="name1_play_box_story" class="grid_4" onclick="location.href='thirtyrule.php'">
+			<h2 style="top: 7%; left: 72%;">The 30/30 Rule</h2>
 		</div>
-		<div id="thirty_story_make_box" class="grid_4">
+		<div id="name1_make_box" class="grid_4">
+			<h2>The 30/30 Rule<br>Cut-Outs and Coloring Pages</h2>
 		</div>
-		<div id="thirty_story_facts_box" class="grid_4">
+		<div id="name1_facts_box_story" class="grid_4">
+			<h2>The 30/30 Rule</h2>
 		</div>
-		<div id="thirty_story_adults_box" class="grid_4">
+		<div id="name1_facts_box_story" class="grid_4">
+			<h2>The 30/30 Rule</h2>
 		</div>
 	</div>
 	
