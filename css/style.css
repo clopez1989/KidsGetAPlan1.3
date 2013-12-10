@@ -109,11 +109,11 @@
 }
 
 .mainButton {
-	min-height: 571px;
 	background-color: #fbee3c;
 	margin-top: 101px;
 	text-align: center;
 	position:relative;
+	padding-bottom: 20px;
 }
 
 #mobileTextBox {
@@ -125,12 +125,14 @@
 }
 
 .storyButton {
-	min-height: 722px;
+	min-height: 546px;
 	background-color: #f9cc3e;
 	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	position:relative;
+	padding-bottom:25px;
+	z-index:100;
 }
 
 .storySectionEtching{
@@ -145,8 +147,8 @@
 .playButton {
 	min-height: 555px;
 	background: #fbee3d;
-	margin-top: 35px;
 	position:relative;
+	padding-top:30px;
 }
 
 .makeButton {
@@ -510,7 +512,7 @@ h3 {
 
 #name4_box h2{
 	position: absolute;
-	top: 70%;
+	top: 56%;
 	left: 12%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -546,7 +548,7 @@ h3 {
 
 #name6_box h2{
 	position: absolute;
-	top: 70%;
+	top: 56%;
 	right: 12%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -964,7 +966,7 @@ h3 {
 }
 
 #name4_facts_box{
-	background: url('img/Facts/facts_d_empty_brightyellow.png') no-repeat;
+	background: url('img/panel_d.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1001,6 +1003,14 @@ h3 {
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+}
+
+#name6_facts_box{
+	background: url('img/panel_d_right.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
 }
 
 #name6_facts_box h2{
