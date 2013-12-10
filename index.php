@@ -64,10 +64,10 @@
 			<div id="name6_box" class="grid_2 morph">
 				<h2>Coming Soon</h2>
 			</div>
-			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 		</div>
 
 		<div class="section storyButton" id="homeStory" data-type="background" data-speed="10">
+			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 			<div id="name1_story_box" class="grid_4">
 				<button id="opener"></button>
 				<h2>The 30/30 Rule</h2>
@@ -121,10 +121,10 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			<div id="name6_play_box" class="grid_4">
 				<img src="css/img/coming_soon_play.png" width="296" height="232" alt="Coming Soon Play">
 			</div>
-			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 		</div>
 
 		<div class="section makeButton" id="homeMake" data-type="background" data-speed="10">
+			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 			<div id="name1_make_box" class="grid_4">
 				<h2>The 30/30 Rule<br>Cut-Outs and Coloring Pages</h2>
 			</div>
