@@ -21,6 +21,24 @@
   position: absolute;
 }
 
+.bevelBottom{
+	padding: 10px 0px;
+	width: 100%;
+	height: auto;
+}
+
+.makeBevelBottom{
+	padding: 40px 0px;
+	width: 100%;
+	height: auto;
+}
+
+.adultsBevelBottom{
+	padding: 60px 0px;
+	width: 100%;
+	height: auto;
+}
+
 #opener{
 	width: 77%;
 	height: 100%;
@@ -121,7 +139,7 @@
 }
 
 .mainButton {
-	min-height: 806px;
+	min-height: 588px;
 	background-color: #fbee3c;
 	margin-top: 101px;
 	text-align: center;
@@ -137,7 +155,7 @@
 }
 
 .storyButton {
-	min-height: 544px;
+	min-height: 612px;
 	background-color: #f9cc3e;
 	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
@@ -155,7 +173,7 @@
 }
 
 .playButton {
-	min-height: 756px;
+	min-height: 610px;
 	background: #fbee3d;
 	padding-top: 7px;
 	position:relative;
@@ -179,13 +197,16 @@
 	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
-	margin-bottom: 60px;
+	margin-bottom: 150px;
 	position:relative;
 }
 
 .adultsButton {
 	min-height: 500px;
-	background: #fbee3d;
+	background-color: #f9cc3e;
+	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	color: white;
 }
 
@@ -433,8 +454,8 @@ h3 {
 	background-color: #fbee3c;
 	background-repeat:repeat;
 	background: #fbee3c url('img/background_gears.png') repeat-y fixed;
-	background-size: 115% auto;
-	background-position: center;
+	background-size: 100% auto;
+	background-position: 50% 66%;
 	
 }
 
@@ -550,7 +571,7 @@ h3 {
 
 #name4_box h2{
 	position: absolute;
-	top: 50%;
+	top: 68%;
 	left: 12%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -586,8 +607,8 @@ h3 {
 
 #name6_box h2{
 	position: absolute;
-	top: 50%;
-	right: 12%;
+	top: 68%;
+	right: 13%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -598,7 +619,7 @@ h3 {
 
 #name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
 	text-align: center;
-	margin-top:1%;
+	margin-top:2%;
 	position: relative;
 }
 
@@ -744,7 +765,7 @@ h3 {
 
 #name1_play_box, #name2_play_box, #name3_play_box, #name4_play_box, #name5_play_box, #name6_play_box{
 	text-align: center;
-	margin-top:1%;
+	margin-top:2%;
 	position: relative;
 }
 
@@ -1125,6 +1146,70 @@ h3 {
 	text-shadow: none;
 }
 
+#ventLeftDiv{
+	float:left;
+	width:20%;
+}
+
+#ventRightDiv{
+	float:right;
+	width:20%;
+}
+
+#ventRightDiv img{
+	float:right;
+}
+
+#name1_adults_box{
+	background: url('img/Adults/adults_guides_d.png') no-repeat;
+	background-position: center;
+	width: 30%;
+	height: 231px;
+	cursor:pointer;
+	margin-top:1%;
+	float:left;
+}
+
+#name1_adults_box:hover{
+	background: url('img/Adults/adults_guides_d_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name1_adults_box h2{
+	position: absolute;
+	top: 64.1%;
+	left: 26%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name2_adults_box{
+	background: url('img/Adults/adults_shop_d_2.png') no-repeat;
+	background-position: center;
+	width: 30%;
+	height: 231px;
+	cursor:pointer;
+	float:left;
+	margin-top:1%;
+}
+
+#name2_adults_box:hover{
+	background: url('img/Adults/adults_shop_d_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name2_adults_box h2{
+	position: absolute;
+	top: 63%;
+	left: 57%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
 #box1, #box2, #box3, #box4, #box5, #box6{
 	text-align:center;
 	height: 300px;
@@ -1209,6 +1294,10 @@ h3 {
 	.homeButton{
 	}
 	
+	#topRightArt img {
+		margin-top:-8px;
+	}
+	
 	.logoImage{
 		width: 18%;
 		margin-left: 130px;
@@ -1218,6 +1307,553 @@ h3 {
 		width: 22%;
 		background-size: 60%;
 	}
+	
+	#name1_box{
+		background: url('img/Home Character Buttons/home_d_3030.png') no-repeat;
+		background-size: 62%;
+		background-position: center;
+	}
+
+	#name1_box:hover{
+		background: url('img/Home Character Buttons/home_d_3030_active.png') no-repeat;
+		background-size: 62%;
+		background-position: center;
+	}
+
+	#name2_box{
+		background: url('img/Home Character Buttons/home_d_tinkermeister.png') no-repeat;
+		background-size: 62%;
+		background-position: center;
+	}
+
+	#name2_box:hover{
+		background: url('img/Home Character Buttons/home_d_tinkermeister_active.png') no-repeat;
+		background-size: 62%;
+		background-position: center;
+	}
+
+	#name3_box{
+		background: url('img/Home Character Buttons/home_d_oaktree.png') no-repeat;
+		background-size: 62%;
+		background-position: center;
+	}
+
+	#name3_box:hover{
+		background: url('img/Home Character Buttons/home_d_oaktree_active.png') no-repeat;
+		background-size: 62%;
+		background-position: center;
+	}
+
+	#name4_box{
+		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background-size: 62%;
+		background-position: center;
+	}
+
+	#name4_box:hover{
+			background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background-size: 62%;
+		background-position: center;
+	}
+
+	#name4_box h2{
+		position: absolute;
+		top: 68%;
+		left: 12%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		width: 14%;
+		font-size: 2em;
+		line-height: 34px;
+	}
+
+	#name5_box{
+		background: url('img/Home Character Buttons/home_d_megatruck.png') no-repeat;
+		background-size: 62%;
+		background-position: center;
+	}
+
+	#name5_box:hover{
+		background: url('img/Home Character Buttons/home_d_megatruck_active.png') no-repeat;
+		background-size: 62%;
+		background-position: center;
+	}
+
+	#name6_box{
+		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background-size: 62%;
+		background-position: center;
+	}
+
+	#name6_box:hover{
+		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background-size: 62%;
+		background-position: center;
+	}
+
+	#name6_box h2{
+		position: absolute;
+		top: 68%;
+		right: 12%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		width: 14%;
+		font-size: 2em;
+		line-height: 34px;
+	}
+	
+	#name1_story_box h2{
+		position: absolute;
+		top: 78%;
+		left: 31%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name2_story_box h2{
+		position: absolute;
+		top: 78%;
+		left: 28%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name3_story_box h2{
+		position: absolute;
+		top: 77%;
+		right: 23%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		width: 52%;
+		font-size: 1em;
+	}
+
+	#name5_story_box h2{
+		position: absolute;
+		top: 78%;
+		left: 29%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#name1_play_box h2{
+		position: absolute;
+		top: 77%;
+		left: 32%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1.4em;
+	}
+
+	#name2_play_box h2{
+		position: absolute;
+		top: 77%;
+		left: 28%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1.4em;
+	}
+
+	#name3_play_box h2{
+		position: absolute;
+		top: 77%;
+		right: 27%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1.4em;
+	}
+
+	#name5_play_box h2{
+		position: absolute;
+		top: 78%;
+		left: 28%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1.4em;
+	}
+	
+	#name1_make_box h2{
+		position: absolute;
+		top: 79%;
+		left: 26%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1em;
+		line-height: 17px;
+	}
+
+	#name2_make_box h2{
+		position: absolute;
+		top: 79%;
+		left: 26%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1em;
+		line-height: 17px;
+	}
+
+	#name3_make_box h2{
+		position: absolute;
+		top: 79%;
+		right: 27%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1em;
+		line-height: 17px;
+	}
+	
+	#name1_facts_box h2{
+		position: absolute;
+		top: 80%;
+		left: 32%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#name2_facts_box h2{
+		position: absolute;
+		top: 80%;
+		left: 28%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#name3_facts_box h2{
+		position: absolute;
+		top: 80%;
+		right: 32%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#name5_facts_box h2{
+		position: absolute;
+		top: 78%;
+		left: 29%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#name1_adults_box h2{
+		position: absolute;
+		top: 64.1%;
+		left: 26%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#name2_adults_box h2{
+		position: absolute;
+		top: 63%;
+		left: 59%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+}
+
+@media only screen and (min-width : 1537px) {
+	.homeButton{
+	}
+	
+	#topRightArt img {
+		margin-top:-8px;
+	}
+	
+	.logoImage{
+		width: 19%;
+		margin-left: 108px;
+	}
+	
+	#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
+		width: 22%;
+		background-size: 60%;
+	}
+	
+	#name1_box{
+		background: url('img/Home Character Buttons/home_d_3030.png') no-repeat;
+		background-size: 72%;
+		background-position: center;
+	}
+
+	#name1_box:hover{
+		background: url('img/Home Character Buttons/home_d_3030_active.png') no-repeat;
+		background-size: 72%;
+		background-position: center;
+	}
+
+	#name2_box{
+		background: url('img/Home Character Buttons/home_d_tinkermeister.png') no-repeat;
+		background-size: 72%;
+		background-position: center;
+	}
+
+	#name2_box:hover{
+		background: url('img/Home Character Buttons/home_d_tinkermeister_active.png') no-repeat;
+		background-size: 72%;
+		background-position: center;
+	}
+
+	#name3_box{
+		background: url('img/Home Character Buttons/home_d_oaktree.png') no-repeat;
+		background-size: 72%;
+		background-position: center;
+	}
+
+	#name3_box:hover{
+		background: url('img/Home Character Buttons/home_d_oaktree_active.png') no-repeat;
+		background-size: 72%;
+		background-position: center;
+	}
+
+	#name4_box{
+		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background-size: 72%;
+		background-position: center;
+	}
+
+	#name4_box:hover{
+			background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background-size: 72%;
+		background-position: center;
+	}
+
+	#name4_box h2{
+		position: absolute;
+		top: 68%;
+		left: 12%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		width: 14%;
+		font-size: 2em;
+		line-height: 34px;
+	}
+
+	#name5_box{
+		background: url('img/Home Character Buttons/home_d_megatruck.png') no-repeat;
+		background-size: 72%;
+		background-position: center;
+	}
+
+	#name5_box:hover{
+		background: url('img/Home Character Buttons/home_d_megatruck_active.png') no-repeat;
+		background-size: 72%;
+		background-position: center;
+	}
+
+	#name6_box{
+		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background-size: 72%;
+		background-position: center;
+	}
+
+	#name6_box:hover{
+		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background-size: 72%;
+		background-position: center;
+	}
+
+	#name6_box h2{
+		position: absolute;
+		top: 68%;
+		right: 13.5%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		width: 14%;
+		font-size: 2em;
+		line-height: 34px;
+	}
+	
+	#name1_story_box h2{
+		position: absolute;
+		top: 78%;
+		left: 29%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name2_story_box h2{
+		position: absolute;
+		top: 78%;
+		left: 24%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name3_story_box h2{
+		position: absolute;
+		top: 77%;
+		right: 23%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		width: 55%;
+		font-size: 1em;
+	}
+
+	#name5_story_box h2{
+		position: absolute;
+		top: 78%;
+		left: 26%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#name1_play_box h2{
+		position: absolute;
+		top: 77%;
+		left: 32%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1.4em;
+	}
+
+	#name2_play_box h2{
+		position: absolute;
+		top: 77%;
+		left: 24%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1.4em;
+	}
+
+	#name3_play_box h2{
+		position: absolute;
+		top: 77%;
+		right: 23%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1.4em;
+	}
+
+	#name5_play_box h2{
+		position: absolute;
+		top: 78%;
+		left: 25%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1.4em;
+	}
+	
+	#name1_make_box h2{
+		position: absolute;
+		top: 79%;
+		left: 21%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1em;
+		line-height: 17px;
+	}
+
+	#name2_make_box h2{
+		position: absolute;
+		top: 79%;
+		left: 22%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1em;
+		line-height: 17px;
+	}
+
+	#name3_make_box h2{
+		position: absolute;
+		top: 79%;
+		right: 21%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1em;
+		line-height: 17px;
+	}
+	
+	#name1_facts_box h2{
+		position: absolute;
+		top: 80%;
+		left: 32%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#name2_facts_box h2{
+		position: absolute;
+		top: 80%;
+		left: 28%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#name3_facts_box h2{
+		position: absolute;
+		top: 80%;
+		right: 32%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#name5_facts_box h2{
+		position: absolute;
+		top: 78%;
+		left: 29%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#name1_adults_box h2{
+		position: absolute;
+		top: 64.1%;
+		left: 28%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#name2_adults_box h2{
+		position: absolute;
+		top: 63.7%;
+		left: 58%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	.bottomMenu {
+	margin-left: 401px;
+	padding-top: 6px;
+	}
+	
 }
 
 @media screen and (max-width: 1024px) {

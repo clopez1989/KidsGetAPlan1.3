@@ -24,6 +24,22 @@
 <script type="text/javascript" 	src="js/jquery.smint.js"></script>
 
 <script type="text/javascript">	
+
+function alertHeight() {        
+        alert("Window Height: " + $(window).height() + ", Document Height: " + $(document).height());
+    }
+
+    $(window).load(function() {
+         alertHeight();
+    });
+
+    $(window).resize(function() {
+         alertHeight();             
+    });
+
+</script>
+
+<script type="text/javascript">	
 $.ajaxSetup ({
     // Disable caching of AJAX responses
     cache: false

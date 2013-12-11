@@ -64,7 +64,6 @@
 			<div id="name6_box" class="grid_2 morph">
 				<h2>Coming Soon</h2>
 			</div>
-			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
 		</div>
 
 		<div class="section storyButton" id="homeStory" data-type="background" data-speed="10">
@@ -103,6 +102,7 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			<div id="name6_story_box" class="grid_4">
 				<img src="css/img/coming_soon_story.png" width="293" height="230" alt="Coming Soon Story">
 			</div>
+			<img src="css/img/Adults/bevel_top.png" width="996" height="23" alt="Bevel Top" class="bevelBottom">
 		</div>
 
 		<div class="section playButton" id="homePlay" data-type="background" data-speed="10">
@@ -124,10 +124,11 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			<div id="name6_play_box" class="grid_4">
 				<img src="css/img/coming_soon_play.png" width="296" height="232" alt="Coming Soon Play">
 			</div>
-			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
+			<img src="css/img/Adults/bevel_yellow.png" width="999" height="22" alt="Bevel Yellow" class="bevelBottom">
 		</div>
 
 		<div class="section makeButton" id="homeMake" data-type="background" data-speed="10">
+			<img src="css/img/Adults/bevel_bottom.png" width="996" height="23" alt="Bevel Bottom" class="makeBevelBottom">
 			<div id="name1_make_box" class="grid_4">
 				<h2>The 30/30 Rule<br>Cut-Outs and Coloring Pages</h2>
 			</div>
@@ -137,7 +138,7 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			<div id="name3_make_box" class="grid_4">
 				<h2>Tinkermeister<br>Cut-Outs and Coloring Pages</h2>
 			</div>
-			<img src="css/img/bottom_main_etching_m.png" width="568" height="46" alt="Bottom Main Etching M" class="storySectionEtching">
+			<img src="css/img/Adults/bevel_top.png" width="996" height="23" alt="Bevel Top" class="makeBevelBottom">
 		</div>
 
 		<div class="section factsButton" id="homeFacts" data-type="background" data-speed="10">
@@ -161,8 +162,19 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			</div>
 		</div>
 	
-		<div class="section adultsButton" id="contentContainer" data-type="background" data-speed="10">
+		<div class="section adultsButton" id="homeAdults" data-type="background" data-speed="10">
+			<img src="css/img/Adults/bevel_bottom.png" width="996" height="23" alt="Bevel Bottom" class="adultsBevelBottom">
+			<div id="ventLeftDiv"><img src="css/img/Adults/vents_left.png" width="57" height="215" alt="Vents Left" class="ventLeft"></div>
+				<div id="name1_adults_box">
+					<h2>Teacher Guides</h2>
+				</div>
+				<div id="name2_adults_box">
+					<h2>Buy the Books</h2>
+				</div>
+			<div id="ventRightDiv"><img src="css/img/Adults/vents_right.png" width="57" height="215" alt="Vents Right" class="ventRight"></div>
+			<img src="css/img/Adults/bevel_top.png" width="996" height="23" alt="Bevel Top" class="adultsBevelBottom">
 		</div>
+		<br class="clear">
 	</div>
 	
 	<div class="rightSidebar">
