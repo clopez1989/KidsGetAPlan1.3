@@ -1,4 +1,10 @@
-
+div.ui-tooltip {
+    max-width: 20%;
+	text-align: center;
+	font-family: 'Paytone One', sans-serif;
+	font-size:28px;
+	color: #ef332e;
+}
 /* This is the selector i used for my menu, it needs to be set as position:absolute; */
 .subMenu {
 	position: absolute;
@@ -34,7 +40,7 @@
 }
 
 .adultsBevelBottom{
-	padding: 60px 0px;
+	padding: 49px 0px;
 	width: 100%;
 	height: auto;
 }
@@ -139,7 +145,7 @@
 }
 
 .mainButton {
-	min-height: 588px;
+	min-height: 682px;
 	background-color: #fbee3c;
 	margin-top: 101px;
 	text-align: center;
@@ -147,15 +153,75 @@
 }
 
 #mobileTextBox {
+	padding-top: 30px;
+	height: 26px;
+}
+
+#mobileTextBox_main {
+	padding-top: 30px;
+	height: 26px;
+}
+
+#mobileTextBox h2{
+	text-align: center;
+	font-family: 'Paytone One', sans-serif;
+	font-size:28px;
+	color: #ef332e;
+}
+
+#mobileTextBox_main h2{
+	text-align: center;
+	font-family: 'Paytone One', sans-serif;
+	font-size:28px;
+	color: #ef332e;
+}
+
+#mobileTextBoxMake {
+	margin-top: -20px;
+	height: 44px;
+}
+
+#mobileTextBoxMake h2{
+	text-align: center;
+	font-family: 'Paytone One', sans-serif;
+	font-size:28px;
+	color: #ef332e;
+}
+
+#mobileTextBoxAdults {
+	margin-top: -20px;
+	height: 44px;
+	width:83%;
+	margin: auto;
+}
+
+#mobileTextBoxAdults h2{
+	text-align: center;
+	font-family: 'Paytone One', sans-serif;
+	font-size:28px;
+	color: #ef332e;
+}
+
+#mobileTextBoxAdults p {
+	text-align:center;
+	margin: auto;
+	font-family: 'Helvetica LT Std', Helvetica, Arial, 'Lucida Grande', sans-serif; 
+	font-weight: bold;
+	font-size:16px;
+	padding-bottom:10px;
+	color:#000;
+}
+
+#mobileTextBoxCS {
 	display:none;
 }
 
-.mainButton p {
+#mobileTextBoxCS_story {
 	display:none;
 }
 
 .storyButton {
-	min-height: 612px;
+	min-height: 675px;
 	background-color: #f9cc3e;
 	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
@@ -173,7 +239,7 @@
 }
 
 .playButton {
-	min-height: 610px;
+	min-height: 667px;
 	background: #fbee3d;
 	padding-top: 7px;
 	position:relative;
@@ -185,19 +251,19 @@
 	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
-	margin-bottom: 173px;
+	margin-bottom: 73px;
 	position:relative;
 }
 
 .factsButton {
-	min-height: 540px;
+	min-height: 594px;
 	background-color: #f9cc3e;
 	color: white;
 	margin-top: 27px;
 	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
-	margin-bottom: 150px;
+	margin-bottom: 73px;
 	position:relative;
 }
 
@@ -438,11 +504,11 @@ h3 {
 	width: 5%;
 	float: left;
 	background-color: #838c75;
-	height: 4800px;
 	background: #838c75 url('img/wrapper_notches_left.png') repeat-y;
 	background-position: 0% 3%;
 	top: 97px;
 	bottom:0px;
+	position: absolute;
 	z-index: 1000;
 	overflow:hidden;
 	 
@@ -608,7 +674,7 @@ h3 {
 #name6_box h2{
 	position: absolute;
 	top: 68%;
-	right: 13%;
+	right: 12%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -633,6 +699,7 @@ h3 {
 	width: 33.3%;
 	height: 231px;
 	cursor:pointer;
+	padding-top: 10px;
 }
 
 #name1_story_box:hover{
@@ -680,6 +747,7 @@ h3 {
 	width: 33.3%;
 	height: 231px;
 	cursor:pointer;
+	padding-top: 10px;
 }
 
 #name2_story_box:hover{
@@ -703,6 +771,7 @@ h3 {
 	width: 33.3%;
 	height: 231px;
 	cursor:pointer;
+	padding-top: 10px;
 }
 
 #name3_story_box:hover{
@@ -713,13 +782,14 @@ h3 {
 
 #name3_story_box h2{
 	position: absolute;
-	top: 77%;
-	right: 10%;
+	top: 78%;
+	right: 12%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
-	width: 76%;
+	width: 75%;
 	font-size: 1em;
+	line-height: 19px;
 }
 
 #name4_story_box h2{
@@ -779,6 +849,7 @@ h3 {
 	width: 33.3%;
 	height: 231px;
 	cursor:pointer;
+	padding-top: 10px;
 }
 
 #name1_play_box:hover{
@@ -828,6 +899,7 @@ h3 {
 	width: 33.3%;
 	height: 231px;
 	cursor:pointer;
+	padding-top: 10px;
 }
 
 #name2_play_box:hover{
@@ -852,6 +924,7 @@ h3 {
 	width: 33.3%;
 	height: 231px;
 	cursor:pointer;
+	padding-top: 10px;
 }
 
 #name3_play_box:hover{
@@ -939,11 +1012,11 @@ h3 {
 #name1_make_box h2{
 	position: absolute;
 	top: 77%;
-	left: 15%;
+	left: 18%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
-	font-size: 1em;
+	font-size: 1.8em;
 }
 
 #name2_make_box{
@@ -963,11 +1036,11 @@ h3 {
 #name2_make_box h2{
 	position: absolute;
 	top: 77%;
-	left: 18%;
+	left: 17%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
-	font-size: 1em;
+	font-size: 1.6em;
 }
 
 #name3_make_box{
@@ -987,11 +1060,11 @@ h3 {
 #name3_make_box h2{
 	position: absolute;
 	top: 77%;
-	right: 15%;
+	right: 19%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
-	font-size: 1em;
+	font-size: 1.7em;
 }
 
 #name1_facts_box, #name2_facts_box, #name3_facts_box, #name4_facts_box, #name5_facts_box, #name6_facts_box{
@@ -1178,7 +1251,7 @@ h3 {
 
 #name1_adults_box h2{
 	position: absolute;
-	top: 64.1%;
+	top: 67.1%;
 	left: 26%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1203,7 +1276,7 @@ h3 {
 
 #name2_adults_box h2{
 	position: absolute;
-	top: 63%;
+	top: 67.1%;
 	left: 57%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1849,9 +1922,10 @@ h3 {
 		color: white;
 		text-shadow: none;
 	}
+	
 	.bottomMenu {
-	margin-left: 401px;
-	padding-top: 6px;
+		margin-left: 401px;
+		padding-top: 6px;
 	}
 	
 }
@@ -1931,10 +2005,6 @@ h3 {
 		top: -81px;
 		right: 0px;
 	}
-	
-	.mainButton h2 {
-		display:none;
-	}
 
 	#nav ul li {
 	float: left;
@@ -1972,6 +2042,18 @@ h3 {
 		margin-left: 3%;
 	}
 	
+	#name4_box h2{
+		position: absolute;
+		top: 75%;
+		left:10.5%;
+	}
+	
+	#name6_box h2{
+		position: absolute;
+		top: 75%;
+		right:10.5%;
+	}
+	
 	#opener{
 		width: 96%;
 		height: 100%;
@@ -1983,6 +2065,16 @@ h3 {
 		width: 77%;
 		height: 100%;
 		background: none;
+	}
+	
+	#mobileTextBox {
+		padding-top: 8px;
+		height: 47px;
+	}
+	
+	#mobileTextBox_main {
+		padding-top: 30px;
+		height: 26px;
 	}
 	
 	#name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
@@ -2010,8 +2102,8 @@ h3 {
 
 	#name1_story_box h2{
 		position: absolute;
-		top: 35%;
-		left: 6%;
+		top: 77%;
+		left: 16%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2033,8 +2125,8 @@ h3 {
 
 	#name2_story_box h2{
 		position: absolute;
-		top: 35%;
-		left: 37%;
+		top: 77%;
+		left: 10%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2056,9 +2148,10 @@ h3 {
 
 	#name3_story_box h2{
 		position: absolute;
-		top: 35%;
-		right: 6%;
+		top: 77%;
+		right: 8%;
 		font-family: 'Paytone One', sans-serif;
+		width: 84%;
 		color: white;
 		text-shadow: none;
 	}
@@ -2089,7 +2182,7 @@ h3 {
 	#name5_story_box h2{
 		position: absolute;
 		top: 78%;
-		left: 37%;
+		left: 12%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2129,8 +2222,8 @@ h3 {
 
 	#name1_play_box h2{
 		position: absolute;
-		top: 35%;
-		left: 6%;
+		top: 77%;
+		left: 16%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2152,8 +2245,8 @@ h3 {
 
 	#name2_play_box h2{
 		position: absolute;
-		top: 35%;
-		left: 37%;
+		top: 77%;
+		left: 9%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2175,8 +2268,8 @@ h3 {
 
 	#name3_play_box h2{
 		position: absolute;
-		top: 35%;
-		right: 6%;
+		top: 77%;
+		right: 9%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2208,7 +2301,7 @@ h3 {
 	#name5_play_box h2{
 		position: absolute;
 		top: 78%;
-		left: 37%;
+		left: 11%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2221,6 +2314,121 @@ h3 {
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
+	}
+	
+	#name1_make_box h2{
+		position: absolute;
+		top: 77%;
+		left: 11%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1.8em;
+	}
+
+	#name2_make_box h2{
+		position: absolute;
+		top: 77%;
+		left: 12%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1.6em;
+	}
+
+	#name3_make_box h2{
+		position: absolute;
+		top: 77%;
+		right: 8%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+		font-size: 1.7em;
+	}
+	
+	#name1_facts_box h2{
+		position: absolute;
+		top: 80%;
+		left: 18%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name2_facts_box h2{
+		position: absolute;
+		top: 80%;
+		left: 12%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name3_facts_box h2{
+		position: absolute;
+		top: 80%;
+		right: 17%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+
+	#name5_facts_box h2{
+		position: absolute;
+		top: 79%;
+		left: 12%;
+		font-family: 'Paytone One', sans-serif;
+		color: white;
+		text-shadow: none;
+	}
+	
+	#mobileTextBoxAdults {
+		margin-top: -20px;
+		height: 70px;
+		width: 86%;
+		margin:auto;
+	}
+	
+	#ventLeftDiv {
+		float: left;
+		width: 15%;
+	}
+	
+	#ventRightDiv {
+		float: right;
+		width: 15%;
+	}
+	
+	#name1_adults_box{
+		background: url('img/Adults/adults_guides_d.png') no-repeat;
+		background-position: center;
+		width: 32%;
+		height: 231px;
+		cursor:pointer;
+		margin-top:1%;
+		float:left;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	#name1_adults_box h2{
+		top: 70.1%;
+		left: 22%;
+	}
+
+	#name2_adults_box{
+		background: url('img/Adults/adults_shop_d_2.png') no-repeat;
+		background-position: center;
+		width: 32%;
+		height: 231px;
+		cursor:pointer;
+		float:left;
+		margin-top:1%;
+	}
+
+	#name2_adults_box h2{
+		top: 70.1%;
+		left: 55%;
 	}
 
 	#homeButton{
@@ -2299,7 +2507,6 @@ h3 {
 		display:none;
 	}	
 }
-
 /* iPads (portrait) ----------- */	
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	
@@ -2318,6 +2525,54 @@ h3 {
 	width: 100%;
 	margin-left: -75px;
 	padding-right:80px;
+}
+
+#name1_box{
+	width:43% !important;
+}
+
+#name2_box{
+	width:43% !important;
+}
+
+#name3_box{
+	width:43% !important;
+	margin-bottom:8% !important;
+}
+
+#name5_box{
+	width:43% !important;
+	margin-bottom:8% !important;
+}
+
+#name4_box{
+	display:none;
+}
+
+#name6_box{
+	display:none;
+}
+
+#mobileTextBoxCS {
+	text-align:center;
+	margin:auto;
+	height:50px !important;
+	display:inline;
+}
+
+#mobileTextBoxCS h2{
+	font-family: 'Paytone One', sans-serif;
+	color: #6b744f;
+	text-shadow: none;
+	text-align:center;
+	padding-top:39px !important;
+	display: block;
+	margin:auto;
+	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #fff /*{c-body-shadow-color}*/;
+}
+
+#ipadClear{
+	height:100px;
 }
 
 .navBolt2 {
@@ -2344,18 +2599,112 @@ h3 {
 }
 
 .mainButton {
-	min-height: 1500px;
+	min-height: 880px;
 	background-color: #fbee3c;
 	margin-top: 111px;
+	text-align:center;
+}
+
+.storyButton {
+	min-height: 800px;
+}
+
+.makeButton {
+	min-height: 900px !important;
 }
 
 #name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
-	/*height: 250px;
-	background: url('img/story_frame.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	width:45%;
-	margin-left:20px;*/
+	width:44% !important;
+	height:340px !important;
+}
+
+#name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
+	width:40% !important;
+	margin-left:6%;
+}
+
+#name3_story_box, #name5_story_box{
+	margin-bottom:5%;
+}
+
+#name4_story_box, #name6_story_box{
+	display:none;
+}
+
+#mobileTextBoxCS_story {
+	display:block;
+	text-align:center;
+	margin:auto;
+	margin-top:5%;
+	float:left;
+	height:100px;
+}
+
+#mobileTextBoxCS_story h2{
+	font-family: 'Paytone One', sans-serif;
+	color: #6b744f;
+	text-shadow: none;
+	text-align:center;
+	margin-left:-90px;
+	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #fff /*{c-body-shadow-color}*/;
+}
+
+#name1_play_box, #name2_play_box, #name3_play_box, #name4_play_box, #name5_play_box, #name6_play_box{
+	width:40% !important;
+	margin-left:6%;
+}
+
+#name3_play_box, #name5_play_box{
+	margin-bottom:5%;
+}
+
+#name3_play_box h2{
+	left:2% !important;
+	width:100% !important;
+}
+
+#name4_play_box, #name6_play_box{
+	display:none;
+}
+
+#name1_make_box, #name2_make_box, #name3_make_box{
+	width:100% !important;
+}
+
+#name1_make_box h2, #name2_make_box h2{
+	left:33% !important;
+}
+
+#name3_make_box h2{
+	left:7% !important;
+}
+
+#name1_facts_box, #name2_facts_box, #name3_facts_box, #name4_facts_box, #name5_facts_box, #name6_facts_box{
+	width:40% !important;
+	margin-left:6%;
+}
+
+#name3_facts_box, #name5_facts_box{
+	margin-bottom:5%;
+}
+
+#name4_facts_box, #name6_facts_box{
+	display:none;
+}
+
+#name1_adults_box h2{
+	left:19%;
+	top:59%;
+}
+
+#name2_adults_box h2{
+	left:52%;
+	top:59%;
+}
+
+.adultsButton {
+	min-height: 650px !important;
+	margin:90px 0px;
 }
 
 .bottomMenu{
@@ -2615,6 +2964,22 @@ body{
 		margin-top: 0px;
 	}
 
+#mobileTextBox_main{
+	padding-top: 5px;
+	padding-bottom: 19px;
+}
+
+#mobileTextBox_main h2 {
+	font-size:18px;
+}
+
+.mainButton {
+	min-height: 500px;
+	background-color: #fbee3c;
+	margin-top: 3px;
+	text-align: center;
+}
+
 #name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
 	text-align: center;
 	margin-bottom:10px;
@@ -2622,6 +2987,10 @@ body{
 	width: 142px;
 	height: 172px;
 	margin-left:3%;
+}
+
+#name4_box, #name6_box{
+	display:none;
 }
 
 #name2_box img, #name3_box img, #name4_box img, #name5_box img, #name6_box img{
@@ -2682,10 +3051,44 @@ body{
 	background: url('img/Top%20Nav/home_up_m.png') no-repeat !important;
 }
 
+#mobileTextBoxCS {
+	text-align:center;
+	margin:auto;
+	height:50px !important;
+	display:inline;
+}
+
+#mobileTextBoxCS h2{
+	font-family: 'Paytone One', sans-serif;
+	color: #6b744f;
+	text-shadow: none;
+	text-align:center;
+	padding-top:39px !important;
+	display: block;
+	margin:auto;
+	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #fff /*{c-body-shadow-color}*/;
+}
+
 #storyButton{
 	width:85px;
 	height:78px;
 	background: url('img/Top%20Nav/story_down_m.png') no-repeat;
+}
+
+#mobileTextBoxCS_story {
+	display:inline;
+	text-align:center;
+	margin:auto;
+	margin-top:5%;
+	height:100px;
+}
+
+#mobileTextBoxCS_story h2{
+	font-family: 'Paytone One', sans-serif;
+	color: #6b744f;
+	text-shadow: none;
+	text-align:center;
+	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #fff /*{c-body-shadow-color}*/;
 }
 
 #storyButton:hover {
@@ -2820,13 +3223,6 @@ body{
 	display: none;
 }
 
-.mainButton {
-	min-height: 632px;
-	background-color: #fbee3c;
-	margin-top: 3px;
-	text-align: center;
-}
-
 #name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
 	width:98%;
 	margin-top:4%;
@@ -2846,8 +3242,8 @@ body{
 
 #name1_story_box h2{
 	position: absolute;
-	top: 12.5%;
-	left: 17%;
+	top: 78.5%;
+	left: 19%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -2855,8 +3251,8 @@ body{
 
 #name2_story_box h2{
 	position: absolute;
-	top: 28%;
-	left: 9%;
+	top: 78.5%;
+	left: 12%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -2864,38 +3260,97 @@ body{
 
 #name3_story_box h2{
 	position: absolute;
-	top: 44%;
-	right: 20%;
-	font-family: 'Paytone One', sans-serif;
-	color: white;
-	text-shadow: none;
-}
-
-#name4_story_box h2{
-	position: absolute;
-	top: 81%;
-	left: 8%;
-	font-family: 'Paytone One', sans-serif;
-	color: white;
-	text-shadow: none;
-}
-
-#name5_story_box h2{
-	position: absolute;
-	top: 61.5%;
-	left: 11%;
-	font-family: 'Paytone One', sans-serif;
-	color: white;
-	text-shadow: none;
-}
-
-#name6_story_box h2{
-	position: absolute;
-	top: 81%;
+	top: 78.5%;
 	right: 8%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+}
+
+#name4_story_box{
+	display:none;
+}
+
+#name5_story_box{
+	margin-bottom:4%;
+}
+
+#name5_story_box h2{
+	position: absolute;
+	top: 78.5%;
+	left: 15%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name6_story_box{
+	display:none;
+}
+
+#name1_play_box, #name2_play_box, #name3_play_box, #name4_play_box, #name5_play_box, #name6_play_box{
+	width:98%;
+	margin-top:4%;
+}
+
+#name1_play_box img{
+	margin-top:60px !important;
+}
+
+#name1_play_box img, #name2_play_box img, #name3_play_box img, #name4_play_box img, #name5_play_box img, #name6_play_box img{
+	text-align: center;
+	margin-bottom:0px;
+	margin-top:20px;
+	width:98%;
+	height:auto;
+}
+
+#name1_play_box h2{
+	position: absolute;
+	top: 78.5%;
+	left: 19%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name2_play_box h2{
+	position: absolute;
+	top: 78.5%;
+	left: 12%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name3_play_box h2{
+	position: absolute;
+	top: 78.5%;
+	right: 8%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name4_play_box{
+	display:none;
+}
+
+#name5_play_box{
+	margin-bottom:4%;
+}
+
+#name5_play_box h2{
+	position: absolute;
+	top: 78.5%;
+	left: 15%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name6_play_box{
+	display:none;
 }
 
 #topStoryEtching img{
@@ -2913,18 +3368,28 @@ body{
 	margin-bottom:0px;
 	margin-top:8px;
 	width:100%;
-	height:auto;
 	padding-left:2px;
 }
 
 #name2_play_box {
-	margin-top:-15px;
 	padding-left:2px;
 }
 
 #name1_play_box img, #name2_play_box img, #name3_play_box img, #name4_play_box img, #name5_play_box img, #name6_play_box img{
 	width:100%;
 	height:auto;
+}
+
+#name1_make_box, #name2_make_box, #name3_make_box{
+	width:100% !important;
+}
+
+#name1_make_box h2, #name2_make_box h2{
+	left:33% !important;
+}
+
+#name3_make_box h2{
+	left:7% !important;
 }
 
 #mainMakeDownload{
@@ -3031,16 +3496,16 @@ body{
 }
 
 .storyButton {
-	min-height:1547px;
+	min-height:1170px;
 }
 
 .playButton {
-	min-height:1547px;
+	min-height:1170px;
 }
 
 #mobileTextBox {
 	text-align:center;
-	padding-top:5px;
+	padding-top:25px;
 }
 
 #facts1image, #facts2image, #facts3image, #facts4image{
@@ -3060,8 +3525,9 @@ body{
 	display:inline;
 	text-align: center;
 	font-family: 'Paytone One', sans-serif;
-	font-size:28px;
+	font-size:18px;
 	color: #ef332e;
+	margin-top:10px;
 }
 
 #mobileTextBox p {

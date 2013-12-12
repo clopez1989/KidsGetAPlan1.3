@@ -41,10 +41,9 @@
 	
 	<div class="mainWrapper">
 		<div class="section mainSection mainButton" data-type="background" data-speed="10">
-			<!-- Text box for mobile site -->
-			<div id="mobileTextBox">
-				<h2>Explore the Stories</h2>
-				<p>See all the fun things related to each of the stories</p>
+			<!-- Text box for mobile site -->			
+			<div id="mobileTextBox_main">
+				<h2>Explore the fun things related to each story character.</h2>
 			</div>
 			<div id="name1_box" class="grid_4 morph" onclick="location.href='thirtyrule.php'">
 				<a href="thirtyrule.php" rel="external"></a>
@@ -64,9 +63,16 @@
 			<div id="name6_box" class="grid_2 morph">
 				<h2>Coming Soon</h2>
 			</div>
+			<div id="ipadClear"></div>
+			<div id="mobileTextBoxCS">
+				<h2>More Coming Soon</h2>
+			</div>
 		</div>
 
 		<div class="section storyButton" id="homeStory" data-type="background" data-speed="10">
+			<div id="mobileTextBox">
+				<h2>Read the Kids Get A Plan Stories</h2>
+			</div>
 			<div id="name1_story_box" class="grid_4">
 				<button id="opener"></button>
 				<h2>The 30/30 Rule</h2>
@@ -102,10 +108,16 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			<div id="name6_story_box" class="grid_4">
 				<img src="css/img/coming_soon_story.png" width="293" height="230" alt="Coming Soon Story">
 			</div>
+			<div id="mobileTextBoxCS_story">
+				<h2>More Coming Soon</h2>
+			</div>
 			<img src="css/img/Adults/bevel_top.png" width="996" height="23" alt="Bevel Top" class="bevelBottom">
 		</div>
 
 		<div class="section playButton" id="homePlay" data-type="background" data-speed="10">
+			<div id="mobileTextBox">
+				<h2>Interact with the Kids Get A Plan Activities</h2>
+			</div>
 			<div id="name1_play_box" class="grid_4" onclick="location.href='thirtyrule.php'">
 				<h2>The 30/30 Game</h2>
 			</div>
@@ -124,24 +136,33 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			<div id="name6_play_box" class="grid_4">
 				<img src="css/img/coming_soon_play.png" width="296" height="232" alt="Coming Soon Play">
 			</div>
+			<div id="mobileTextBoxCS_story">
+				<h2>More Coming Soon</h2>
+			</div>
 			<img src="css/img/Adults/bevel_yellow.png" width="999" height="22" alt="Bevel Yellow" class="bevelBottom">
 		</div>
 
 		<div class="section makeButton" id="homeMake" data-type="background" data-speed="10">
 			<img src="css/img/Adults/bevel_bottom.png" width="996" height="23" alt="Bevel Bottom" class="makeBevelBottom">
+			<div id="mobileTextBoxMake">
+				<h2>Cut-Outs and Coloring Pages</h2>
+			</div>
 			<div id="name1_make_box" class="grid_4">
-				<h2>The 30/30 Rule<br>Cut-Outs and Coloring Pages</h2>
+				<h2>The 30/30 Rule</h2>
 			</div>
 			<div id="name2_make_box" class="grid_4">
-				 <h2>The Oak Tree Club<br>Cut-Outs and Coloring Pages</h2>
+				 <h2>The Oak Tree Club</h2>
 			</div>
 			<div id="name3_make_box" class="grid_4">
-				<h2>Tinkermeister<br>Cut-Outs and Coloring Pages</h2>
+				<h2>Tinkermeister</h2>
 			</div>
 			<img src="css/img/Adults/bevel_top.png" width="996" height="23" alt="Bevel Top" class="makeBevelBottom">
 		</div>
 
 		<div class="section factsButton" id="homeFacts" data-type="background" data-speed="10">
+			<div id="mobileTextBox">
+				<h2>Get to know your Emergency Preparation Facts</h2>
+			</div>
 			<div id="name1_facts_box" class="grid_4">
 				<h2>The 30/30 Rule</h2>
 			</div>
@@ -164,6 +185,9 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 	
 		<div class="section adultsButton" id="homeAdults" data-type="background" data-speed="10">
 			<img src="css/img/Adults/bevel_bottom.png" width="996" height="23" alt="Bevel Bottom" class="adultsBevelBottom">
+			<div id="mobileTextBoxAdults">
+				<h2>Download the Teacher Guides and Purchase Books</h2>
+			</div>
 			<div id="ventLeftDiv"><img src="css/img/Adults/vents_left.png" width="57" height="215" alt="Vents Left" class="ventLeft"></div>
 				<div id="name1_adults_box">
 					<h2>Teacher Guides</h2>

@@ -25,7 +25,7 @@
 
 <script type="text/javascript">	
 
-function alertHeight() {        
+/*function alertHeight() {        
         alert("Window Height: " + $(window).height() + ", Document Height: " + $(document).height());
     }
 
@@ -35,9 +35,15 @@ function alertHeight() {
 
     $(window).resize(function() {
          alertHeight();             
-    });
+    });*/
 
 </script>
+
+<script>
+ $(function() {
+   $( document ).tooltip();
+ });
+ </script>
 
 <script type="text/javascript">	
 $.ajaxSetup ({
