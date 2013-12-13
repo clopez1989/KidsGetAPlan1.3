@@ -181,6 +181,9 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			<div id="name6_facts_box" class="grid_4">
 				<img src="css/img/wheel_right.png" width="296" height="236" alt="Wheel Right">
 			</div>
+			<div id="mobileTextBoxCS_story">
+				<h2>More Coming Soon</h2>
+			</div>
 		</div>
 	
 		<div class="section adultsButton" id="homeAdults" data-type="background" data-speed="10">
@@ -224,7 +227,7 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 			<img src="css/img/pump_footer_right.png" width="150" height="152" alt="Pump Footer Right">
 		</div>
 		<div class="socialButtons">
-			<a href="#"><img src="css/img/sert_logo.png" width="71" height="49" alt="Sert Logo"></a>
+			<a href="#"><img src="css/img/sert_logo.png" width="71" height="49" alt="Sert Logo" class="serticon"></a>
 			<a href="https://www.facebook.com/kidsgetaplan"><img src="css/img/fb_icon.png" width="33" height="33" alt="Fb Icon" class="fbicon"></a>
 		</div>
 		
