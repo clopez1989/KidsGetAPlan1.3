@@ -5,6 +5,10 @@ div.ui-tooltip {
 	font-size:28px;
 	color: #ef332e;
 }
+
+.storyBevelFix{
+	display:none;
+}
 /* This is the selector i used for my menu, it needs to be set as position:absolute; */
 .subMenu {
 	position: absolute;
@@ -90,6 +94,14 @@ div.ui-tooltip {
 	width: auto !important;
 	min-height: 45% !important;
 	max-height: 28% !important;
+}
+
+#topLeftButton{
+	display:none;
+}
+
+#topRightButton{
+	display:none;
 }
 
 /* ------------SECTIONS------------ */
@@ -506,7 +518,7 @@ h3 {
 	background-color: #838c75;
 	background: #838c75 url('img/wrapper_notches_left.png') repeat-y;
 	background-position: 0% 3%;
-	top: 97px;
+	top: 77px;
 	bottom:0px;
 	position: absolute;
 	z-index: 1000;
@@ -734,9 +746,9 @@ h3 {
 }
 
 #name1_story_box_story h2{
-	position: absolute;
+	position: relative;
 	top: 78%;
-	left: 23%;
+	left: 32%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -885,13 +897,13 @@ h3 {
 }
 
 #name1_play_box_story h2{
-	position: absolute;
-	top: 77%;
-	left: 23%;
+	position: relative;
+	top: 79%;
+	left: 15%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
-	font-size: 1.4em;
+	font-size: 1.3em;
 }
 
 #name2_play_box{
@@ -1020,6 +1032,31 @@ h3 {
 	font-size: 1.8em;
 }
 
+#name1_make_box_story{
+	background: url('img/Sub_Make/sub_make_d_3030.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top:1%;
+}
+
+#name1_make_box_story:hover{
+	background: url('img/Sub_Make/sub_make_d_3030_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name1_make_box_story h2{
+	position: relative;
+	top: 77.5%;
+	left: 14.5%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+	font-size: 1.6em;
+}
+
 #name2_make_box{
 	background: url('img/Sub_Make/sub_make_d_oaktree.png') no-repeat;
 	background-position: center;
@@ -1108,6 +1145,7 @@ h3 {
 	height: 231px;
 	cursor:pointer;
 	margin-top:1%;
+	margin-bottom: 135px;
 }
 
 #name1_facts_box_story:hover{
@@ -1117,12 +1155,13 @@ h3 {
 }
 
 #name1_facts_box_story h2{
-	position: absolute;
-	top: 12.1%;
-	left: 42%;
+	position: relative;
+	top: 79.1%;
+	left: 16%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size: 1.3em;
 }
 
 #name2_facts_box{
@@ -1253,6 +1292,31 @@ h3 {
 #name1_adults_box h2{
 	position: absolute;
 	top: 62.1%;
+	left: 26%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name1_adults_box_story{
+	background: url('img/Sub_Adults/sub_adults_d_3030.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top:1%;
+	float:left;
+}
+
+#name1_adults_box_story:hover{
+	background: url('img/Sub_Adults/sub_adults_d_3030_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name1_adults_box_story h2{
+	position: relative;
+	top: 80.1%;
 	left: 26%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1978,6 +2042,7 @@ h3 {
 	#nav {
 		padding-left: 154px;
 		color: #838c75;
+		background-size: 87% 73%;
 	}
 	#nav ul {
 		margin: 0 0 0 70px;
@@ -2028,6 +2093,10 @@ h3 {
 	}
 	#nav ul li.adults {
 		width: 16.5%;
+	}
+	
+	#thirtynav {
+		background-size: 100% 90%;
 	}
 
 	.bottomMenu{
@@ -2108,6 +2177,10 @@ h3 {
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
+	}
+	
+	#name1_story_box_story h2 {
+		left: 28%;
 	}
 
 	#name2_story_box{
@@ -2229,6 +2302,10 @@ h3 {
 		color: white;
 		text-shadow: none;
 	}
+	
+	#name1_play_box_story h2 {
+		left: 7.5%;
+	}
 
 	#name2_play_box{
 		background: url('img/Sub_Play/sub_play_d_oaktree.png') no-repeat;
@@ -2326,6 +2403,10 @@ h3 {
 		text-shadow: none;
 		font-size: 1.8em;
 	}
+	
+	#name1_make_box_story h2 {
+		left: 7.5%;
+	}
 
 	#name2_make_box h2{
 		position: absolute;
@@ -2354,6 +2435,10 @@ h3 {
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
+	}
+	
+	#name1_facts_box_story h2 {
+		left: 7%;
 	}
 
 	#name2_facts_box h2{
@@ -2415,6 +2500,10 @@ h3 {
 	#name1_adults_box h2{
 		top: 70.1%;
 		left: 22%;
+	}
+	
+	#name1_adults_box_story h2 {
+		left: 18%;
 	}
 
 	#name2_adults_box{
@@ -2495,6 +2584,10 @@ h3 {
 	#copyright {
 		background: #f16022;
 		
+	}
+	
+	.characterImg {
+		display: none;
 	}
 
 	/*#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
@@ -2617,6 +2710,35 @@ h3 {
 #name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
 	width:44% !important;
 	height:340px !important;
+}
+
+#thirty_story_title_box{
+	width:44% !important;
+	margin-top:0% !important;
+	margin-left:5% !important;
+}
+
+#name1_story_box_story {
+	width:44% !important;
+}
+
+#name1_play_box_story {
+	width:44% !important;
+	margin-top:0% !important;
+	margin-left:5% !important;
+}
+
+#name1_make_box_story {
+	width:44% !important;
+}
+
+#name1_facts_box_story {
+	width:44% !important;
+	margin-left:5% !important;
+}
+
+#name1_adults_box_story {
+	width:44% !important;
 }
 
 #name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
@@ -2743,13 +2865,22 @@ h3 {
 		width:100% !important;
 	}
 	
+	.homeButton{
+		margin-top:0px !important;
+	}
+	
+	#topMobileMenuBar img {
+		height: auto !important;
+		width: 65% !important;
+	}
+	
 	#logoContainer {
 		background: none !important;
-	
+		margin-top:25% !important;
 	}
 	
 	#nav{
-		height:93px !important;
+		height:23px !important;
 	}
 	
 	#nav ul li {
@@ -2791,7 +2922,7 @@ h3 {
 		}
 		
 	.mainButton {
-		margin-top:46px !important;
+		margin-top:0px !important;
 	}
 	
 	#mobileTextBox p {
@@ -2864,9 +2995,14 @@ body{
 .logoContainer {
 	text-align: center;
 	position: static;
-	background: url('img/top_etching_m.png') no-repeat;
-	background-position: -5px 30px;
-	background-size: 105% auto;	
+	height:54px;
+}
+
+.logoContainer_story {
+	text-align: center;
+	position: static;
+	height:54px;
+	display: none;
 }
 
 #bottomMainEtching img{
@@ -2909,15 +3045,15 @@ body{
 	text-align: center;
 }
 
-#storyKGAPLogo{
-	display:none;
-}
-
 #topMobileMenuBar img{
 	height: auto;
 	width: 100%;
 	box-shadow: 5px 5px 5px #888888;
-}		
+}
+
+#storyKGAPLogo{
+	display:none;
+}
 
 #nav ul {
 	margin: 4% 0% 0% 0%;
@@ -2932,7 +3068,7 @@ body{
 	float: left;
 	margin: 0 0;
 	height: 68px;
-	}
+}
 	
 	#nav ul  li.home {
 		width: 33%;
@@ -2967,7 +3103,7 @@ body{
 
 #mobileTextBox_main{
 	padding-top: 5px;
-	padding-bottom: 19px;
+	padding-bottom: 25px;
 }
 
 #mobileTextBox_main h2 {
@@ -2975,10 +3111,23 @@ body{
 }
 
 .mainButton {
-	min-height: 500px;
+	min-height: 630px;
 	background-color: #fbee3c;
 	margin-top: 3px;
 	text-align: center;
+	z-index: 100;
+	margin-bottom: -135px;
+}
+
+.backButton {
+	padding: 5px 0px 0px 0px;
+	background: #00adef;
+	height: 47.1px;
+	position: fixed;
+	z-index:2000;
+	-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 3px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 3px 5px rgba(50, 50, 50, 0.75);
 }
 
 #name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
@@ -3224,9 +3373,44 @@ body{
 	display: none;
 }
 
+#thirty_story_title_box{
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: -55px;
+	height: 259px;
+}
+
+#name1_story_box_story {
+	width:100%;
+	height: 273px;
+	margin-top:0%;
+	padding-top: 80px;
+	margin-bottom: -105px;
+}
+#name1_story_box_story h2{
+	left: 28%;
+	top: 60%;
+}
+
 #name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
 	width:98%;
 	margin-top:4%;
+}
+
+#name1_story_box{
+	background: url('img/Sub_Story/sub_story_m_30_30.png') no-repeat;
+	width: 98%;
+	height: 231px;
+	background-position: center;
+	background-size: 97% auto;
+}
+
+#name1_story_box:hover{
+	background: url('img/Sub_Story/sub_story_m_30_30_active.png') no-repeat;
+	width: 98%;
+	height: 231px;
+	background-position: center;
+	background-size: 97% auto;
 }
 
 #name1_story_box img{
@@ -3315,6 +3499,16 @@ body{
 	text-shadow: none;
 }
 
+#name1_play_box_story {
+	width:100%;
+	padding-top: 120px;
+	margin-bottom: -95px;
+}
+
+#name1_play_box_story h2{
+	top:53%;
+}
+
 #name2_play_box h2{
 	position: absolute;
 	top: 78.5%;
@@ -3385,6 +3579,20 @@ body{
 	width:100% !important;
 }
 
+#name1_make_box_story {
+	width:100%;
+	padding-top: 125px;
+	margin-bottom: -115px;
+}
+
+#name1_make_box_story h2{
+	top:51%;
+}
+
+#mobileTextBoxMake h2{
+	font-size:18px;
+}
+
 #name1_make_box h2, #name2_make_box h2{
 	left:12% !important;
 }
@@ -3417,12 +3625,32 @@ body{
 	width:100% !important;
 }
 
+#name1_facts_box_story {
+	width:100%;
+	padding-top: 132px;
+	margin-bottom: -84px;
+}
+
+#name1_facts_box_story h2{
+	top:53%;
+}
+
 #name3_facts_box, #name5_facts_box{
 	margin-bottom:5%;
 }
 
 #name4_facts_box, #name6_facts_box{
 	display:none;
+}
+
+#name1_adults_box_story {
+	width:100%;
+	padding-top: 80px;
+	margin-bottom: 0px;
+}
+
+#name1_adults_box_story h2{
+	top: 64%;
 }
 
 .factsButton{
@@ -3514,15 +3742,17 @@ body{
 
 .storyButton {
 	min-height:1170px;
+	margin-bottom: -28px;
 }
 
 .playButton {
 	min-height:1170px;
+	margin-top:27px;
 }
 
 #mobileTextBox {
 	text-align:center;
-	padding-top:25px;
+	margin-bottom: -23px;
 }
 
 #facts1image, #facts2image, #facts3image, #facts4image{
@@ -3562,11 +3792,14 @@ body{
 	position: static;
 	left: 0px;
 	bottom: 0px;
-	height: 349px;
+	height: 280px;
 	width: 100%;
 	background: #999;
 	text-align: center;
 	z-index: 12;
+	-webkit-box-shadow: 0px -4px 33px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -4px 33px -6px rgba(0,0,0,0.75);
+	box-shadow: 0px -4px 33px -6px rgba(0,0,0,0.75);
 }
 
 
@@ -3672,13 +3905,20 @@ body{
 }
 
 #name1_adults_box h2{
-	left: 23%;
+	left: 20%;
 	top: 49%;
 }
 
 #name2_adults_box h2{
-	left: 23%;
-	top: 80%;
+	left: 21%;
+	top: 84%;
+}
+
+.adultsBevelBottom {
+	width: 100%;
+	height: auto;
+	padding: 20px 0px;
+	margin-bottom: 10px;
 }
 
 .contestImg img{
@@ -3701,6 +3941,40 @@ body{
 	float: right;
 	margin-right: 13%;
 	margin-top: -262px;
+}
+
+#topLeftButton{
+	display:inline;
+	width:50%;
+	float:left;
+}
+
+#topRightButton{
+	display:inline;
+	width:50%;
+	float:right;
+}
+
+#topLeftButton img{
+	width: 86%;
+	height: auto;
+	margin-top: -5px;
+	margin-left: -2px;
+}
+
+#topRightButton img{
+	width: 86%;
+	height: auto;
+	margin-top: -5px;
+	float:right;
+}
+
+.storyBevelFix{
+	display:inline;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width:100%;
+	height:auto;
 }
 
 }

@@ -2210,6 +2210,7 @@ div.ui-slider-switch.ui-mini {
 	transform: translate3d(0,0,0);
 	-moz-transform: none;
 	z-index: 2001 !important;
+	overflow-x: hidden;
 }
 /* positioning: content wrap, fixed toolbars and dismiss */
 /* panel left open */

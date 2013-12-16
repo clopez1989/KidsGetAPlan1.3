@@ -19,9 +19,9 @@
 			<img src="css/img/Header_element_right.png" alt=""/>
 		</div>
 		<div id="topMobileMenuBar" class="grid_4">
-			<a href="#myPanel"><img src="css/img/mobile_top_menu.png" width="672" height="107" alt="Mobile Top Menu"></a>
+			<a href="#myPanel" data-ajax="false"><img src="css/img/mobile_top_menu.png" width="672" height="107" alt="Mobile Top Menu"></a>
 		</div>
-		<div data-role="panel" id="myPanel" data-theme="b" data-display="push" data-position="left" data-position-fixed="true" style="background-color:#7c846b; background-image:none;">
+		<div data-role="panel" id="myPanel" data-theme="b" data-display="push" data-position="right" data-position-fixed="true" style="background-color:#7c846b; background-image:none; z-index:3000!important; overflow-y: scroll;">
 			<a href="" data-rel="close" id="closePanelButton"><img src="css/img/close_m_panel.png" width="665" height="184" alt="Close M Panel"></a>
 			<a href="#homeMain" id="homePanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_home_normal.png" width="580" height="164" alt="Btn Home Normal" style="height:auto; margin-bottom: -8px;"></a>
 			<a href="#homeStory" id="storyPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_read_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
@@ -70,6 +70,7 @@
 		</div>
 
 		<div class="section storyButton" id="homeStory" data-type="background" data-speed="10">
+			<img src="css/img/Adults/bevel_bottom.png" width="996" height="23" alt="Bevel Bottom" class="storyBevelFix">
 			<div id="mobileTextBox">
 				<h2>Read the Kids Get A Plan Stories</h2>
 			</div>
@@ -115,7 +116,8 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 		</div>
 
 		<div class="section playButton" id="homePlay" data-type="background" data-speed="10">
-			<div id="mobileTextBox">
+			<img src="css/img/Adults/bevel_yellow.png" width="999" height="22" alt="Bevel Yellow" class="storyBevelFix" style="-moz-transform: scaleY(-1); -o-transform: scaleY(-1); -webkit-transform: scaleY(-1);">
+			<div id="mobileTextBox_main">
 				<h2>Interact with the Kids Get A Plan Activities</h2>
 			</div>
 			<div id="name1_play_box" class="grid_4" onclick="location.href='thirtyrule.php'">
@@ -160,7 +162,8 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 		</div>
 
 		<div class="section factsButton" id="homeFacts" data-type="background" data-speed="10">
-			<div id="mobileTextBox">
+			<img src="css/img/Adults/bevel_bottom.png" width="996" height="23" alt="Bevel Bottom" class="makeBevelBottom">
+			<div id="mobileTextBoxMake">
 				<h2>Get to know your Emergency Preparation Facts</h2>
 			</div>
 			<div id="name1_facts_box" class="grid_4">

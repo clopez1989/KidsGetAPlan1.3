@@ -23,27 +23,11 @@
 <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript" 	src="js/jquery.smint.js"></script>
 
-<script type="text/javascript">	
-
-/*function alertHeight() {        
-        alert("Window Height: " + $(window).height() + ", Document Height: " + $(document).height());
-    }
-
-    $(window).load(function() {
-         alertHeight();
-    });
-
-    $(window).resize(function() {
-         alertHeight();             
-    });*/
-
-</script>
-
 <script>
- $(function() {
-   $( document ).tooltip();
- });
- </script>
+	 $(function() {
+	   $( document ).tooltip();
+	 });
+</script>
 
 <script type="text/javascript">	
 $.ajaxSetup ({
@@ -80,11 +64,12 @@ $(document).ready(function(){
 		// Move the background
 		$bgobj.css({ backgroundPosition: coords });
 		
-}); // window scroll Ends
+	}); // window scroll Ends
 
  });	
 
-}); 
+});
+ 
 /* 
  * Create HTML5 elements for IE's sake
  */
