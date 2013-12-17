@@ -13,30 +13,30 @@
 
 	<div class="section backButton" id="homeMain">
 		<div id="topLeftButton" class="grid_4">
-			<a href="index.php" data-ajax="false"><img src="css/img/home_mobile.png" width="283" height="107" alt="Home Mobile">
+			<a href="index.php" data-ajax="false"><img src="images/home_mobile.png" width="283" height="107" alt="Home Mobile">
 		</div>
 		<div id="topLeftArt" class="grid_4">
-			<img src="css/img/top_left_panel_art.png" alt=""/>
+			<img src="images/top_left_panel_art.png" alt=""/>
 		</div>
 		<div class="logoContainer_story" class="grid_4">
-			<a href="index.php" data-ajax="false"><img src="css/img/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
+			<a href="index.php" data-ajax="false"><img src="images/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
 		</div>
 		<div id="topRightButton" class="grid_4">
-			<a href="#myPanel"><img src="css/img/menu_mobile.png" width="280" height="107" alt="Menu Mobile"></a>
+			<a href="#myPanel"><img src="images/menu_mobile.png" width="280" height="107" alt="Menu Mobile"></a>
 		</div>
 		<div data-role="panel" id="myPanel" data-theme="b" data-display="push" data-position="right" data-position-fixed="true" style="background-color:#7c846b; background-image:none; overflow-x: scroll;">
-			<a href="" data-rel="close" id="closePanelButton"><img src="css/img/close_m_panel.png" width="665" height="184" alt="Close M Panel"></a>
-			<a href="#homeMain" id="homePanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_home_normal.png" width="580" height="164" alt="Btn Home Normal" style="height:auto; margin-bottom: -8px;"></a>
-			<a href="#name1_story_box_story" id="storyPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_read_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
-			<a href="#name1_play_box_story" id="playPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_play_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
-			<a href="#name1_make_box_story" id="makePanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_make_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
-			<a href="#name1_facts_box_story" id="factsPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_facts_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
-			<a href="#name1_adults_box_story" id="adultsPanelButton" class="subNavBtn" data-ajax="false"><img src="css/img/btn_adults_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="" data-rel="close" id="closePanelButton"><img src="images/close_m_panel.png" width="665" height="184" alt="Close M Panel"></a>
+			<a href="#homeMain" id="homePanelButton" class="subNavBtn" data-ajax="false"><img src="images/btn_home_normal.png" width="580" height="164" alt="Btn Home Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#name1_story_box_story" id="storyPanelButton" class="subNavBtn" data-ajax="false"><img src="images/btn_read_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#name1_play_box_story" id="playPanelButton" class="subNavBtn" data-ajax="false"><img src="images/btn_play_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#name1_make_box_story" id="makePanelButton" class="subNavBtn" data-ajax="false"><img src="images/btn_make_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#name1_facts_box_story" id="factsPanelButton" class="subNavBtn" data-ajax="false"><img src="images/btn_facts_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
+			<a href="#name1_adults_box_story" id="adultsPanelButton" class="subNavBtn" data-ajax="false"><img src="images/btn_adults_normal.png" width="580" height="164" alt="Btn Read Normal" style="height:auto; margin-bottom: -8px;"></a>
 		</div>
 		<br class="clear">
 	</div>	
-		<div id="topRightArt" class="grid_4">
-			<img src="css/img/Header_element_right.png" alt=""/>
+		<div id="topRightArt" class="grid_4"  style="top: -78px;">
+			<img src="images/Header_element_right.png" alt=""/>
 		</div>
 	<div class="leftSidebar">
 		<div id="leftNotches">
@@ -46,12 +46,12 @@
 	
 	<div class="mainWrapper" style="background-color:#b27ec4; margin-top: 64px; background-image: none;">
 		<div id="thirty_story_title_box" class="grid_4">
-			<a href="#"><img src="css/img/Sub_Title/sub_title_d_30_30.png" width="295" height="246" alt="Sub Title D 30 30"></a>
+			<a href="#"><img src="images/Sub_Title/sub_title_d_30_30.png" width="295" height="246" alt="Sub Title D 30 30"></a>
 		</div>
 			<div id="name1_story_box_story" class="grid_4">
 				<h2>The Story</h2>
-				  <div id="dialog_thirty_story" title="Basic dialog">
-					  <img src="css/img/top_bolts_and_etching.png" width="804" height="36" alt="Top Bolts And Etching">
+				  <div id="dialog_thirty_story" title="The 30/30 Rule">
+					  <img src="images/top_bolts_and_etching.png" width="804" height="36" alt="Top Bolts And Etching">
 				    <p>Lorem ipsum dolor sit amet.. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
 
 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </p>
@@ -79,10 +79,10 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 	
 	<div id="copyright">
 		<div class="characterImg">
-					<img src="css/img/FooterCharacters/footer_character1.png" width="106" height="141" alt="Footer Character">
+					<img src="images/FooterCharacters/footer_character1.png" width="106" height="141" alt="Footer Character">
 				</div>
 		<div class="contestImg">
-			 <img src="css/img/tinker_panel_footer_left.png" width="147" height="82" alt="Tinker Panel Footer Left">
+			 <img src="images/tinker_panel_footer_left.png" width="147" height="82" alt="Tinker Panel Footer Left">
 		</div>
 		<ul class="bottomMenu">
 			<li><a href="#">Copyright Information</a></li>
@@ -91,11 +91,18 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			<li><a href="#">Contests</a></li>
 		</ul>
 		<div class="socialButtons">
-			<a href="#"><img src="css/img/sert_logo.png" width="71" height="49" alt="Sert Logo" class="serticon"></a>
-			<a href="https://www.facebook.com/kidsgetaplan"><img src="css/img/fb_icon.png" width="33" height="33" alt="Fb Icon" class="fbicon"></a>
+			<a href="#"><img src="images/sert_logo.png" width="71" height="49" alt="Sert Logo" class="serticon"></a>
+			<a href="https://www.facebook.com/kidsgetaplan"><img src="../images/fb_icon.png" width="33" height="33" alt="Fb Icon" class="fbicon"></a>
 		</div>
 		
 	</div>
+	
+	<script type="text/javascript">	
+	$.ajaxSetup ({
+	    // Disable caching of AJAX responses
+	    cache: false
+	});
+	</script>
 	
 	<script>
 	  $(function() {
@@ -143,6 +150,48 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 	    		'scrollSpeed' : 1000
 	    	});
 		});
+	</script>
+
+	<script type="text/javascript">	
+		$(document).ready( function() {
+	    	$('.subMenu').smint({
+	    		'scrollSpeed' : 1000
+	    	});
+		});
+	</script>
+
+	<script type="text/javascript">	
+	$(document).ready(function(){
+		// Cache the Window object
+		$window = $(window);
+                
+	   $('section[data-type="background"]').each(function(){
+	     var $bgobj = $(this); // assigning the object
+                    
+	      $(window).scroll(function() {
+                    
+			// Scroll the background at var speed
+			// the yPos is a negative value because we're scrolling it UP!								
+			var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
+		
+			// Put together our final background position
+			var coords = '50% '+ yPos + 'px';
+
+			// Move the background
+			$bgobj.css({ backgroundPosition: coords });
+		
+		}); // window scroll Ends
+
+	 });	
+
+	});
+ 
+	/* 
+	 * Create HTML5 elements for IE's sake
+	 */
+
+	document.createElement("article");
+	document.createElement("section");
 	</script>
 			
 </body>

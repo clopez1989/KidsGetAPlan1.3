@@ -2095,6 +2095,8 @@ div.ui-slider-switch.ui-mini {
 	position: fixed;
 	top: 0;
 	display: block;
+	overflow: hidden !important;
+	
 }
 .ui-panel-closed {
 	width: 0;
@@ -2119,6 +2121,7 @@ div.ui-slider-switch.ui-mini {
 .ui-panel-inner {
 	padding: 0px !important;
 	background-color: #7c846b;
+	overflow-y: scroll !important;
 }
 /* content-wrap */
 .ui-panel-content-wrap {

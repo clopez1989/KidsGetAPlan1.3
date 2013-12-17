@@ -71,10 +71,61 @@ div.ui-tooltip {
     overflow: auto;
     background-color: #ffd;
     border: solid 1px #ea7;
-	width:75% !important;
-	height:60% !important;
+	width: 50% !important;
+	height: 73% !important;
 	margin:auto;
 	z-index: 2001;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+	position: absolute;
+	right: .3em;
+	top: 14% !important;
+	width: 80px !important;
+	margin: -10px 0 0 0;
+	padding: 1px;
+	height: 80px !important;
+	border: none !important;
+}
+
+.ui-dialog .ui-dialog-titlebar-close:hover {
+	border:none!important;
+}
+
+.ui-dialog-titlebar-close{
+	background: url('../images/close_m_dialog.png') no-repeat !important;
+	background-size: 72% auto !important;
+	background-position: center !important;
+	border: none !important;
+}
+
+.ui-state-focus:focus { outline:none !important }
+
+.ui-dialog-titlebar-close:hover{
+	border:none !important;
+}
+
+.ui-dialog-titlebar-close span {
+	/*background: url('../images/close_m_dialog.png') no-repeat !important;*/
+}
+
+.ui-icon-closethick {
+	display:none !important;
+}
+
+.ui-dialog-titlebar{
+	background: #848c75 !important;
+	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #000/*{c-body-shadow-color}*/;
+	padding: 1.4em 1em !important;
+}
+
+.ui-dialog-titlebar span{
+	text-align: center;
+	float: none !important;
+	display: block;
+	margin-left: -14px;
+	width: 95%;
+	font-size:1.2em;
 }
 
 .ui-widget-content{
@@ -92,8 +143,71 @@ div.ui-tooltip {
 
 .ui-dialog .ui-dialog-content {
 	width: auto !important;
-	min-height: 45% !important;
+	min-height: 78% !important;
 	max-height: 28% !important;
+}
+
+#dialogButtons{
+	text-align: center;
+	margin-top: 0%;
+	font-family: Helvetica, ariel, sans-serif;
+	text-shadow: none;
+	font-weight: bold;
+}
+
+.dialogRead{
+	font-family: 'Paytone One', Helvetica, sans-serif;
+	font-size:1.2em;
+	border-top: 1px solid #000203;
+	background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#eaeff2), to(#65a9d7));
+	background: -webkit-linear-gradient(top, #eaeff2, #65a9d7);
+	background: -moz-linear-gradient(top, #eaeff2, #65a9d7);
+	background: -ms-linear-gradient(top, #eaeff2, #65a9d7);
+	background: -o-linear-gradient(top, #eaeff2, #65a9d7);
+	padding: 5px 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: #030003;
+	text-decoration: none;
+	vertical-align: middle;
+	display: block;
+	width: 48%;
+	margin: auto;
+}
+.dialogRead:hover, .dialogDownload:hover{
+	border-top-color: #28597a;
+	background: #28597a;
+	color: #ccc;
+}
+
+.dialogDownload{
+	font-family: 'Paytone One', Helvetica, sans-serif;
+	font-size:1.2em;
+	border-top: 1px solid #000203;
+	background: #65a9d7;
+	background: -webkit-gradient(linear, left top, left bottom, from(#eaeff2), to(#65a9d7));
+	background: -webkit-linear-gradient(top, #eaeff2, #65a9d7);
+	background: -moz-linear-gradient(top, #eaeff2, #65a9d7);
+	background: -ms-linear-gradient(top, #eaeff2, #65a9d7);
+	background: -o-linear-gradient(top, #eaeff2, #65a9d7);
+	padding: 5px 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: #030003;
+	text-decoration: none;
+	vertical-align: middle;
+	display: block;
 }
 
 #topLeftButton{
@@ -144,14 +258,14 @@ div.ui-tooltip {
 
 .homeButton {
 	padding: 5px 0px 0px 0px;
-	background: #00adef url('img/Header_Blue.png') no-repeat;
+	background: #00adef url('../images/Header_Blue.png') no-repeat;
 	background-position:48% 7%; 
 	height: 73px;
 }
 
 .backButton {
 	padding: 5px 0px 0px 0px;
-	background: #00adef url('img/Header_Blue.png') no-repeat;
+	background: #00adef url('../images/Header_Blue.png') no-repeat;
 	background-position:48% 7%; 
 	height: 73px;
 }
@@ -268,7 +382,7 @@ div.ui-tooltip {
 }
 
 .factsButton {
-	min-height: 594px;
+	min-height: 666px;
 	background-color: #f9cc3e;
 	color: white;
 	margin-top: 27px;
@@ -340,7 +454,7 @@ h3 {
 #nav {
 	height: 121px;
 	margin-top: -11px;
-	background: #00adef url('img/Header_metal.png') no-repeat;
+	background: #00adef url('../images/Header_metal.png') no-repeat;
 	background-position: 0% 100%;
 	background-size: 100% 73%;
 	width: 100%;
@@ -350,7 +464,7 @@ h3 {
 #thirtynav {
 	height: 75px;
 	margin-top: -11px;
-	background: #00adef url('img/Header_metal_story.png') no-repeat;
+	background: #00adef url('../images/Header_metal_story.png') no-repeat;
 	background-position: 0% 100%;
 	background-size: 100% auto;
 	width: 100%;
@@ -403,86 +517,86 @@ h3 {
 	width:98px;
 	height:98px;
 	color: white;
-	background: url('img/Top%20Nav/home_down_d.png') no-repeat;
+	background: url('../images/Top%20Nav/home_down_d.png') no-repeat;
 }
 
 #homeButton:hover{
-	background: url('img/Top%20Nav/home_up_d.png') no-repeat;
+	background: url('../images/Top%20Nav/home_up_d.png') no-repeat;
 }
 
 #homeButton.active {
-	background: url('img/Top%20Nav/home_up_d.png') no-repeat !important;
+	background: url('../images/Top%20Nav/home_up_d.png') no-repeat !important;
 	/*color: black;*/
 }
 
 #storyButton{
 	width:98px;
 	height:98px;
-	background: url('img/Top%20Nav/story_down_d.png') no-repeat;
+	background: url('../images/Top%20Nav/story_down_d.png') no-repeat;
 }
 
 #storyButton:hover {
-	background: url('img/Top%20Nav/story_up_d.png') no-repeat;
+	background: url('../images/Top%20Nav/story_up_d.png') no-repeat;
 }
 
 #storyButton.active {
-	background: url('img/Top%20Nav/story_up_d.png') no-repeat;
+	background: url('../images/Top%20Nav/story_up_d.png') no-repeat;
 }
 
 #playButton{
 	width:98px;
 	height:98px;
-	background: url('img/Top%20Nav/play_down_d.png') no-repeat;
+	background: url('../images/Top%20Nav/play_down_d.png') no-repeat;
 }
 
 #playButton:hover {
-	background: url('img/Top%20Nav/play_up_d.png') no-repeat;
+	background: url('../images/Top%20Nav/play_up_d.png') no-repeat;
 }
 
 #playButton.active {
-	background: url('img/Top%20Nav/play_up_d.png') no-repeat;
+	background: url('../images/Top%20Nav/play_up_d.png') no-repeat;
 }
 
 #makeButton{
 	width:98px;
 	height:98px;
-	background: url('img/Top%20Nav/make_down_d.png') no-repeat;
+	background: url('../images/Top%20Nav/make_down_d.png') no-repeat;
 }
 
 #makeButton:hover {
-	background: url('img/Top%20Nav/make_up_d.png') no-repeat;
+	background: url('../images/Top%20Nav/make_up_d.png') no-repeat;
 }
 
 #makeButton.active {
-	background: url('img/Top%20Nav/make_up_d.png') no-repeat;
+	background: url('../images/Top%20Nav/make_up_d.png') no-repeat;
 }
 
 #factsButton{
 	width:98px;
 	height:98px;
-	background: url('img/Top%20Nav/facts_down_d.png') no-repeat;
+	background: url('../images/Top%20Nav/facts_down_d.png') no-repeat;
 }
 
 #factsButton:hover {
-	background: url('img/Top%20Nav/facts_up_d.png') no-repeat;
+	background: url('../images/Top%20Nav/facts_up_d.png') no-repeat;
 }
 
 #factsButton.active {
-	background: url('img/Top%20Nav/facts_up_d.png') no-repeat;
+	background: url('../images/Top%20Nav/facts_up_d.png') no-repeat;
 }
 
 #adultsButton{
 	width:98px;
 	height:98px;
-	background: url('img/Top%20Nav/adults_down_d.png') no-repeat;
+	background: url('../images/Top%20Nav/adults_down_d.png') no-repeat;
 }
 
 #adultsButton:hover {
-	background: url('img/Top%20Nav/adults_up_d.png') no-repeat;
+	background: url('../images/Top%20Nav/adults_up_d.png') no-repeat;
 }
 
 #adultsButton.active {
-	background: url('img/Top%20Nav/adults_up_d.png') no-repeat;
+	background: url('../images/Top%20Nav/adults_up_d.png') no-repeat;
 }	
 
 /* ----------CONTENT------------- */
@@ -516,7 +630,7 @@ h3 {
 	width: 5%;
 	float: left;
 	background-color: #838c75;
-	background: #838c75 url('img/wrapper_notches_left.png') repeat-y;
+	background: #838c75 url('../images/wrapper_notches_left.png') repeat-y;
 	background-position: 0% 3%;
 	top: 77px;
 	bottom:0px;
@@ -532,7 +646,7 @@ h3 {
 	background-color: #fbee3c;
 	background-repeat:repeat;
 	/*background: #fbee3c url('img/gearsFinal.gif') repeat-y fixed;*/
-	background: #fbee3c url('img/background_gears.png') repeat-y fixed;
+	background: #fbee3c url('../images/background_gears.png') repeat-y fixed;
 	background-size: 100% auto;
 	background-position: 50% 66%;
 	
@@ -542,7 +656,7 @@ h3 {
 	width: 5%;
 	float: right;
 	background-color: #838c75;
-	background: #838c75 url('img/wrapper_notches_right.png') repeat-y;
+	background: #838c75 url('../images/wrapper_notches_right.png') repeat-y;
 	right: 0px;
 	top: 77px;
 	bottom:0px;
@@ -601,49 +715,49 @@ h3 {
 }
 
 #name1_box{
-	background: url('img/Home Character Buttons/home_d_3030.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_d_3030.png') no-repeat;
 	background-size: 90%;
 	background-position: center;
 }
 
 #name1_box:hover{
-	background: url('img/Home Character Buttons/home_d_3030_active.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_d_3030_active.png') no-repeat;
 	background-size: 90%;
 	background-position: center;
 }
 
 #name2_box{
-	background: url('img/Home Character Buttons/home_d_tinkermeister.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_d_tinkermeister.png') no-repeat;
 	background-size: 90%;
 	background-position: center;
 }
 
 #name2_box:hover{
-	background: url('img/Home Character Buttons/home_d_tinkermeister_active.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_d_tinkermeister_active.png') no-repeat;
 	background-size: 90%;
 	background-position: center;
 }
 
 #name3_box{
-	background: url('img/Home Character Buttons/home_d_oaktree.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_d_oaktree.png') no-repeat;
 	background-size: 90%;
 	background-position: center;
 }
 
 #name3_box:hover{
-	background: url('img/Home Character Buttons/home_d_oaktree_active.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_d_oaktree_active.png') no-repeat;
 	background-size: 90%;
 	background-position: center;
 }
 
 #name4_box{
-	background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 	background-size: 90%;
 	background-position: center;
 }
 
 #name4_box:hover{
-		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 	background-size: 90%;
 	background-position: center;
 }
@@ -661,25 +775,25 @@ h3 {
 }
 
 #name5_box{
-	background: url('img/Home Character Buttons/home_d_megatruck.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_d_megatruck.png') no-repeat;
 	background-size: 90%;
 	background-position: center;
 }
 
 #name5_box:hover{
-	background: url('img/Home Character Buttons/home_d_megatruck_active.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_d_megatruck_active.png') no-repeat;
 	background-size: 90%;
 	background-position: center;
 }
 
 #name6_box{
-	background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 	background-size: 90%;
 	background-position: center;
 }
 
 #name6_box:hover{
-	background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 	background-size: 90%;
 	background-position: center;
 }
@@ -707,7 +821,7 @@ h3 {
 }
 
 #name1_story_box{
-	background: url('img/Sub_Story/sub_story_d_30_30.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_30_30.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -716,7 +830,7 @@ h3 {
 }
 
 #name1_story_box:hover{
-	background: url('img/Sub_Story/sub_story_d_30_30_active.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_30_30_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -731,7 +845,7 @@ h3 {
 }
 
 #name1_story_box_story{
-	background: url('img/Sub_Story/sub_story_d_30_30.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_30_30.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -740,7 +854,7 @@ h3 {
 }
 
 #name1_story_box_story:hover{
-	background: url('img/Sub_Story/sub_story_d_30_30_active.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_30_30_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -755,7 +869,7 @@ h3 {
 }
 
 #name2_story_box{
-	background: url('img/Sub_Story/sub_story_d_oak_tree_new.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_oak_tree_new.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -764,7 +878,7 @@ h3 {
 }
 
 #name2_story_box:hover{
-	background: url('img/Sub_Story/sub_story_d_oak_tree_active.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_oak_tree_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -779,7 +893,7 @@ h3 {
 }
 
 #name3_story_box{
-	background: url('img/Sub_Story/sub_story_d_tinkermeister.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_tinkermeister.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -788,7 +902,7 @@ h3 {
 }
 
 #name3_story_box:hover{
-	background: url('img/Sub_Story/sub_story_d_tinkermeister_active.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_tinkermeister_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -815,7 +929,7 @@ h3 {
 }
 
 #name5_story_box{
-	background: url('img/Sub_Story/sub_story_d_megatrack.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_megatrack.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -823,7 +937,7 @@ h3 {
 }
 
 #name5_story_box:hover{
-	background: url('img/Sub_Story/sub_story_d_megatrack_active.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_megatrack_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -857,7 +971,7 @@ h3 {
 }
 
 #name1_play_box{
-	background: url('img/Sub_Play/sub_play_d_30_30.png') no-repeat;
+	background: url('../images/Sub_Play/sub_play_d_30_30.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -866,7 +980,7 @@ h3 {
 }
 
 #name1_play_box:hover{
-	background: url('img/Sub_Play/sub_play_d_30_30_active.png') no-repeat;
+	background: url('../images/Sub_Play/sub_play_d_30_30_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -882,7 +996,7 @@ h3 {
 }
 
 #name1_play_box_story{
-	background: url('img/Sub_Play/sub_play_d_30_30.png') no-repeat;
+	background: url('../images/Sub_Play/sub_play_d_30_30.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -891,7 +1005,7 @@ h3 {
 }
 
 #name1_play_box_story:hover{
-	background: url('img/Sub_Play/sub_play_d_30_30_active.png') no-repeat;
+	background: url('../images/Sub_Play/sub_play_d_30_30_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -907,7 +1021,7 @@ h3 {
 }
 
 #name2_play_box{
-	background: url('img/Sub_Play/sub_play_d_oaktree.png') no-repeat;
+	background: url('../images/Sub_Play/sub_play_d_oaktree.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -916,7 +1030,7 @@ h3 {
 }
 
 #name2_play_box:hover{
-	background: url('img/Sub_Play/sub_play_d_oaktree_active.png') no-repeat;
+	background: url('../images/Sub_Play/sub_play_d_oaktree_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -932,7 +1046,7 @@ h3 {
 }
 
 #name3_play_box{
-	background: url('img/Sub_Play/sub_play_d_tinkermeister.png') no-repeat;
+	background: url('../images/Sub_Play/sub_play_d_tinkermeister.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -941,7 +1055,7 @@ h3 {
 }
 
 #name3_play_box:hover{
-	background: url('img/Sub_Play/sub_play_d_tinkermeister_active.png') no-repeat;
+	background: url('../images/Sub_Play/sub_play_d_tinkermeister_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -966,7 +1080,7 @@ h3 {
 }
 
 #name5_play_box{
-	background: url('img/Sub_Play/sub_play_d_megatrack.png') no-repeat;
+	background: url('../images/Sub_Play/sub_play_d_megatrack.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -974,7 +1088,7 @@ h3 {
 }
 
 #name5_play_box:hover{
-	background: url('img/Sub_Play/sub_play_d_megatrack_active.png') no-repeat;
+	background: url('../images/Sub_Play/sub_play_d_megatrack_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1009,7 +1123,7 @@ h3 {
 }
 
 #name1_make_box{
-	background: url('img/Sub_Make/sub_make_d_3030.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_3030.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1017,7 +1131,7 @@ h3 {
 }
 
 #name1_make_box:hover{
-	background: url('img/Sub_Make/sub_make_d_3030_active.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_3030_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1033,7 +1147,7 @@ h3 {
 }
 
 #name1_make_box_story{
-	background: url('img/Sub_Make/sub_make_d_3030.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_3030.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1042,7 +1156,7 @@ h3 {
 }
 
 #name1_make_box_story:hover{
-	background: url('img/Sub_Make/sub_make_d_3030_active.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_3030_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1058,7 +1172,7 @@ h3 {
 }
 
 #name2_make_box{
-	background: url('img/Sub_Make/sub_make_d_oaktree.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_oaktree.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1066,7 +1180,7 @@ h3 {
 }
 
 #name2_make_box:hover{
-	background: url('img/Sub_Make/sub_make_d_oaktree_active.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_oaktree_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1082,7 +1196,7 @@ h3 {
 }
 
 #name3_make_box{
-	background: url('img/Sub_Make/sub_make_d_tinkermeister.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_tinkermeister.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1090,7 +1204,7 @@ h3 {
 }
 
 #name3_make_box:hover{
-	background: url('img/Sub_Make/sub_make_d_tinkermeister_active.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_tinkermeister_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1116,7 +1230,7 @@ h3 {
 }
 
 #name1_facts_box{
-	background: url('img/Facts/facts_d_3030.png') no-repeat;
+	background: url('../images/Facts/facts_d_3030.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1124,7 +1238,7 @@ h3 {
 }
 
 #name1_facts_box:hover{
-	background: url('img/Facts/facts_d_3030_active.png') no-repeat;
+	background: url('../images/Facts/facts_d_3030_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1139,7 +1253,7 @@ h3 {
 }
 
 #name1_facts_box_story{
-	background: url('img/Sub_Facts/sub_facts_d_3030.png') no-repeat;
+	background: url('../images/Sub_Facts/sub_facts_d_3030.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1149,7 +1263,7 @@ h3 {
 }
 
 #name1_facts_box_story:hover{
-	background: url('img/Sub_Facts/sub_facts_d_3030_active.png') no-repeat;
+	background: url('../images/Sub_Facts/sub_facts_d_3030_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1165,7 +1279,7 @@ h3 {
 }
 
 #name2_facts_box{
-	background: url('img/Facts/facts_d_oaktree.png') no-repeat;
+	background: url('../images/Facts/facts_d_oaktree.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1173,7 +1287,7 @@ h3 {
 }
 
 #name2_facts_box:hover{
-	background: url('img/Facts/facts_d_oaktree_active.png') no-repeat;
+	background: url('../images/Facts/facts_d_oaktree_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1188,7 +1302,7 @@ h3 {
 }
 
 #name3_facts_box{
-	background: url('img/Facts/facts_d_tinkemeister.png') no-repeat;
+	background: url('../images/Facts/facts_d_tinkemeister.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1196,7 +1310,7 @@ h3 {
 }
 
 #name3_facts_box:hover{
-	background: url('img/Facts/facts_d_tinkemeister_active.png') no-repeat;
+	background: url('../images/Facts/facts_d_tinkemeister_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1211,7 +1325,7 @@ h3 {
 }
 
 #name4_facts_box{
-	background: url('img/Facts/facts_d_empty_brightyellow.png') no-repeat;
+	background: url('../images/Facts/facts_d_empty_brightyellow.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1228,7 +1342,7 @@ h3 {
 }
 
 #name5_facts_box{
-	background: url('img/Facts/facts_d_megatrack.png') no-repeat;
+	background: url('../images/Facts/facts_d_megatrack.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1236,7 +1350,7 @@ h3 {
 }
 
 #name5_facts_box:hover{
-	background: url('img/Facts/facts_d_megatrack_active.png') no-repeat;
+	background: url('../images/Facts/facts_d_megatrack_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1274,7 +1388,7 @@ h3 {
 }
 
 #name1_adults_box{
-	background: url('img/Adults/adults_guides_d.png') no-repeat;
+	background: url('../images/Adults/adults_guides_d.png') no-repeat;
 	background-position: center;
 	width: 30%;
 	height: 231px;
@@ -1284,7 +1398,7 @@ h3 {
 }
 
 #name1_adults_box:hover{
-	background: url('img/Adults/adults_guides_d_active.png') no-repeat;
+	background: url('../images/Adults/adults_guides_d_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1299,7 +1413,7 @@ h3 {
 }
 
 #name1_adults_box_story{
-	background: url('img/Sub_Adults/sub_adults_d_3030.png') no-repeat;
+	background: url('../images/Sub_Adults/sub_adults_d_3030.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1309,7 +1423,7 @@ h3 {
 }
 
 #name1_adults_box_story:hover{
-	background: url('img/Sub_Adults/sub_adults_d_3030_active.png') no-repeat;
+	background: url('../images/Sub_Adults/sub_adults_d_3030_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1324,7 +1438,7 @@ h3 {
 }
 
 #name2_adults_box{
-	background: url('img/Adults/adults_shop_d_2.png') no-repeat;
+	background: url('../images/Adults/adults_shop_d_2.png') no-repeat;
 	background-position: center;
 	width: 30%;
 	height: 231px;
@@ -1334,7 +1448,7 @@ h3 {
 }
 
 #name2_adults_box:hover{
-	background: url('img/Adults/adults_shop_d_active.png') no-repeat;
+	background: url('../images/Adults/adults_shop_d_active.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1362,7 +1476,7 @@ h3 {
 	width: 100%; 
 	text-align: center;
 	z-index: 1000;
-	background: #f16022 url('img/footer_etching.png') no-repeat;
+	background: #f16022 url('../images/footer_etching.png') no-repeat;
 	background-position: center;
 	background-size: 77%;
 	
@@ -1447,49 +1561,49 @@ h3 {
 	}
 	
 	#name1_box{
-		background: url('img/Home Character Buttons/home_d_3030.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_3030.png') no-repeat;
 		background-size: 62%;
 		background-position: center;
 	}
 
 	#name1_box:hover{
-		background: url('img/Home Character Buttons/home_d_3030_active.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_3030_active.png') no-repeat;
 		background-size: 62%;
 		background-position: center;
 	}
 
 	#name2_box{
-		background: url('img/Home Character Buttons/home_d_tinkermeister.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_tinkermeister.png') no-repeat;
 		background-size: 62%;
 		background-position: center;
 	}
 
 	#name2_box:hover{
-		background: url('img/Home Character Buttons/home_d_tinkermeister_active.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_tinkermeister_active.png') no-repeat;
 		background-size: 62%;
 		background-position: center;
 	}
 
 	#name3_box{
-		background: url('img/Home Character Buttons/home_d_oaktree.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_oaktree.png') no-repeat;
 		background-size: 62%;
 		background-position: center;
 	}
 
 	#name3_box:hover{
-		background: url('img/Home Character Buttons/home_d_oaktree_active.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_oaktree_active.png') no-repeat;
 		background-size: 62%;
 		background-position: center;
 	}
 
 	#name4_box{
-		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 62%;
 		background-position: center;
 	}
 
 	#name4_box:hover{
-			background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+			background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 62%;
 		background-position: center;
 	}
@@ -1507,25 +1621,25 @@ h3 {
 	}
 
 	#name5_box{
-		background: url('img/Home Character Buttons/home_d_megatruck.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_megatruck.png') no-repeat;
 		background-size: 62%;
 		background-position: center;
 	}
 
 	#name5_box:hover{
-		background: url('img/Home Character Buttons/home_d_megatruck_active.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_megatruck_active.png') no-repeat;
 		background-size: 62%;
 		background-position: center;
 	}
 
 	#name6_box{
-		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 62%;
 		background-position: center;
 	}
 
 	#name6_box:hover{
-		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 62%;
 		background-position: center;
 	}
@@ -1728,49 +1842,49 @@ h3 {
 	}
 	
 	#name1_box{
-		background: url('img/Home Character Buttons/home_d_3030.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_3030.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
 	}
 
 	#name1_box:hover{
-		background: url('img/Home Character Buttons/home_d_3030_active.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_3030_active.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
 	}
 
 	#name2_box{
-		background: url('img/Home Character Buttons/home_d_tinkermeister.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_tinkermeister.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
 	}
 
 	#name2_box:hover{
-		background: url('img/Home Character Buttons/home_d_tinkermeister_active.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_tinkermeister_active.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
 	}
 
 	#name3_box{
-		background: url('img/Home Character Buttons/home_d_oaktree.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_oaktree.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
 	}
 
 	#name3_box:hover{
-		background: url('img/Home Character Buttons/home_d_oaktree_active.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_oaktree_active.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
 	}
 
 	#name4_box{
-		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
 	}
 
 	#name4_box:hover{
-			background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+			background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
 	}
@@ -1788,25 +1902,25 @@ h3 {
 	}
 
 	#name5_box{
-		background: url('img/Home Character Buttons/home_d_megatruck.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_megatruck.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
 	}
 
 	#name5_box:hover{
-		background: url('img/Home Character Buttons/home_d_megatruck_active.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_megatruck_active.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
 	}
 
 	#name6_box{
-		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
 	}
 
 	#name6_box:hover{
-		background: url('img/Home Character Buttons/home_d_comingsoon.png') no-repeat;
+		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
 	}
@@ -2157,7 +2271,7 @@ h3 {
 	}
 
 	#name1_story_box{
-		background: url('img/Sub_Story/sub_story_d_30_30.png') no-repeat;
+		background: url('../images/Sub_Story/sub_story_d_30_30.png') no-repeat;
 		background-position: center;
 		width: 33.3%;
 		height: 231px;
@@ -2165,7 +2279,7 @@ h3 {
 	}
 
 	#name1_story_box:hover{
-		background: url('img/Sub_Story/sub_story_d_30_30_active.png') no-repeat;
+		background: url('../images/Sub_Story/sub_story_d_30_30_active.png') no-repeat;
 		background-position: center;
 		color:black;
 	}
@@ -2184,7 +2298,7 @@ h3 {
 	}
 
 	#name2_story_box{
-		background: url('img/Sub_Story/sub_story_d_oak_tree_new.png') no-repeat;
+		background: url('../images/Sub_Story/sub_story_d_oak_tree_new.png') no-repeat;
 		background-position: center;
 		width: 33.3%;
 		height: 231px;
@@ -2192,7 +2306,7 @@ h3 {
 	}
 
 	#name2_story_box:hover{
-		background: url('img/Sub_Story/sub_story_d_oak_tree_active.png') no-repeat;
+		background: url('../images/Sub_Story/sub_story_d_oak_tree_active.png') no-repeat;
 		background-position: center;
 		color:black;
 	}
@@ -2207,7 +2321,7 @@ h3 {
 	}
 
 	#name3_story_box{
-		background: url('img/Sub_Story/sub_story_d_tinkermeister.png') no-repeat;
+		background: url('../images/Sub_Story/sub_story_d_tinkermeister.png') no-repeat;
 		background-position: center;
 		width: 33.3%;
 		height: 231px;
@@ -2215,7 +2329,7 @@ h3 {
 	}
 
 	#name3_story_box:hover{
-		background: url('img/Sub_Story/sub_story_d_tinkermeister_active.png') no-repeat;
+		background: url('../images/Sub_Story/sub_story_d_tinkermeister_active.png') no-repeat;
 		background-position: center;
 		color:black;
 	}
@@ -2240,7 +2354,7 @@ h3 {
 	}
 
 	#name5_story_box{
-		background: url('img/Sub_Story/sub_story_d_megatrack.png') no-repeat;
+		background: url('../images/Sub_Story/sub_story_d_megatrack.png') no-repeat;
 		background-position: center;
 		width: 33.3%;
 		height: 231px;
@@ -2248,7 +2362,7 @@ h3 {
 	}
 
 	#name5_story_box:hover{
-		background: url('img/Sub_Story/sub_story_d_megatrack_active.png') no-repeat;
+		background: url('../images/Sub_Story/sub_story_d_megatrack_active.png') no-repeat;
 		background-position: center;
 		color:black;
 	}
@@ -2281,7 +2395,7 @@ h3 {
 	}
 
 	#name1_play_box{
-		background: url('img/Sub_Play/sub_play_d_30_30.png') no-repeat;
+		background: url('../images/Sub_Play/sub_play_d_30_30.png') no-repeat;
 		background-position: center;
 		width: 33.3%;
 		height: 231px;
@@ -2289,7 +2403,7 @@ h3 {
 	}
 
 	#name1_play_box:hover{
-		background: url('img/Sub_Play/sub_play_d_30_30_active.png') no-repeat;
+		background: url('../images/Sub_Play/sub_play_d_30_30_active.png') no-repeat;
 		background-position: center;
 		color:black;
 	}
@@ -2308,7 +2422,7 @@ h3 {
 	}
 
 	#name2_play_box{
-		background: url('img/Sub_Play/sub_play_d_oaktree.png') no-repeat;
+		background: url('../images/Sub_Play/sub_play_d_oaktree.png') no-repeat;
 		background-position: center;
 		width: 33.3%;
 		height: 231px;
@@ -2316,7 +2430,7 @@ h3 {
 	}
 
 	#name2_play_box:hover{
-		background: url('img/Sub_Play/sub_play_d_oaktree_active.png') no-repeat;
+		background: url('../images/Sub_Play/sub_play_d_oaktree_active.png') no-repeat;
 		background-position: center;
 		color:black;
 	}
@@ -2331,7 +2445,7 @@ h3 {
 	}
 
 	#name3_play_box{
-		background: url('img/Sub_Play/sub_play_d_tinkermeister.png') no-repeat;
+		background: url('../images/Sub_Play/sub_play_d_tinkermeister.png') no-repeat;
 		background-position: center;
 		width: 33.3%;
 		height: 231px;
@@ -2339,7 +2453,7 @@ h3 {
 	}
 
 	#name3_play_box:hover{
-		background: url('img/Sub_Play/sub_play_d_tinkermeister_active.png') no-repeat;
+		background: url('../images/Sub_Play/sub_play_d_tinkermeister_active.png') no-repeat;
 		background-position: center;
 		color:black;
 	}
@@ -2363,7 +2477,7 @@ h3 {
 	}
 
 	#name5_play_box{
-		background: url('img/Sub_Play/sub_play_d_megatrack.png') no-repeat;
+		background: url('../images/Sub_Play/sub_play_d_megatrack.png') no-repeat;
 		background-position: center;
 		width: 33.3%;
 		height: 231px;
@@ -2371,7 +2485,7 @@ h3 {
 	}
 
 	#name5_play_box:hover{
-		background: url('img/Sub_Play/sub_play_d_megatrack_active.png') no-repeat;
+		background: url('../images/Sub_Play/sub_play_d_megatrack_active.png') no-repeat;
 		background-position: center;
 		color:black;
 	}
@@ -2486,7 +2600,7 @@ h3 {
 	}
 	
 	#name1_adults_box{
-		background: url('img/Adults/adults_guides_d.png') no-repeat;
+		background: url('../images/Adults/adults_guides_d.png') no-repeat;
 		background-position: center;
 		width: 32%;
 		height: 231px;
@@ -2507,7 +2621,7 @@ h3 {
 	}
 
 	#name2_adults_box{
-		background: url('img/Adults/adults_shop_d_2.png') no-repeat;
+		background: url('../images/Adults/adults_shop_d_2.png') no-repeat;
 		background-position: center;
 		width: 32%;
 		height: 231px;
@@ -2524,61 +2638,61 @@ h3 {
 	#homeButton{
 		width:98px;
 		height:98px;
-		background: url('img/Top%20Nav/home_down_d.png') no-repeat;
+		background: url('../images/Top%20Nav/home_down_d.png') no-repeat;
 	}
 
 	#homeButton:hover {
-		background: url('img/Top%20Nav/home_up_d.png') no-repeat;
+		background: url('../images/Top%20Nav/home_up_d.png') no-repeat;
 	}
 
 	#storyButton{
 		width:98px;
 		height:98px;
-		background: url('img/Top%20Nav/story_down_d.png') no-repeat;
+		background: url('../images/Top%20Nav/story_down_d.png') no-repeat;
 	}
 
 	#storyButton:hover {
-		background: url('img/Top%20Nav/story_up_d.png') no-repeat;
+		background: url('../images/Top%20Nav/story_up_d.png') no-repeat;
 	}
 
 	#playButton{
 		width:98px;
 		height:98px;
-		background: url('img/Top%20Nav/play_down_d.png') no-repeat;
+		background: url('../images/Top%20Nav/play_down_d.png') no-repeat;
 	}
 
 	#playButton:hover {
-		background: url('img/Top%20Nav/play_up_d.png') no-repeat;
+		background: url('../images/Top%20Nav/play_up_d.png') no-repeat;
 	}
 
 	#makeButton{
 		width:98px;
 		height:98px;
-		background: url('img/Top%20Nav/make_down_d.png') no-repeat;
+		background: url('../images/Top%20Nav/make_down_d.png') no-repeat;
 	}
 
 	#makeButton:hover {
-		background: url('img/Top%20Nav/make_up_d.png') no-repeat;
+		background: url('../images/Top%20Nav/make_up_d.png') no-repeat;
 	}
 
 	#factsButton{
 		width:98px;
 		height:98px;
-		background: url('img/Top%20Nav/facts_down_d.png') no-repeat;
+		background: url('../images/Top%20Nav/facts_down_d.png') no-repeat;
 	}
 
 	#factsButton:hover {
-		background: url('img/Top%20Nav/facts_up_d.png') no-repeat;
+		background: url('../images/Top%20Nav/facts_up_d.png') no-repeat;
 	}
 
 	#adultsButton{
 		width:98px;
 		height:98px;
-		background: url('img/Top%20Nav/adults_down_d.png') no-repeat;
+		background: url('../images/Top%20Nav/adults_down_d.png') no-repeat;
 	}
 
 	#adultsButton:hover {
-		background: url('img/Top%20Nav/adults_up_d.png') no-repeat;
+		background: url('../images/Top%20Nav/adults_up_d.png') no-repeat;
 	}
 	
 	#copyright {
@@ -3148,57 +3262,57 @@ body{
 }
 
 #name1_box{
-	background: url('img/Home Character Buttons/home_m_3030.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_m_3030.png') no-repeat;
 	background-size: 100%;
 }
 
 #name1_box:hover{
-	background: url('img/Home Character Buttons/home_m_3030_active.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_m_3030_active.png') no-repeat;
 	background-size: 100%;
 }
 
 #name2_box{
-	background: url('img/Home Character Buttons/home_m_tinkermeister.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_m_tinkermeister.png') no-repeat;
 	background-size: 100%;
 }
 
 #name2_box:hover{
-	background: url('img/Home Character Buttons/home_m_tinkermeister_active.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_m_tinkermeister_active.png') no-repeat;
 	background-size: 100%;
 }
 
 #name3_box{
-	background: url('img/Home Character Buttons/home_m_oaktree.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_m_oaktree.png') no-repeat;
 	background-size: 100%;
 }
 
 #name3_box:hover{
-	background: url('img/Home Character Buttons/home_m_oaktree_active.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_m_oaktree_active.png') no-repeat;
 	background-size: 100%;
 }
 
 #name4_box{
-	background: url('img/Home Character Buttons/home_m_megatruck.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_m_megatruck.png') no-repeat;
 	background-size: 100%;
 }
 
 #name4_box:hover{
-	background: url('img/Home Character Buttons/home_m_megatruck_active.png') no-repeat;
+	background: url('../images/Home Character Buttons/home_m_megatruck_active.png') no-repeat;
 	background-size: 100%;
 }
 
 #homeButton{
 	width:85px;
 	height:78px;
-	background: url('img/Top%20Nav/home_down_m.png') no-repeat;
+	background: url('../images/Top%20Nav/home_down_m.png') no-repeat;
 }
 
 #homeButton:hover {
-	background: url('img/Top%20Nav/home_up_m.png') no-repeat;
+	background: url('../images/Top%20Nav/home_up_m.png') no-repeat;
 }
 
 #homeButton.active {
-	background: url('img/Top%20Nav/home_up_m.png') no-repeat !important;
+	background: url('../images/Top%20Nav/home_up_m.png') no-repeat !important;
 }
 
 #mobileTextBoxCS {
@@ -3222,7 +3336,7 @@ body{
 #storyButton{
 	width:85px;
 	height:78px;
-	background: url('img/Top%20Nav/story_down_m.png') no-repeat;
+	background: url('../images/Top%20Nav/story_down_m.png') no-repeat;
 }
 
 #mobileTextBoxCS_story {
@@ -3242,67 +3356,67 @@ body{
 }
 
 #storyButton:hover {
-	background: url('img/Top%20Nav/story_up_m.png') no-repeat;
+	background: url('../images/Top%20Nav/story_up_m.png') no-repeat;
 }
 
 #storyButton.active {
-	background: url('img/Top%20Nav/story_up_m.png') no-repeat;
+	background: url('../images/Top%20Nav/story_up_m.png') no-repeat;
 }
 
 #playButton{
 	width:85px;
 	height:78px;
-	background: url('img/Top%20Nav/play_down_m.png') no-repeat;
+	background: url('../images/Top%20Nav/play_down_m.png') no-repeat;
 }
 
 #playButton:hover {
-	background: url('img/Top%20Nav/play_up_m.png') no-repeat;
+	background: url('../images/Top%20Nav/play_up_m.png') no-repeat;
 }
 
 #playButton.active {
-	background: url('img/Top%20Nav/play_up_m.png') no-repeat;
+	background: url('../images/Top%20Nav/play_up_m.png') no-repeat;
 }
 
 #makeButton{
 	width:85px;
 	height:69px;
-	background: url('img/Top%20Nav/make_down_m.png') no-repeat;
+	background: url('../images/Top%20Nav/make_down_m.png') no-repeat;
 }
 
 #makeButton:hover {
-	background: url('img/Top%20Nav/make_up_m.png') no-repeat;
+	background: url('../images/Top%20Nav/make_up_m.png') no-repeat;
 }
 
 #makeButton.active {
-	background: url('img/Top%20Nav/make_up_m.png') no-repeat;
+	background: url('../images/Top%20Nav/make_up_m.png') no-repeat;
 }
 
 #factsButton{
 	width:85px;
 	height:69px;
-	background: url('img/Top%20Nav/facts_down_m.png') no-repeat;
+	background: url('../images/Top%20Nav/facts_down_m.png') no-repeat;
 }
 
 #factsButton:hover {
-	background: url('img/Top%20Nav/facts_up_m.png') no-repeat;
+	background: url('../images/Top%20Nav/facts_up_m.png') no-repeat;
 }
 
 #factsButton.active {
-	background: url('img/Top%20Nav/facts_up_m.png') no-repeat;
+	background: url('../images/Top%20Nav/facts_up_m.png') no-repeat;
 }
 
 #adultsButton{
 	width:85px;
 	height:69px;
-	background: url('img/Top%20Nav/adults_down_m.png') no-repeat;
+	background: url('../images/Top%20Nav/adults_down_m.png') no-repeat;
 }
 
 #adultsButton:hover {
-	background: url('img/Top%20Nav/adults_up_m.png') no-repeat;
+	background: url('../images/Top%20Nav/adults_up_m.png') no-repeat;
 }
 
 #adultsButton.active {
-	background: url('img/Top%20Nav/adults_up_m.png') no-repeat;
+	background: url('../images/Top%20Nav/adults_up_m.png') no-repeat;
 }
 
 #closePanelButton img{
@@ -3310,61 +3424,61 @@ body{
 }
 
 #homePanelButton{
-	background:url('img/btn_home_normal.png');
+	background:url('../images/btn_home_normal.png');
 	height:auto;
 	margin-bottom: -4px;
 }
 
 #homePanelButton:hover{
-	background:url('img/btn_home_active.png');
+	background:url('../images/btn_home_active.png');
 	height:auto;
 	margin-bottom: -4px;
 }
 
 #storyPanelButton{
-	background:url('img/btn_read_normal.png');
+	background:url('../images/btn_read_normal.png');
 	height:auto;
 	margin-bottom: -4px;
 }
 
 #storyPanelButton:active;{
-	background:url('img/btn_read_active.png');
+	background:url('../images/btn_read_active.png');
 	height:auto;
 	margin-bottom: -4px;
 }
 
 #playPanelButton{
-	background:url('img/btn_play_normal.png');
+	background:url('../images/btn_play_normal.png');
 	height:auto;
 	margin-bottom: -4px;
 }
 
 #playPanelButton:active{
-	background:url('img/btn_play_normal.png');
+	background:url('../images/btn_play_normal.png');
 	height:auto;
 	margin-bottom: -4px;
 }
 
 #makePanelButton{
-	background:url('img/btn_make_normal.png');
+	background:url('../images/btn_make_normal.png');
 	height:auto;
 	margin-bottom: -4px;
 }
 
 #makePanelButton:active{
-	background:url('img/btn_make_normal.png');
+	background:url('../images/btn_make_normal.png');
 	height:auto;
 	margin-bottom: -4px;
 }
 
 #factsPanelButton{
-	background:url('img/btn_facts_normal.png');
+	background:url('../images/btn_facts_normal.png');
 	height:auto;
 	margin-bottom: -4px;
 }
 
 #adultsPanelButton{
-	background:url('img/btn_adults_normal.png');
+	background:url('../images/btn_adults_normal.png');
 	height:auto;
 	margin-bottom: -4px;
 }
@@ -3398,7 +3512,7 @@ body{
 }
 
 #name1_story_box{
-	background: url('img/Sub_Story/sub_story_m_30_30.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_m_30_30.png') no-repeat;
 	width: 98%;
 	height: 231px;
 	background-position: center;
@@ -3406,7 +3520,7 @@ body{
 }
 
 #name1_story_box:hover{
-	background: url('img/Sub_Story/sub_story_m_30_30_active.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_m_30_30_active.png') no-repeat;
 	width: 98%;
 	height: 231px;
 	background-position: center;
