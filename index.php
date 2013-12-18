@@ -78,18 +78,25 @@
 				<button id="opener"></button>
 				<h2>The 30/30 Rule</h2>
 				  <div id="dialog" title="The 30/30 Rule Story" style="background:#9554c4;">	
-					<div id="dialogButtons">
-						<p>For Desktop</p>  
-					  	<a href="30_game.swf?width=800&height=800" class="dialogRead" rel="prettyPhoto[flash]">Read the Story</a>
-						<br>
-						<p>For Mobile & Tablet Devices</p>
-					  	<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.png) no-repeat;width:135px;height:40px; margin-bottom: 8px; @media only screen{background-image:url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_appstore-lrg.svg);}"></a>
-						<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
-						  <img alt="Get it on Google Play"
-						       src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
-						</a>
-						<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download"></a>
+					  <div id="dialogEtchingLeft">
+						   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+					  </div>
+						<div id="dialogButtons">
+							<p class="desktopOnly">For Desktop:</p>  
+					  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+							<br>
+							<p>For Mobile & Tablet Devices:</p>
+							<div id="appStores">
+					  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+								<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
+						  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/>
+								</a>
+								<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;"></a>
+							</div>
 					</div>
+				  <div id="dialogEtchingRight">
+					  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+				  </div>
 				  </div>
 			</div>
 			<div id="name2_story_box" class="grid_4">
@@ -125,8 +132,29 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			<div id="mobileTextBox_main">
 				<h2>Interact with the Kids Get A Plan Activities</h2>
 			</div>
-			<div id="name1_play_box" class="grid_4" onclick="location.href='thirtyrule.php'">
+			<div id="name1_play_box" class="grid_4">
+				<button id="opener3"></button>
 				<h2>The 30/30 Game</h2>
+				<div id="dialog3" title="The 30/30 Rule Game" style="background:#9554c4;">	
+				  <div id="dialogEtchingLeft">
+					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+				  </div>
+				  <div id="dialogButtons">
+					   <p class="desktopOnly">For Desktop:</p>  
+				  	   <a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Play the Game</a>
+					   <br>
+					   <p>For Mobile & Tablet Devices:</p>
+					   <div id="appStores">
+				  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
+					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
+							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;"></a>
+					  </div>
+				</div>
+			    <div id="dialogEtchingRight">
+				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+			    </div>
+			  </div>
 			</div>
 			<div id="name2_play_box" class="grid_4">
 				 <h2>Disaster Supply Kit</h2>
@@ -172,7 +200,76 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 				<h2>Get to know your Emergency Preparation Facts</h2>
 			</div>
 			<div id="name1_facts_box" class="grid_4">
+				<button id="opener4"></button>
 				<h2>The 30/30 Rule</h2>
+				<div id="dialog4" title="The 30/30 Rule Facts" style="background:#9554c4; text-shadow: none;
+color: white;">	
+					<i>This page has a mix of content boxes with various messages about Lighting safety.</i>
+					<ul>
+						<li>Lightning Safety Actions (This has a similar look the Disaster Plan check list)
+					<ul>
+						<li>Avoid open high ground and isolated large trees.</li>
+						<li>Avoid water (swimming pools, lakes and rivers), beaches and boats.</li>
+						<li>Seek shelter inside a building or an automobile, but not a convertible or golf cart.</li>
+						<li>Stay away from doors, windows, and metal objects such as pipes or faucets.</li>
+						<li>Stay off corded telephones and away from electrical devices.</li>
+					</ul>
+					</li>
+						<li>Lightning Facts
+					<ul>
+						<li>Lightning heats the air up to 50,000 degrees Fahrenheit. This rapid heating of the air produces the shock wave that results in thunder.</li>
+						<li>A ground stoke can produce somewhere between 100 million to one billion volts of electricity.</li>
+						<li>The length of an average cloud-to-ground lightning channel can range from two to ten miles.</li>
+						<li>You can tell how far away lightning is by counting the seconds between seeing the lightning flash and hearing thunder. For every give seconds you count—lightning is one mile away.</li>
+					</ul>
+					</li>
+						<li>Florida-Lightning Capital of the U.S.  <i>(Map of Florida with lightning bolts)</i>
+					<ul>
+						<li>More people die from lightning strikes in Florida every year than in any other state. Why? It’s simple really. We have more lightning, and we are fourth largest in populations. On average, 10 people die each year from lightning. Statistics show that teenage boys are most vulnerable. People in their 30’s are the next most likely victims, followed by those in their 20’s.</li>
+						<li>Florida’s unique location, surrounded by warm water, provides the necessary ingredients for thunderstorms to form. It has earned us the title of, “Lightning Capital of the U.S.” Other places in the world have even more lightning though. According to a NASA study, there are areas in the tropics of Africa, Asia, and South and Central America that have more lightning than Florida does. Rwanda, a country in Africa, is known as the, “Lightning Capital of the World.”</li>
+					</ul>
+					</li>
+						<li>July- The Cruelest Month
+					<ul>
+						<li>July is the worst month for lightning deaths. Summer brings thunderstorms. In July, kids are not usually in school. They are more likely to be outside when a thunderstorm approaches. The Fourth-of-July holiday weekend is particularly dangerous. With many outdoor activities taking place during the afternoon and evening, a prime time for summer thunderstorms, it is easy to see why it can be dangerous.</li>
+					</ul>
+					</li>
+						<li>Location…Location…Location
+					<ul>
+						<li>Being safe from lightning is all about being in the right place. The most likely place to be struck by lightning in Florida is near water. Boating, beach going, or fishing in a canal can all be deadly activities when lightning is near. The second deadliest location is being near or under a tree. Trees may give some shelter from rain, but are often deadly locations during lightning. Group sporting events such as baseball, football and soccer are particularly hazardous. Tragically, persons in charge of such events often wait too long before “calling” the game so that people can take refuge. Perhaps this is the reason young people are most often the victims of lightning strikes.</li>
+						<li>If you can see lightning or head thunder, even in the distance, you are in danger. Go indoors or into a vehicle and remain there until 30 minutes after the last thunder is heard.</li>
+					</ul>
+					</li>
+						<li>If Someone Is Struck By Lightning, What Should You Do?
+					<ul>
+						<li>In the event that a person is struck by lightning, medical care may be needed immediately to save the person’s life. With proper treatment, including CPR if necessary, most victims survive a lightning strike.
+					<ul>
+						<li>Call 9-1-1. Provide directions and information about the likely number of lightning strike victims.</li>
+						<li>The first rule of emergency care is “make no more causalities.” Rescuers must stay aware of the continuing danger that a lightning storm poses, both to the rescuers as well as to the victim(s).</li>
+					</ul>
+					</li>
+					</ul>
+					</li>
+						<li>The 30-30 Rule
+					<ul>
+						<li>Use the ’30-30 RULE’ to determine the threat of lightning in your area.
+					<ul>
+						<li>30 Seconds:
+					<ul>
+						<li>Count the seconds between seeing lightning and hearing thunder. If this time is less than 30 seconds, lightning is still a potential threat. Seek shelter immediately.</li>
+						<li>30 Minutes:
+					<ul>
+						<li>After hearing the last thunder, wait 30 minutes before leaving shelter. Many lightning deaths occur after the storm passes. Stay in a safe area until you are sure the threat has passed.</li>
+					</ul>
+					</li>
+					</ul>
+					</li>
+					</ul>
+					</li>
+					</ul>
+					</li>
+					</ul>
+			  	</div>
 			</div>
 			<div id="name2_facts_box" class="grid_4">
 				 <h2>The Oak Tree Club</h2>
@@ -307,6 +404,57 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 	      $( "#dialog2" ).dialog( "open" );
 	    });	
 	  });
+	  
+	  $(function() {
+	    $( "#dialog3" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#opener3" ).click(function() {
+	      $( "#dialog3" ).dialog( "open" );
+	    });	
+	  });
+	  
+	  $(function() {
+	    $( "#dialog4" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#opener4" ).click(function() {
+	      $( "#dialog4" ).dialog( "open" );
+	    });	
+	  });
+	  
 	  </script>
 	  
 	  <script type="text/javascript">	
