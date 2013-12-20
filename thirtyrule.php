@@ -63,9 +63,9 @@
 						<div id="appStores">
 				  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
 							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
-					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/>
+					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;" class="googlePlayBtn"/>
 							</a>
-							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;"></a>
+							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
 						</div>
 				</div>
 			  <div id="dialogEtchingRight">
@@ -87,9 +87,9 @@
 				   <p>For Mobile & Tablet Devices:</p>
 				   <div id="appStores">
 			  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-						<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
+						<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank" class="googlePlayBtn">
 				  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
-						<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;"></a>
+						<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
 				  </div>
 			</div>
 		    <div id="dialogEtchingRight">
@@ -185,7 +185,7 @@ color: white;">
 	
 	<div id="copyright">
 		<div class="characterImg">
-					<img src="images/FooterCharacters/footer_character1.png" width="106" height="141" alt="Footer Character">
+					<a href="http://demvideoportal.com/" target="_blank"><img src="images/FooterCharacters/footer_character1.png" width="106" height="141" alt="Footer Character"></a>
 				</div>
 		<div class="contestImg">
 			 <img src="images/tinker_panel_footer_left.png" width="147" height="82" alt="Tinker Panel Footer Left">
@@ -194,11 +194,11 @@ color: white;">
 			<li><a href="#">Copyright Information</a></li>
 			<li><a href="#">Other Information</a></li>
 			<li><a href="#">Site Map</a></li>
-			<li><a href="#">Contests</a></li>
+			<li><a href="http://demvideoportal.com/" target="_blank">Contests</a></li>
 		</ul>
 		<div class="socialButtons">
 			<a href="#"><img src="images/sert_logo.png" width="71" height="49" alt="Sert Logo" class="serticon"></a>
-			<a href="https://www.facebook.com/kidsgetaplan"><img src="../images/fb_icon.png" width="33" height="33" alt="Fb Icon" class="fbicon"></a>
+			<a href="https://www.facebook.com/kidsgetaplan"><img src="images/fb_icon.png" width="33" height="33" alt="Fb Icon" class="fbicon"></a>
 		</div>
 		
 	</div>

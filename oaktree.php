@@ -44,11 +44,11 @@
 	</div>
 	
 	
-	<div class="mainWrapper" style="background-color:#9fcb3a; margin-top: 64px; background-image: none;">
+	<div class="mainWrapper" style="background-color:#6dcef5; margin-top: 64px; background-image: none;">
 		<div id="thirty_story_title_box" class="grid_4">
-			<img src="images/Sub_Title/sub_title_d_tinkermeister.png" width="295" height="246" alt="Sub Title D 30 30">
+			<img src="images/Sub_Title/sub_title_d_oak_tree_new.png" width="295" height="246" alt="Sub Title D 30 30">
 		</div>
-			<div id="name3_story_box_story" class="grid_4">
+			<div id="name2_story_box_story" class="grid_4">
 				<button id="opener"></button>
 				<h2>The Story</h2>
 			  <div id="dialog" title="The 30/30 Rule Story" style="background:#9554c4;">	
@@ -73,7 +73,7 @@
 			  </div>
 			  </div>
 			</div>
-		<div id="name3_play_box_story" class="grid_4">
+		<div id="name2_play_box_story" class="grid_4">
 			<button id="opener3"></button>
 			<h2>The 30/30 Rule Activity</h2>
 			<div id="dialog3" title="The 30/30 Rule Game" style="background:#9554c4;">	
@@ -97,10 +97,10 @@
 		    </div>
 		  </div>
 		</div>
-		<div id="name3_make_box_story" class="grid_4">
+		<div id="name2_make_box_story" class="grid_4">
 			<h2>Cut-Out and Color</h2>
 		</div>
-		<div id="name3_facts_box_story" class="grid_4">
+		<div id="name2_facts_box_story" class="grid_4">
 			<button id="opener4"></button>
 			<h2>Lightning Safety Facts</h2>
 				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
@@ -172,7 +172,7 @@ color: white;">
 					</ul>
 			  	</div>
 		</div>
-		<div id="name3_adults_box_story" class="grid_4">
+		<div id="name2_adults_box_story" class="grid_4">
 			<h2>The 30/30 Rule</h2>
 		</div>
 		<br class="clear">
@@ -185,7 +185,7 @@ color: white;">
 	
 	<div id="copyright">
 		<div class="characterImg">
-					<a href="http://demvideoportal.com/" target="_blank"><img src="images/FooterCharacters/footer_character4.png" width="106" height="141" alt="Footer Character"></a>
+					<a href="http://demvideoportal.com/" target="_blank"><img src="images/FooterCharacters/footer_character3.png" width="106" height="141" alt="Footer Character"></a>
 				</div>
 		<div class="contestImg">
 			 <img src="images/tinker_panel_footer_left.png" width="147" height="82" alt="Tinker Panel Footer Left">

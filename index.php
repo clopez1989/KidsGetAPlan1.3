@@ -48,14 +48,17 @@
 			<div id="name1_box" class="grid_4 morph" onclick="location.href='thirtyrule.php'">
 				<a href="thirtyrule.php" rel="external"></a>
 			</div>
-			<div id="name2_box" class="grid_4 morph">
+			<div id="name2_box" class="grid_4 morph" onclick="location.href='tinkermeister.php'">
+				<a href="tinkermeister.php" rel="external"></a>
 			</div>
-			<div id="name3_box" class="grid_4 morph">
+			<div id="name3_box" class="grid_4 morph" onclick="location.href='oaktree.php'">
+				<a href="oaktree.php" rel="external"></a>
 			</div>
 			<div id="name4_box" class="grid_2 morph">
 				<h2>Coming Soon</h2>
 			</div>
-			<div id="name5_box" class="grid_2 morph">
+			<div id="name5_box" class="grid_2 morph" onclick="location.href='megatrack.php'">
+				<a href="megatrack.php" rel="external"></a>
 			</div>
 			<div id="name6_box" class="grid_2 morph">
 				<h2>Coming Soon</h2>
@@ -86,9 +89,9 @@
 							<div id="appStores">
 					  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
 								<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
-						  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/>
+						  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;" class="googlePlayBtn"/>
 								</a>
-								<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;"></a>
+								<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
 							</div>
 					</div>
 				  <div id="dialogEtchingRight">
@@ -97,16 +100,82 @@
 				  </div>
 			</div>
 			<div id="name2_story_box" class="grid_4">
+				 <button id="openerOakStory"></button>
 				 <h2>The Oak Tree Club</h2>
+			  <div id="dialogOakStory" title="The Oak Tree Club Story" style="background:#6dcef5;">	
+				  <div id="dialogEtchingLeft">
+					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+				  </div>
+					<div id="dialogButtons">
+						<p class="desktopOnly">For Desktop:</p>  
+				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+						<br>
+						<p>For Mobile & Tablet Devices:</p>
+						<div id="appStores">
+				  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
+					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;" class="googlePlayBtn"/>
+							</a>
+							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+						</div>
+				</div>
+			  <div id="dialogEtchingRight">
+				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+			  </div>
+			  </div>
 			</div>
 			<div id="name3_story_box" class="grid_4">
+				<button id="openerTinkerStory"></button>
 				<h2>The Wacky Whiz-Bang Weather Watching Wonder</h2>
+  			  <div id="dialogTinkerStory" title="The Tinkermeister Story" style="background:#9fcb3a;">	
+  				  <div id="dialogEtchingLeft">
+  					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+  				  </div>
+  					<div id="dialogButtons">
+  						<p class="desktopOnly">For Desktop:</p>  
+  				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+  						<br>
+  						<p>For Mobile & Tablet Devices:</p>
+  						<div id="appStores">
+  				  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+  							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
+  					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;" class="googlePlayBtn"/>
+  							</a>
+  							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+  						</div>
+  				</div>
+  			  <div id="dialogEtchingRight">
+  				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+  			  </div>
+  			  </div>
 			</div>
 			<div id="name4_story_box" class="grid_4">
 				<img src="images/coming_soon_story.png" width="293" height="230" alt="Coming Soon Story">
 			</div>
 			<div id="name5_story_box" class="grid_4">
+				<button id="openerMegaStory"></button>
 				<h2>Mega Track HTW</h2>
+    			  <div id="dialogMegaStory" title="The MegaTrack HTW Story" style="background:#ff962e;">	
+    				  <div id="dialogEtchingLeft">
+    					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+    				  </div>
+    					<div id="dialogButtons">
+    						<p class="desktopOnly">For Desktop:</p>  
+    				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+    						<br>
+    						<p>For Mobile & Tablet Devices:</p>
+    						<div id="appStores">
+    				  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+    							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
+    					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;" class="googlePlayBtn"/>
+    							</a>
+    							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+    						</div>
+    				</div>
+    			  <div id="dialogEtchingRight">
+    				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+    			  </div>
+    			  </div>
 			</div>
 			<div id="name6_story_box" class="grid_4">
 				<img src="images/coming_soon_story.png" width="293" height="230" alt="Coming Soon Story">
@@ -137,8 +206,8 @@
 					   <div id="appStores">
 				  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
 							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
-					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
-							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;"></a>
+					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;" class="googlePlayBtn"/></a>
+							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
 					  </div>
 				</div>
 			    <div id="dialogEtchingRight">
@@ -147,16 +216,82 @@
 			  </div>
 			</div>
 			<div id="name2_play_box" class="grid_4">
+				<button id="openerOakPlay"></button>
 				 <h2>Disaster Supply Kit</h2>
+   			  <div id="dialogOakPlay" title="The Oak Tree Club Story" style="background:#6dcef5;">	
+   				  <div id="dialogEtchingLeft">
+   					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+   				  </div>
+   					<div id="dialogButtons">
+   						<p class="desktopOnly">For Desktop:</p>  
+   				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+   						<br>
+   						<p>For Mobile & Tablet Devices:</p>
+   						<div id="appStores">
+   				  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+   							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
+   					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;" class="googlePlayBtn"/>
+   							</a>
+   							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+   						</div>
+   				</div>
+   			  <div id="dialogEtchingRight">
+   				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+   			  </div>
+   			  </div>
 			</div>
 			<div id="name3_play_box" class="grid_4">
+				<button id="openerTinkerPlay"></button>
 				<h2>The Whiz-Bang Quiz</h2>
+    			  <div id="dialogTinkerPlay" title="The Tinkermeister Story" style="background:#9fcb3a;">	
+    				  <div id="dialogEtchingLeft">
+    					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+    				  </div>
+    					<div id="dialogButtons">
+    						<p class="desktopOnly">For Desktop:</p>  
+    				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+    						<br>
+    						<p>For Mobile & Tablet Devices:</p>
+    						<div id="appStores">
+    				  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+    							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
+    					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;" class="googlePlayBtn"/>
+    							</a>
+    							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+    						</div>
+    				</div>
+    			  <div id="dialogEtchingRight">
+    				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+    			  </div>
+    			  </div>
 			</div>
 			<div id="name4_play_box" class="grid_4">
 				<img src="images/coming_soon_play.png" width="296" height="232" alt="Coming Soon Play">
 			</div>
 			<div id="name5_play_box" class="grid_4">
+				<button id="openerMegaPlay"></button>
 				<h2>Firewise Simulator</h2>
+  			  <div id="dialogMegaPlay" title="The MegaTrack HTW Story" style="background:#ff962e;">	
+  				  <div id="dialogEtchingLeft">
+  					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+  				  </div>
+  					<div id="dialogButtons">
+  						<p class="desktopOnly">For Desktop:</p>  
+  				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+  						<br>
+  						<p>For Mobile & Tablet Devices:</p>
+  						<div id="appStores">
+  				  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+  							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
+  					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;" class="googlePlayBtn"/>
+  							</a>
+  							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+  						</div>
+  				</div>
+  			  <div id="dialogEtchingRight">
+  				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+  			  </div>
+  			  </div>
 			</div>
 			<div id="name6_play_box" class="grid_4">
 				<img src="images/coming_soon_play.png" width="296" height="232" alt="Coming Soon Play">
@@ -309,13 +444,13 @@ color: white;">
 echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 		</div>
 		<div class="contestImg">
-			 <img src="images/tinker_panel_footer_left.png" width="147" height="82" alt="Tinker Panel Footer Left">
+			 <a href="http://demvideoportal.com/" target="_blank"><img src="images/tinker_panel_footer_left.png" width="147" height="82" alt="Tinker Panel Footer Left"></a>
 		</div>
 		<ul class="bottomMenu">
 			<li><a href="#">Copyright Information</a></li>
 			<li><a href="#">Other Information</a></li>
 			<li><a href="#">Site Map</a></li>
-			<li><a href="#">Contests</a></li>
+			<li><a href="http://demvideoportal.com/" target="_blank">Contests</a></li>
 		</ul>
 		<div class="machineImg">
 			<img src="images/pump_footer_right.png" width="150" height="152" alt="Pump Footer Right">
@@ -441,6 +576,156 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 	   
 	    $( "#opener4" ).click(function() {
 	      $( "#dialog4" ).dialog( "open" );
+	    });	
+	  });
+	  
+	  $(function() {
+	    $( "#dialogOakStory" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#openerOakStory" ).click(function() {
+	      $( "#dialogOakStory" ).dialog( "open" );
+	    });	
+	  });
+	  
+	  $(function() {
+	    $( "#dialogTinkerStory" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#openerTinkerStory" ).click(function() {
+	      $( "#dialogTinkerStory" ).dialog( "open" );
+	    });	
+	  });
+	  
+	  $(function() {
+	    $( "#dialogMegaStory" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#openerMegaStory" ).click(function() {
+	      $( "#dialogMegaStory" ).dialog( "open" );
+	    });	
+	  });
+	  
+	  $(function() {
+	    $( "#dialogOakPlay" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#openerOakPlay" ).click(function() {
+	      $( "#dialogOakPlay" ).dialog( "open" );
+	    });	
+	  });
+	  
+	  $(function() {
+	    $( "#dialogTinkerPlay" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#openerTinkerPlay" ).click(function() {
+	      $( "#dialogTinkerPlay" ).dialog( "open" );
+	    });	
+	  });
+	  
+	  $(function() {
+	    $( "#dialogMegaPlay" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#openerMegaPlay" ).click(function() {
+	      $( "#dialogMegaPlay" ).dialog( "open" );
 	    });	
 	  });
 	  

@@ -6,6 +6,15 @@ div.ui-tooltip {
 	color: #ef332e;
 }
 
+a.pp_expand, a.pp_contract{
+	top:488px !important;
+	right: 20px !important;
+}
+
+a.pp_close {
+	top:-489px !important;
+}
+
 .storyBevelFix{
 	display:none;
 }
@@ -71,7 +80,7 @@ div.ui-tooltip {
 	border:none;
 }
 
-#opener2, #opener3, #opener4{
+#opener2, #opener3, #opener4, #openerOakStory, #openerTinkerStory, #openerMegaStory, #openerOakPlay, #openerTinkerPlay, #openerMegaPlay{
 	width: 77%;
 	height: 100%;
 	background: none;
@@ -321,6 +330,16 @@ div.ui-tooltip {
 	background: #00adef url('../images/Header_Blue.png') no-repeat;
 	background-position:48% 7%; 
 	height: 73px;
+}
+
+#backButton{
+	background: url('../images/back_desktop.png') no-repeat;
+	margin-left: 66px;
+	height: 100px;
+	margin-top: -24px;
+}
+#backButton:hover{
+	background: url('../images/back_desktop_active.png') no-repeat;
 }
 
 .mainButton {
@@ -711,7 +730,7 @@ h3 {
 	background: #fbee3c url('../images/background_gears.png') repeat-y fixed;
 	background-size: 100% auto;
 	background-position: 50% 66%;*/
-	background: -webkit-canvas(animation) no-repeat 50% 50%;
+	background: #f7ed4e -webkit-canvas(animation) no-repeat 50% 50%;
 	
 }
 
@@ -955,6 +974,30 @@ h3 {
 	text-shadow: none;
 }
 
+#name2_story_box_story{
+	background: url('../images/Sub_Story/sub_story_d_oak_tree_new.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top: 2%;
+}
+
+#name2_story_box_story:hover{
+	background: url('../images/Sub_Story/sub_story_d_oak_tree_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name2_story_box_story h2{
+	position: relative;
+	top: -24%;
+	left: 32%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
 #name3_story_box{
 	background: url('../images/Sub_Story/sub_story_d_tinkermeister.png') no-repeat;
 	background-position: center;
@@ -980,6 +1023,30 @@ h3 {
 	width: 75%;
 	font-size: 1em;
 	line-height: 19px;
+}
+
+#name3_story_box_story{
+	background: url('../images/Sub_Story/sub_story_d_tinkermeister.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top: 2%;
+}
+
+#name3_story_box_story:hover{
+	background: url('../images/Sub_Story/sub_story_d_tinkermeister_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name3_story_box_story h2{
+	position: relative;
+	top: -24%;
+	left: 32%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
 }
 
 #name4_story_box h2{
@@ -1008,7 +1075,34 @@ h3 {
 #name5_story_box h2{
 	position: absolute;
 	top: 78%;
-	left: 21%;
+	right: 12%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+	width: 75%;
+	font-size: 1em;
+	line-height: 19px;
+}
+
+#name5_story_box_story{
+	background: url('../images/Sub_Story/sub_story_d_megatrack.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top: 2%;
+}
+
+#name5_story_box_story:hover{
+	background: url('../images/Sub_Story/sub_story_d_megatrack_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name5_story_box_story h2{
+	position: relative;
+	top: -24%;
+	left: 32%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -1108,6 +1202,31 @@ h3 {
 	font-size: 1.4em;
 }
 
+#name2_play_box_story{
+	background: url('../images/Sub_Play/sub_play_d_oaktree.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top: 2%;
+}
+
+#name2_play_box_story:hover{
+	background: url('../images/Sub_Play/sub_play_d_oaktree_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name2_play_box_story h2{
+	position: relative;
+	top: -24%;
+	left: 13%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+	font-size: 1.4em;
+}
+
 #name3_play_box{
 	background: url('../images/Sub_Play/sub_play_d_tinkermeister.png') no-repeat;
 	background-position: center;
@@ -1127,6 +1246,31 @@ h3 {
 	position: absolute;
 	top: 77%;
 	right: 17%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+	font-size: 1.4em;
+}
+
+#name3_play_box_story{
+	background: url('../images/Sub_Play/sub_play_d_tinkermeister.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top: 2%;
+}
+
+#name3_play_box_story:hover{
+	background: url('../images/Sub_Play/sub_play_d_tinkermeister_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name3_play_box_story h2{
+	position: relative;
+	top: -24%;
+	left: 13%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -1160,6 +1304,31 @@ h3 {
 	position: absolute;
 	top: 78%;
 	left: 20%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+	font-size: 1.4em;
+}
+
+#name5_play_box_story{
+	background: url('../images/Sub_Play/sub_play_d_megatrack.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top: 2%;
+}
+
+#name5_play_box_story:hover{
+	background: url('../images/Sub_Play/sub_play_d_megatrack_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name5_play_box_story h2{
+	position: relative;
+	top: -24%;
+	left: 13%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -1258,6 +1427,31 @@ h3 {
 	font-size: 1.6em;
 }
 
+#name2_make_box_story{
+	background: url('../images/Sub_Make/sub_make_d_oaktree.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top:1%;
+}
+
+#name2_make_box_story:hover{
+	background: url('../images/Sub_Make/sub_make_d_oaktree_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name2_make_box_story h2{
+	position: relative;
+	top: 77.5%;
+	left: 17%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+	font-size: 1.6em;
+}
+
 #name3_make_box{
 	background: url('../images/Sub_Make/sub_make_d_tinkermeister.png') no-repeat;
 	background-position: center;
@@ -1280,6 +1474,56 @@ h3 {
 	color: white;
 	text-shadow: none;
 	font-size: 1.7em;
+}
+
+#name3_make_box_story{
+	background: url('../images/Sub_Make/sub_make_d_tinkermeister.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top:1%;
+}
+
+#name3_make_box_story:hover{
+	background: url('../images/Sub_Make/sub_make_d_tinkermeister_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name3_make_box_story h2{
+	position: relative;
+	top: 77.5%;
+	left: 17%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+	font-size: 1.6em;
+}
+
+#name5_make_box_story{
+	background: url('../images/Sub_Make/sub_make_d_megatrack.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top:1%;
+}
+
+#name5_make_box_story:hover{
+	background: url('../images/Sub_Make/sub_make_d_megatrack_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name5_make_box_story h2{
+	position: relative;
+	top: 77.5%;
+	left: 17%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+	font-size: 1.6em;
 }
 
 #name1_facts_box, #name2_facts_box, #name3_facts_box, #name4_facts_box, #name5_facts_box, #name6_facts_box{
@@ -1364,6 +1608,31 @@ h3 {
 	text-shadow: none;
 }
 
+#name2_facts_box_story{
+	background: url('../images/Sub_Facts/sub_facts_d_oaktree.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top:1%;
+	margin-bottom: 135px;
+}
+
+#name2_facts_box_story:hover{
+	background: url('../images/Sub_Facts/sub_facts_d_oaktree_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name2_facts_box_story h2{
+	position: relative;
+	top: -24%;
+	left: 16%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
 #name3_facts_box{
 	background: url('../images/Facts/facts_d_tinkemeister.png') no-repeat;
 	background-position: center;
@@ -1382,6 +1651,31 @@ h3 {
 	position: absolute;
 	top: 80%;
 	right: 23%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name3_facts_box_story{
+	background: url('../images/Sub_Facts/sub_facts_d_tinkermeister.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top:1%;
+	margin-bottom: 135px;
+}
+
+#name3_facts_box_story:hover{
+	background: url('../images/Sub_Facts/sub_facts_d_tinkermeister_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name3_facts_box_story h2{
+	position: relative;
+	top: -24%;
+	left: 16%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -1422,6 +1716,31 @@ h3 {
 	position: absolute;
 	top: 78%;
 	left: 20%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name5_facts_box_story{
+	background: url('../images/Sub_Facts/sub_facts_d_megatrack.png') no-repeat;
+	background-position: center;
+	width: 33.3%;
+	height: 231px;
+	cursor:pointer;
+	margin-top:1%;
+	margin-bottom: 135px;
+}
+
+#name5_facts_box_story:hover{
+	background: url('../images/Sub_Facts/sub_facts_d_megatrack_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name5_facts_box_story h2{
+	position: relative;
+	top: -24%;
+	left: 16%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -1525,6 +1844,81 @@ h3 {
 	text-shadow: none;
 }
 
+#name2_adults_box_story{
+	background: url('../images/Sub_Adults/sub_adults_d_oaktree.png') no-repeat;
+	background-position: center;
+	width: 30%;
+	height: 231px;
+	cursor:pointer;
+	float:left;
+	margin-top:1%;
+}
+
+#name2_adults_box_story:hover{
+	background: url('../images/Sub_Adults/sub_adults_d_oaktree_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name2_adults_box_story h2{
+	position: relative;
+	top: 80.1%;
+	left: 26%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name3_adults_box_story{
+	background: url('../images/Sub_Adults/sub_adults_d_tinkermeister.png') no-repeat;
+	background-position: center;
+	width: 30%;
+	height: 231px;
+	cursor:pointer;
+	float:left;
+	margin-top:1%;
+}
+
+#name3_adults_box_story:hover{
+	background: url('../images/Sub_Adults/sub_adults_d_tinkermeister_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name3_adults_box_story h2{
+	position: relative;
+	top: 80.1%;
+	left: 26%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
+#name5_adults_box_story{
+	background: url('../images/Sub_Adults/sub_adults_d_megatrack.png') no-repeat;
+	background-position: center;
+	width: 30%;
+	height: 231px;
+	cursor:pointer;
+	float:left;
+	margin-top:1%;
+}
+
+#name5_adults_box_story:hover{
+	background: url('../images/Sub_Adults/sub_adults_d_megatrack_active.png') no-repeat;
+	background-position: center;
+	color:black;
+}
+
+#name5_adults_box_story h2{
+	position: relative;
+	top: 80.1%;
+	left: 26%;
+	font-family: 'Paytone One', sans-serif;
+	color: white;
+	text-shadow: none;
+}
+
 #box1, #box2, #box3, #box4, #box5, #box6{
 	text-align:center;
 	height: 300px;
@@ -1571,7 +1965,7 @@ h3 {
 }
 
 .bottomMenu{
-	margin-left:270px;
+	margin-left:22%;
 	padding-top:6px;	
 }
 
@@ -1605,8 +1999,17 @@ h3 {
 /* ----------------------------MEDIA QUERIES---------------------------- */
 
 /* Larger --------------------------------------- */
-@media only screen and (min-width : 1667px) {
+@media only screen and (min-width : 1600px) {
 	.homeButton{
+	}
+	
+	#canvas{
+		top: 161px !important;
+		width:97%;
+	}
+	
+	.bottomMenu {
+		margin-left: 550px !important;
 	}
 	
 	#topRightArt img {
@@ -1614,10 +2017,10 @@ h3 {
 	}
 	
 	.logoImage{
-		width: 18% !important;
-		margin-left: 128px !important;
-		margin-top: -5px;
 		position: absolute;
+		width: 16% !important;
+		margin-left: 8% !important;
+		margin-top: -2px;
 	}
 	
 	#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
@@ -1627,49 +2030,49 @@ h3 {
 	
 	#name1_box{
 		background: url('../images/Home Character Buttons/home_d_3030.png') no-repeat;
-		background-size: 62%;
+		background-size: 68% !important;
 		background-position: center;
 	}
 
 	#name1_box:hover{
 		background: url('../images/Home Character Buttons/home_d_3030_active.png') no-repeat;
-		background-size: 62%;
+		background-size: 68% !important;
 		background-position: center;
 	}
 
 	#name2_box{
 		background: url('../images/Home Character Buttons/home_d_tinkermeister.png') no-repeat;
-		background-size: 62%;
+		background-size: 68% !important;
 		background-position: center;
 	}
 
 	#name2_box:hover{
 		background: url('../images/Home Character Buttons/home_d_tinkermeister_active.png') no-repeat;
-		background-size: 62%;
+		background-size: 68% !important;
 		background-position: center;
 	}
 
 	#name3_box{
 		background: url('../images/Home Character Buttons/home_d_oaktree.png') no-repeat;
-		background-size: 62%;
+		background-size: 68% !important;
 		background-position: center;
 	}
 
 	#name3_box:hover{
 		background: url('../images/Home Character Buttons/home_d_oaktree_active.png') no-repeat;
-		background-size: 62%;
+		background-size: 68% !important;
 		background-position: center;
 	}
 
 	#name4_box{
 		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
-		background-size: 62%;
+		background-size: 68% !important;
 		background-position: center;
 	}
 
 	#name4_box:hover{
 			background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
-		background-size: 62%;
+		background-size: 68% !important;
 		background-position: center;
 	}
 
@@ -1687,25 +2090,25 @@ h3 {
 
 	#name5_box{
 		background: url('../images/Home Character Buttons/home_d_megatruck.png') no-repeat;
-		background-size: 62%;
+		background-size: 68% !important;
 		background-position: center;
 	}
 
 	#name5_box:hover{
 		background: url('../images/Home Character Buttons/home_d_megatruck_active.png') no-repeat;
-		background-size: 62%;
+		background-size: 68% !important;
 		background-position: center;
 	}
 
 	#name6_box{
 		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
-		background-size: 62%;
+		background-size: 68% !important;
 		background-position: center;
 	}
 
 	#name6_box:hover{
 		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
-		background-size: 62%;
+		background-size: 68% !important;
 		background-position: center;
 	}
 
@@ -1888,9 +2291,7 @@ h3 {
 	
 }
 
-@media only screen and (min-width : 1537px) {
-	.homeButton{
-	}
+@media only screen and (min-width : 1500px) {
 	
 	.ui-dialog .ui-dialog-content {
 		width: auto !important;
@@ -2069,7 +2470,7 @@ h3 {
 	#name2_story_box h2{
 		position: absolute;
 		top: 78%;
-		left: 24%;
+		left: 28%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2089,7 +2490,7 @@ h3 {
 	#name5_story_box h2{
 		position: absolute;
 		top: 78%;
-		left: 26%;
+		left: 30%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2108,7 +2509,7 @@ h3 {
 	#name2_play_box h2{
 		position: absolute;
 		top: 77%;
-		left: 24%;
+		left: 28%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2118,7 +2519,7 @@ h3 {
 	#name3_play_box h2{
 		position: absolute;
 		top: 77%;
-		right: 23%;
+		right: 27%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2128,7 +2529,7 @@ h3 {
 	#name5_play_box h2{
 		position: absolute;
 		top: 78%;
-		left: 25%;
+		left: 29%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2149,7 +2550,7 @@ h3 {
 	#name2_make_box h2{
 		position: absolute;
 		top: 83%;
-		left: 22%;
+		left: 27%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2160,7 +2561,7 @@ h3 {
 	#name3_make_box h2{
 		position: absolute;
 		top: 84%;
-		right: 27%;
+		right: 30%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2206,8 +2607,8 @@ h3 {
 	
 	#name1_adults_box h2{
 		position: absolute;
-		top: 64.1%;
-		left: 28%;
+		top: 65.1%;
+		left: 29%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2215,8 +2616,8 @@ h3 {
 	
 	#name2_adults_box h2{
 		position: absolute;
-		top: 63.7%;
-		left: 58%;
+		top: 65.7%;
+		left: 59%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -2825,7 +3226,7 @@ h3 {
 	}
 	
 	.characterImg {
-		display: none;
+
 	}
 
 	/*#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
@@ -3190,6 +3591,35 @@ body{
 	width:100%;
 }
 
+#canvas {
+	top:122px;
+}
+
+.ui-dialog {
+	width:80% !important;
+	height: 81% !important;
+	top: 736px !important;
+}
+
+.ui-dialog-titlebar-close {
+	background-size: 46% auto !important;
+	background-position: 100% 0% !important;
+}
+
+#appStores{
+	padding-left:28px;
+}
+
+.googlePlayBtn{
+	width: 104% !important;
+	margin-left: -11px !important;
+}
+
+.amazonBtn{
+	width: 104% !important;
+	margin-left: -11px !important;
+}
+
 .homeButton{
 	padding-top:58px;
 	height: 61px;
@@ -3273,7 +3703,7 @@ body{
 }
 
 #topMobileMenuBar{
-	z-index: 2002 !important;
+	z-index: 1002 !important;
 	height: auto;
 	width: 100%;
 	position: fixed;
@@ -3281,6 +3711,14 @@ body{
 	top: 0px;
 	float: none;
 	text-align: center;
+}
+
+#dialogEtchingLeft{
+	display:none;
+}
+
+#dialogEtchingRight{
+	display:none;
 }
 
 #topMobileMenuBar img{
@@ -3627,7 +4065,7 @@ body{
 }
 #name1_story_box_story h2{
 	left: 28%;
-	top: 60%;
+	top: -42%;
 }
 
 #name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
@@ -3744,7 +4182,7 @@ body{
 }
 
 #name1_play_box_story h2{
-	top:53%;
+	top:-49%;
 }
 
 #name2_play_box h2{
@@ -3870,7 +4308,7 @@ body{
 }
 
 #name1_facts_box_story h2{
-	top:53%;
+	top:-50%;
 }
 
 #name3_facts_box, #name5_facts_box{
@@ -4027,7 +4465,7 @@ body{
 }
 
 #copyright {
-	position: static;
+	position: absolute;
 	left: 0px;
 	bottom: 0px;
 	height: 280px;
@@ -4039,7 +4477,6 @@ body{
 	-moz-box-shadow: 0px -4px 33px -6px rgba(0,0,0,0.75);
 	box-shadow: 0px -4px 33px -6px rgba(0,0,0,0.75);
 }
-
 
 .mainWrapper {
 	width: 100%;
@@ -4213,6 +4650,10 @@ body{
 	margin-bottom: 10px;
 	width:100%;
 	height:auto;
+}
+
+.adultsButton{
+	margin-bottom: 320px;
 }
 
 }
