@@ -49,6 +49,15 @@ div.ui-tooltip {
 	height: auto;
 }
 
+.factView{
+	float: right;
+	margin-right: 5%;
+	color: orange !important;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 2%;
+}
+
 #canvas{
 	background-color: #F7ED4E;
 	position: fixed;
@@ -906,7 +915,7 @@ h3 {
 
 #name1_story_box_story h2{
 	position: relative;
-	top: 78%;
+	top: -24%;
 	left: 32%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1057,7 +1066,7 @@ h3 {
 
 #name1_play_box_story h2{
 	position: relative;
-	top: 79%;
+	top: -24%;
 	left: 15%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1315,7 +1324,7 @@ h3 {
 
 #name1_facts_box_story h2{
 	position: relative;
-	top: 79.1%;
+	top: -24%;
 	left: 16%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1596,8 +1605,10 @@ h3 {
 	}
 	
 	.logoImage{
-		width: 18%;
-		margin-left: 130px;
+		width: 18% !important;
+		margin-left: 128px !important;
+		margin-top: -5px;
+		position: absolute;
 	}
 	
 	#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
@@ -1872,6 +1883,59 @@ h3 {
 	.homeButton{
 	}
 	
+	.ui-dialog .ui-dialog-content {
+		width: auto !important;
+		min-height: 77% !important;
+	}
+	
+	#appStores {
+		margin-left: 22%;
+		padding:0;
+	}
+	
+	.ui-dialog {
+		height: 55% !important;
+	}
+	
+	.backHome{
+		margin-top:-13px;
+	}
+	
+	#name1_story_box_story h2 {
+		position: relative;
+		top: -24%;
+		left: 36%;
+	}
+	
+	#name1_play_box_story h2 {
+		position: relative;
+		top: -24%;
+		left: 24%;
+	}
+	
+	#name1_make_box_story h2 {
+		position: relative;
+		top: 77.5%;
+		left: 23.5%;
+	}
+	
+	#name1_facts_box_story h2 {
+		position: relative;
+		top: -21.9%;
+		left: 24%;
+	}
+	
+	#name1_adults_box_story h2 {
+		position: relative;
+		top: 82.1%;
+		left: 32%;
+	}
+	
+	#thirtynav {
+		height: 77px;
+		margin-top: -7px;
+	}
+	
 	#topRightArt img {
 		margin-top:-8px;
 	}
@@ -1884,6 +1948,8 @@ h3 {
 	#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
 		width: 22%;
 		background-size: 60%;
+		width: 19%;
+		margin-left: 10%;
 	}
 	
 	#name1_box{
@@ -1936,13 +2002,13 @@ h3 {
 
 	#name4_box h2{
 		position: absolute;
-		top: 68%;
-		left: 12%;
+		top: 67%;
+		left: 15%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
-		width: 14%;
-		font-size: 2em;
+		width: 9%;
+		font-size: 1.9em;
 		line-height: 34px;
 	}
 
@@ -1972,13 +2038,13 @@ h3 {
 
 	#name6_box h2{
 		position: absolute;
-		top: 68%;
-		right: 13.5%;
+		top: 67%;
+		right: 18%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
-		width: 14%;
-		font-size: 2em;
+		width: 9%;
+		font-size: 1.9em;
 		line-height: 34px;
 	}
 	
@@ -2062,34 +2128,34 @@ h3 {
 	
 	#name1_make_box h2{
 		position: absolute;
-		top: 79%;
-		left: 21%;
+		top: 83%;
+		left: 27%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
-		font-size: 1em;
+		font-size: 1.6em;
 		line-height: 17px;
 	}
 
 	#name2_make_box h2{
 		position: absolute;
-		top: 79%;
+		top: 83%;
 		left: 22%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
-		font-size: 1em;
+		font-size: 1.6em;
 		line-height: 17px;
 	}
 
 	#name3_make_box h2{
 		position: absolute;
-		top: 79%;
-		right: 21%;
+		top: 84%;
+		right: 27%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
-		font-size: 1em;
+		font-size: 1.6em;
 		line-height: 17px;
 	}
 	
@@ -2661,7 +2727,7 @@ h3 {
 	}
 
 	#name1_adults_box h2{
-		top: 70.1%;
+		top: 65.1%;
 		left: 22%;
 	}
 	
@@ -2680,7 +2746,7 @@ h3 {
 	}
 
 	#name2_adults_box h2{
-		top: 70.1%;
+		top: 65.1%;
 		left: 55%;
 	}
 

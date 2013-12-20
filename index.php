@@ -203,6 +203,7 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 				<h2>The 30/30 Rule</h2>
 				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
 color: white;">	
+					<a href="#" class="factView">View PDF</a>
 					<ul>
 						<li><h4>Lightning Safety Actions</h4>
 					<ul>
@@ -213,48 +214,48 @@ color: white;">
 						<li>Stay off corded telephones and away from electrical devices.</li>
 					</ul>
 					</li>
-						<li>Lightning Facts
+						<li><h4>Lightning Facts</h4>
 					<ul>
 						<li>Lightning heats the air up to 50,000 degrees Fahrenheit. This rapid heating of the air produces the shock wave that results in thunder.</li>
 						<li>A ground stoke can produce somewhere between 100 million to one billion volts of electricity.</li>
 						<li>The length of an average cloud-to-ground lightning channel can range from two to ten miles.</li>
-						<li>You can tell how far away lightning is by counting the seconds between seeing the lightning flash and hearing thunder. For every give seconds you count—lightning is one mile away.</li>
+						<li>You can tell how far away lightning is by counting the seconds between seeing the lightning flash and hearing thunder. For every give seconds you count-lightning is one mile away.</li>
 					</ul>
 					</li>
-						<li>Florida-Lightning Capital of the U.S.  <i>(Map of Florida with lightning bolts)</i>
+						<li><h4>Florida-Lightning Capital of the U.S.A</h4> <i>(Map of Florida with lightning bolts)</i>
 					<ul>
-						<li>More people die from lightning strikes in Florida every year than in any other state. Why? It’s simple really. We have more lightning, and we are fourth largest in populations. On average, 10 people die each year from lightning. Statistics show that teenage boys are most vulnerable. People in their 30’s are the next most likely victims, followed by those in their 20’s.</li>
-						<li>Florida’s unique location, surrounded by warm water, provides the necessary ingredients for thunderstorms to form. It has earned us the title of, “Lightning Capital of the U.S.” Other places in the world have even more lightning though. According to a NASA study, there are areas in the tropics of Africa, Asia, and South and Central America that have more lightning than Florida does. Rwanda, a country in Africa, is known as the, “Lightning Capital of the World.”</li>
+						<li>More people die from lightning strikes in Florida every year than in any other state. Why? It's simple really. We have more lightning, and we are fourth largest in populations. On average, 10 people die each year from lightning. Statistics show that teenage boys are most vulnerable. People in their 30's are the next most likely victims, followed by those in their 20's.</li>
+						<li>Florida's unique location, surrounded by warm water, provides the necessary ingredients for thunderstorms to form. It has earned us the title of, "Lightning Capital of the U.S.A" Other places in the world have even more lightning though. According to a NASA study, there are areas in the tropics of Africa, Asia, and South and Central America that have more lightning than Florida does. Rwanda, a country in Africa, is known as the, "Lightning Capital of the World."</li>
 					</ul>
 					</li>
-						<li>July- The Cruelest Month
+						<li><h4>July- The Cruelest Month</h4>
 					<ul>
 						<li>July is the worst month for lightning deaths. Summer brings thunderstorms. In July, kids are not usually in school. They are more likely to be outside when a thunderstorm approaches. The Fourth-of-July holiday weekend is particularly dangerous. With many outdoor activities taking place during the afternoon and evening, a prime time for summer thunderstorms, it is easy to see why it can be dangerous.</li>
 					</ul>
 					</li>
-						<li>Location…Location…Location
+						<li><h4>Location...Location...Location</h4>
 					<ul>
-						<li>Being safe from lightning is all about being in the right place. The most likely place to be struck by lightning in Florida is near water. Boating, beach going, or fishing in a canal can all be deadly activities when lightning is near. The second deadliest location is being near or under a tree. Trees may give some shelter from rain, but are often deadly locations during lightning. Group sporting events such as baseball, football and soccer are particularly hazardous. Tragically, persons in charge of such events often wait too long before “calling” the game so that people can take refuge. Perhaps this is the reason young people are most often the victims of lightning strikes.</li>
+						<li>Being safe from lightning is all about being in the right place. The most likely place to be struck by lightning in Florida is near water. Boating, beach going, or fishing in a canal can all be deadly activities when lightning is near. The second deadliest location is being near or under a tree. Trees may give some shelter from rain, but are often deadly locations during lightning. Group sporting events such as baseball, football and soccer are particularly hazardous. Tragically, persons in charge of such events often wait too long before "calling" the game so that people can take refuge. Perhaps this is the reason young people are most often the victims of lightning strikes.</li>
 						<li>If you can see lightning or head thunder, even in the distance, you are in danger. Go indoors or into a vehicle and remain there until 30 minutes after the last thunder is heard.</li>
 					</ul>
 					</li>
-						<li>If Someone Is Struck By Lightning, What Should You Do?
+						<li><h4>If Someone Is Struck By Lightning, What Should You Do?</h4>
 					<ul>
-						<li>In the event that a person is struck by lightning, medical care may be needed immediately to save the person’s life. With proper treatment, including CPR if necessary, most victims survive a lightning strike.
+						<li>In the event that a person is struck by lightning, medical care may be needed immediately to save the person's life. With proper treatment, including CPR if necessary, most victims survive a lightning strike.
 					<ul>
 						<li>Call 9-1-1. Provide directions and information about the likely number of lightning strike victims.</li>
-						<li>The first rule of emergency care is “make no more causalities.” Rescuers must stay aware of the continuing danger that a lightning storm poses, both to the rescuers as well as to the victim(s).</li>
+						<li>The first rule of emergency care is "make no more causalities." Rescuers must stay aware of the continuing danger that a lightning storm poses, both to the rescuers as well as to the victim(s).</li>
 					</ul>
 					</li>
 					</ul>
 					</li>
-						<li>The 30-30 Rule
+						<li><h4>The 30-30 Rule</h4>
 					<ul>
-						<li>Use the ’30-30 RULE’ to determine the threat of lightning in your area.
+						<li>Use the '30-30 RULE' to determine the threat of lightning in your area.
 					<ul>
 						<li>30 Seconds:
 					<ul>
-						<li>Count the seconds between seeing lightning and hearing thunder. If this time is less than 30 seconds, lightning is still a potential threat. Seek shelter immediately.</li>
+						<li>Count the seconds between seeing lightning and hearing thunder. If this time is less than 30 seconds, lightning is still a potential threat. Seek shelter immediately.</li><br>
 						<li>30 Minutes:
 					<ul>
 						<li>After hearing the last thunder, wait 30 minutes before leaving shelter. Many lightning deaths occur after the storm passes. Stay in a safe area until you are sure the threat has passed.</li>
