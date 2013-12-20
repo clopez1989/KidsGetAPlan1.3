@@ -48,17 +48,14 @@
 			<div id="name1_box" class="grid_4 morph" onclick="location.href='thirtyrule.php'">
 				<a href="thirtyrule.php" rel="external"></a>
 			</div>
-			<a href="http://www.youtube.com/watch?v=2SfGUV0U62g"  rel="prettyPhoto external">
 			<div id="name2_box" class="grid_4 morph">
-			</div></a>
+			</div>
 			<div id="name3_box" class="grid_4 morph">
-				<a href="oaktree.php"></a>
 			</div>
 			<div id="name4_box" class="grid_2 morph">
 				<h2>Coming Soon</h2>
 			</div>
 			<div id="name5_box" class="grid_2 morph">
-				<a href="megatrack.php"></a>
 			</div>
 			<div id="name6_box" class="grid_2 morph">
 				<h2>Coming Soon</h2>
@@ -100,14 +97,7 @@
 				  </div>
 			</div>
 			<div id="name2_story_box" class="grid_4">
-				<button id="opener2"></button>
 				 <h2>The Oak Tree Club</h2>
-				  <div id="dialog2" title="Basic dialog">
-					  <img src="images/top_bolts_and_etching.png" width="804" height="36" alt="Top Bolts And Etching">
-				    <p>Lorem ipsum dolor sit amet.. At vero eos et accusam et justo duo dolores et ea rebum. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. At vero eos et accusam et justo duo dolores et ea rebum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat </p>
-				  </div>
 			</div>
 			<div id="name3_story_box" class="grid_4">
 				<h2>The Wacky Whiz-Bang Weather Watching Wonder</h2>
@@ -331,8 +321,8 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 			<img src="images/pump_footer_right.png" width="150" height="152" alt="Pump Footer Right">
 		</div>
 		<div class="socialButtons">
-			<a href="#"><img src="images/sert_logo.png" width="71" height="49" alt="Sert Logo" class="serticon"></a>
-			<a href="https://www.facebook.com/kidsgetaplan"><img src="images/fb_icon.png" width="33" height="33" alt="Fb Icon" class="fbicon"></a>
+			<a href="http://www.floridadisaster.org/index.asp" target="_blank"><img src="images/sert_logo.png" width="71" height="49" alt="Sert Logo" class="serticon"></a>
+			<a href="https://www.facebook.com/kidsgetaplan" target="_blank"><img src="images/fb_icon.png" width="33" height="33" alt="Fb Icon" class="fbicon"></a>
 		</div>
 		
 	</div>

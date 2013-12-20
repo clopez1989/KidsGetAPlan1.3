@@ -327,8 +327,12 @@ div.ui-tooltip {
 	min-height: 682px;
 	background-color: #fbee3c;
 	margin-top: 101px;
+	margin-bottom: 71px;
 	text-align: center;
 	position:relative;
+	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 }
 
 #mobileTextBox {
@@ -406,6 +410,7 @@ div.ui-tooltip {
 	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 	position:relative;
+	margin-bottom: 72px;
 	z-index:100;
 }
 
@@ -422,6 +427,10 @@ div.ui-tooltip {
 	background: #fbee3d;
 	padding-top: 7px;
 	position:relative;
+	margin-bottom: 72px;
+	-webkit-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 30px -3px rgba(0,0,0,0.75);
 }
 
 .makeButton {
@@ -770,49 +779,49 @@ h3 {
 
 #name1_box{
 	background: url('../images/Home Character Buttons/home_d_3030.png') no-repeat;
-	background-size: 90%;
+	background-size: 85%;
 	background-position: center;
 }
 
 #name1_box:hover{
 	background: url('../images/Home Character Buttons/home_d_3030_active.png') no-repeat;
-	background-size: 90%;
+	background-size: 85%;
 	background-position: center;
 }
 
 #name2_box{
 	background: url('../images/Home Character Buttons/home_d_tinkermeister.png') no-repeat;
-	background-size: 90%;
+	background-size: 85%;
 	background-position: center;
 }
 
 #name2_box:hover{
 	background: url('../images/Home Character Buttons/home_d_tinkermeister_active.png') no-repeat;
-	background-size: 90%;
+	background-size: 85%;
 	background-position: center;
 }
 
 #name3_box{
 	background: url('../images/Home Character Buttons/home_d_oaktree.png') no-repeat;
-	background-size: 90%;
+	background-size: 85%;
 	background-position: center;
 }
 
 #name3_box:hover{
 	background: url('../images/Home Character Buttons/home_d_oaktree_active.png') no-repeat;
-	background-size: 90%;
+	background-size: 85%;
 	background-position: center;
 }
 
 #name4_box{
 	background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
-	background-size: 90%;
+	background-size: 85%;
 	background-position: center;
 }
 
 #name4_box:hover{
 	background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
-	background-size: 90%;
+	background-size: 85%;
 	background-position: center;
 }
 
@@ -830,32 +839,32 @@ h3 {
 
 #name5_box{
 	background: url('../images/Home Character Buttons/home_d_megatruck.png') no-repeat;
-	background-size: 90%;
+	background-size: 85%;
 	background-position: center;
 }
 
 #name5_box:hover{
 	background: url('../images/Home Character Buttons/home_d_megatruck_active.png') no-repeat;
-	background-size: 90%;
+	background-size: 85%;
 	background-position: center;
 }
 
 #name6_box{
 	background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
-	background-size: 90%;
+	background-size: 85%;
 	background-position: center;
 }
 
 #name6_box:hover{
 	background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
-	background-size: 90%;
+	background-size: 85%;
 	background-position: center;
 }
 
 #name6_box h2{
 	position: absolute;
-	top: 68%;
-	right: 12%;
+	top: 67%;
+	right: 13%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;

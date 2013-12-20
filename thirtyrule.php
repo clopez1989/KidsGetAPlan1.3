@@ -105,6 +105,7 @@
 			<h2>Lightning Safety Facts</h2>
 				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
 color: white;">	
+					<a href="#" class="factView">View PDF</a>
 					<ul>
 						<li><h4>Lightning Safety Actions</h4>
 					<ul>
