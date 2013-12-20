@@ -4,8 +4,7 @@
 <!-- include Header -->
 <?php include 'header.php'; ?>
 
-<body onload="window.scrollTo(0,100);">
-
+<body onload="window.scrollTo(0,100); init();" style="background-color:#D4D4D4">
 <!-- include Navigation -->
 <?php include 'nav.php'; ?>
 	<div class="section homeButton" id="homeMain">
@@ -40,6 +39,7 @@
 	
 	
 	<div class="mainWrapper">
+			<canvas id="canvas" width="1667" height="734"></canvas>
 		<div class="section mainSection mainButton" data-type="background" data-speed="10">
 			<!-- Text box for mobile site -->			
 			<div id="mobileTextBox_main">
@@ -176,7 +176,6 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			</div>
 			<img src="images/Adults/bevel_yellow.png" width="999" height="22" alt="Bevel Yellow" class="bevelBottom">
 		</div>
-
 		<div class="section makeButton" id="homeMake" data-type="background" data-speed="10">
 			<img src="images/Adults/bevel_bottom.png" width="996" height="23" alt="Bevel Bottom" class="makeBevelBottom">
 			<div id="mobileTextBoxMake">
@@ -202,11 +201,10 @@ Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie co
 			<div id="name1_facts_box" class="grid_4">
 				<button id="opener4"></button>
 				<h2>The 30/30 Rule</h2>
-				<div id="dialog4" title="The 30/30 Rule Facts" style="background:#9554c4; text-shadow: none;
+				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
 color: white;">	
-					<i>This page has a mix of content boxes with various messages about Lighting safety.</i>
 					<ul>
-						<li>Lightning Safety Actions (This has a similar look the Disaster Plan check list)
+						<li><h4>Lightning Safety Actions</h4>
 					<ul>
 						<li>Avoid open high ground and isolated large trees.</li>
 						<li>Avoid water (swimming pools, lakes and rivers), beaches and boats.</li>

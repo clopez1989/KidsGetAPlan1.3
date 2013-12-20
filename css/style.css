@@ -49,6 +49,12 @@ div.ui-tooltip {
 	height: auto;
 }
 
+#canvas{
+	background-color: #F7ED4E;
+	position: fixed;
+	top: 97px;
+}
+
 #opener{
 	width: 77%;
 	height: 100%;
@@ -242,6 +248,10 @@ div.ui-tooltip {
 	text-decoration: none;
 	vertical-align: middle;
 	display: block;
+}
+
+#dialog4 li{
+	margin-left:-15px;
 }
 
 #topLeftButton{
@@ -677,12 +687,13 @@ h3 {
 .mainWrapper {
 	width: 90%;
 	margin: auto;
-	background-color: #fbee3c;
+	/*background-color: #fbee3c;
 	background-repeat:repeat;
-	/*background: #fbee3c url('img/gearsFinal.gif') repeat-y fixed;*/
+	background: #fbee3c url('img/gearsFinal.gif') repeat-y fixed;
 	background: #fbee3c url('../images/background_gears.png') repeat-y fixed;
 	background-size: 100% auto;
-	background-position: 50% 66%;
+	background-position: 50% 66%;*/
+	background: -webkit-canvas(animation) no-repeat 50% 50%;
 	
 }
 
