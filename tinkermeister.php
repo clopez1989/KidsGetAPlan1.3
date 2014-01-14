@@ -51,21 +51,21 @@
 			<div id="name3_story_box_story" class="grid_4">
 				<button id="opener"></button>
 				<h2>The Story</h2>
-			  <div id="dialog" title="The 30/30 Rule Story" style="background:#9554c4;">	
+			  <div id="dialog" title="Professor Tinkermeister Story" style="background:#9554c4;">	
 				  <div id="dialogEtchingLeft">
 					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
 				  </div>
 					<div id="dialogButtons">
 						<p class="desktopOnly">For Desktop:</p>  
-				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+				  		<a href="book.swf?bookXML=book2-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
 						<br>
 						<p>For Mobile & Tablet Devices:</p>
 						<div id="appStores">
-				  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
+				  			<a href="https://itunes.apple.com/us/app/kgap-professor-tinkermeister/id652369474?mt=8" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.TinkermeisterMobileBook" target="_blank">
 					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;" class="googlePlayBtn"/>
 							</a>
-							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+							<a href="http://www.amazon.com/KGAP-Professor-Tinkermeister-Whiz-Bang-Weather-Watching/dp/B00CXXSQNK/ref=sr_1_3?s=mobile-apps&ie=UTF8&qid=1389634640&sr=1-3" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
 						</div>
 				</div>
 			  <div id="dialogEtchingRight">
@@ -75,21 +75,21 @@
 			</div>
 		<div id="name3_play_box_story" class="grid_4">
 			<button id="opener3"></button>
-			<h2>The 30/30 Rule Activity</h2>
-			<div id="dialog3" title="The 30/30 Rule Game" style="background:#9554c4;">	
+			<h2>Tinkermeister&rsquo;s Activity</h2>
+			<div id="dialog3" title="The Tinkermeister's Activity" style="background:#9554c4;">	
 			  <div id="dialogEtchingLeft">
 				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
 			  </div>
 			  <div id="dialogButtons">
 				   <p class="desktopOnly">For Desktop:</p>  
-			  	   <a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Play the Game</a>
+			  	   <a href="wacky.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Play the Game</a>
 				   <br>
 				   <p>For Mobile & Tablet Devices:</p>
 				   <div id="appStores">
-			  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-						<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank" class="googlePlayBtn">
+			  			<a href="https://itunes.apple.com/us/app/kgap-whiz-bang-weather-watching/id655047704?mt=8" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+						<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.TinkermeisterMobileGame" target="_blank" class="googlePlayBtn">
 				  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
-						<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+						<a href="http://www.amazon.com/KGAP-Professor-Tinkermeisters-Whiz-Bang-Weather-Watching/dp/B00CYP3RDQ/ref=sr_1_4?s=mobile-apps&ie=UTF8&qid=1389634871&sr=1-4" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
 				  </div>
 			</div>
 		    <div id="dialogEtchingRight">
@@ -102,69 +102,108 @@
 		</div>
 		<div id="name3_facts_box_story" class="grid_4">
 			<button id="opener4"></button>
-			<h2>Lightning Safety Facts</h2>
-				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
+			<h2>Tornado Safety Facts</h2>
+				<div id="dialog4" title="The Tinkermeister Tornado Facts" style="background:#9554c4; text-shadow: none;
 color: white;">	
 					<a href="#" class="factView">View PDF</a>
 					<ul>
-						<li><h4>Lightning Safety Actions</h4>
+						<li>Tornado Safety Actions
 					<ul>
-						<li>Avoid open high ground and isolated large trees.</li>
-						<li>Avoid water (swimming pools, lakes and rivers), beaches and boats.</li>
-						<li>Seek shelter inside a building or an automobile, but not a convertible or golf cart.</li>
-						<li>Stay away from doors, windows, and metal objects such as pipes or faucets.</li>
-						<li>Stay off corded telephones and away from electrical devices.</li>
+						<li>Homes
+					<ul>
+						<li>When a tornado watch is issued, be prepared to take action.</li>
+						<li>When a tornado warning is issued, or a tornado is imminent, move to a small interior room away from windows.</li>
+						<li>Consider constructing a tornado safe room in or adjacent to your home.</li>
 					</ul>
 					</li>
-						<li><h4>Lightning Facts</h4>
+						<li>Open Country
 					<ul>
-						<li>Lightning heats the air up to 50,000 degrees Fahrenheit. This rapid heating of the air produces the shock wave that results in thunder.</li>
-						<li>A ground stoke can produce somewhere between 100 million to one billion volts of electricity.</li>
-						<li>The length of an average cloud-to-ground lightning channel can range from two to ten miles.</li>
-						<li>You can tell how far away lightning is by counting the seconds between seeing the lightning flash and hearing thunder. For every give seconds you count-lightning is one mile away.</li>
+						<li>Seek a nearby shelter if time permits.</li>
+						<li>If not, lie flat in the nearest depression, a ditch or culvert. Cover your head with your arms.</li>
 					</ul>
 					</li>
-						<li><h4>Florida-Lightning Capital of the U.S.A</h4> <i>(Map of Florida with lightning bolts)</i>
+						<li>Vehicles
 					<ul>
-						<li>More people die from lightning strikes in Florida every year than in any other state. Why? It's simple really. We have more lightning, and we are fourth largest in populations. On average, 10 people die each year from lightning. Statistics show that teenage boys are most vulnerable. People in their 30's are the next most likely victims, followed by those in their 20's.</li>
-						<li>Florida's unique location, surrounded by warm water, provides the necessary ingredients for thunderstorms to form. It has earned us the title of, "Lightning Capital of the U.S.A" Other places in the world have even more lightning though. According to a NASA study, there are areas in the tropics of Africa, Asia, and South and Central America that have more lightning than Florida does. Rwanda, a country in Africa, is known as the, "Lightning Capital of the World."</li>
+						<li>Abandon your vehicle and seek refuge in a building or, as a last resort, a ditch.</li>
+						<li>Do not try to outrun a tornado.</li>
 					</ul>
 					</li>
-						<li><h4>July- The Cruelest Month</h4>
+						<li>Offices, Hotels and Condominiums
 					<ul>
-						<li>July is the worst month for lightning deaths. Summer brings thunderstorms. In July, kids are not usually in school. They are more likely to be outside when a thunderstorm approaches. The Fourth-of-July holiday weekend is particularly dangerous. With many outdoor activities taking place during the afternoon and evening, a prime time for summer thunderstorms, it is easy to see why it can be dangerous.</li>
+						<li>When action is required, take shelter in an interior hallway on a lower floor, closet or small room.</li>
+						<li>As a last resort, get under heavy furniture, away from windows.</li>
 					</ul>
 					</li>
-						<li><h4>Location...Location...Location</h4>
+						<li>Manufactured and Mobile Homes
 					<ul>
-						<li>Being safe from lightning is all about being in the right place. The most likely place to be struck by lightning in Florida is near water. Boating, beach going, or fishing in a canal can all be deadly activities when lightning is near. The second deadliest location is being near or under a tree. Trees may give some shelter from rain, but are often deadly locations during lightning. Group sporting events such as baseball, football and soccer are particularly hazardous. Tragically, persons in charge of such events often wait too long before "calling" the game so that people can take refuge. Perhaps this is the reason young people are most often the victims of lightning strikes.</li>
-						<li>If you can see lightning or head thunder, even in the distance, you are in danger. Go indoors or into a vehicle and remain there until 30 minutes after the last thunder is heard.</li>
-					</ul>
-					</li>
-						<li><h4>If Someone Is Struck By Lightning, What Should You Do?</h4>
-					<ul>
-						<li>In the event that a person is struck by lightning, medical care may be needed immediately to save the person's life. With proper treatment, including CPR if necessary, most victims survive a lightning strike.
-					<ul>
-						<li>Call 9-1-1. Provide directions and information about the likely number of lightning strike victims.</li>
-						<li>The first rule of emergency care is "make no more causalities." Rescuers must stay aware of the continuing danger that a lightning storm poses, both to the rescuers as well as to the victim(s).</li>
+						<li>Have a plan of where to go during a tornado threat-a nearby pre-identified safe structure within walking distance.</li>
+						<li>When a tornado watch is issued, be prepared to take action.</li>
 					</ul>
 					</li>
 					</ul>
 					</li>
-						<li><h4>The 30-30 Rule</h4>
+						<li>Tornado Facts
 					<ul>
-						<li>Use the '30-30 RULE' to determine the threat of lightning in your area.
+						<li>Tornadoes are powerful and hard to predict! The time of year makes a big difference in how they form and just how powerful they are likely to be.</li><br>
+						<li>Summer and Fall Tornadoes
 					<ul>
-						<li>30 Seconds:
+						<li>There more tornadoes during June, July and August than at any other time of the year. In the summertime, thunderstorms move inland with the sea breezes. Tornadoes that develop within these thunderstorms may travel in almost any direction.</li>
+						<li>Summertime tornadoes are usually small. They don't last very long. They usually cause minor damage and few deaths or injuries.</li>
+						<li>During the summer and fall months tropical cyclones, or hurricanes, may produce tornadoes. These tornadoes often from in the outer rainbands and to the right of the hurricane's forward motion. Like other summer tornadoes, they are generally weak and don't usually last long. But sometimes, they can be violent. These tornadoes form quickly, and they may strike with little or no warning.</li>
+					</ul>
+					</li>
+						<li>Winter and Spring Tornadoes
 					<ul>
-						<li>Count the seconds between seeing lightning and hearing thunder. If this time is less than 30 seconds, lightning is still a potential threat. Seek shelter immediately.</li><br>
-						<li>30 Minutes:
-					<ul>
-						<li>After hearing the last thunder, wait 30 minutes before leaving shelter. Many lightning deaths occur after the storm passes. Stay in a safe area until you are sure the threat has passed.</li>
+						<li>The most deadly tornadoes have happened in the late winter an early spring months. During the cool season, the jet stream that flows east high above the United States dips south over the Gulf of Mexico. The jet stream picks up energy and moisture from the warm gulf waters. Strong thunderstorms can form into a squall line. The squall line can sweep across the state.</li>
+						<li>When the winds near the ground change quickly and are different from the winds high in the jet stream, it can create wind shear. Wind shear can cause the thunderstorms to spin and get stronger. Very strong thunderstorms are called supercells. Supercells can move over land 30 to 50 mph! These storms can produce strong winds (known as downbursts), large hail and violent tornadoes. Late winter and springtime tornadoes usually move from the southwest or west.</li>
 					</ul>
 					</li>
 					</ul>
 					</li>
+						<li>Tornado Safety
+					<ul>
+						<li>In most of the U.S., tornadoes occur during the late afternoon or early evening. Yet, tornadoes in Florida are just as likely to occur during the night as in the afternoon. This makes tornadoes in Florida even more dangerous. If people are asleep they may not receive warnings from radio or TV. A solution to this problem is to have a NOAA Weather Radio in your home. A NOAA Weather Radio will alert you to a warning at any time, day or night.</li>
+						<li>The National Weather Service issues watches and warnings during a tornado threat. When a warning is issued for your area, you should take cover immediately.</li>
+						<li>If you hear the roaring and rumbling of a tornado, seek shelter in a small room on the lowest floor of a strong building. You should stay away from doors and windows. Leave mobile homes for safer shelter. Never try to outrun a tornado in a car. Instead, leave your car and take cover in a nearby building or lie down in a ditch on the side of the road.</li>
+					</ul>
+					</li>
+						<li>Tornadoes Are Measured By The Fujita Scale
+					<ul>
+						<li>The Fujita scale (F-scale) uses actual damage to estimate a tornado's wind speed</li>
+						<li>F0 Gale Tornado
+					<ul>
+						<li>40-72 mph</li>
+						<li>Some damage to chimneys. Tree branches broken off. Shallow rooted trees uprooted.</li>
+					</ul>
+					</li>
+						<li>F1 Moderate Tornado
+					<ul>
+						<li>73-112 mph</li>
+						<li>Peels surface off roofs. Mobile homes overturned. Moving autos pushed off roads.</li>
+					</ul>
+					</li>
+						<li>F2 Significant Tornado
+					<ul>
+						<li>113-157 mph</li>
+						<li>Considerable damage. Roofs torn off frame houses. Large trees snapped or uprooted. Light-object missiles generated.</li>
+					</ul>
+					</li>
+						<li>F3 Severe Tornado
+					<ul>
+						<li>158-206 mph</li>
+						<li>Severe damage. Roofs and some walls torn off well-constructed homes. Most trees in forests uprooted. Heavy cars lifted off ground.</li>
+					</ul>
+					</li>
+						<li>F4 Devastating Tornado
+					<ul>
+						<li>207-260 mph</li>
+						<li>Well-constructed houses leveled. Structures blown off weak foundations. Cars thrown and large missiles generated.</li>
+					</ul>
+					</li>
+						<li>F5 Incredible Tornado
+					<ul>
+						<li>261-318 mph</li>
+						<li>Strong frame houses lifted off foundations and disintegrated. Automobile-sized missiles fly through the air in excess of 100 mph. Trees debarked.</li>
 					</ul>
 					</li>
 					</ul>
@@ -173,7 +212,7 @@ color: white;">
 			  	</div>
 		</div>
 		<div id="name3_adults_box_story" class="grid_4">
-			<h2>The 30/30 Rule</h2>
+			<h2>Tinkermeister</h2>
 		</div>
 		<br class="clear">
 	</div>
@@ -202,6 +241,36 @@ color: white;">
 		</div>
 		
 	</div>
+	
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" 	src="js/jquery.smint.js"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+	    	$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+	</script>
+	
+	<script type="text/javascript">	
+	// JavaScript Document
+
+	// Soution for the target attribute to validate in xhtml strict
+	function externalLinks() { 
+	 if (!document.getElementsByTagName) return; 
+	 var anchors = document.getElementsByTagName("a"); 
+	 for (var i=0; i<anchors.length; i++) { 
+	   var anchor = anchors[i]; 
+	   if (anchor.getAttribute("href") && 
+	       anchor.getAttribute("rel") == "external") 
+	     anchor.target = "_blank"; 
+	 } 
+	} 
+	window.onload = externalLinks;
+	// Open new window with restricted dimensions
+	function MM_openBrWindow(theURL,winName,features) { //v2.0
+	  window.open(theURL,winName,features);
+	}
+	</script>
 	
 	<script type="text/javascript">	
 	$.ajaxSetup ({

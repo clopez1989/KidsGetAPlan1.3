@@ -1,0 +1,196 @@
+<book title="The 30/30 Rule" keywords="book1-english-keywords.xml" character="1">
+	
+	<chapter number="1" title="Chapter One">
+
+		<spread background="books/book1/book1-spread0.swf">
+			<page number="800">
+				<![CDATA[]]>
+			</page>
+			<page number="801" audio="Bk1_N0.mp3">
+				<![CDATA[The Adventures of Rabbit, Possum, and Squirrel in The 30/30 Rule]]>
+			</page>
+		</spread>
+
+		<spread background="books/book1/book1-page1.swf">
+            <comprehension audio="Bk1_C1.mp3">
+	            <![CDATA[Look at the picture. What do you think the weather is like today? How are the characters feeling? How can you tell? Use the pictures to help you understand the story.]]>
+            </comprehension>
+			<page number="0">
+				<![CDATA[]]>
+			</page>
+			<page number="1" audio="Bk1_N1.mp3">
+				<![CDATA[It was a hot<br />and sunny day.<br />Three furry friends<br />went out to play.]]>
+			</page>
+		</spread>		
+
+		<spread background="books/book1/book1-spread1.swf">
+            <comprehension audio="Bk1_C2-3.mp3">
+	            <![CDATA[What character is afraid?  What happened that scared him?]]>
+            </comprehension>			
+			<page number="2" audio="Bk1_N2.mp3">
+				<![CDATA[Up in the sky<br />the clouds were forming.<br />The radio said<br />it might soon be storming!]]>
+			</page>
+			<page number="3" audio="Bk1_N3.mp3">
+				<![CDATA["Oh, no!" said Squirrel.<br />"There might be lightning.<br />I'm going inside.<br />This is just too frightening."]]>
+			</page>		
+		</spread>
+		
+		<spread background="books/book1/book1-spread2.swf">
+            <comprehension audio="Bk1_C4-5.mp3">
+	            <![CDATA[Where did Rabbit learn the 30/30 Rule?]]>
+            </comprehension>			
+			<page number="4" audio="Bk1_N4.mp3">
+				<![CDATA[But Rabbit remembered<br />what he learned in school...<br />about the 30/30 Rule.]]>
+			</page>		
+			<page number="5" audio="Bk1_N5.mp3">
+				<![CDATA[The 30/30 Rule...]]>
+			</page>				
+		</spread>
+		
+		<spread background="books/book1/book1-spread3.swf">
+            <comprehension audio="Bk1_C6-7.mp3">
+	            <![CDATA[What is Rabbit doing? Does he look concerned about anything? How about Possum?]]>
+            </comprehension>			
+			<page number="6" audio="Bk1_N6.mp3">
+				<![CDATA[Rabbit just kept<br />a watchful eye<br />for big, dark clouds<br />up in the sky.]]>
+			</page>		
+			<page number="7" audio="Bk1_N7.mp3">
+				<![CDATA[And Possum thought,<br />I should do something.<br />But he sat in his hammock<br />and just did nothing!]]>
+			</page>				
+		</spread>
+
+		<spread background="books/book1/book1-spread4.swf">
+            <comprehension audio="Bk1_C8-9.mp3">
+	            <![CDATA[What is Rabbit doing? Where is Squirrel? How is Squirrel feeling?]]>
+            </comprehension>					
+			<page number="8" audio="Bk1_N8.mp3">
+				<![CDATA["Squirrel, please come<br />back out and play.<br />There is no lightning<br />yet today!"]]>
+			</page>		
+			<page number="9" audio="Bk1_N9.mp3">
+				<![CDATA[But Squirrel was hiding<br />under the bed.<br />"I'm too scared!"<br />was all he said.]]>
+			</page>				
+		</spread>
+		
+		<spread background="books/book1/book1-spread5.swf">
+            <comprehension audio="Bk1_C10-11.mp3">
+	            <![CDATA[How has the sky changed?  Why is Rabbit counting?  What will happen next?]]>
+            </comprehension>			
+			<page number="10" audio="Bk1_N10.mp3">
+				<![CDATA[Later the clouds<br />started getting dark.<br />And Rabbit saw the<br />lightning spark!]]>
+			</page>		
+			<page number="11" audio="Bk1_N11.mp3">
+				<![CDATA["One Tallahassee, Two Tallahassee,<br />Three Tallahassee, Four..."<br />Then Rabbit heard the thunder roar.]]>
+			</page>				
+		</spread>
+
+		<spread background="books/book1/book1-spread6.swf">
+            <comprehension audio="Bk1_C12-13.mp3">
+	            <![CDATA[Why is Rabbit running inside? What is Possum doing? What do you think will happen next?]]>
+            </comprehension>					
+			<page number="12" audio="Bk1_N12.mp3">
+				<![CDATA["Hurry Possum,<br />I only got to four.<br />Let's go inside<br />and close the door!"]]>
+			</page>		
+			<page number="13" audio="Bk1_N13.mp3">
+				<![CDATA[And Possum thought,<br />I should do something.<br />But he sat in his hammock<br />and just did nothing!]]>
+			</page>				
+		</spread>
+		
+		<spread background="books/book1/book1-spread7.swf">
+            <comprehension audio="Bk1_C14-15.mp3">
+	            <![CDATA[How has the weather changed?  What made Possum get out of his hammock?]]>
+            </comprehension>			
+			<page number="14" audio="Bk1_N14.mp3">
+				<![CDATA[Then the wind<br />began to blow.<br />Big, dark clouds<br />began to grow.]]>
+			</page>		
+			<page number="15" audio="Bk1_N15.mp3">
+				<![CDATA[The thunder woke Possum<br />with a great big jolt.<br />Then he saw another<br />lightning bolt.]]>
+			</page>				
+		</spread>
+
+		<spread background="books/book1/book1-spread8.swf">
+            <comprehension audio="Bk1_C16-17.mp3">
+	            <![CDATA[What's Rabbit doing? Why do you think he looks so happy? How does Possum feel? How does Squirrel feel? What's the weather like outside now?]]>
+            </comprehension>					
+			<page number="16" audio="Bk1_N16.mp3">
+				<![CDATA["Squirrel, come out.<br />It's just rain falling."<br />But he did not hear<br />Rabbit calling.]]>
+			</page>		
+			<page number="17" audio="Bk1_N17.mp3">
+				<![CDATA[It rained and rained<br />and rained some more.<br />It really was<br />a big downpour.]]>
+			</page>				
+		</spread>
+		
+		<spread background="books/book1/book1-spread9.swf">
+            <comprehension audio="Bk1_C18-19.mp3">
+	            <![CDATA[What are the three safety tips that Rabbit is sharing?]]>
+            </comprehension>			
+			<page number="18" audio="Bk1_N18.mp3">
+				<![CDATA["Let's watch the rain<br />fall on the ground.<br />Away from the window,<br />we're safe and sound!"]]>
+			</page>		
+			<page number="19" audio="Bk1_N19.mp3">
+				<![CDATA["From the phone and the tub<br />we'll stay away,<br />and we'll be safe<br />on this rainy day."]]>
+			</page>				
+		</spread>
+
+		<spread background="books/book1/book1-spread10.swf">
+            <comprehension audio="Bk1_C20-21.mp3">
+	            <![CDATA[What's happening with the weather now?  What time is it? What's Rabbit telling Possum?]]>
+            </comprehension>					
+			<page number="20" audio="Bk1_N20.mp3">
+				<![CDATA[The rain soon stopped,<br />but not the thunder.<br />"Is it safe to go outside,<br />I wonder?"]]>
+			</page>		
+			<page number="21" audio="Bk1_N21.mp3">
+				<![CDATA["When the thunder stops<br />you have to wait<br />for thirty minutes<br />just to be safe!"]]>
+			</page>				
+		</spread>
+		
+		<spread background="books/book1/book1-spread11.swf">
+            <comprehension audio="Bk1_C22-23.mp3">
+	            <![CDATA[What time is it now? What is the weather like outside? How do the three friends feel?]]>
+            </comprehension>			
+			<page number="22" audio="Bk1_N22.mp3">
+				<![CDATA[And when the thunder<br />was no more...]]>
+			</page>		
+			<page number="23" audio="Bk1_N23.mp3">
+				<![CDATA[...after thirty minutes, they<br />opened the door.  Even Squirrel<br />came out at last.  "Let's go<br />outside. The storm has passed."]]>
+			</page>				
+		</spread>
+
+		<spread background="books/book1/book1-spread12.swf">
+            <comprehension audio="Bk1_C24-25.mp3">
+	            <![CDATA[What happened to Possum's umbrella and hammock?  What lesson do you think Possum has learned?  What is the radio announcer saying now?]]>
+            </comprehension>					
+			<page number="24" audio="Bk1_N24.mp3">
+				<![CDATA["Oh, Possum, look!<br />Your hammock is soaked.<br />And your umbrella...<br />why, it is smoked!"]]>
+			</page>		
+			<page number="25" audio="Bk1_N25.mp3">
+				<![CDATA[Just then, the radio did say,<br />"Another chance of storms today."]]>
+			</page>				
+		</spread>
+		
+		<spread background="books/book1/book1-spread13.swf">
+            <comprehension audio="Bk1_C26-27.mp3">
+	            <![CDATA[Where is Squirrel going? Why? How does Possum feel now?]]>
+            </comprehension>			
+			<page number="26" audio="Bk1_N26.mp3">
+				<![CDATA["Oh, no!" cried Squirrel<br />as he ran inside.<br />Back under the bed<br />he went to hide.]]>
+			</page>		
+			<page number="27" audio="Bk1_N27.mp3">
+				<![CDATA[Possum stayed and<br />cleaned up his stuff.<br />Boy, he thought,<br />life is tough.]]>
+			</page>				
+		</spread>
+
+		<spread background="books/book1/book1-spread14.swf">
+            <comprehension audio="Bk1_C28-29.mp3">
+	            <![CDATA[What is Rabbit doing? Why does he get to sit and enjoy the sunset?]]>
+            </comprehension>					
+			<page number="28" audio="Bk1_N28.mp3">
+				<![CDATA[But Rabbit knew<br />the 30/30 Rule.<br />He had done what<br />he learned in school.]]>
+			</page>		
+			<page number="29" audio="Bk1_N29.mp3">
+				<![CDATA[And because Rabbit knew<br />to do the right thing,<br />it was now his turn<br />to just do nothing.]]>
+			</page>				
+		</spread>	
+		
+	</chapter>
+	
+</book>

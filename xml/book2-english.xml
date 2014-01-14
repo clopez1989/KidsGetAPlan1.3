@@ -1,0 +1,231 @@
+<book title="Professor Tinkermeister and the Wacky, Wiz-Bang Weather-Watching Wonder" keywords="book2-english-keywords.xml" character="2">
+	
+	<chapter number="1" title="Chapter One">
+		
+		<spread background="books/book2/book2-spread0.swf">
+			<page number="800">
+			</page>
+			<page number="801" audio="Bk2_N0.mp3">
+				<![CDATA[Professor Tinkermeister and the Wacky, Whiz-Bang, Weather-Watching Wonder]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread1.swf">
+            <comprehension audio="Bk2_C1.mp3">
+	            <![CDATA[Look at the portrait of Professor Tinkermeister.  Does he look scary?  Does he look friendly?  What do you think about him?]]>
+            </comprehension>
+			<page number="0">
+				<![CDATA[]]>
+			</page>
+			<page number="1" audio="Bk2_N1.mp3">
+				<![CDATA[Professor Nimbus Tinkermeister was a very smart man. He loved science. He invented weird machines.]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread2.swf">
+            <comprehension audio="Bk2_C2-3.mp3">
+	            <![CDATA[Make sure you look at the pictures when you read. You can get clues about the story that way.  Where is the professor going?  Why do you think he's going there?  Is it a sunny day or a stormy day?]]>
+            </comprehension>
+			<page number="2">
+				<![CDATA[]]>
+			</page>
+			<page number="3" audio="Bk2_N3.mp3">
+				<![CDATA[He had a giant laboratory in his garage. He created his strange and fun inventions there. One day he heard the weather radio blast, "Tornado Watch!"]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread3.swf">
+            <comprehension audio="Bk2_C4-5.mp3">
+	            <![CDATA[What is under the cloth at the top of the stairs?  What will the professor do next?]]>
+            </comprehension>
+			<page number="4" audio="Bk2_N4.mp3">
+				<![CDATA["Hooray!" shouted the professor as he raced up the stairs. "Now I can try out my latest invention." He could hardly wait to climb in and start it up.]]>
+			</page>
+			<page number="5" audio="Bk2_N5.mp3">
+				<![CDATA[The roof opened wide. He floated up into the sky. "It works!" cried the professor. The Wacky, Whiz-Bang, Weather-Watching Wonder took off.]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread4.swf">
+            <comprehension audio="Bk2_C6-7.mp3">
+	            <![CDATA[What is different about the professor's machine now?  How did he do that?]]>
+            </comprehension>
+			<page number="6" audio="Bk2_N6.mp3">
+				<![CDATA[The professor turned on all of his warning widgets to full power. Now his machine would keep him safe.]]>
+			</page>
+			<page number="7" audio="Bk2_N7.mp3">
+				<![CDATA[He zipped right out into the big, dark cloud.]]>
+			</page>
+		</spread>
+		
+		<spread background="books/book2/book2-spread5.swf">
+            <comprehension audio="Bk2_C8-9.mp3">
+	            <![CDATA[Where is the professor now?  What are the blue arrows showing?  What do the pink arrows show?  The moving air is what causes energy to build up in the cloud and causes lightning. What do you think will happen next?]]>
+            </comprehension>
+			<page number="8" audio="Bk2_N8.mp3">
+				<![CDATA[Warm and cold air swirled up and down around him. The air moved faster and faster. The storm cloud filled with energy.]]>
+			</page>
+			<page number="9">
+				<![CDATA[]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread6.swf">
+            <comprehension audio="Bk2_C10-11.mp3">
+	            <![CDATA[How does the professor's face look?  What happened to make him feel that way?  Which came first, the thunder or the lightning? Where is the professor now?  Why is he looking down?]]>
+            </comprehension>
+			<page number="10" audio="Bk2_N10.mp3">
+				<![CDATA[He saw a bright flash. Lightning! Then he heard a big boom. Thunder!]]>
+			</page>
+			<page number="11" audio="Bk2_N11.mp3">
+				<![CDATA[Professor Tinkermeister looked around, but still no tornado. The rain fell harder and harder. "Yikes! All this water falling at once could cause big problems in the town. I better warn people."]]>
+			</page>
+		</spread>
+		
+		<spread background="books/book2/book2-spread7.swf">
+            <comprehension audio="Bk2_C12-13.mp3">
+	            <![CDATA[Where is the professor going?  What does the sky look like where he is?  What does the sky look like over the town?]]>
+            </comprehension>
+			<page number="12" audio="Bk2_N12.mp3">
+				<![CDATA[The professor put his machine into high gear and blasted down to the town.]]>
+			</page>
+			<page number="13" audio="Bk2_N13.mp3">
+				<![CDATA["Alert! Alert!" he shouted into his microphone. "There's too much rain coming. Prepare for a flood." The people jumped into action.]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread8.swf">
+            <comprehension audio="Bk2_C14-15.mp3">
+	            <![CDATA[What are all the people doing?  What is the little girl pointing at?  What does the sky look like?]]>
+            </comprehension>
+            <page number="14" audio="Bk2_N14.mp3">
+				<![CDATA[People that lived by the river put sandbags in front of their doors. This would help keep the water out.]]>
+			</page>
+			<page number="15" audio="Bk2_N15.mp3">
+				<![CDATA[They scooted to higher ground where they would be safe and dry. They all paid close attention to the weather radio to hear the latest news. Everyone was safe.]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread9.swf">
+            <comprehension audio="Bk2_C16-17.mp3">
+	            <![CDATA[Who is talking to the professor?  What are they talking about?  What do you think will happen next?]]>
+            </comprehension>
+			<page number="16" audio="Bk2_N16.mp3">
+				<![CDATA["Where are you going, Professor Tinkermeister?" a little voice asked.  "I'm searching for a tornado with my new machine," replied the professor.]]>
+			</page>
+			<page number="17" audio="Bk2_N17.mp3">
+				<![CDATA[He blasted high into the dark sky. He wondered, what will I see next?]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread10.swf">
+            <comprehension audio="Bk2_C18-19.mp3">
+	            <![CDATA[Where's the professor headed now?  What's happening inside that cloud?  What do the arrows mean? Does it always rain underneath a cloud?  How can you tell?]]>
+            </comprehension>
+			<page number="18" audio="Bk2_N18.mp3">
+				<![CDATA[It was a giant storm cloud! The cloud was bigger than the town. It was a super cell. The super cell had a bump on top. It looked like a big hat. The professor headed right for the cloud.]]>
+			</page>
+			<page number="19">
+				<![CDATA[]]>
+			</page>
+		</spread>
+		
+		<spread background="books/book2/book2-spread11.swf">
+            <comprehension audio="Bk2_C20-21.mp3">
+	            <![CDATA[Where are the professor and his machine now?  What is the temperature like there?  How can you tell?]]>
+            </comprehension>
+			<page number="20" audio="Bk2_N20.mp3">
+				<![CDATA[Whoosh! He was inside the cloud. Suddenly, the Wonder was covered with frost. "Oh, my! The water is freezing up here!" he said.]]>
+			</page>
+			<page number="21" audio="Bk2_N21.mp3">
+				<![CDATA[The cloud made hailstones. They were small, but they were growing heavier and heavier. The professor knew what to do!]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread12.swf">
+            <comprehension audio="Bk2_C22-23.mp3">
+	            <![CDATA[What's the professor doing?  What does the sky look like? Where are the people going?  Why? What's the name of the dog that lives in this doghouse?  Where do you think the dog has gone?  What has happened to the doghouse?]]>
+            </comprehension>
+			<page number="22" audio="Bk2_N22.mp3">
+				<![CDATA["The hailstones are getting too heavy," yelled the professor. "It's going to hail. Everyone needs to get inside!"]]>
+			</page>
+			<page number="23" audio="Bk2_N23.mp3">
+				<![CDATA[People hurried. They took their pets and ran inside. They waited safely together. The hail bounced on the ground. It dented cars and rooftops. It even put a hole in Spot's doghouse!]]>
+			</page>
+		</spread>
+		
+		<spread background="books/book2/book2-spread13.swf">
+            <comprehension audio="Bk2_C24-25.mp3">
+	            <![CDATA[What's color is the sky now?  What's the weather like now?  Which direction is the wind blowing?  How can you tell?  Why are all the people inside?]]>
+            </comprehension>
+			<page number="24" audio="Bk2_N24.mp3">
+				<![CDATA[The rain and hail stopped. So did the lightning and thunder. It was very quiet, but the dark cloud hung above.]]>
+			</page>
+			<page number="25" audio="Bk2_N25.mp3">
+				<![CDATA[They sky had changed. Now it was an icky, greenish-black. The wind began to switch directions. The weather radio blared, “Tornado Warning! A tornado has been spotted near the town. Everyone should find shelter.”]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread14.swf">
+            <comprehension audio="Bk2_C26-27.mp3">
+	            <![CDATA[What does the sky look like now? Where is the professor going?  Why?  What does he see?  What do you think will happen next?]]>
+            </comprehension>
+			<page number="26" audio="Bk2_N26.mp3">
+				<![CDATA[Then the professor saw it. The super cell had grown a long tail of dark wind. It was spinning around and around.]]>
+			</page>
+			<page number="27" audio="Bk2_N27.mp3">
+				<![CDATA["It's a tornado!" he exclaimed. "I must study this closely." Off he went.]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread15.swf">
+            <comprehension audio="Bk2_C28-29.mp3">
+	            <![CDATA[Why are the students sitting in the hallway?  What is the teacher doing? Why is the family in the bathtub?  What do you think the radio is saying?]]>
+            </comprehension>
+			<page number="28" audio="Bk2_N28.mp3">
+				<![CDATA[Back in the town, people were taking cover. Some kids were at school. The teacher moved them into the hallway to be safe. It was just like when they had the drill.]]>
+			</page>
+			<page number="29" audio="Bk2_N29.mp3">
+				<![CDATA[At home, families sat in their bathtubs without water. Everyone kept away from the windows. Spot thought about his dog house.]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread16.swf">
+            <comprehension audio="Bk2_C30-31.mp3">
+	            <![CDATA[Where's the professor?  What's he doing?  What things are flying through the air?  Where's the tornado?  Do you think it will hit the town?]]>
+            </comprehension>
+			<page number="30">
+				<![CDATA[]]>
+			</page>
+			<page number="31" audio="Bk2_N31.mp3">
+				<![CDATA[The tornado zoomed near the town. It was as loud as a train. The wind blew very, very fast.]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread17.swf">
+            <comprehension audio="Bk2_C32-33.mp3">
+	            <![CDATA[What's the weather like now?  What's the little girl doing?  Why is there such a mess? How does the little girl feel?  What does the professor like to do?  How can you tell?]]>
+            </comprehension>
+			<page number="32" audio="Bk2_N32.mp3">
+				<![CDATA[But soon the tornado disappeared. The neighbors checked on each other to make sure they were safe. Now they were all working together to clean up. "I hope the professor is okay," Mary Laura said.]]>
+			</page>
+			<page number="33" audio="Bk2_N33.mp3">
+				<![CDATA["Quite a mess you have here," a voice said. "Professor Tinkermeister, you're back!" yelled Mary Laura.]]>
+			</page>
+		</spread>
+
+		<spread background="books/book2/book2-spread18.swf">
+            <comprehension audio="Bk2_C34-35.mp3">
+	            <![CDATA[What has happened to the professor's machine?  What new parts of it do you see now?  What is the machine doing?]]>
+            </comprehension>
+			<page number="34" audio="Bk2_N34.mp3">
+				<![CDATA[Did I ever tell you this machine is also a Wet-Weather, Water-Whisking Womper?" asked the professor. "Climb in! Together, we will have this mess cleaned up in no time!"]]>
+			</page>
+			<page number="35" audio="Bk2_N35.mp3">
+				<![CDATA[And that is what they did.]]>
+			</page>
+		</spread>
+
+	</chapter>
+	
+</book>

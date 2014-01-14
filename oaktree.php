@@ -51,21 +51,21 @@
 			<div id="name2_story_box_story" class="grid_4">
 				<button id="opener"></button>
 				<h2>The Story</h2>
-			  <div id="dialog" title="The 30/30 Rule Story" style="background:#9554c4;">	
+			  <div id="dialog" title="The Oak Tree Club Story" style="background:#9554c4;">	
 				  <div id="dialogEtchingLeft">
 					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
 				  </div>
 					<div id="dialogButtons">
 						<p class="desktopOnly">For Desktop:</p>  
-				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+				  		<a href="book.swf?bookXML=book3-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
 						<br>
 						<p>For Mobile & Tablet Devices:</p>
 						<div id="appStores">
-				  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
+				  			<a href="https://itunes.apple.com/us/app/kgap-oak-tree-club-disaster/id700000188?mt=8" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.OakTreeMobileBook" target="_blank">
 					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;" class="googlePlayBtn"/>
 							</a>
-							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+							<a href="http://www.amazon.com/KGAP-The-Oak-Tree-Club/dp/B00DUHT24K/ref=sr_1_9?s=mobile-apps&ie=UTF8&qid=1389636385&sr=1-9" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
 						</div>
 				</div>
 			  <div id="dialogEtchingRight">
@@ -75,21 +75,21 @@
 			</div>
 		<div id="name2_play_box_story" class="grid_4">
 			<button id="opener3"></button>
-			<h2>The 30/30 Rule Activity</h2>
-			<div id="dialog3" title="The 30/30 Rule Game" style="background:#9554c4;">	
+			<h2>The Oak Tree Club Activity</h2>
+			<div id="dialog3" title="The Oak Tree Club Game" style="background:#9554c4;">	
 			  <div id="dialogEtchingLeft">
 				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
 			  </div>
 			  <div id="dialogButtons">
 				   <p class="desktopOnly">For Desktop:</p>  
-			  	   <a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Play the Game</a>
+			  	   <a href="Supply_Kit_Activity.swf?width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Play the Game</a>
 				   <br>
 				   <p>For Mobile & Tablet Devices:</p>
 				   <div id="appStores">
-			  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-						<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank" class="googlePlayBtn">
+			  			<a href="https://itunes.apple.com/us/app/kgap-oak-tree-club-disaster/id700000188?mt=8" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+						<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.DSKMobile" target="_blank" class="googlePlayBtn">
 				  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
-						<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+						<a href="http://www.amazon.com/ideas-orlando-KGAP-Disaster-Supply/dp/B00EZUVA6O/ref=sr_1_5?s=mobile-apps&ie=UTF8&qid=1389637118&sr=1-5" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
 				  </div>
 			</div>
 		    <div id="dialogEtchingRight">
@@ -102,69 +102,55 @@
 		</div>
 		<div id="name2_facts_box_story" class="grid_4">
 			<button id="opener4"></button>
-			<h2>Lightning Safety Facts</h2>
-				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
+			<h2>Hurricane Safety Facts</h2>
+				<div id="dialog4" title="The Oak Tree Club Hurricanes Facts" style="background:#9554c4; text-shadow: none;
 color: white;">	
 					<a href="#" class="factView">View PDF</a>
+					<br>
 					<ul>
-						<li><h4>Lightning Safety Actions</h4>
+						<li>Hurricanes, cyclones, and typhoons are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li>
+						<li>Hurricane Safety Actions
 					<ul>
-						<li>Avoid open high ground and isolated large trees.</li>
-						<li>Avoid water (swimming pools, lakes and rivers), beaches and boats.</li>
-						<li>Seek shelter inside a building or an automobile, but not a convertible or golf cart.</li>
-						<li>Stay away from doors, windows, and metal objects such as pipes or faucets.</li>
-						<li>Stay off corded telephones and away from electrical devices.</li>
+						<li>Know if you live in an evacuation area. Know your home's vulnerability to storm surge, flooding and wind. Have a family plan.</li>
+						<li>At the beginning of hurricane season (June), check your supplies, replace batteries and rotate your stock of food and water.</li>
+						<li>If a storm threatens, listen to your local authorities. Evacuate if ordered.</li>
 					</ul>
 					</li>
-						<li><h4>Lightning Facts</h4>
+						<li>Saffir-Simpson Scale
 					<ul>
-						<li>Lightning heats the air up to 50,000 degrees Fahrenheit. This rapid heating of the air produces the shock wave that results in thunder.</li>
-						<li>A ground stoke can produce somewhere between 100 million to one billion volts of electricity.</li>
-						<li>The length of an average cloud-to-ground lightning channel can range from two to ten miles.</li>
-						<li>You can tell how far away lightning is by counting the seconds between seeing the lightning flash and hearing thunder. For every give seconds you count-lightning is one mile away.</li>
+						<li>Tropical Storm
+					<ul>
+						<li>Winds 39-73 mph</li>
 					</ul>
 					</li>
-						<li><h4>Florida-Lightning Capital of the U.S.A</h4> <i>(Map of Florida with lightning bolts)</i>
+						<li>Category 1 Hurricane
 					<ul>
-						<li>More people die from lightning strikes in Florida every year than in any other state. Why? It's simple really. We have more lightning, and we are fourth largest in populations. On average, 10 people die each year from lightning. Statistics show that teenage boys are most vulnerable. People in their 30's are the next most likely victims, followed by those in their 20's.</li>
-						<li>Florida's unique location, surrounded by warm water, provides the necessary ingredients for thunderstorms to form. It has earned us the title of, "Lightning Capital of the U.S.A" Other places in the world have even more lightning though. According to a NASA study, there are areas in the tropics of Africa, Asia, and South and Central America that have more lightning than Florida does. Rwanda, a country in Africa, is known as the, "Lightning Capital of the World."</li>
+						<li>Winds 74-95 mph</li>
+						<li>No real damage to buildings. Damage to unanchored mobile homes.</li>
 					</ul>
 					</li>
-						<li><h4>July- The Cruelest Month</h4>
+						<li>Category 2 Hurricane
 					<ul>
-						<li>July is the worst month for lightning deaths. Summer brings thunderstorms. In July, kids are not usually in school. They are more likely to be outside when a thunderstorm approaches. The Fourth-of-July holiday weekend is particularly dangerous. With many outdoor activities taking place during the afternoon and evening, a prime time for summer thunderstorms, it is easy to see why it can be dangerous.</li>
+						<li>Winds 96-110 mph</li>
+						<li>Some damage to building roofs, doors and windows. Considerable damage to mobile homes. Some trees blown down.</li>
 					</ul>
 					</li>
-						<li><h4>Location...Location...Location</h4>
+						<li>Category 3 Hurricane
 					<ul>
-						<li>Being safe from lightning is all about being in the right place. The most likely place to be struck by lightning in Florida is near water. Boating, beach going, or fishing in a canal can all be deadly activities when lightning is near. The second deadliest location is being near or under a tree. Trees may give some shelter from rain, but are often deadly locations during lightning. Group sporting events such as baseball, football and soccer are particularly hazardous. Tragically, persons in charge of such events often wait too long before "calling" the game so that people can take refuge. Perhaps this is the reason young people are most often the victims of lightning strikes.</li>
-						<li>If you can see lightning or head thunder, even in the distance, you are in danger. Go indoors or into a vehicle and remain there until 30 minutes after the last thunder is heard.</li>
+						<li>Winds 111-130 mph</li>
+						<li>Some structural damage to small homes. Large trees blown down. Mobile homes and poorly built signs destroyed.</li>
 					</ul>
 					</li>
-						<li><h4>If Someone Is Struck By Lightning, What Should You Do?</h4>
+						<li>Category 4 Hurricane
 					<ul>
-						<li>In the event that a person is struck by lightning, medical care may be needed immediately to save the person's life. With proper treatment, including CPR if necessary, most victims survive a lightning strike.
-					<ul>
-						<li>Call 9-1-1. Provide directions and information about the likely number of lightning strike victims.</li>
-						<li>The first rule of emergency care is "make no more causalities." Rescuers must stay aware of the continuing danger that a lightning storm poses, both to the rescuers as well as to the victim(s).</li>
+						<li>Winds 131-155 mph</li>
+						<li>Wall failures in homes and complete roof structure failure on small homes. Total destruction of mobile homes. Trees, shrubs and signs all blown down.</li>
 					</ul>
 					</li>
-					</ul>
-					</li>
-						<li><h4>The 30-30 Rule</h4>
+						<li>Category 5 Hurricane
 					<ul>
-						<li>Use the '30-30 RULE' to determine the threat of lightning in your area.
-					<ul>
-						<li>30 Seconds:
-					<ul>
-						<li>Count the seconds between seeing lightning and hearing thunder. If this time is less than 30 seconds, lightning is still a potential threat. Seek shelter immediately.</li><br>
-						<li>30 Minutes:
-					<ul>
-						<li>After hearing the last thunder, wait 30 minutes before leaving shelter. Many lightning deaths occur after the storm passes. Stay in a safe area until you are sure the threat has passed.</li>
-					</ul>
-					</li>
-					</ul>
-					</li>
+						<li>Winds 156 mph +</li>
+						<li>Complete roof failure on homes and industrial buildings. Some complete building failures.</li>
 					</ul>
 					</li>
 					</ul>
@@ -173,7 +159,7 @@ color: white;">
 			  	</div>
 		</div>
 		<div id="name2_adults_box_story" class="grid_4">
-			<h2>The 30/30 Rule</h2>
+			<h2>The Oak Tree Club</h2>
 		</div>
 		<br class="clear">
 	</div>
@@ -203,10 +189,40 @@ color: white;">
 		
 	</div>
 	
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" 	src="js/jquery.smint.js"></script>
+	
+	<script type="text/javascript" charset="utf-8">
+		$(document).ready(function(){
+	    	$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+	</script>
+	
+	<script type="text/javascript">	
+	// JavaScript Document
+
+	// Soution for the target attribute to validate in xhtml strict
+	function externalLinks() { 
+	 if (!document.getElementsByTagName) return; 
+	 var anchors = document.getElementsByTagName("a"); 
+	 for (var i=0; i<anchors.length; i++) { 
+	   var anchor = anchors[i]; 
+	   if (anchor.getAttribute("href") && 
+	       anchor.getAttribute("rel") == "external") 
+	     anchor.target = "_blank"; 
+	 } 
+	} 
+	window.onload = externalLinks;
+	// Open new window with restricted dimensions
+	function MM_openBrWindow(theURL,winName,features) { //v2.0
+	  window.open(theURL,winName,features);
+	}
+	</script>
+	
 	<script type="text/javascript">	
 	$.ajaxSetup ({
 	    // Disable caching of AJAX responses
-	    cache: false
+	    //cache: false
 	});
 	</script>
 	

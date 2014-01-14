@@ -337,6 +337,7 @@ a.pp_close {
 	margin-left: 66px;
 	height: 100px;
 	margin-top: -24px;
+	width:14%;
 }
 #backButton:hover{
 	background: url('../images/back_desktop_active.png') no-repeat;
@@ -1074,13 +1075,12 @@ h3 {
 
 #name5_story_box h2{
 	position: absolute;
-	top: 78%;
+	top: 82%;
 	right: 12%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
 	width: 75%;
-	font-size: 1em;
 	line-height: 19px;
 }
 
@@ -1219,12 +1219,12 @@ h3 {
 
 #name2_play_box_story h2{
 	position: relative;
-	top: -24%;
-	left: 13%;
+	top: -22%;
+	left: 14%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
-	font-size: 1.4em;
+	font-size: 1.1em;
 }
 
 #name3_play_box{
@@ -1274,7 +1274,7 @@ h3 {
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
-	font-size: 1.4em;
+	font-size: 1.3em;
 }
 
 #name4_play_box h2{
@@ -1328,11 +1328,11 @@ h3 {
 #name5_play_box_story h2{
 	position: relative;
 	top: -24%;
-	left: 13%;
+	left: 14%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
-	font-size: 1.4em;
+	font-size: 1.2em;
 }
 
 #name6_play_box h2{
@@ -1626,11 +1626,12 @@ h3 {
 
 #name2_facts_box_story h2{
 	position: relative;
-	top: -24%;
+	top: -22%;
 	left: 16%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size:1.3em;
 }
 
 #name3_facts_box{
@@ -1679,6 +1680,7 @@ h3 {
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size: 1.4em;
 }
 
 #name4_facts_box{
@@ -1787,7 +1789,7 @@ h3 {
 
 #name1_adults_box h2{
 	position: absolute;
-	top: 62.1%;
+	top: 63.1%;
 	left: 26%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1837,7 +1839,7 @@ h3 {
 
 #name2_adults_box h2{
 	position: absolute;
-	top: 62.1%;
+	top: 63.1%;
 	left: 57%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1847,7 +1849,7 @@ h3 {
 #name2_adults_box_story{
 	background: url('../images/Sub_Adults/sub_adults_d_oaktree.png') no-repeat;
 	background-position: center;
-	width: 30%;
+	width: 33.3%;
 	height: 231px;
 	cursor:pointer;
 	float:left;
@@ -1863,7 +1865,7 @@ h3 {
 #name2_adults_box_story h2{
 	position: relative;
 	top: 80.1%;
-	left: 26%;
+	left: 16%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -1872,7 +1874,7 @@ h3 {
 #name3_adults_box_story{
 	background: url('../images/Sub_Adults/sub_adults_d_tinkermeister.png') no-repeat;
 	background-position: center;
-	width: 30%;
+	width: 33.3%;
 	height: 231px;
 	cursor:pointer;
 	float:left;
@@ -1897,7 +1899,7 @@ h3 {
 #name5_adults_box_story{
 	background: url('../images/Sub_Adults/sub_adults_d_megatrack.png') no-repeat;
 	background-position: center;
-	width: 30%;
+	width: 33.3%;
 	height: 231px;
 	cursor:pointer;
 	float:left;
@@ -1986,7 +1988,7 @@ h3 {
 }
 
 .bottomMenu li{
-	margin-left: 37px;
+	margin-left: 35px;
 	list-style-type: circle;
 	float: left;
 	color: white;

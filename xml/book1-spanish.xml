@@ -1,0 +1,16 @@
+﻿<book title="The 30/30 Rule" language="spanish">
+	<chapter number="1" title="Chapter One">
+		<page number="1" audio="Spanish_VO_Block_01.mp3">
+			<![CDATA[En el cielo las nubes se estaban formando.<br />La Radio anuncia que una tormenta Pronto llegará!]]>
+		</page>
+		<page number="2" audio="Spanish_VO_Block_02.mp3">
+			<![CDATA[“Oh, no!” exclama la Ardilla!!.<br />“Tal vez habrán rayos<br />Yo mejor me entro.<br />Esto me da miedo.”]]>
+		</page>		
+		<page number="3" audio="Spanish_VO_Block_03.mp3">
+			<![CDATA[Pero el Conejo Recordó, lo que le habían ensenado en la escuela acerca de la regla de los 30/30]]>
+		</page>
+		<page number="4" audio="Spanish_VO_Block_04.mp3">
+			<![CDATA[]]>
+		</page>				
+	</chapter>
+</book>

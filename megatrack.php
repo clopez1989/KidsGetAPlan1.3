@@ -75,7 +75,7 @@
 			</div>
 		<div id="name5_play_box_story" class="grid_4">
 			<button id="opener3"></button>
-			<h2>The 30/30 Rule Activity</h2>
+			<h2>MegaTrack HTW Activity</h2>
 			<div id="dialog3" title="The 30/30 Rule Game" style="background:#9554c4;">	
 			  <div id="dialogEtchingLeft">
 				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -98,7 +98,7 @@
 		  </div>
 		</div>
 		<div id="name5_make_box_story" class="grid_4">
-			<h2>Cut-Out and Color</h2>
+			<!-- <h2>Cut-Out and Color</h2> -->
 		</div>
 		<div id="name5_facts_box_story" class="grid_4">
 			<button id="opener4"></button>
