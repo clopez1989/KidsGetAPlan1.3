@@ -169,7 +169,7 @@ color: white;">
 					</li>
 						<li>Tornadoes Are Measured By The Fujita Scale
 					<ul>
-						<li>The Fujita scale (F-scale) uses actual damage to estimate a tornado's wind speed</li>
+						<li>The Fujita scale (F-scale) uses actual damage to estimate a tornado's wind speed</li><br>
 						<li>F0 Gale Tornado
 					<ul>
 						<li>40-72 mph</li>

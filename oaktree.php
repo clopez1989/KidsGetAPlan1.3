@@ -108,7 +108,7 @@ color: white;">
 					<a href="#" class="factView">View PDF</a>
 					<br>
 					<ul>
-						<li>Hurricanes, cyclones, and typhoons are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li>
+						<li>Hurricanes, cyclones, and typhoons are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li><br>
 						<li>Hurricane Safety Actions
 					<ul>
 						<li>Know if you live in an evacuation area. Know your home's vulnerability to storm surge, flooding and wind. Have a family plan.</li>
@@ -150,7 +150,7 @@ color: white;">
 						<li>Category 5 Hurricane
 					<ul>
 						<li>Winds 156 mph +</li>
-						<li>Complete roof failure on homes and industrial buildings. Some complete building failures.</li>
+						<li>Complete roof failure on homes and industrial buildings. Some complete building failures.</li><br>
 					</ul>
 					</li>
 					</ul>

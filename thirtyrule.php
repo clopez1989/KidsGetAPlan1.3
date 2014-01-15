@@ -126,7 +126,7 @@ color: white;">
 						<li>You can tell how far away lightning is by counting the seconds between seeing the lightning flash and hearing thunder. For every give seconds you count-lightning is one mile away.</li>
 					</ul>
 					</li>
-						<li><h4>Florida-Lightning Capital of the U.S.A</h4> <i>(Map of Florida with lightning bolts)</i>
+						<li><h4>Florida-Lightning Capital of the U.S.A</h4>
 					<ul>
 						<li>More people die from lightning strikes in Florida every year than in any other state. Why? It's simple really. We have more lightning, and we are fourth largest in populations. On average, 10 people die each year from lightning. Statistics show that teenage boys are most vulnerable. People in their 30's are the next most likely victims, followed by those in their 20's.</li>
 						<li>Florida's unique location, surrounded by warm water, provides the necessary ingredients for thunderstorms to form. It has earned us the title of, "Lightning Capital of the U.S.A" Other places in the world have even more lightning though. According to a NASA study, there are areas in the tropics of Africa, Asia, and South and Central America that have more lightning than Florida does. Rwanda, a country in Africa, is known as the, "Lightning Capital of the World."</li>
@@ -156,10 +156,10 @@ color: white;">
 						<li><h4>The 30-30 Rule</h4>
 					<ul>
 						<li>Use the '30-30 RULE' to determine the threat of lightning in your area.
-					<ul>
+					</ul>
 						<li>30 Seconds:
 					<ul>
-						<li>Count the seconds between seeing lightning and hearing thunder. If this time is less than 30 seconds, lightning is still a potential threat. Seek shelter immediately.</li><br>
+						<li>Count the seconds between seeing lightning and hearing thunder. If this time is less than 30 seconds, lightning is still a potential threat. Seek shelter immediately.</li><br></ul>
 						<li>30 Minutes:
 					<ul>
 						<li>After hearing the last thunder, wait 30 minutes before leaving shelter. Many lightning deaths occur after the storm passes. Stay in a safe area until you are sure the threat has passed.</li>

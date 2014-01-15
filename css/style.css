@@ -80,7 +80,7 @@ a.pp_close {
 	border:none;
 }
 
-#opener2, #opener3, #opener4, #openerOakStory, #openerTinkerStory, #openerMegaStory, #openerOakPlay, #openerTinkerPlay, #openerMegaPlay{
+#opener2, #opener3, #opener4, #openerOakStory, #openerTinkerStory, #openerMegaStory, #openerOakPlay, #openerTinkerPlay, #openerMegaPlay, #openerOakFacts, #openerTinkerFacts, #openerMegaFacts{
 	width: 77%;
 	height: 100%;
 	background: none;
@@ -2746,6 +2746,10 @@ h3 {
 		margin-left: 124px;
 	}
 	
+	.bottomMenu li{
+		margin-left: 52px;
+	}
+	
 	#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
 		text-align: center;
 		margin-bottom: 0px;
@@ -2757,14 +2761,14 @@ h3 {
 	
 	#name4_box h2{
 		position: absolute;
-		top: 75%;
-		left:10.5%;
+		top: 72%;
+		left: 10%;
 	}
 	
 	#name6_box h2{
 		position: absolute;
-		top: 75%;
-		right:10.5%;
+		top: 72%;
+		right: 11%;
 	}
 	
 	#opener{
@@ -2909,7 +2913,7 @@ h3 {
 
 	#name5_story_box h2{
 		position: absolute;
-		top: 78%;
+		top: 79%;
 		left: 12%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
@@ -3136,7 +3140,7 @@ h3 {
 	
 	#name2_facts_box_story h2 {
 		left: 7%;
-		top: -22%;
+		top: -21%;
 	}
 
 	#name3_facts_box h2{
@@ -3221,7 +3225,11 @@ h3 {
 	}
 	
 	#name2_adults_box_story h2 {
-		left: 18%;
+		left: 10%;
+	}
+	
+	#name3_adults_box_story h2 {
+		left: 19%;
 	}
 
 	#homeButton{
