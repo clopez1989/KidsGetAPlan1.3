@@ -48,7 +48,7 @@
 		<div id="thirty_story_title_box" class="grid_4">
 			<img src="images/Sub_Title/sub_title_d_30_30.png" width="295" height="246" alt="Sub Title D 30 30">
 		</div>
-			<div id="name1_story_box_story" class="grid_4">
+		<div id="name1_story_box_story" class="grid_4">
 				<button id="opener"></button>
 				<h2>The Story</h2>
 			  <div id="dialog" title="The 30/30 Rule Story" style="background:#9554c4;">	
@@ -59,7 +59,7 @@
 						<p class="desktopOnly">For Desktop:</p>  
 				  		<!-- <a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a> -->
 						<!-- ><a href="#" onclick="MM_openBrWindow('book.php?bookXML=book1-english.xml','taf','scrollbars=yes,resizable=no,width=840,height=680,location=no')" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read The Story</a> -->
-						<a href="book.swf?bookXML=book1-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+						<a href="book.swf?bookXML=book1-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashA]">Read the Story</a>
 						<br>
 						<p>For Mobile & Tablet Devices:</p>
 						<div id="appStores">
@@ -83,7 +83,7 @@
 			  </div>
 			  <div id="dialogButtons">
 				   <p class="desktopOnly">For Desktop:</p>  
-			  	   <a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Play the Game</a>
+			  	   <a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flashB]">Play the Game</a>
 				   <br>
 				   <p>For Mobile & Tablet Devices:</p>
 				   <div id="appStores">
@@ -100,14 +100,32 @@
 		  </div>
 		</div>
 		<div id="name1_make_box_story" class="grid_4">
+			<button id="openerThirtyMake"></button>
 			<h2>Cut-Out and Color</h2>
+		    <div id="dialogThirtyMake" title="The 30/30 Rule Downloads" style="background:#9554c4;">	
+			  <div id="dialogEtchingLeft">
+				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+			  </div>
+				<div id="dialogButtons">
+					<p>Download Coloring Pages:</p>  
+			  		<a href="coloring_books/the3030coloring.pdf" class="dialogRead" target="_blank">The 30/30 Rule</a>
+					<br>
+					<p>Download Character Cut-Outs:</p>
+					<a href="character_sheets/character_sheet_rabbit_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Rabbit</a>
+					<a href="character_sheets/character_sheet_possum_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Possum</a>
+					<a href="character_sheets/character_sheet_squirrel_2.pdf" class="dialogRead" target="_blank">Squirrel</a>
+			</div>
+		  <div id="dialogEtchingRight">
+			  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+		  </div>
+		  </div>
 		</div>
 		<div id="name1_facts_box_story" class="grid_4">
 			<button id="opener4"></button>
 			<h2>Lightning Safety Facts</h2>
 				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
 color: white;">	
-					<a href="#" class="factView">View PDF</a>
+					<a href="brochures/HWA Guide Tornadoes.pdf" class="factView" target="_blank">View PDF</a>
 					<ul>
 						<li><h4>Lightning Safety Actions</h4>
 					<ul>
@@ -175,7 +193,22 @@ color: white;">
 			  	</div>
 		</div>
 		<div id="name1_adults_box_story" class="grid_4">
+			<button id="openerTeacherGuide"></button>
 			<h2>The 30/30 Rule</h2>
+		    <div id="dialogTeacherGuide" title="Parent &amp; Teacher Guide" style="background:#9554c4;">
+			  <div id="dialogEtchingLeft">
+				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+			  </div>
+				<div id="dialogButtons">
+					<p>Download PDF Guides:</p>  
+			  		<a href="parent_teacher_guides/Grade_1_Guide_for_Teachers_and_Parents.pdf" class="dialogRead desktopOnly" target="_blank">The 30/30 Rule Guide</a>
+					<p>Buy The Book:</p>  
+			  		<a href="https://dpifulfillment.myprintdesk.com/walk_up.php?id=eed80cb546ac9300f03bab6a7be84acd390a1fe5" class="dialogRead  desktopOnly" target="_blank">The 30/30 Rule Book</a>
+				</div>
+		      <div id="dialogEtchingRight">
+			  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+		  </div>
+	        </div>
 		</div>
 		<br class="clear">
 	</div>
@@ -210,7 +243,7 @@ color: white;">
 	
 	<script type="text/javascript" charset="utf-8">
 		$(document).ready(function(){
-	    	$("a[rel^='prettyPhoto']").prettyPhoto();
+	    	$("a[rel^='prettyPhoto']").prettyPhoto({deeplinking: false});
 		});
 	</script>
 	
@@ -365,14 +398,60 @@ color: white;">
 	    });
  
  	   $('div.ui-resizable-handle').hide();
-	   
  
 	    $( "#opener_thirty_story" ).click(function() {
 	      $( "#dialog_thirty_story" ).dialog( "open" );
 	    });
-		
-		
-		
+	  });
+	  
+	  $(function() {
+	    $( "#dialogThirtyMake" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+ 
+	    $( "#openerThirtyMake" ).click(function() {
+	      $( "#dialogThirtyMake" ).dialog( "open" );
+	    });
+	  });
+	  
+	  $(function() {
+	    $( "#dialogTeacherGuide" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+ 
+	    $( "#openerTeacherGuide" ).click(function() {
+	      $( "#dialogTeacherGuide" ).dialog( "open" );
+	    });
 	  });
 	</script>  
 	

@@ -12,7 +12,7 @@
 			<img src="images/top_left_panel_art.png" alt=""/>
 		</div>
 		<div class="logoContainer" class="grid_4">
-			<a href="index.php" data-ajax="false"><img src="images/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
+			<a href="index.php" data-ajax="false"><img src="images/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan" class="logoImage" /></a>
 		</div>
 		<div id="topRightArt" class="grid_4">
 			<img src="images/Header_element_right.png" alt=""/>
@@ -37,9 +37,10 @@
 		</div>
 	</div>
 	
-	
 	<div class="mainWrapper">
+		
 			<canvas id="canvas" width="1667" height="734"></canvas>
+			
 		<div class="section mainSection mainButton" data-type="background" data-speed="10">
 			<!-- Text box for mobile site -->			
 			<div id="mobileTextBox_main">
@@ -83,7 +84,7 @@
 					  </div>
 						<div id="dialogButtons">
 							<p class="desktopOnly">For Desktop:</p>  
-					  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+					  		<a href="book.swf?bookXML=book1-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashA]">Read the Story</a>
 							<br>
 							<p>For Mobile & Tablet Devices:</p>
 							<div id="appStores">
@@ -108,7 +109,7 @@
 				  </div>
 					<div id="dialogButtons">
 						<p class="desktopOnly">For Desktop:</p>  
-				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+				  		<a href="book.swf?bookXML=book3-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashB]">Read the Story</a>
 						<br>
 						<p>For Mobile & Tablet Devices:</p>
 						<div id="appStores">
@@ -133,7 +134,7 @@
   				  </div>
   					<div id="dialogButtons">
   						<p class="desktopOnly">For Desktop:</p>  
-  				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+  				  		<a href="book.swf?bookXML=book2-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashC]">Read the Story</a>
   						<br>
   						<p>For Mobile & Tablet Devices:</p>
   						<div id="appStores">
@@ -161,7 +162,7 @@
     				  </div>
     					<div id="dialogButtons">
     						<p class="desktopOnly">For Desktop:</p>  
-    				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+    				  		<a href="book.swf?bookXML=book4-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashD]">Read the Story</a>
     						<br>
     						<p>For Mobile & Tablet Devices:</p>
     						<div id="appStores">
@@ -200,7 +201,7 @@
 				  </div>
 				  <div id="dialogButtons">
 					   <p class="desktopOnly">For Desktop:</p>  
-				  	   <a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Play the Game</a>
+				  	   <a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flashE]">Play the Game</a>
 					   <br>
 					   <p>For Mobile & Tablet Devices:</p>
 					   <div id="appStores">
@@ -219,13 +220,13 @@
 			<div id="name2_play_box" class="grid_4">
 				<button id="openerOakPlay"></button>
 				 <h2>Disaster Supply Kit</h2>
-   			  <div id="dialogOakPlay" title="The Oak Tree Club Story" style="background:#6dcef5;">	
+   			  <div id="dialogOakPlay" title="Disaster Supply Kit" style="background:#6dcef5;">	
    				  <div id="dialogEtchingLeft">
    					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
    				  </div>
    					<div id="dialogButtons">
    						<p class="desktopOnly">For Desktop:</p>  
-   				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+   				  		<a href="Supply_Kit_Activity.swf?width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashF]">Play the Game</a>
    						<br>
    						<p>For Mobile & Tablet Devices:</p>
    						<div id="appStores">
@@ -243,13 +244,13 @@
 			<div id="name3_play_box" class="grid_4">
 				<button id="openerTinkerPlay"></button>
 				<h2>The Whiz-Bang Quiz</h2>
-    			  <div id="dialogTinkerPlay" title="The Tinkermeister Story" style="background:#9fcb3a;">	
+    			  <div id="dialogTinkerPlay" title="The Whiz-Bang Game" style="background:#9fcb3a;">	
     				  <div id="dialogEtchingLeft">
     					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
     				  </div>
     					<div id="dialogButtons">
     						<p class="desktopOnly">For Desktop:</p>  
-    				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+    				  		<a href="wacky/wacky.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flashG]">Play the Game</a>
     						<br>
     						<p>For Mobile & Tablet Devices:</p>
     						<div id="appStores">
@@ -270,13 +271,13 @@
 			<div id="name5_play_box" class="grid_4">
 				<button id="openerMegaPlay"></button>
 				<h2>Firewise Simulator</h2>
-  			  <div id="dialogMegaPlay" title="The MegaTrack HTW Story" style="background:#ff962e;">	
+  			  <div id="dialogMegaPlay" title="Firewise Simulator" style="background:#ff962e;">	
   				  <div id="dialogEtchingLeft">
   					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
   				  </div>
   					<div id="dialogButtons">
   						<p class="desktopOnly">For Desktop:</p>  
-  				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+  				  		<a href="firewise/dem-firewise_simulator.swf?width=900&height=900" class="dialogRead desktopOnly" rel="prettyPhoto[flashH s]">Play the Game</a>
   						<br>
   						<p>For Mobile & Tablet Devices:</p>
   						<div id="appStores">
@@ -299,19 +300,71 @@
 			</div>
 			<img src="images/Adults/bevel_yellow.png" width="999" height="22" alt="Bevel Yellow" class="bevelBottom">
 		</div>
+		
 		<div class="section makeButton" id="homeMake" data-type="background" data-speed="10">
 			<img src="images/Adults/bevel_bottom.png" width="996" height="23" alt="Bevel Bottom" class="makeBevelBottom">
 			<div id="mobileTextBoxMake">
 				<h2>Cut-Outs and Coloring Pages</h2>
 			</div>
 			<div id="name1_make_box" class="grid_4">
+				<button id="openerThirtyMake"></button>
 				<h2>The 30/30 Rule</h2>
+    			  <div id="dialogThirtyMake" title="The 30/30 Rule Downloads" style="background:#9554c4;">	
+    				  <div id="dialogEtchingLeft">
+    					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+    				  </div>
+    					<div id="dialogButtons">
+    						<p class="desktopOnly">Download Coloring Pages:</p>  
+    				  		<a href="coloring_books/the3030coloring.pdf" class="dialogRead desktopOnly" target="_blank">The 30/30 Rule</a>
+    						<br>
+    						<p>Download Character Cut-Outs:</p>
+    						<a href="character_sheets/character_sheet_rabbit_2.pdf" class="dialogRead desktopOnly" target="_blank" style="margin-bottom:10px;">Rabbit</a>
+							<a href="character_sheets/character_sheet_possum_2.pdf" class="dialogRead desktopOnly" target="_blank" style="margin-bottom:10px;">Possum</a>
+							<a href="character_sheets/character_sheet_squirrel_2.pdf" class="dialogRead desktopOnly" target="_blank">Squirrel</a>
+    				</div>
+    			  <div id="dialogEtchingRight">
+    				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+    			  </div>
+    			  </div>
 			</div>
 			<div id="name2_make_box" class="grid_4">
+				<button id="openerOakMake"></button>
 				 <h2>The Oak Tree Club</h2>
+   			  <div id="dialogOakMake" title="The Oak Tree Club Downloads" style="background:#6dcef5;">	
+   				  <div id="dialogEtchingLeft">
+   					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+   				  </div>
+   					<div id="dialogButtons">
+   						<p class="desktopOnly">Download Coloring Pages:</p>  
+   				  		<a href="coloring_books/oaktreecoloring.pdf" class="dialogRead desktopOnly" target="_blank">The Oak Tree Club</a>
+   						<br>
+   						<p>Download Character Cut-Outs:</p>
+   						<a href="character_sheets/character_sheet_mary_laura_2.pdf" class="dialogRead desktopOnly" target="_blank" style="margin-bottom:10px;">Mary Laura</a>
+   				</div>
+   			  <div id="dialogEtchingRight">
+   				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+   			  </div>
+   			  </div>
 			</div>
 			<div id="name3_make_box" class="grid_4">
+				<button id="openerTinkerMake"></button>
 				<h2>Tinkermeister</h2>
+     			  <div id="dialogTinkerMake" title="Tinkermeister Downloads" style="background:#9fcb3a;">	
+     				  <div id="dialogEtchingLeft">
+     					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+     				  </div>
+     					<div id="dialogButtons">
+     						<p class="desktopOnly">Download Coloring Pages:</p>  
+     				  		<a href="coloring_books/tinkermeistercoloring.pdf" class="dialogRead desktopOnly" target="_blank">Tinkermeister</a>
+     						<br>
+     						<p>Download Character Cut-Outs:</p>
+     						<a href="character_sheets/character_sheet_tinkermeister_2.pdf" class="dialogRead desktopOnly" target="_blank" style="margin-bottom:10px;">Tinkermeister</a>
+							<a href="character_sheets/character_sheet_tinkermeister_machine_2.pdf" class="dialogRead desktopOnly" target="_blank" style="margin-bottom:10px;">Tinkermeister's Machine</a>
+     				</div>
+     			  <div id="dialogEtchingRight">
+     				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+     			  </div>
+     			  </div>
 			</div>
 			<img src="images/Adults/bevel_top.png" width="996" height="23" alt="Bevel Top" class="makeBevelBottom">
 		</div>
@@ -396,7 +449,7 @@ color: white;">
 			<div id="name2_facts_box" class="grid_4">
 				 <button id="openerOakFacts"></button>
 				 <h2>The Oak Tree Club</h2>
- 				<div id="dialogOakFacts" title="The Oak Tree Club Hurricanes Facts" style="background:#9554c4; text-shadow: none;
+ 				<div id="dialogOakFacts" title="The Oak Tree Club Hurricanes Facts" style="background:#6dcef5; text-shadow: none;
  color: white;">	
  					<a href="#" class="factView">View PDF</a>
  					<br>
@@ -454,8 +507,8 @@ color: white;">
 			<div id="name3_facts_box" class="grid_4">
 				<button id="openerTinkerFacts"></button>
 				<h2>Tinkermeister</h2>
-				<div id="dialogTinkerFacts" title="The Tinkermeister Tornado Facts" style="background:#9554c4; text-shadow: none;
-color: white;">	
+				<div id="dialogTinkerFacts" title="The Tinkermeister Tornado Facts" style="background:#9fcb3a; text-shadow: none;
+color: black;">	
 					<a href="#" class="factView">View PDF</a>
 					<ul>
 						<li>Tornado Safety Actions
@@ -568,8 +621,8 @@ color: white;">
 			<div id="name5_facts_box" class="grid_4">
 				<button id="openerMegaFacts"></button>
 				<h2>Mega Track HTW</h2>
-				<div id="dialogMegaFacts" title="The MegaTrack Wildfire Facts" style="background:#9554c4; text-shadow: none;
-color: white;">	
+				<div id="dialogMegaFacts" title="The MegaTrack Wildfire Facts" style="background:#ff962e; text-shadow: none;
+color: black;">	
 					<a href="#" class="factView">View PDF</a>
 					<ul>
 						<li>Wildfire Safety actions
@@ -635,14 +688,31 @@ color: white;">
 			</div>
 			<div id="ventLeftDiv"><img src="images/Adults/vents_left.png" width="57" height="215" alt="Vents Left" class="ventLeft"></div>
 				<div id="name1_adults_box">
+					<button id="openerTeacherGuide"></button>
 					<h2>Teacher Guides</h2>
+      			    <div id="dialogTeacherGuide" title="Parent &amp; Teacher Guide" style="background:#9554c4;">
+      				  <div id="dialogEtchingLeft">
+      					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+      				  </div>
+      					<div id="dialogButtons">
+      						<p class="desktopOnly">Download PDF Guides:</p>  
+      				  		<a href="parent_teacher_guides/Grade_1_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults desktopOnly" target="_blank" style="margin-bottom:8px">The 30/30 Rule Guide</a>
+							<a href="parent_teacher_guides/Grade_2_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults desktopOnly" target="_blank" style="margin-bottom:8px">Professor Tinkermesiter Guide</a>
+							<a href="parent_teacher_guides/Grade_3_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults desktopOnly" target="_blank" style="margin-bottom:8px">The Oak Tree Club Guide</a>
+							<a href="parent_teacher_guides/Grade_4_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults desktopOnly" target="_blank" style="margin-bottom:8px">MegaTrack HTW</a>
+						</div>
+      			      <div id="dialogEtchingRight">
+      				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+      			  </div>
+			        </div>
 				</div>
-				<div id="name2_adults_box">
+				<div id="name2_adults_box" onclick="location.href='https://dpifulfillment.myprintdesk.com/walk_up.php?id=eed80cb546ac9300f03bab6a7be84acd390a1fe5'">
 					<h2>Buy the Books</h2>
 				</div>
 			<div id="ventRightDiv"><img src="images/Adults/vents_right.png" width="57" height="215" alt="Vents Right" class="ventRight"></div>
 			<img src="images/Adults/bevel_top.png" width="996" height="23" alt="Bevel Top" class="adultsBevelBottom">
 		</div>
+		
 		<br class="clear">
 	</div>
 	
@@ -663,7 +733,7 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 			<li><a href="#">Copyright Information</a></li>
 			<li><a href="#">Other Information</a></li>
 			<li><a href="#">Site Map</a></li>
-			<li><a href="http://demvideoportal.com/" target="_blank">Contests</a></li>
+			<li><a href="http://www.floridadisaster.org/swaw/" target="_blank">Contests</a></li>
 		</ul>
 		<div class="machineImg">
 			<img src="images/pump_footer_right.png" width="150" height="152" alt="Pump Footer Right">
@@ -680,7 +750,7 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 	
 	<script type="text/javascript" charset="utf-8">
 	$(document).ready(function(){
-	    $("a[rel^='prettyPhoto']").prettyPhoto();
+	    $("a[rel^='prettyPhoto']").prettyPhoto({deeplinking: false, keyboard_shortcuts: false});
 	});
 	</script>
 	
@@ -1017,24 +1087,123 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 	    });	
 	  });
 	  
-	  </script>
+	  $(function() {
+	    $( "#dialogThirtyMake" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#openerThirtyMake" ).click(function() {
+	      $( "#dialogThirtyMake" ).dialog( "open" );
+	    });	
+	  });
 	  
-	  <script type="text/javascript">	
+	  $(function() {
+	    $( "#dialogOakMake" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#openerOakMake" ).click(function() {
+	      $( "#dialogOakMake" ).dialog( "open" );
+	    });	
+	  });
+	  
+	  $(function() {
+	    $( "#dialogTinkerMake" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#openerTinkerMake" ).click(function() {
+	      $( "#dialogTinkerMake" ).dialog( "open" );
+	    });	
+	  });
+	  
+	  $(function() {
+	    $( "#dialogTeacherGuide" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#openerTeacherGuide" ).click(function() {
+	      $( "#dialogTeacherGuide" ).dialog( "open" );
+	    });	
+	  });	 	  
+	</script>
+	  
+	<script type="text/javascript">	
 	  $.ajaxSetup ({
 	      // Disable caching of AJAX responses
 	      cache: false
 	  });
-	  </script>
+	</script>
 
-	  <script type="text/javascript">	
-	  	$(document).ready( function() {
+	<script type="text/javascript">	
+	  $(document).ready( function() {
 	      	$('.subMenu').smint({
 	      		'scrollSpeed' : 1000
 	      	});
 	  	});
-	  </script>
+	</script>
 
-	  <script type="text/javascript">	
+	<script type="text/javascript">	
 	  $(document).ready(function(){
 	  	// Cache the Window object
 	  	$window = $(window);
@@ -1066,7 +1235,7 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 
 	  document.createElement("article");
 	  document.createElement("section");
-	  </script>
+	</script>
 			
 </body>
 </html>

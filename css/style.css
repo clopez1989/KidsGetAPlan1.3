@@ -80,7 +80,7 @@ a.pp_close {
 	border:none;
 }
 
-#opener2, #opener3, #opener4, #openerOakStory, #openerTinkerStory, #openerMegaStory, #openerOakPlay, #openerTinkerPlay, #openerMegaPlay, #openerOakFacts, #openerTinkerFacts, #openerMegaFacts{
+#opener2, #opener3, #opener4, #openerOakStory, #openerTinkerStory, #openerMegaStory, #openerOakPlay, #openerTinkerPlay, #openerMegaPlay, #openerOakFacts, #openerTinkerFacts, #openerMegaFacts, #openerThirtyMake, #openerOakMake, #openerTinkerMake, #openerTeacherGuide{
 	width: 77%;
 	height: 100%;
 	background: none;
@@ -240,6 +240,38 @@ a.pp_close {
 }
 
 .dialogRead:hover, .dialogDownload:hover{
+	border-top-color: #c4202e;
+	background: #c4202e;
+	color: #ccc;
+}
+
+.dialogReadAdults{
+	font-family: 'Paytone One', Helvetica, sans-serif;
+	font-size:.9em;
+	border-top: 1px solid #96d1f8;
+	background: #f16022;
+	background: -webkit-gradient(linear, left top, left bottom, from(#f16022), to(#f16022));
+	background: -webkit-linear-gradient(top, #f16022, #f16022);
+	background: -moz-linear-gradient(top, #f16022, #f16022);
+	background: -ms-linear-gradient(top, #f16022, #f16022);
+	background: -o-linear-gradient(top, #f16022, #f16022);
+	padding: 5px 10px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	-moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+	box-shadow: rgba(0,0,0,1) 0 1px 0;
+	text-shadow: rgba(0,0,0,.4) 0 1px 0;
+	color: #030003;
+	text-decoration: none;
+	vertical-align: middle;
+	display: block;
+	width: 48%;
+	margin: auto;
+}
+
+.dialogReadAdults:hover{
 	border-top-color: #c4202e;
 	background: #c4202e;
 	color: #ccc;
@@ -886,7 +918,7 @@ h3 {
 #name6_box h2{
 	position: absolute;
 	top: 67%;
-	right: 13%;
+	right: 12%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -1397,7 +1429,7 @@ h3 {
 
 #name1_make_box_story h2{
 	position: relative;
-	top: 77.5%;
+	top: -25.5%;
 	left: 14.5%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1579,7 +1611,7 @@ h3 {
 
 #name1_facts_box_story h2{
 	position: relative;
-	top: -24%;
+	top: -21%;
 	left: 16%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1816,7 +1848,7 @@ h3 {
 
 #name1_adults_box_story h2{
 	position: relative;
-	top: 80.1%;
+	top: -21%;
 	left: 26%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;

@@ -57,7 +57,7 @@
 				  </div>
 					<div id="dialogButtons">
 						<p class="desktopOnly">For Desktop:</p>  
-				  		<a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+				  		<a href="book.swf?bookXML=book4-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
 						<br>
 						<p>For Mobile & Tablet Devices:</p>
 						<div id="appStores">
@@ -82,7 +82,7 @@
 			  </div>
 			  <div id="dialogButtons">
 				   <p class="desktopOnly">For Desktop:</p>  
-			  	   <a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Play the Game</a>
+			  	   <a href="firewise/dem-firewise_simulator.swf?width=900&height=900" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Play the Game</a>
 				   <br>
 				   <p>For Mobile & Tablet Devices:</p>
 				   <div id="appStores">
