@@ -39,7 +39,7 @@
 	
 	<div class="mainWrapper">
 		
-			<canvas id="canvas" width="1667" height="734"></canvas>
+		<canvas id="canvas" width="1667" height="734"></canvas>
 			
 		<div class="section mainSection mainButton" data-type="background" data-speed="10">
 			<!-- Text box for mobile site -->			
@@ -314,13 +314,13 @@
     					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
     				  </div>
     					<div id="dialogButtons">
-    						<p class="desktopOnly">Download Coloring Pages:</p>  
-    				  		<a href="coloring_books/the3030coloring.pdf" class="dialogRead desktopOnly" target="_blank">The 30/30 Rule</a>
+    						<p>Download Coloring Pages:</p>  
+    				  		<a href="coloring_books/the3030coloring.pdf" class="dialogRead" target="_blank">The 30/30 Rule</a>
     						<br>
     						<p>Download Character Cut-Outs:</p>
-    						<a href="character_sheets/character_sheet_rabbit_2.pdf" class="dialogRead desktopOnly" target="_blank" style="margin-bottom:10px;">Rabbit</a>
-							<a href="character_sheets/character_sheet_possum_2.pdf" class="dialogRead desktopOnly" target="_blank" style="margin-bottom:10px;">Possum</a>
-							<a href="character_sheets/character_sheet_squirrel_2.pdf" class="dialogRead desktopOnly" target="_blank">Squirrel</a>
+    						<a href="character_sheets/character_sheet_rabbit_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Rabbit</a>
+							<a href="character_sheets/character_sheet_possum_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Possum</a>
+							<a href="character_sheets/character_sheet_squirrel_2.pdf" class="dialogRead" target="_blank">Squirrel</a>
     				</div>
     			  <div id="dialogEtchingRight">
     				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
@@ -335,11 +335,11 @@
    					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
    				  </div>
    					<div id="dialogButtons">
-   						<p class="desktopOnly">Download Coloring Pages:</p>  
-   				  		<a href="coloring_books/oaktreecoloring.pdf" class="dialogRead desktopOnly" target="_blank">The Oak Tree Club</a>
+   						<p>Download Coloring Pages:</p>  
+   				  		<a href="coloring_books/oaktreecoloring.pdf" class="dialogRead" target="_blank">The Oak Tree Club</a>
    						<br>
    						<p>Download Character Cut-Outs:</p>
-   						<a href="character_sheets/character_sheet_mary_laura_2.pdf" class="dialogRead desktopOnly" target="_blank" style="margin-bottom:10px;">Mary Laura</a>
+   						<a href="character_sheets/character_sheet_mary_laura_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Mary Laura</a>
    				</div>
    			  <div id="dialogEtchingRight">
    				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
@@ -354,12 +354,12 @@
      					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
      				  </div>
      					<div id="dialogButtons">
-     						<p class="desktopOnly">Download Coloring Pages:</p>  
-     				  		<a href="coloring_books/tinkermeistercoloring.pdf" class="dialogRead desktopOnly" target="_blank">Tinkermeister</a>
+     						<p>Download Coloring Pages:</p>  
+     				  		<a href="coloring_books/tinkermeistercoloring.pdf" class="dialogRead" target="_blank">Tinkermeister</a>
      						<br>
      						<p>Download Character Cut-Outs:</p>
-     						<a href="character_sheets/character_sheet_tinkermeister_2.pdf" class="dialogRead desktopOnly" target="_blank" style="margin-bottom:10px;">Tinkermeister</a>
-							<a href="character_sheets/character_sheet_tinkermeister_machine_2.pdf" class="dialogRead desktopOnly" target="_blank" style="margin-bottom:10px;">Tinkermeister's Machine</a>
+     						<a href="character_sheets/character_sheet_tinkermeister_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Tinkermeister</a>
+							<a href="character_sheets/character_sheet_tinkermeister_machine_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Tinkermeister's Machine</a>
      				</div>
      			  <div id="dialogEtchingRight">
      				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
@@ -379,7 +379,6 @@
 				<h2>The 30/30 Rule</h2>
 				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
 color: white;">	
-					<a href="#" class="factView">View PDF</a>
 					<ul>
 						<li><h4>Lightning Safety Actions</h4>
 					<ul>
@@ -450,8 +449,7 @@ color: white;">
 				 <button id="openerOakFacts"></button>
 				 <h2>The Oak Tree Club</h2>
  				<div id="dialogOakFacts" title="The Oak Tree Club Hurricanes Facts" style="background:#6dcef5; text-shadow: none;
- color: white;">	
- 					<a href="#" class="factView">View PDF</a>
+ color: black;">
  					<br>
  					<ul>
  						<li>Hurricanes, cyclones, and typhoons are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li><br>
@@ -509,7 +507,6 @@ color: white;">
 				<h2>Tinkermeister</h2>
 				<div id="dialogTinkerFacts" title="The Tinkermeister Tornado Facts" style="background:#9fcb3a; text-shadow: none;
 color: black;">	
-					<a href="#" class="factView">View PDF</a>
 					<ul>
 						<li>Tornado Safety Actions
 					<ul>
@@ -623,7 +620,6 @@ color: black;">
 				<h2>Mega Track HTW</h2>
 				<div id="dialogMegaFacts" title="The MegaTrack Wildfire Facts" style="background:#ff962e; text-shadow: none;
 color: black;">	
-					<a href="#" class="factView">View PDF</a>
 					<ul>
 						<li>Wildfire Safety actions
 					<ul>
@@ -671,7 +667,7 @@ color: black;">
 					</li>
 					</ul>
 					Green- Plant fire-resistant vegetation that is healthy and green throughout the year.
-			  	</div>
+				</div>
 			</div>
 			<div id="name6_facts_box" class="grid_4">
 				<img src="images/wheel_right.png" width="296" height="236" alt="Wheel Right">
@@ -695,11 +691,11 @@ color: black;">
       					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
       				  </div>
       					<div id="dialogButtons">
-      						<p class="desktopOnly">Download PDF Guides:</p>  
-      				  		<a href="parent_teacher_guides/Grade_1_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults desktopOnly" target="_blank" style="margin-bottom:8px">The 30/30 Rule Guide</a>
-							<a href="parent_teacher_guides/Grade_2_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults desktopOnly" target="_blank" style="margin-bottom:8px">Professor Tinkermesiter Guide</a>
-							<a href="parent_teacher_guides/Grade_3_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults desktopOnly" target="_blank" style="margin-bottom:8px">The Oak Tree Club Guide</a>
-							<a href="parent_teacher_guides/Grade_4_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults desktopOnly" target="_blank" style="margin-bottom:8px">MegaTrack HTW</a>
+      						<p>Download PDF Guides:</p>  
+      				  		<a href="parent_teacher_guides/Grade_1_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults" target="_blank" style="margin-bottom:8px">The 30/30 Rule Guide</a>
+							<a href="parent_teacher_guides/Grade_2_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults" target="_blank" style="margin-bottom:8px">Professor Tinkermesiter Guide</a>
+							<a href="parent_teacher_guides/Grade_3_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults" target="_blank" style="margin-bottom:8px">The Oak Tree Club Guide</a>
+							<a href="parent_teacher_guides/Grade_4_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults" target="_blank" style="margin-bottom:8px">MegaTrack HTW</a>
 						</div>
       			      <div id="dialogEtchingRight">
       				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
@@ -748,11 +744,6 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript" 	src="js/jquery.smint.js"></script>
 	
-	<script type="text/javascript" charset="utf-8">
-	$(document).ready(function(){
-	    $("a[rel^='prettyPhoto']").prettyPhoto({deeplinking: false, keyboard_shortcuts: false});
-	});
-	</script>
 	
 	<script type="text/javascript">
 		$(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {

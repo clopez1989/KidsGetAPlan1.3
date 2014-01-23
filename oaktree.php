@@ -35,23 +35,22 @@
 		</div>
 		<br class="clear">
 	</div>	
-		<div id="topRightArt" class="grid_4"  style="top: -78px;">
+	<div id="topRightArt" class="grid_4"  style="top: -78px;">
 			<img src="images/Header_element_right.png" alt=""/>
 		</div>
 	<div class="leftSidebar">
 		<div id="leftNotches">
 		</div>
-	</div>
-	
+	</div>	
 	
 	<div class="mainWrapper" style="background-color:#6dcef5; margin-top: 64px; background-image: none;">
 		<div id="thirty_story_title_box" class="grid_4">
 			<img src="images/Sub_Title/sub_title_d_oak_tree_new.png" width="295" height="246" alt="Sub Title D 30 30">
 		</div>
-			<div id="name2_story_box_story" class="grid_4">
+		<div id="name2_story_box_story" class="grid_4">
 				<button id="opener"></button>
 				<h2>The Story</h2>
-			  <div id="dialog" title="The Oak Tree Club Story" style="background:#9554c4;">	
+			  <div id="dialog" title="The Oak Tree Club Story" style="background:#6dcef5;">	
 				  <div id="dialogEtchingLeft">
 					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
 				  </div>
@@ -76,7 +75,7 @@
 		<div id="name2_play_box_story" class="grid_4">
 			<button id="opener3"></button>
 			<h2>The Oak Tree Club Activity</h2>
-			<div id="dialog3" title="The Oak Tree Club Game" style="background:#9554c4;">	
+			<div id="dialog3" title="The Oak Tree Club Game" style="background:#6dcef5;">	
 			  <div id="dialogEtchingLeft">
 				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
 			  </div>
@@ -98,14 +97,29 @@
 		  </div>
 		</div>
 		<div id="name2_make_box_story" class="grid_4">
+			<button id="openerOakMake"></button>
 			<h2>Cut-Out and Color</h2>
+ 			  <div id="dialogOakMake" title="The Oak Tree Club Downloads" style="background:#6dcef5;">	
+ 				  <div id="dialogEtchingLeft">
+ 					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+ 				  </div>
+ 					<div id="dialogButtons">
+ 						<p>Download Coloring Pages:</p>  
+ 				  		<a href="coloring_books/oaktreecoloring.pdf" class="dialogRead" target="_blank">The Oak Tree Club</a>
+ 						<br>
+ 						<p>Download Character Cut-Outs:</p>
+ 						<a href="character_sheets/character_sheet_mary_laura_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Mary Laura</a>
+ 				</div>
+ 			  <div id="dialogEtchingRight">
+ 				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+ 			  </div>
+ 			  </div>
 		</div>
 		<div id="name2_facts_box_story" class="grid_4">
 			<button id="opener4"></button>
 			<h2>Hurricane Safety Facts</h2>
-				<div id="dialog4" title="The Oak Tree Club Hurricanes Facts" style="background:#9554c4; text-shadow: none;
-color: white;">	
-					<a href="#" class="factView">View PDF</a>
+				<div id="dialog4" title="The Oak Tree Club Hurricanes Facts" style="background:#6dcef5; text-shadow: none;
+color: black ;">	
 					<br>
 					<ul>
 						<li>Hurricanes, cyclones, and typhoons are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li><br>
@@ -159,7 +173,22 @@ color: white;">
 			  	</div>
 		</div>
 		<div id="name2_adults_box_story" class="grid_4">
+			<button id="openerTeacherGuide"></button>
 			<h2>The Oak Tree Club</h2>
+		    <div id="dialogTeacherGuide" title="Parent &amp; Teacher Guide" style="background:#6dcef5;">
+			  <div id="dialogEtchingLeft">
+				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+			  </div>
+				<div id="dialogButtons">
+					<p>Download PDF Guides:</p>  
+			  		<a href="parent_teacher_guides/Grade_3_Guide_for_Teachers_and_Parents.pdf" class="dialogRead" target="_blank">The Oak Tree Club Guide</a>
+					<p>Buy The Book:</p>  
+			  		<a href="https://dpifulfillment.myprintdesk.com/walk_up.php?id=eed80cb546ac9300f03bab6a7be84acd390a1fe5" class="dialogRead" target="_blank">The Oak Tree Club Book</a>
+				</div>
+		      <div id="dialogEtchingRight">
+			  	<img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+		      </div>
+	        </div>
 		</div>
 		<br class="clear">
 	</div>
@@ -327,7 +356,56 @@ color: white;">
 	    });	
 	  });
 	  
-	  </script>
+	  $(function() {
+	    $( "#dialogOakMake" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#openerOakMake" ).click(function() {
+	      $( "#dialogOakMake" ).dialog( "open" );
+	    });	
+	  });
+	  
+	  $(function() {
+	    $( "#dialogTeacherGuide" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+	    $( "#openerTeacherGuide" ).click(function() {
+	      $( "#dialogTeacherGuide" ).dialog( "open" );
+	    });	
+	  });
+	</script>
 	
 	<script>
 	  $(function() {
@@ -359,7 +437,6 @@ color: white;">
 		
 	  });
 	</script>  
-	
 	
 	<script type="text/javascript">
 		$(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {

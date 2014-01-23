@@ -12,7 +12,7 @@ a.pp_expand, a.pp_contract{
 }
 
 a.pp_close {
-	top:-489px !important;
+	top: -659px !important;
 }
 
 .storyBevelFix{
@@ -343,7 +343,7 @@ a.pp_close {
 
 #topRightArt {
 	position: relative;
-	top: -69px;
+	top: -73px;
 	float: right;
 }
 
@@ -918,7 +918,7 @@ h3 {
 #name6_box h2{
 	position: absolute;
 	top: 67%;
-	right: 12%;
+	right: 13%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -1478,7 +1478,7 @@ h3 {
 
 #name2_make_box_story h2{
 	position: relative;
-	top: 77.5%;
+	top: -24%;
 	left: 17%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1527,7 +1527,7 @@ h3 {
 
 #name3_make_box_story h2{
 	position: relative;
-	top: 77.5%;
+	top: -24%;
 	left: 17%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1775,8 +1775,9 @@ h3 {
 
 #name5_facts_box_story h2{
 	position: relative;
-	top: -24%;
-	left: 16%;
+	top: -22%;
+	font-size: 1.4em;
+	left: 15%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -1898,7 +1899,7 @@ h3 {
 
 #name2_adults_box_story h2{
 	position: relative;
-	top: 80.1%;
+	top: -22%;
 	left: 16%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1923,7 +1924,7 @@ h3 {
 
 #name3_adults_box_story h2{
 	position: relative;
-	top: 80.1%;
+	top: -21.9%;
 	left: 26%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
@@ -1948,8 +1949,8 @@ h3 {
 
 #name5_adults_box_story h2{
 	position: relative;
-	top: 80.1%;
-	left: 26%;
+	top: -21%;
+	left: 21%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -2045,7 +2046,7 @@ h3 {
 	}
 	
 	.bottomMenu {
-		margin-left: 550px !important;
+		margin-left: 459px !important;
 	}
 	
 	#topRightArt img {

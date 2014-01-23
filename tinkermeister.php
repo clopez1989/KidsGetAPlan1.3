@@ -4,7 +4,7 @@
 <!-- include Header -->
 <?php include 'header.php'; ?>
 
-<body onload="window.scrollTo(0,100);" style="background-color:#6dcef5;">
+<body onload="window.scrollTo(0,100);" style="background:#9fcb3a;">
 
 <?php include 'story_nav.php'; ?>
 
@@ -48,16 +48,16 @@
 		<div id="thirty_story_title_box" class="grid_4">
 			<img src="images/Sub_Title/sub_title_d_tinkermeister.png" width="295" height="246" alt="Sub Title D 30 30">
 		</div>
-			<div id="name3_story_box_story" class="grid_4">
+		<div id="name3_story_box_story" class="grid_4">
 				<button id="opener"></button>
 				<h2>The Story</h2>
-			  <div id="dialog" title="Professor Tinkermeister Story" style="background:#9554c4;">	
+			  <div id="dialog" title="Professor Tinkermeister Story" style="background:#9fcb3a;">	
 				  <div id="dialogEtchingLeft">
 					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
 				  </div>
 					<div id="dialogButtons">
 						<p class="desktopOnly">For Desktop:</p>  
-				  		<a href="book.swf?bookXML=book2-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+				  		<a href="book.swf?bookXML=book2-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flash1]">Read the Story</a>
 						<br>
 						<p>For Mobile & Tablet Devices:</p>
 						<div id="appStores">
@@ -72,17 +72,17 @@
 				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
 			  </div>
 			  </div>
-			</div>
+		</div>
 		<div id="name3_play_box_story" class="grid_4">
 			<button id="opener3"></button>
 			<h2>Tinkermeister&rsquo;s Activity</h2>
-			<div id="dialog3" title="The Tinkermeister's Activity" style="background:#9554c4;">	
+			<div id="dialog3" title="The Tinkermeister's Activity" style="background:#9fcb3a;">	
 			  <div id="dialogEtchingLeft">
 				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
 			  </div>
 			  <div id="dialogButtons">
 				   <p class="desktopOnly">For Desktop:</p>  
-			  	   <a href="wacky.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Play the Game</a>
+			  	   <a href="wacky/wacky.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Play the Game</a>
 				   <br>
 				   <p>For Mobile & Tablet Devices:</p>
 				   <div id="appStores">
@@ -98,14 +98,30 @@
 		  </div>
 		</div>
 		<div id="name3_make_box_story" class="grid_4">
+			<button id="openerTinkerMake"></button>
 			<h2>Cut-Out and Color</h2>
+		  <div id="dialogTinkerMake" title="Tinkermeister Downloads" style="background:#9fcb3a;">	
+			  <div id="dialogEtchingLeft">
+				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+			  </div>
+				<div id="dialogButtons">
+					<p>Download Coloring Pages:</p>  
+			  		<a href="coloring_books/tinkermeistercoloring.pdf" class="dialogRead" target="_blank">Tinkermeister</a>
+					<br>
+					<p>Download Character Cut-Outs:</p>
+					<a href="character_sheets/character_sheet_tinkermeister_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Tinkermeister</a>
+					<a href="character_sheets/character_sheet_tinkermeister_machine_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Tinkermeister's Machine</a>
+			</div>
+		  	<div id="dialogEtchingRight">
+			  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+		  	</div>
+		  </div>
 		</div>
 		<div id="name3_facts_box_story" class="grid_4">
 			<button id="opener4"></button>
 			<h2>Tornado Safety Facts</h2>
-				<div id="dialog4" title="The Tinkermeister Tornado Facts" style="background:#9554c4; text-shadow: none;
-color: white;">	
-					<a href="#" class="factView">View PDF</a>
+				<div id="dialog4" title="The Tinkermeister Tornado Facts" style="background:#9fcb3a; text-shadow: none;
+color: black;">
 					<ul>
 						<li>Tornado Safety Actions
 					<ul>
@@ -212,7 +228,22 @@ color: white;">
 			  	</div>
 		</div>
 		<div id="name3_adults_box_story" class="grid_4">
+			<button id="openerTeacherGuide"></button>
 			<h2>Tinkermeister</h2>
+		    <div id="dialogTeacherGuide" title="Parent &amp; Teacher Guide" style="background:#9fcb3a;">
+			  <div id="dialogEtchingLeft">
+				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+			  </div>
+				<div id="dialogButtons">
+					<p>Download PDF Guides:</p>  
+			  		<a href="parent_teacher_guides/Grade_2_Guide_for_Teachers_and_Parents.pdf" class="dialogRead" target="_blank">Tinkermeister Guide</a>
+					<p>Buy The Book:</p>  
+			  		<a href="https://dpifulfillment.myprintdesk.com/walk_up.php?id=eed80cb546ac9300f03bab6a7be84acd390a1fe5" class="dialogRead" target="_blank">Tinkermeister  Book</a>
+				</div>
+		      <div id="dialogEtchingRight">
+			  	<img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+		      </div>
+	        </div>
 		</div>
 		<br class="clear">
 	</div>
@@ -230,7 +261,39 @@ color: white;">
 			 <img src="images/tinker_panel_footer_left.png" width="147" height="82" alt="Tinker Panel Footer Left">
 		</div>
 		<ul class="bottomMenu">
-			<li><a href="#">Copyright Information</a></li>
+			<li>
+				<button id="openerCopyright"></button>
+				<a href="#">Copyright Information</a>
+			    <div id="dialogCopyright" title="Parent &amp; Teacher Guide" style="background:#9fcb3a;">
+				  <div id="dialogEtchingLeft">
+					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+				  </div>
+					<div id="dialogButtons">
+						I. RESTRICTIONS ON USE OF MATERIALS
+						This site is provided for the People as a public service by the Florida Division of Emergency Management. The web site “Florida Disaster.org” is owned and operated by THE STATE OF FLORIDA, DIVISION OF EMERGENCY MANAGEMENT (Division). Materials may be downloaded but only for non-commercial use, provided all copyright and other proprietary notices are kept intact. Modification of the materials or use of the materials for any other purpose is a violation of THE STATE OF FLORIDA and the Division’s copyright and other proprietary rights. For purposes of this Agreement, the use of any such material on any other Web site or networked computer environment is prohibited. All trademarks, service marks, and trade names are proprietary to THE STATE OF FLORIDA and the Division.
+
+						In the event that you do download software from FloridaDisaster.org, the software, including any files, images incorporated in or generated by the software, and data accompanying the software (collectively, the "Software") are licensed to you by THE STATE OF FLORIDA and the Division. THE STATE OF FLORIDA and the Division does not transfer the title to the Software to you. You do, however, own the medium on which the Software is recorded, but THE STATE OF FLORIDA and the Division retains the full and complete title to the Software, and all intellectual property rights therein. You may not redistribute, sell, decompile, reverse engineer, disassemble, or otherwise reduce the Software to a human-perceivable form.
+
+						II. JURISDICTIONAL ISSUES
+						Unless otherwise specified, the materials in “FloridaDisaster.org” are presented solely for the purpose of promoting educational programs, applications, and other products available in the United States, its territories, possessions, and protectorates. This site is controlled and operated by THE STATE OF FLORIDA and the Division from its offices within THE STATE OF FLORIDA, United States of America. THE STATE OF FLORIDA and the Division makes no representation that materials presented in “FloridaDisaster.org” are appropriate or available for use in other locations. Those who choose to access this site from other locations do so on their own initiative and are responsible for compliance with local laws, if and to the extent local laws are applicable. Software from this site is further subject to United States export controls. No software from this site may be downloaded or otherwise exported or re-exported (1) into (or to a national or resident of) Cuba, Iraq, Libya, North Korea, Iran, Syria, or any other country to which the U.S. has embargoed goods; or (2) to anyone on the U.S. Treasury Department's list of Specially Designated Nationals or the U.S. Commerce Department's Table of Deny Orders. By downloading or using the Software, you represent and warrant that you are not located in, under the control of, or a national or resident of any such country or on any such list.
+
+						III. TERMINATION
+						This agreement is effective until terminated by either party. This agreement may be terminated at any time by destroying all materials obtained from any and all STATE OF FLORIDA or Division site(s) and all related documentation, copies and installations thereof, whether made under the terms of this agreement or otherwise. This agreement will terminate immediately without notice from THE STATE OF FLORIDA and Division if in sole discretion you fail to comply with any term or provision of this agreement. Upon termination, you must destroy all materials obtained from this site and any and all other STATE OF FLORIDA and Division site(s) and all copies thereof, whether made under the terms of this agreement or otherwise.
+
+						IV. DISCLAIMER
+						The materials presented in “FloridaDisaster.org” are provided "as is" and without warranties of any kind, express or implied. To the fullest extent permissible pursuant to applicable law, THE STATE OF FLORIDA and the Division disclaims all warranties, express or implied, including, but not limited to, implied warranties of merchantability and fitness for a particular purpose. THE STATE OF FLORIDA and Division does not warrant that the functions contained in the materials will be uninterrupted or error-free, that defects will be corrected, or that “FloridaDisaster.org” or the server that makes it available are free of viruses or other harmful components. THE STATE OF FLORIDA and the Division does not warrant or make any representations regarding the use or the results or the use of the materials “FloridaDisaster.org” in terms or their correctness, accuracy, reliability, or otherwise. You (and not THE STATE OF FLORIDA and Division) assume the entire cost of all necessary servicing, repair, or correction. Applicable law may not allow the exclusion of implied warranties, so the above exclusion may not apply to you.
+
+						V. LIMITATION OF LIABILITY
+						Under no circumstances, including, but not limited to, negligence, shall THE STATE OF FLORIDA and Division be liable for any special or consequential damages that result from the use of, or the inability to use, the materials presented on “FloridaDisaster.org.” Even if THE STATE OF FLORIDA and the Division or a STATE OF FLORIDA and Division authorized representative has been advised of the possibility of such damages. Applicable law may not allow the limitation or exclusion of liability or incidental or consequential damages, so the above limitation or exclusion may not apply to you. In no event shall THE STATE OF FLORIDA and Division’s total liability to you for all damages, losses, and causes of action (whether in contract, tort (including, but not limited to, negligence), or otherwise) exceed the amount paid by you, if any, for accessing this site.
+
+						VI. OTHER
+						This agreement shall be governed by and construed in accordance with the laws of the State of Florida, without giving effect to any principles of conflicts of law. If any provision of this agreement shall be unlawful, void, or for any reason unenforceable, then that provision shall be deemed severable from this agreement and shall not affect the validity and enforceability of any remaining provisions. This is the entire agreement between the parties relating to the subject matter herein and shall not be modified except in writing, signed by both parties.
+					</div>
+			      <div id="dialogEtchingRight">
+				  	<img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+			      </div>
+		        </div>
+			</li>
 			<li><a href="#">Other Information</a></li>
 			<li><a href="#">Site Map</a></li>
 			<li><a href="http://demvideoportal.com/" target="_blank">Contests</a></li>
@@ -245,35 +308,30 @@ color: white;">
 	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript" 	src="js/jquery.smint.js"></script>
 	
-	<script type="text/javascript" charset="utf-8">
-		$(document).ready(function(){
-	    	$("a[rel^='prettyPhoto']").prettyPhoto();
-		});
-	</script>
 	
 	<script type="text/javascript">	
-	// JavaScript Document
+		// JavaScript Document
 
-	// Soution for the target attribute to validate in xhtml strict
-	function externalLinks() { 
-	 if (!document.getElementsByTagName) return; 
-	 var anchors = document.getElementsByTagName("a"); 
-	 for (var i=0; i<anchors.length; i++) { 
-	   var anchor = anchors[i]; 
-	   if (anchor.getAttribute("href") && 
-	       anchor.getAttribute("rel") == "external") 
-	     anchor.target = "_blank"; 
-	 } 
-	} 
-	window.onload = externalLinks;
-	// Open new window with restricted dimensions
-	function MM_openBrWindow(theURL,winName,features) { //v2.0
-	  window.open(theURL,winName,features);
-	}
+		// Soution for the target attribute to validate in xhtml strict
+		function externalLinks() { 
+		 if (!document.getElementsByTagName) return; 
+		 var anchors = document.getElementsByTagName("a"); 
+		 for (var i=0; i<anchors.length; i++) { 
+		   var anchor = anchors[i]; 
+		   if (anchor.getAttribute("href") && 
+		       anchor.getAttribute("rel") == "external") 
+		     anchor.target = "_blank"; 
+		 } 
+		} 
+		window.onload = externalLinks;
+		// Open new window with restricted dimensions
+		function MM_openBrWindow(theURL,winName,features) { //v2.0
+		  window.open(theURL,winName,features);
+		}
 	</script>
 	
 	<script type="text/javascript">	
-	$.ajaxSetup ({
+		$.ajaxSetup ({
 	    // Disable caching of AJAX responses
 	    cache: false
 	});
@@ -379,8 +437,7 @@ color: white;">
 	      $( "#dialog4" ).dialog( "open" );
 	    });	
 	  });
-	  
-	  </script>
+	</script>
 	
 	<script>
 	  $(function() {
@@ -404,13 +461,84 @@ color: white;">
  	   $('div.ui-resizable-handle').hide();
 	   
  
-	    $( "#opener_thirty_story" ).click(function() {
-	      $( "#dialog_thirty_story" ).dialog( "open" );
+	    $( "#openerTeacherGuide" ).click(function() {
+	      $( "#dialogTeacherGuide" ).dialog( "open" );
 	    });
 		
+	    $( "#dialogTeacherGuide" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+ 
+	    $( "#openerTeacherGuide" ).click(function() {
+	      $( "#dialogTeacherGuide" ).dialog( "open" );
+	    });	
 		
+	    $( "#dialogTinkerMake" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+ 
+	    $( "#openerTinkerMake" ).click(function() {
+	      $( "#dialogTinkerMake" ).dialog( "open" );
+	    });	
 		
-	  });
+	    $( "#dialogCopyright" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+ 
+ 	   $('div.ui-resizable-handle').hide();
+	   
+ 
+	    $( "#openerCopyright" ).click(function() {
+	      $( "#dialogCopyright" ).dialog( "open" );
+	    });	
+		
+	});
+	 
 	</script>  
 	
 	
@@ -459,9 +587,7 @@ color: white;">
 			$bgobj.css({ backgroundPosition: coords });
 		
 		}); // window scroll Ends
-
 	 });	
-
 	});
  
 	/* 

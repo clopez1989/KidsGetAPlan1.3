@@ -53,6 +53,12 @@ function handleComplete() {
   var ctx = document.getCSSCanvasContext('2d', 'animation', 300, 300);
 </script>
 
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto({deeplinking: false, keyboard_shortcuts: false, social_tools: false});
+});
+</script>
+
 <meta name = "keywords" content = "" />
 <meta name = "description" content = "" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1 user-scalable=no">

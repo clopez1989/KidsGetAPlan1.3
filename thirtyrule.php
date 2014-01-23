@@ -125,7 +125,6 @@
 			<h2>Lightning Safety Facts</h2>
 				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
 color: white;">	
-					<a href="brochures/HWA Guide Tornadoes.pdf" class="factView" target="_blank">View PDF</a>
 					<ul>
 						<li><h4>Lightning Safety Actions</h4>
 					<ul>
@@ -201,13 +200,13 @@ color: white;">
 			  </div>
 				<div id="dialogButtons">
 					<p>Download PDF Guides:</p>  
-			  		<a href="parent_teacher_guides/Grade_1_Guide_for_Teachers_and_Parents.pdf" class="dialogRead desktopOnly" target="_blank">The 30/30 Rule Guide</a>
+			  		<a href="parent_teacher_guides/Grade_1_Guide_for_Teachers_and_Parents.pdf" class="dialogRead" target="_blank">The 30/30 Rule Guide</a>
 					<p>Buy The Book:</p>  
-			  		<a href="https://dpifulfillment.myprintdesk.com/walk_up.php?id=eed80cb546ac9300f03bab6a7be84acd390a1fe5" class="dialogRead  desktopOnly" target="_blank">The 30/30 Rule Book</a>
+			  		<a href="https://dpifulfillment.myprintdesk.com/walk_up.php?id=eed80cb546ac9300f03bab6a7be84acd390a1fe5" class="dialogRead" target="_blank">The 30/30 Rule Book</a>
 				</div>
 		      <div id="dialogEtchingRight">
-			  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
-		  </div>
+			  	<img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+		      </div>
 	        </div>
 		</div>
 		<br class="clear">
@@ -241,17 +240,12 @@ color: white;">
 	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript" 	src="js/jquery.smint.js"></script>
 	
-	<script type="text/javascript" charset="utf-8">
-		$(document).ready(function(){
-	    	$("a[rel^='prettyPhoto']").prettyPhoto({deeplinking: false});
-		});
-	</script>
 	
 	<script type="text/javascript">	
-	// JavaScript Document
+		// JavaScript Document
 
-	// Soution for the target attribute to validate in xhtml strict
-	function externalLinks() { 
+		// Soution for the target attribute to validate in xhtml strict
+		function externalLinks() { 
 	 if (!document.getElementsByTagName) return; 
 	 var anchors = document.getElementsByTagName("a"); 
 	 for (var i=0; i<anchors.length; i++) { 
@@ -261,9 +255,9 @@ color: white;">
 	     anchor.target = "_blank"; 
 	 } 
 	} 
-	window.onload = externalLinks;
-	// Open new window with restricted dimensions
-	function MM_openBrWindow(theURL,winName,features) { //v2.0
+		window.onload = externalLinks;
+		// Open new window with restricted dimensions
+		function MM_openBrWindow(theURL,winName,features) { //v2.0
 	  window.open(theURL,winName,features);
 	}
 	</script>
@@ -375,8 +369,7 @@ color: white;">
 	      $( "#dialog4" ).dialog( "open" );
 	    });	
 	  });
-	  
-	  </script>
+	</script>
 	
 	<script>
 	  $(function() {
@@ -481,7 +474,7 @@ color: white;">
 	</script>
 
 	<script type="text/javascript">	
-	$(document).ready(function(){
+		$(document).ready(function(){
 		// Cache the Window object
 		$window = $(window);
                 
@@ -510,8 +503,8 @@ color: white;">
 	 * Create HTML5 elements for IE's sake
 	 */
 
-	document.createElement("article");
-	document.createElement("section");
+		document.createElement("article");
+		document.createElement("section");
 	</script>
 			
 </body>
