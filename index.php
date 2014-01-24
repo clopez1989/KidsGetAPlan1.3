@@ -397,7 +397,7 @@ color: white;">
 						<li>You can tell how far away lightning is by counting the seconds between seeing the lightning flash and hearing thunder. For every give seconds you count-lightning is one mile away.</li>
 					</ul>
 					</li>
-						<li><h4>Florida-Lightning Capital of the U.S.A</h4> <i>(Map of Florida with lightning bolts)</i>
+						<li><h4>Florida-Lightning Capital of the U.S.A</h4>
 					<ul>
 						<li>More people die from lightning strikes in Florida every year than in any other state. Why? It's simple really. We have more lightning, and we are fourth largest in populations. On average, 10 people die each year from lightning. Statistics show that teenage boys are most vulnerable. People in their 30's are the next most likely victims, followed by those in their 20's.</li>
 						<li>Florida's unique location, surrounded by warm water, provides the necessary ingredients for thunderstorms to form. It has earned us the title of, "Lightning Capital of the U.S.A" Other places in the world have even more lightning though. According to a NASA study, there are areas in the tropics of Africa, Asia, and South and Central America that have more lightning than Florida does. Rwanda, a country in Africa, is known as the, "Lightning Capital of the World."</li>
@@ -693,7 +693,7 @@ color: black;">
       					<div id="dialogButtons">
       						<p>Download PDF Guides:</p>  
       				  		<a href="parent_teacher_guides/Grade_1_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults" target="_blank" style="margin-bottom:8px">The 30/30 Rule Guide</a>
-							<a href="parent_teacher_guides/Grade_2_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults" target="_blank" style="margin-bottom:8px">Professor Tinkermesiter Guide</a>
+							<a href="parent_teacher_guides/Grade_2_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults" target="_blank" style="margin-bottom:8px">Professor Tinkermeister Guide</a>
 							<a href="parent_teacher_guides/Grade_3_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults" target="_blank" style="margin-bottom:8px">The Oak Tree Club Guide</a>
 							<a href="parent_teacher_guides/Grade_4_Guide_for_Teachers_and_Parents.pdf" class="dialogReadAdults" target="_blank" style="margin-bottom:8px">MegaTrack HTW</a>
 						</div>
@@ -702,9 +702,10 @@ color: black;">
       			  </div>
 			        </div>
 				</div>
-				<div id="name2_adults_box" onclick="location.href='https://dpifulfillment.myprintdesk.com/walk_up.php?id=eed80cb546ac9300f03bab6a7be84acd390a1fe5'">
+				<div id="name2_adults_box" onclick="window.open('https://dpifulfillment.myprintdesk.com/walk_up.php?id=eed80cb546ac9300f03bab6a7be84acd390a1fe5','_blank')">
 					<h2>Buy the Books</h2>
 				</div>
+				
 			<div id="ventRightDiv"><img src="images/Adults/vents_right.png" width="57" height="215" alt="Vents Right" class="ventRight"></div>
 			<img src="images/Adults/bevel_top.png" width="996" height="23" alt="Bevel Top" class="adultsBevelBottom">
 		</div>
@@ -722,23 +723,7 @@ color: black;">
 			<img src="images/FooterCharacters/footer_character<?php
 echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 		</div>
-		<div class="contestImg">
-			 <a href="http://demvideoportal.com/" target="_blank"><img src="images/tinker_panel_footer_left.png" width="147" height="82" alt="Tinker Panel Footer Left"></a>
-		</div>
-		<ul class="bottomMenu">
-			<li><a href="#">Copyright Information</a></li>
-			<li><a href="#">Other Information</a></li>
-			<li><a href="#">Site Map</a></li>
-			<li><a href="http://www.floridadisaster.org/swaw/" target="_blank">Contests</a></li>
-		</ul>
-		<div class="machineImg">
-			<img src="images/pump_footer_right.png" width="150" height="152" alt="Pump Footer Right">
-		</div>
-		<div class="socialButtons">
-			<a href="http://www.floridadisaster.org/index.asp" target="_blank"><img src="images/sert_logo.png" width="71" height="49" alt="Sert Logo" class="serticon"></a>
-			<a href="https://www.facebook.com/kidsgetaplan" target="_blank"><img src="images/fb_icon.png" width="33" height="33" alt="Fb Icon" class="fbicon"></a>
-		</div>
-		
+		<?php include 'footer.php'; ?>
 	</div>
 	
 	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>

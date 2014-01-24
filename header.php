@@ -55,7 +55,7 @@ function handleComplete() {
 
 <script type="text/javascript" charset="utf-8">
 $(document).ready(function(){
-    $("a[rel^='prettyPhoto']").prettyPhoto({deeplinking: false, keyboard_shortcuts: false, social_tools: false});
+    $("a[rel^='prettyPhoto']").prettyPhoto({deeplinking: false, keyboard_shortcuts: false, social_tools: false, allow_resize:false});
 });
 </script>
 

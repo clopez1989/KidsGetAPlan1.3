@@ -219,22 +219,9 @@ color: white;">
 	
 	<div id="copyright">
 		<div class="characterImg">
-					<a href="http://demvideoportal.com/" target="_blank"><img src="images/FooterCharacters/footer_character1.png" width="106" height="141" alt="Footer Character"></a>
+					<a href="#" target="_blank"><img src="images/FooterCharacters/footer_character1.png" width="106" height="141" alt="Footer Character"></a>
 				</div>
-		<div class="contestImg">
-			 <img src="images/tinker_panel_footer_left.png" width="147" height="82" alt="Tinker Panel Footer Left">
-		</div>
-		<ul class="bottomMenu">
-			<li><a href="#">Copyright Information</a></li>
-			<li><a href="#">Other Information</a></li>
-			<li><a href="#">Site Map</a></li>
-			<li><a href="http://demvideoportal.com/" target="_blank">Contests</a></li>
-		</ul>
-		<div class="socialButtons">
-			<a href="#"><img src="images/sert_logo.png" width="71" height="49" alt="Sert Logo" class="serticon"></a>
-			<a href="https://www.facebook.com/kidsgetaplan"><img src="images/fb_icon.png" width="33" height="33" alt="Fb Icon" class="fbicon"></a>
-		</div>
-		
+		<?php include 'footer.php'; ?>
 	</div>
 	
 	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>

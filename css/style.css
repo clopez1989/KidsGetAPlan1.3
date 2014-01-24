@@ -12,7 +12,23 @@ a.pp_expand, a.pp_contract{
 }
 
 a.pp_close {
-	top: -659px !important;
+	margin-right: 18px;
+}
+
+#copyrightDiv{
+	width: 80%;
+	margin: auto;
+	padding: 16px 0 75px 0;
+}
+
+.copyrightBottomText{
+	float: left;
+	display: block;
+	margin-left: 20%;
+	margin-top: 23px;
+	font-size: 13px;
+	text-shadow: none;
+	color: lightblue;
 }
 
 .storyBevelFix{
@@ -1967,13 +1983,12 @@ h3 {
 	left: 0px;
 	bottom: 0px;
 	height: 75px;
-	width: 100%; 
+	width: 100%;
 	text-align: center;
 	z-index: 1000;
 	background: #f16022 url('../images/footer_etching.png') no-repeat;
-	background-position: center;
-	background-size: 77%;
-	
+	background-position: center -12%;
+	background-size: 91%;	
 }
 
 .characterImg {
@@ -2003,7 +2018,7 @@ h3 {
 
 .bottomMenu{
 	margin-left:22%;
-	padding-top:6px;	
+	line-height: 10px;	
 }
 
 .bottomMenu a {
@@ -2023,7 +2038,7 @@ h3 {
 }
 
 .bottomMenu li{
-	margin-left: 35px;
+	margin-left: 31px;
 	list-style-type: circle;
 	float: left;
 	color: white;
@@ -2526,8 +2541,8 @@ h3 {
 
 	#name5_story_box h2{
 		position: absolute;
-		top: 78%;
-		left: 30%;
+		top: 82%;
+		left: 13%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;

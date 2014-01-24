@@ -43,153 +43,35 @@
 		</div>
 	</div>	
 	
-	<div class="mainWrapper" style="background-color:#6dcef5; margin-top: 64px; background-image: none;">
-		<div id="thirty_story_title_box" class="grid_4">
-			<img src="images/Sub_Title/sub_title_d_oak_tree_new.png" width="295" height="246" alt="Sub Title D 30 30">
-		</div>
-		<div id="name2_story_box_story" class="grid_4">
-				<button id="opener"></button>
-				<h2>The Story</h2>
-			  <div id="dialog" title="The Oak Tree Club Story" style="background:#6dcef5;">	
-				  <div id="dialogEtchingLeft">
-					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
-				  </div>
-					<div id="dialogButtons">
-						<p class="desktopOnly">For Desktop:</p>  
-				  		<a href="book.swf?bookXML=book3-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
-						<br>
-						<p>For Mobile & Tablet Devices:</p>
-						<div id="appStores">
-				  			<a href="https://itunes.apple.com/us/app/kgap-oak-tree-club-disaster/id700000188?mt=8" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.OakTreeMobileBook" target="_blank" class="googlePlayBtn">
-					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/>
-							</a>
-							<a href="http://www.amazon.com/KGAP-The-Oak-Tree-Club/dp/B00DUHT24K/ref=sr_1_9?s=mobile-apps&ie=UTF8&qid=1389636385&sr=1-9" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
-						</div>
-				</div>
-			  <div id="dialogEtchingRight">
-				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
-			  </div>
-			  </div>
+	<div class="mainWrapper" style="background-color:white; margin-top: 64px; background-image: none;">
+		<div id="copyrightDiv">
+			<div style="text-align:center;">
+				<h5>The Copyright Information Pages</h5>
+				<img src="images/seal_florida.gif" width="150" height="150" alt="Seal Florida">
+				<p>Copyright Statement: Conditions of Use</p>
+				<p>Please read these terms of use carefully before using FloridaDisaster.org.</p>
 			</div>
-		<div id="name2_play_box_story" class="grid_4">
-			<button id="opener3"></button>
-			<h2>The Oak Tree Club Activity</h2>
-			<div id="dialog3" title="The Oak Tree Club Game" style="background:#6dcef5;">	
-			  <div id="dialogEtchingLeft">
-				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
-			  </div>
-			  <div id="dialogButtons">
-				   <p class="desktopOnly">For Desktop:</p>  
-			  	   <a href="Supply_Kit_Activity.swf?width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Play the Game</a>
-				   <br>
-				   <p>For Mobile & Tablet Devices:</p>
-				   <div id="appStores">
-			  			<a href="https://itunes.apple.com/us/app/kgap-oak-tree-club-disaster/id700000188?mt=8" target="itunes_store"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-						<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.DSKMobile" target="_blank" class="googlePlayBtn">
-				  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
-						<a href="http://www.amazon.com/ideas-orlando-KGAP-Disaster-Supply/dp/B00EZUVA6O/ref=sr_1_5?s=mobile-apps&ie=UTF8&qid=1389637118&sr=1-5" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
-				  </div>
-			</div>
-		    <div id="dialogEtchingRight">
-			  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
-		    </div>
-		  </div>
-		</div>
-		<div id="name2_make_box_story" class="grid_4">
-			<button id="openerOakMake"></button>
-			<h2>Cut-Out and Color</h2>
- 			  <div id="dialogOakMake" title="The Oak Tree Club Downloads" style="background:#6dcef5;">	
- 				  <div id="dialogEtchingLeft">
- 					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
- 				  </div>
- 					<div id="dialogButtons">
- 						<p>Download Coloring Pages:</p>  
- 				  		<a href="coloring_books/oaktreecoloring.pdf" class="dialogRead" target="_blank">The Oak Tree Club</a>
- 						<br>
- 						<p>Download Character Cut-Outs:</p>
- 						<a href="character_sheets/character_sheet_mary_laura_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Mary Laura</a>
- 				</div>
- 			  <div id="dialogEtchingRight">
- 				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
- 			  </div>
- 			  </div>
-		</div>
-		<div id="name2_facts_box_story" class="grid_4">
-			<button id="opener4"></button>
-			<h2>Hurricane Safety Facts</h2>
-				<div id="dialog4" title="The Oak Tree Club Hurricanes Facts" style="background:#6dcef5; text-shadow: none;
-color: black ;">	
-					<br>
-					<ul>
-						<li>Hurricanes, cyclones, and typhoons are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li><br>
-						<li>Hurricane Safety Actions
-					<ul>
-						<li>Know if you live in an evacuation area. Know your home's vulnerability to storm surge, flooding and wind. Have a family plan.</li>
-						<li>At the beginning of hurricane season (June), check your supplies, replace batteries and rotate your stock of food and water.</li>
-						<li>If a storm threatens, listen to your local authorities. Evacuate if ordered.</li>
-					</ul>
-					</li>
-						<li>Saffir-Simpson Scale
-					<ul>
-						<li>Tropical Storm
-					<ul>
-						<li>Winds 39-73 mph</li>
-					</ul>
-					</li>
-						<li>Category 1 Hurricane
-					<ul>
-						<li>Winds 74-95 mph</li>
-						<li>No real damage to buildings. Damage to unanchored mobile homes.</li>
-					</ul>
-					</li>
-						<li>Category 2 Hurricane
-					<ul>
-						<li>Winds 96-110 mph</li>
-						<li>Some damage to building roofs, doors and windows. Considerable damage to mobile homes. Some trees blown down.</li>
-					</ul>
-					</li>
-						<li>Category 3 Hurricane
-					<ul>
-						<li>Winds 111-130 mph</li>
-						<li>Some structural damage to small homes. Large trees blown down. Mobile homes and poorly built signs destroyed.</li>
-					</ul>
-					</li>
-						<li>Category 4 Hurricane
-					<ul>
-						<li>Winds 131-155 mph</li>
-						<li>Wall failures in homes and complete roof structure failure on small homes. Total destruction of mobile homes. Trees, shrubs and signs all blown down.</li>
-					</ul>
-					</li>
-						<li>Category 5 Hurricane
-					<ul>
-						<li>Winds 156 mph +</li>
-						<li>Complete roof failure on homes and industrial buildings. Some complete building failures.</li><br>
-					</ul>
-					</li>
-					</ul>
-					</li>
-					</ul>
-			  	</div>
-		</div>
-		<div id="name2_adults_box_story" class="grid_4">
-			<button id="openerTeacherGuide"></button>
-			<h2>The Oak Tree Club</h2>
-		    <div id="dialogTeacherGuide" title="Parent &amp; Teacher Guide" style="background:#6dcef5;">
-			  <div id="dialogEtchingLeft">
-				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
-			  </div>
-				<div id="dialogButtons">
-					<p>Download PDF Guides:</p>  
-			  		<a href="parent_teacher_guides/Grade_3_Guide_for_Teachers_and_Parents.pdf" class="dialogRead" target="_blank">The Oak Tree Club Guide</a>
-					<p>Buy The Book:</p>  
-			  		<a href="https://dpifulfillment.myprintdesk.com/walk_up.php?id=eed80cb546ac9300f03bab6a7be84acd390a1fe5" class="dialogRead" target="_blank">The Oak Tree Club Book</a>
-				</div>
-		      <div id="dialogEtchingRight">
-			  	<img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
-		      </div>
-	        </div>
-		</div>
+			<ul>				
+		<li><h4>I. RESTRICTIONS ON USE OF MATERIALS</h4>
+		<p>This site is provided for the People as a public service by the Florida Division of Emergency Management. The web site "Florida Disaster.org" is owned and operated by THE STATE OF FLORIDA, DIVISION OF EMERGENCY MANAGEMENT (Division). Materials may be downloaded but only for non-commercial use, provided all copyright and other proprietary notices are kept intact. Modification of the materials or use of the materials for any other purpose is a violation of THE STATE OF FLORIDA and the Division’s copyright and other proprietary rights. For purposes of this Agreement, the use of any such material on any other Web site or networked computer environment is prohibited. All trademarks, service marks, and trade names are proprietary to THE STATE OF FLORIDA and the Division.</p>
+
+		<p>In the event that you do download software from FloridaDisaster.org, the software, including any files, images incorporated in or generated by the software, and data accompanying the software (collectively, the "Software") are licensed to you by THE STATE OF FLORIDA and the Division. THE STATE OF FLORIDA and the Division does not transfer the title to the Software to you. You do, however, own the medium on which the Software is recorded, but THE STATE OF FLORIDA and the Division retains the full and complete title to the Software, and all intellectual property rights therein. You may not redistribute, sell, decompile, reverse engineer, disassemble, or otherwise reduce the Software to a human-perceivable form.</p></li>
+
+		<li><h4>II. JURISDICTIONAL ISSUES</h4></li>
+		<p>Unless otherwise specified, the materials in "FloridaDisaster.org" are presented solely for the purpose of promoting educational programs, applications, and other products available in the United States, its territories, possessions, and protectorates. This site is controlled and operated by THE STATE OF FLORIDA and the Division from its offices within THE STATE OF FLORIDA, United States of America. THE STATE OF FLORIDA and the Division makes no representation that materials presented in "FloridaDisaster.org" are appropriate or available for use in other locations. Those who choose to access this site from other locations do so on their own initiative and are responsible for compliance with local laws, if and to the extent local laws are applicable. Software from this site is further subject to United States export controls. No software from this site may be downloaded or otherwise exported or re-exported (1) into (or to a national or resident of) Cuba, Iraq, Libya, North Korea, Iran, Syria, or any other country to which the U.S. has embargoed goods; or (2) to anyone on the U.S. Treasury Department's list of Specially Designated Nationals or the U.S. Commerce Department's Table of Deny Orders. By downloading or using the Software, you represent and warrant that you are not located in, under the control of, or a national or resident of any such country or on any such list.</p></li>
+
+		<li><h4>III. TERMINATION</h4></li>
+		<p>This agreement is effective until terminated by either party. This agreement may be terminated at any time by destroying all materials obtained from any and all STATE OF FLORIDA or Division site(s) and all related documentation, copies and installations thereof, whether made under the terms of this agreement or otherwise. This agreement will terminate immediately without notice from THE STATE OF FLORIDA and Division if in sole discretion you fail to comply with any term or provision of this agreement. Upon termination, you must destroy all materials obtained from this site and any and all other STATE OF FLORIDA and Division site(s) and all copies thereof, whether made under the terms of this agreement or otherwise.</p></li>
+
+		<li><h4>IV. DISCLAIMER</h4></li>
+		<p>The materials presented in "FloridaDisaster.org" are provided "as is" and without warranties of any kind, express or implied. To the fullest extent permissible pursuant to applicable law, THE STATE OF FLORIDA and the Division disclaims all warranties, express or implied, including, but not limited to, implied warranties of merchantability and fitness for a particular purpose. THE STATE OF FLORIDA and Division does not warrant that the functions contained in the materials will be uninterrupted or error-free, that defects will be corrected, or that "FloridaDisaster.org" or the server that makes it available are free of viruses or other harmful components. THE STATE OF FLORIDA and the Division does not warrant or make any representations regarding the use or the results or the use of the materials "FloridaDisaster.org" in terms or their correctness, accuracy, reliability, or otherwise. You (and not THE STATE OF FLORIDA and Division) assume the entire cost of all necessary servicing, repair, or correction. Applicable law may not allow the exclusion of implied warranties, so the above exclusion may not apply to you.</p></li>
+
+		<li><h4>V. LIMITATION OF LIABILITY</h4></li>
+		<p>Under no circumstances, including, but not limited to, negligence, shall THE STATE OF FLORIDA and Division be liable for any special or consequential damages that result from the use of, or the inability to use, the materials presented on "FloridaDisaster.org." Even if THE STATE OF FLORIDA and the Division or a STATE OF FLORIDA and Division authorized representative has been advised of the possibility of such damages. Applicable law may not allow the limitation or exclusion of liability or incidental or consequential damages, so the above limitation or exclusion may not apply to you. In no event shall THE STATE OF FLORIDA and Division’s total liability to you for all damages, losses, and causes of action (whether in contract, tort (including, but not limited to, negligence), or otherwise) exceed the amount paid by you, if any, for accessing this site.</p></li>
+
+		<li><h4>VI. OTHER</h4></li>
+		<p>This agreement shall be governed by and construed in accordance with the laws of the State of Florida, without giving effect to any principles of conflicts of law. If any provision of this agreement shall be unlawful, void, or for any reason unenforceable, then that provision shall be deemed severable from this agreement and shall not affect the validity and enforceability of any remaining provisions. This is the entire agreement between the parties relating to the subject matter herein and shall not be modified except in writing, signed by both parties.</p></li>
+	</ul>
 		<br class="clear">
 	</div>
 	
@@ -203,7 +85,6 @@ color: black ;">
 					<a href="#" target="_blank"><img src="images/FooterCharacters/footer_character3.png" width="106" height="141" alt="Footer Character"></a>
 				</div>
 		<?php include 'footer.php'; ?>
-		
 	</div>
 	
 	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
