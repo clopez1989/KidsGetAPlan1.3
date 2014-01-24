@@ -2061,7 +2061,7 @@ h3 {
 	}
 	
 	.bottomMenu {
-		margin-left: 459px !important;
+		margin-left: 513px !important;
 	}
 	
 	#topRightArt img {
@@ -2341,6 +2341,10 @@ h3 {
 		text-shadow: none;
 	}
 	
+	#topRightArt img {
+		margin-top:-8px !important;
+	}
+	
 }
 
 @media only screen and (min-width : 1500px) {
@@ -2366,30 +2370,120 @@ h3 {
 	#name1_story_box_story h2 {
 		position: relative;
 		top: -24%;
-		left: 36%;
+		left: 37%;
 	}
 	
 	#name1_play_box_story h2 {
 		position: relative;
 		top: -24%;
-		left: 24%;
+		left: 26%;
 	}
 	
 	#name1_make_box_story h2 {
 		position: relative;
-		top: 77.5%;
-		left: 23.5%;
+		top: -24.5%;
+		left: 25.5%;
 	}
 	
 	#name1_facts_box_story h2 {
 		position: relative;
-		top: -21.9%;
-		left: 24%;
+		top: -20.9%;
+		left: 26%;
 	}
 	
 	#name1_adults_box_story h2 {
 		position: relative;
-		top: 82.1%;
+		top: -20%;
+		left: 32%;
+	}
+	
+	#name2_story_box_story h2 {
+		position: relative;
+		top: -24%;
+		left: 37%;
+	}
+	
+	#name2_play_box_story h2 {
+		position: relative;
+		top: -20%;
+		left: 26%;
+	}
+	
+	#name2_make_box_story h2 {
+		position: relative;
+		top: -24.5%;
+		left: 26.5%;
+	}
+	
+	#name2_facts_box_story h2 {
+		position: relative;
+		top: -20.9%;
+		left: 26%;
+	}
+	
+	#name2_adults_box_story h2 {
+		position: relative;
+		top: -20%;
+		left: 28%;
+	}
+	
+	#name3_story_box_story h2 {
+		position: relative;
+		top: -24%;
+		left: 37%;
+	}
+	
+	#name3_play_box_story h2 {
+		position: relative;
+		top: -24%;
+		left: 26%;
+	}
+	
+	#name3_make_box_story h2 {
+		position: relative;
+		top: -24.5%;
+		left: 25.5%;
+	}
+	
+	#name3_facts_box_story h2 {
+		position: relative;
+		top: -20.9%;
+		left: 26%;
+	}
+	
+	#name3_adults_box_story h2 {
+		position: relative;
+		top: -20%;
+		left: 32%;
+	}
+	
+	#name5_story_box_story h2 {
+		position: relative;
+		top: -24%;
+		left: 37%;
+	}
+	
+	#name5_play_box_story h2 {
+		position: relative;
+		top: -24%;
+		left: 26%;
+	}
+	
+	#name5_make_box_story h2 {
+		position: relative;
+		top: -24.5%;
+		left: 25.5%;
+	}
+	
+	#name5_facts_box_story h2 {
+		position: relative;
+		top: -20.9%;
+		left: 26%;
+	}
+	
+	#name5_adults_box_story h2 {
+		position: relative;
+		top: -20%;
 		left: 32%;
 	}
 	
@@ -2399,7 +2493,7 @@ h3 {
 	}
 	
 	#topRightArt img {
-		margin-top:-8px;
+		margin-top: -74px;
 	}
 	
 	.logoImage{
@@ -2678,6 +2772,23 @@ h3 {
 	.bottomMenu {
 		margin-left: 401px;
 		padding-top: 6px;
+	}
+	
+	.copyrightBottomText {
+		margin-top: 3px;
+		margin-left:26%;
+	}
+	
+	#appleStoreBtn{
+		background-size: 105% auto !important;
+		width: 233px !important;
+		height: 87px !important;
+		float: left !important;
+		margin-left: -25px !important;
+	}
+	
+	#topRightArt {
+		top: 3px;
 	}
 	
 }
@@ -3279,6 +3390,9 @@ h3 {
 	#name3_adults_box_story h2 {
 		left: 19%;
 	}
+	
+	#name3_story_box_story h2 {
+		left: 37%;
 
 	#homeButton{
 		width:98px;
