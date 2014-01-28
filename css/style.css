@@ -407,6 +407,7 @@ a.pp_close {
 
 .mainButton {
 	min-height: 682px;
+	padding-right: 1px;
 	background-color: #fbee3c;
 	margin-top: 101px;
 	margin-bottom: 71px;
@@ -763,7 +764,7 @@ h3 {
 }
 
 .logoImage:hover{
-	transform:rotate(360deg);
+	transform:rotateX(360deg);
 	-webkit-transform:rotateX(360deg); /* Safari */
 }
 
@@ -815,6 +816,7 @@ h3 {
 .section {
 	width: 100%;
 	position: relative;
+	padding-right: 2px;
 	
 }
 
@@ -947,7 +949,7 @@ h3 {
 #name6_box h2{
 	position: absolute;
 	top: 67%;
-	right: 13%;
+	right: 12%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
@@ -1616,10 +1618,11 @@ h3 {
 #name1_facts_box h2{
 	position: absolute;
 	top: 80%;
-	left: 23%;
+	left: 14%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size: 1.3em;
 }
 
 #name1_facts_box_story{
@@ -1665,10 +1668,11 @@ h3 {
 #name2_facts_box h2{
 	position: absolute;
 	top: 80%;
-	left: 19%;
+	left: 16%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size: 1.3em;
 }
 
 #name2_facts_box_story{
@@ -1714,10 +1718,12 @@ h3 {
 #name3_facts_box h2{
 	position: absolute;
 	top: 80%;
-	right: 23%;
+	left: 14%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size: 1.3em;
+	width: 72%;
 }
 
 #name3_facts_box_story{
@@ -1779,11 +1785,12 @@ h3 {
 
 #name5_facts_box h2{
 	position: absolute;
-	top: 78%;
-	left: 20%;
+	top: 79%;
+	left: 15%;
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+	font-size: 1.4em;
 }
 
 #name5_facts_box_story{
@@ -2860,7 +2867,7 @@ h3 {
 		background-size: 87% 73%;
 	}
 	#nav ul {
-		margin: 0 0 0 2%;
+		margin: 0 0 0 5%;
 	}
 	
 	.navBolt1 {
@@ -3095,7 +3102,8 @@ h3 {
 	#name5_story_box h2{
 		position: absolute;
 		top: 84%;
-		left: 12%;
+		left: 9%;
+		width: 80%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -3299,7 +3307,7 @@ h3 {
 	#name1_facts_box h2{
 		position: absolute;
 		top: 80%;
-		left: 18%;
+		left: 8%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -3313,7 +3321,8 @@ h3 {
 	#name2_facts_box h2{
 		position: absolute;
 		top: 80%;
-		left: 12%;
+		width: 100%;
+		left: 0%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -3327,7 +3336,8 @@ h3 {
 	#name3_facts_box h2{
 		position: absolute;
 		top: 80%;
-		right: 17%;
+		left: 9%;
+		width: 82%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -3341,7 +3351,7 @@ h3 {
 	#name5_facts_box h2{
 		position: absolute;
 		top: 79%;
-		left: 12%;
+		left: 7%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -3497,8 +3507,7 @@ h3 {
 	}	
 }
 
-/* iPads (portrait) ----------- */	
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+@media screen and (max-width : 768px) {
 	
 /* Styles */
 .logoImage{
@@ -3530,8 +3539,275 @@ h3 {
 	padding-left:0px !important;
 	padding-top: 2px;
 	width: 100%;
-	margin-left: -75px;
-	padding-right:80px;
+	padding-right:109px;
+}
+
+#name1_box{
+	width:43% !important;
+}
+
+#name2_box{
+	width:43% !important;
+}
+
+#name3_box{
+	width:43% !important;
+	margin-bottom:8% !important;
+}
+
+#name5_box{
+	width:43% !important;
+	margin-bottom:8% !important;
+}
+
+#name4_box{
+	display:none;
+}
+
+#name6_box{
+	display:none;
+}
+
+#mobileTextBoxCS {
+	text-align:center;
+	margin:auto;
+	height:50px !important;
+	display:inline;
+}
+
+#mobileTextBoxCS h2{
+	font-family: 'Paytone One', sans-serif;
+	color: #6b744f;
+	text-shadow: none;
+	text-align:center;
+	padding-top:39px !important;
+	display: block;
+	margin:auto;
+	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #fff /*{c-body-shadow-color}*/;
+}
+
+#ipadClear{
+	height:100px;
+}
+
+.navBolt2 {
+	display: none;
+}
+
+.topBolts {
+	display:none;
+}
+
+#topRightArt {
+	position: relative;
+	top: -80px;
+	float: right;
+}
+
+.navRightNotch {
+	display:none;
+}
+
+#nav ul {
+	margin: 0% 0% 0% 14%;
+	width: 64%;
+}
+
+.mainButton {
+	min-height: 880px;
+	background-color: #fbee3c;
+	margin-top: 111px;
+	text-align:center;
+}
+
+.storyButton {
+	min-height: 800px;
+}
+
+.makeButton {
+	min-height: 900px !important;
+}
+
+#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
+	width:44% !important;
+}
+
+#thirty_story_title_box{
+	width:44%;
+	margin-top:0%;
+	margin-left:5%;
+}
+
+#name1_story_box_story {
+	width:44%;
+}
+
+#name1_play_box_story {
+	width:44%;
+	margin-top:0%;
+	margin-left:5%;
+}
+
+#name1_make_box_story {
+	width:44%;
+}
+
+#name1_facts_box_story {
+	width:44%;
+	margin-left:5%;
+}
+
+#name1_adults_box_story {
+	width:44%;
+}
+
+#name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
+	width:40%;
+	margin-left:6%;
+}
+
+#name3_story_box, #name5_story_box{
+	margin-bottom:5%;
+}
+
+#name4_story_box, #name6_story_box{
+	display:none;
+}
+
+#mobileTextBoxCS_story {
+	display:block;
+	text-align:center;
+	margin:auto;
+	margin-top:5%;
+	float:left;
+	height:100px;
+}
+
+#mobileTextBoxCS_story h2{
+	font-family: 'Paytone One', sans-serif;
+	color: #6b744f;
+	text-shadow: none;
+	text-align:center;
+	margin-left:-90px;
+	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #fff /*{c-body-shadow-color}*/;
+}
+
+#name1_play_box, #name2_play_box, #name3_play_box, #name4_play_box, #name5_play_box, #name6_play_box{
+	width:40%;
+	margin-left:6%;
+}
+
+#name3_play_box, #name5_play_box{
+	margin-bottom:5%;
+}
+
+#name3_play_box h2{
+	left:2% !important;
+	width:100% !important;
+}
+
+#name4_play_box, #name6_play_box{
+	display:none;
+}
+
+#name1_make_box, #name2_make_box, #name3_make_box{
+	width:100% !important;
+}
+
+#name1_make_box h2, #name2_make_box h2{
+	left:33% !important;
+}
+
+#name3_make_box h2{
+	left:7% !important;
+}
+
+#name1_facts_box, #name2_facts_box, #name3_facts_box, #name4_facts_box, #name5_facts_box, #name6_facts_box{
+	width:40%;
+	margin-left:6%;
+}
+
+#name3_facts_box, #name5_facts_box{
+	margin-bottom:5%;
+}
+
+#name4_facts_box, #name6_facts_box{
+	display:none;
+}
+
+#name1_adults_box h2{
+	left:19%;
+	top:59%;
+}
+
+#name2_adults_box h2{
+	left:52%;
+	top:59%;
+}
+
+.adultsButton {
+	min-height: 650px !important;
+	margin:90px 0px;
+}
+
+.bottomMenu{
+	margin-left:0;
+	width:80%;
+}
+
+.bottomMenu a {
+	color: white;
+}
+
+.bottomMenu li{
+	margin-left: 14px;
+	list-style-type: none;
+	list-style-position: inside;
+	float: left;
+	color: white;
+	font-size:16px;
+}
+	
+} 
+
+/* iPads (portrait) ----------- */	
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	
+/* Styles */
+.logoImage{
+	margin-left: -15px;
+	width:40%;
+	height:auto;
+}
+
+#appStores{
+	padding-left:8px;
+	text-align:center;
+	display:block;
+	margin:auto;
+}
+
+.googlePlayBtn img{
+	width: 104% !important;
+	margin-left: -11px !important;
+}
+
+.amazonBtn{
+	width: 104% !important;
+	margin-left: -11px !important;
+}
+	
+/*navigation*/
+#nav {
+	height: 116px;
+	padding-left:-100px !important;
+	padding-top: 2px;
+	width: 100%;
+	padding-right:119px;
+}
+
+#nav ul {
+margin-left: 67px !important;
 }
 
 #name1_box{
@@ -3793,7 +4069,7 @@ h3 {
 	}
 	
 	#nav{
-		height:23px !important;
+		/*height:23px;*/
 	}
 	
 	#nav ul li {
@@ -4062,6 +4338,7 @@ body{
 
 #mobileTextBox_main h2 {
 	font-size:18px;
+	padding-top: 8px;
 }
 
 .mainButton {
@@ -4185,6 +4462,7 @@ body{
 	margin:auto;
 	margin-top:5%;
 	height:100px;
+	float:none;
 }
 
 #mobileTextBoxCS_story h2{
@@ -4192,6 +4470,7 @@ body{
 	color: #6b744f;
 	text-shadow: none;
 	text-align:center;
+	margin-left: 0px;
 	text-shadow: 0 /*{c-body-shadow-x}*/ 1px /*{c-body-shadow-y}*/ 0 /*{c-body-shadow-radius}*/ #fff /*{c-body-shadow-color}*/;
 }
 
@@ -4332,6 +4611,7 @@ body{
 	margin-top: 0px;
 	margin-bottom: -55px;
 	height: 259px;
+	margin-left: 0px;
 }
 
 #name1_story_box_story {
@@ -4350,6 +4630,7 @@ body{
 #name1_story_box, #name2_story_box, #name3_story_box, #name4_story_box, #name5_story_box, #name6_story_box{
 	width:98%;
 	margin-top:4%;
+	margin-left: 2px;
 }
 
 #name1_story_box{
@@ -4470,6 +4751,7 @@ body{
 #name1_play_box, #name2_play_box, #name3_play_box, #name4_play_box, #name5_play_box, #name6_play_box{
 	width:98%;
 	margin-top:4%;
+	margin-left: 2px;
 }
 
 #name1_play_box img{
@@ -4497,6 +4779,7 @@ body{
 	width:100%;
 	padding-top: 120px;
 	margin-bottom: -95px;
+	margin-left:0px;
 }
 
 #name1_play_box_story h2{
@@ -4631,8 +4914,8 @@ body{
 }
 
 #name2_make_box_story h2{
-	top:51%;
-	left: 10%;
+	top: -51%;
+	left: 8%;
 }
 
 #name3_make_box h2{
@@ -4683,12 +4966,14 @@ body{
 
 #name1_facts_box, #name2_facts_box, #name3_facts_box, #name4_facts_box, #name5_facts_box, #name6_facts_box{
 	width:100% !important;
+	margin-left: 2px;
 }
 
 #name1_facts_box_story {
 	width:100%;
 	padding-top: 132px;
 	margin-bottom: -84px;
+	margin-left: 0px;
 }
 
 #name1_facts_box_story h2{
@@ -4750,11 +5035,11 @@ body{
 #name2_adults_box_story {
 	width:100%;
 	padding-top: 80px;
-	margin-bottom: 278px;
+	margin-bottom: 346px;
 }
 
 #name2_adults_box_story h2{
-	top: 64%;
+	top: -38%;
 	left: 12%;
 }
 
@@ -4772,12 +5057,12 @@ body{
 #name5_adults_box_story {
 	width:100%;
 	padding-top: 80px;
-	margin-bottom: 278px;
+	margin-bottom: 343px;
 }
 
 #name5_adults_box_story h2{
-	top: 64%;
-	left: 20%;
+	top: -38%;
+	left: 13%;
 }
 
 .factsButton{
@@ -4945,6 +5230,7 @@ body{
 .bottomMenu{
 	padding:0;
 	margin:0;
+	width: 100%;
 }
 
 .characterImg {
@@ -5023,10 +5309,12 @@ body{
 
 #name1_adults_box{
 	width:100%;
+	margin-left: 2px;
 }
 
 #name2_adults_box{
 	width:100%;
+	margin-left: 2px;
 }
 
 #name1_adults_box h2{

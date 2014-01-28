@@ -8,29 +8,28 @@
 <!-- include Navigation -->
 <?php include 'nav.php'; ?>
 	<div class="section homeButton" id="homeMain">
-		<div id="topLeftArt" class="grid_4">
+		<a href="javascript:GearTrack();"><div id="topLeftArt" class="grid_4">
 			<img src="images/top_left_panel_art.png" alt=""/>
-		</div>
+		</div></a>
 		<div class="logoContainer" class="grid_4">
 			<a href="index.php" data-ajax="false"><img src="images/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan" class="logoImage" /></a>
 		   	
-			<audio id="beep-one">
-				<source src="audio/beep.mp3" controls></source>
-				<source src="audio/beep.ogg" controls></source>
+			<audio id="beep-one2">
+				<source src="audio/SFX Spinner 01 MONO.mp3" controls></source>
 				Your browser isn't invited for super fun time.
 			</audio>
 			
 			<script>
-				var beepOne = $("#beep-one")[0];
+				var beepOne2 = $("#beep-one2")[0];
 				$(".logoImage")
 					.mouseenter(function() {
-						beepOne.play();
+						beepOne2.play();
 					});
 			</script>
 		</div>
-		<div id="topRightArt" class="grid_4">
+		<a href="javascript:GearTrack();"><div id="topRightArt" class="grid_4">
 			<img src="images/Header_element_right.png" alt=""/>
-		</div>
+		</div></a>
 		<div id="topMobileMenuBar" class="grid_4">
 			<a href="#myPanel" data-ajax="false"><img src="images/mobile_top_menu.png" width="672" height="107" alt="Mobile Top Menu"></a>
 		</div>
@@ -53,7 +52,18 @@
 	
 	<div class="mainWrapper">
 		
-		<canvas id="canvas" width="1667" height="734"></canvas>
+		<a href="javascript:GearTrack();"><canvas id="canvas" width="1667" height="734"></canvas></a>
+		<audio id="Mp3Me" autoplay autobuffer>
+			<source src="audio/SFX Gears 01 MONO.mp3" controls></source>
+		</audio>
+
+		<script type="text/javascript">
+			function GearTrack(){
+			    var Mp3Me= document.getElementById('Mp3Me');
+			    Mp3Me.children[0].src = "audio/SFX Gears 01 MONO.mp3";
+			    Mp3Me.load();
+			}
+		</script>
 			
 		<div class="section mainSection mainButton" data-type="background" data-speed="10">
 			<!-- Text box for mobile site -->			
@@ -114,31 +124,6 @@
 				  </div>
 				  </div>
 			</div>
-			<div id="name2_story_box" class="grid_4">
-				 <button id="openerOakStory"></button>
-				 <h2>The Oak Tree Club</h2>
-			  <div id="dialogOakStory" title="The Oak Tree Club Story" style="background:#6dcef5;">	
-				  <div id="dialogEtchingLeft">
-					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
-				  </div>
-					<div id="dialogButtons">
-						<p class="desktopOnly">For Desktop:</p>  
-				  		<a href="book.swf?bookXML=book3-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashB]">Read the Story</a>
-						<br>
-						<p>For Mobile & Tablet Devices:</p>
-						<div id="appStores">
-				  			<a href="https://itunes.apple.com/us/app/kgap-oak-tree-club-disaster/id700000188?mt=8" target="itunes_store" id="appleStoreBtn" style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.OakTreeMobileBook" target="_blank" class="googlePlayBtn">
-					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/>
-							</a>
-							<a href="http://www.amazon.com/KGAP-The-Oak-Tree-Club/dp/B00DUHT24K/ref=sr_1_9?s=mobile-apps&ie=UTF8&qid=1389636385&sr=1-9" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
-						</div>
-				</div>
-			  <div id="dialogEtchingRight">
-				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
-			  </div>
-			  </div>
-			</div>
 			<div id="name3_story_box" class="grid_4">
 				<button id="openerTinkerStory"></button>
 				<h2>The Wacky Whiz-Bang Weather Watching Wonder</h2>
@@ -163,6 +148,31 @@
   				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
   			  </div>
   			  </div>
+			</div>
+			<div id="name2_story_box" class="grid_4">
+				 <button id="openerOakStory"></button>
+				 <h2>The Oak Tree Club</h2>
+			  <div id="dialogOakStory" title="The Oak Tree Club Story" style="background:#6dcef5;">	
+				  <div id="dialogEtchingLeft">
+					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+				  </div>
+					<div id="dialogButtons">
+						<p class="desktopOnly">For Desktop:</p>  
+				  		<a href="book.swf?bookXML=book3-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashB]">Read the Story</a>
+						<br>
+						<p>For Mobile & Tablet Devices:</p>
+						<div id="appStores">
+				  			<a href="https://itunes.apple.com/us/app/kgap-oak-tree-club-disaster/id700000188?mt=8" target="itunes_store" id="appleStoreBtn" style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.OakTreeMobileBook" target="_blank" class="googlePlayBtn">
+					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/>
+							</a>
+							<a href="http://www.amazon.com/KGAP-The-Oak-Tree-Club/dp/B00DUHT24K/ref=sr_1_9?s=mobile-apps&ie=UTF8&qid=1389636385&sr=1-9" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+						</div>
+				</div>
+			  <div id="dialogEtchingRight">
+				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+			  </div>
+			  </div>
 			</div>
 			<div id="name4_story_box" class="grid_4">
 				<img src="images/coming_soon_story.png" width="293" height="230" alt="Coming Soon Story">
@@ -231,30 +241,6 @@
 			    </div>
 			  </div>
 			</div>
-			<div id="name2_play_box" class="grid_4">
-				<button id="openerOakPlay"></button>
-				 <h2>Disaster Supply Kit</h2>
-   			  <div id="dialogOakPlay" title="Disaster Supply Kit" style="background:#6dcef5;">	
-   				  <div id="dialogEtchingLeft">
-   					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
-   				  </div>
-   					<div id="dialogButtons">
-   						<p class="desktopOnly">For Desktop:</p>  
-   				  		<a href="Supply_Kit_Activity.swf?width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashF]">Play the Game</a>
-   						<br>
-   						<p>For Mobile & Tablet Devices:</p>
-   						<div id="appStores">
-				  			<a href="https://itunes.apple.com/us/app/kgap-oak-tree-club-disaster/id700000188?mt=8" target="itunes_store" id="appleStoreBtn" style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.DSKMobile" target="_blank" class="googlePlayBtn">
-					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
-							<a href="http://www.amazon.com/ideas-orlando-KGAP-Disaster-Supply/dp/B00EZUVA6O/ref=sr_1_5?s=mobile-apps&ie=UTF8&qid=1389637118&sr=1-5" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
-   						</div>
-   				</div>
-   			  <div id="dialogEtchingRight">
-   				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
-   			  </div>
-   			  </div>
-			</div>
 			<div id="name3_play_box" class="grid_4">
 				<button id="openerTinkerPlay"></button>
 				<h2>The Whiz-Bang Quiz</h2>
@@ -278,6 +264,30 @@
     				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
     			  </div>
     			  </div>
+			</div>
+			<div id="name2_play_box" class="grid_4">
+				<button id="openerOakPlay"></button>
+				 <h2>Disaster Supply Kit</h2>
+   			  <div id="dialogOakPlay" title="Disaster Supply Kit" style="background:#6dcef5;">	
+   				  <div id="dialogEtchingLeft">
+   					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+   				  </div>
+   					<div id="dialogButtons">
+   						<p class="desktopOnly">For Desktop:</p>  
+   				  		<a href="Supply_Kit_Activity.swf?width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashF]">Play the Game</a>
+   						<br>
+   						<p>For Mobile & Tablet Devices:</p>
+   						<div id="appStores">
+				  			<a href="https://itunes.apple.com/us/app/kgap-oak-tree-club-disaster/id700000188?mt=8" target="itunes_store" id="appleStoreBtn" style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.DSKMobile" target="_blank" class="googlePlayBtn">
+					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
+							<a href="http://www.amazon.com/ideas-orlando-KGAP-Disaster-Supply/dp/B00EZUVA6O/ref=sr_1_5?s=mobile-apps&ie=UTF8&qid=1389637118&sr=1-5" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+   						</div>
+   				</div>
+   			  <div id="dialogEtchingRight">
+   				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+   			  </div>
+   			  </div>
 			</div>
 			<div id="name4_play_box" class="grid_4">
 				<img src="images/coming_soon_play.png" width="296" height="232" alt="Coming Soon Play">
@@ -341,25 +351,6 @@
     			  </div>
     			  </div>
 			</div>
-			<div id="name2_make_box" class="grid_4">
-				<button id="openerOakMake"></button>
-				 <h2>The Oak Tree Club</h2>
-   			  <div id="dialogOakMake" title="The Oak Tree Club Downloads" style="background:#6dcef5;">	
-   				  <div id="dialogEtchingLeft">
-   					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
-   				  </div>
-   					<div id="dialogButtons">
-   						<p>Download Coloring Pages:</p>  
-   				  		<a href="coloring_books/oaktreecoloring.pdf" class="dialogRead" target="_blank">The Oak Tree Club</a>
-   						<br>
-   						<p>Download Character Cut-Outs:</p>
-   						<a href="character_sheets/character_sheet_mary_laura_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Mary Laura</a>
-   				</div>
-   			  <div id="dialogEtchingRight">
-   				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
-   			  </div>
-   			  </div>
-			</div>
 			<div id="name3_make_box" class="grid_4">
 				<button id="openerTinkerMake"></button>
 				<h2>Tinkermeister</h2>
@@ -380,6 +371,25 @@
      			  </div>
      			  </div>
 			</div>
+			<div id="name2_make_box" class="grid_4">
+				<button id="openerOakMake"></button>
+				 <h2>The Oak Tree Club</h2>
+   			  <div id="dialogOakMake" title="The Oak Tree Club Downloads" style="background:#6dcef5;">	
+   				  <div id="dialogEtchingLeft">
+   					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+   				  </div>
+   					<div id="dialogButtons">
+   						<p>Download Coloring Pages:</p>  
+   				  		<a href="coloring_books/oaktreecoloring.pdf" class="dialogRead" target="_blank">The Oak Tree Club</a>
+   						<br>
+   						<p>Download Character Cut-Outs:</p>
+   						<a href="character_sheets/character_sheet_mary_laura_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Mary Laura</a>
+   				</div>
+   			  <div id="dialogEtchingRight">
+   				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+   			  </div>
+   			  </div>
+			</div>
 			<img src="images/Adults/bevel_top.png" width="996" height="23" alt="Bevel Top" class="makeBevelBottom">
 		</div>
 
@@ -388,9 +398,9 @@
 			<div id="mobileTextBoxMake">
 				<h2>Get to know your Emergency Preparation Facts</h2>
 			</div>
-			<div id="name1_facts_box" class="grid_4">
+			<a href="javascript:ThunderTrack();"><div id="name1_facts_box" class="grid_4">
 				<button id="opener4"></button>
-				<h2>The 30/30 Rule</h2>
+				<h2>Lightning Safety Facts</h2>
 				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
 color: white;">	
 					<ul>
@@ -435,66 +445,20 @@ color: white;">
 						</li>
 					</ul>
 			  	</div>
-			</div>
-			<div id="name2_facts_box" class="grid_4">
-				 <button id="openerOakFacts"></button>
-				 <h2>The Oak Tree Club</h2>
- 				<div id="dialogOakFacts" title="The Oak Tree Club Hurricanes Facts" style="background:#6dcef5; text-shadow: none;
- color: black;">
-					<ul>
-						<li><b>Hurricanes</b>, <b>cyclones</b>, and <b>typhoons</b> are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li>
-						<li><h4 style="margin-bottom: -11px;">Hurricane Safety Actions</h4>
-							<ul>
-								<li>Know if you live in an evacuation area. Know your home's vulnerability to storm surge, flooding and wind. Have a family plan.</li>
-								<li>At the beginning of hurricane season (June), check your supplies, replace batteries and rotate your stock of food and water.</li>
-								<li>If a storm threatens, listen to your local authorities. Evacuate if ordered.</li>
-							</ul>
-						</li>
-						<li><h4 style="margin-bottom: -11px;">Saffir-Simpson Scale</h4>
-							<ul>
-								<li><b>Tropical Storm</b>
-									<ul>
-										<li>Winds 39-73 mph</li>
-									</ul>
-								</li>
-								<li><b>Category 1 Hurricane</b>
-									<ul>
-										<li>Winds 74-95 mph</li>
-										<li>No real damage to buildings. Damage to unanchored mobile homes.</li>
-									</ul>
-								</li>
-								<li><b>Category 2 Hurricane</b>
-									<ul>
-										<li>Winds 96-110 mph</li>
-										<li>Some damage to building roofs, doors and windows. Considerable damage to mobile homes. Some trees blown down.</li>
-									</ul>
-								</li>
-								<li><b>Category 3 Hurricane</b>
-									<ul>
-										<li>Winds 111-130 mph</li>
-										<li>Some structural damage to small homes. Large trees blown down. Mobile homes and poorly built signs destroyed.</li>
-									</ul>
-								</li>
-								<li><b>Category 4 Hurricane</b>
-									<ul>
-										<li>Winds 131-155 mph</li>
-										<li>Wall failures in homes and complete roof structure failure on small homes. Total destruction of mobile homes. Trees, shrubs and signs all blown down.</li>
-									</ul>
-								</li>
-								<li><b>Category 5 Hurricane</b>
-									<ul>
-										<li>Winds 156 mph +</li>
-										<li>Complete roof failure on homes and industrial buildings. Some complete building failures.</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-					</ul>
- 			  	</div>
-			</div>
-			<div id="name3_facts_box" class="grid_4">
+			</div></a>
+			<audio id="Mp3Me4" autoplay autobuffer>
+				<source src="audio/SFX Thunder 01 MONO.mp3" controls></source>
+			</audio> 
+			<script type="text/javascript">
+				function ThunderTrack(){
+				    var Mp3Me4= document.getElementById('Mp3Me4');
+				    Mp3Me4.children[0].src = "audio/SFX Thunder 01 MONO.mp3";
+				    Mp3Me4.load();
+				}
+			</script>
+			<a href="javascript:HurricaneTrack();"><div id="name3_facts_box" class="grid_4">
 				<button id="openerTinkerFacts"></button>
-				<h2>Tinkermeister</h2>
+				<h2>Tornado Safety Facts</h2>
 				<div id="dialogTinkerFacts" title="The Tinkermeister Tornado Facts" style="background:#9fcb3a; text-shadow: none;
 color: black;">	
 					<ul>
@@ -600,13 +564,89 @@ color: black;">
 						</li>
 					</ul>
 			  	</div>
-			</div>
+			</div></a>
+			<audio id="Mp3Me5" autoplay autobuffer>
+				<source src="audio/SFX Wind 01 MONO.mp3" controls></source>
+			</audio>
+			<script type="text/javascript">
+				function HurricaneTrack(){
+				    var Mp3Me5= document.getElementById('Mp3Me5');
+				    Mp3Me5.children[0].src = "audio/SFX Wind 01 MONO.mp3";
+				    Mp3Me5.load();
+				}
+			</script>
+			<a href="javascript:TornadoTrack();"><div id="name2_facts_box" class="grid_4">
+				 <button id="openerOakFacts"></button>
+				 <h2>Hurricane Safety Facts</h2>
+ 				<div id="dialogOakFacts" title="The Oak Tree Club Hurricanes Facts" style="background:#6dcef5; text-shadow: none;
+ color: black;">
+					<ul>
+						<li><b>Hurricanes</b>, <b>cyclones</b>, and <b>typhoons</b> are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li>
+						<li><h4 style="margin-bottom: -11px;">Hurricane Safety Actions</h4>
+							<ul>
+								<li>Know if you live in an evacuation area. Know your home's vulnerability to storm surge, flooding and wind. Have a family plan.</li>
+								<li>At the beginning of hurricane season (June), check your supplies, replace batteries and rotate your stock of food and water.</li>
+								<li>If a storm threatens, listen to your local authorities. Evacuate if ordered.</li>
+							</ul>
+						</li>
+						<li><h4 style="margin-bottom: -11px;">Saffir-Simpson Scale</h4>
+							<ul>
+								<li><b>Tropical Storm</b>
+									<ul>
+										<li>Winds 39-73 mph</li>
+									</ul>
+								</li>
+								<li><b>Category 1 Hurricane</b>
+									<ul>
+										<li>Winds 74-95 mph</li>
+										<li>No real damage to buildings. Damage to unanchored mobile homes.</li>
+									</ul>
+								</li>
+								<li><b>Category 2 Hurricane</b>
+									<ul>
+										<li>Winds 96-110 mph</li>
+										<li>Some damage to building roofs, doors and windows. Considerable damage to mobile homes. Some trees blown down.</li>
+									</ul>
+								</li>
+								<li><b>Category 3 Hurricane</b>
+									<ul>
+										<li>Winds 111-130 mph</li>
+										<li>Some structural damage to small homes. Large trees blown down. Mobile homes and poorly built signs destroyed.</li>
+									</ul>
+								</li>
+								<li><b>Category 4 Hurricane</b>
+									<ul>
+										<li>Winds 131-155 mph</li>
+										<li>Wall failures in homes and complete roof structure failure on small homes. Total destruction of mobile homes. Trees, shrubs and signs all blown down.</li>
+									</ul>
+								</li>
+								<li><b>Category 5 Hurricane</b>
+									<ul>
+										<li>Winds 156 mph +</li>
+										<li>Complete roof failure on homes and industrial buildings. Some complete building failures.</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+ 			  	</div>
+			</div></a>
+			<audio id="Mp3Me3" autoplay autobuffer>
+				<source src="audio/SFX Tornado 01 MONO.mp3" controls></source>
+			</audio>
+			<script type="text/javascript">
+				function TornadoTrack(){
+				    var Mp3Me3= document.getElementById('Mp3Me3');
+				    Mp3Me3.children[0].src = "audio/SFX Tornado 01 MONO.mp3";
+				    Mp3Me3.load();
+				}
+			</script>
 			<div id="name4_facts_box" class="grid_4">
 				<img src="images/wheel_left.png" width="300" height="236" alt="Wheel Left">
 			</div>
-			<div id="name5_facts_box" class="grid_4">
+			<a href="javascript:FireTrack();"><div id="name5_facts_box" class="grid_4">
 				<button id="openerMegaFacts"></button>
-				<h2>Mega Track HTW</h2>
+				<h2>Wildfire Safety Facts</h2>
 				<div id="dialogMegaFacts" title="The MegaTrack Wildfire Facts" style="background:#ff962e; text-shadow: none;
 color: black;">	
 					<ul>
@@ -657,7 +697,17 @@ color: black;">
 						</li>
 					</ul>
 				</div>
-			</div>
+			</div></a>
+			<audio id="Mp3Me6" autoplay autobuffer>
+				<source src="audio/SFX Fire 01 MONO.mp3" controls></source>
+			</audio>
+			<script type="text/javascript">
+				function FireTrack(){
+				    var Mp3Me6= document.getElementById('Mp3Me6');
+				    Mp3Me6.children[0].src = "audio/SFX Fire 01 MONO.mp3";
+				    Mp3Me6.load();
+				}
+			</script>
 			<div id="name6_facts_box" class="grid_4">
 				<img src="images/wheel_right.png" width="296" height="236" alt="Wheel Right">
 			</div>

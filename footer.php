@@ -10,7 +10,7 @@
 </ul>
 <p class="copyrightBottomText">Copyright 2014 &copy; Florida Division of Emergency Management. All Rights Reserved.</p>
 <div class="machineImg">
-	<img src="images/pump_footer_right.png" width="150" height="152" alt="Pump Footer Right">
+	<a href="javascript:GearTrack();"><img src="images/pump_footer_right.png" width="150" height="152" alt="Pump Footer Right"></a>
 </div>
 <div class="socialButtons">
 	<a href="http://www.floridadisaster.org/index.asp" target="_blank"><img src="images/sert_logo.png" width="71" height="49" alt="Sert Logo" class="serticon"></a>
