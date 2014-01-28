@@ -47,7 +47,7 @@
 		<div id="copyrightDiv">
 			<div>
 				<h5>About Kids Get A Plan</h5>
-				<p>Kids Get A Plan is the Florida Division of Emergany Management program for school age children ages 5 to 12 years old. The media portal is created for school age students to upload, showcase and share posters and videos created for the Kids Get A Plan Severe Weather Awareness Week annual contest.  If you have other questions about Kids Get A Plan, or have suggestions on how it may be improved, please contact us.</p>
+				<p>Kids Get A Plan is the Florida Division of Emergency Management program for school age children ages 5 to 12 years old. The media portal is created for school age students to upload, showcase and share posters and videos created for the Kids Get A Plan Severe Weather Awareness Week annual contest.  If you have other questions about Kids Get A Plan, or have suggestions on how it may be improved, please contact us.</p>
  
 				<p style="text-align:left;"><ul style="list-style-type:none; padding-left: 0;"><li>Florida Division of Emergency Management </li>
 				<li>2555 Shumard Oak Boulevard</li> 

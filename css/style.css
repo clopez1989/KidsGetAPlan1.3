@@ -1,3 +1,19 @@
+.ui-dialog-content li {
+	margin-bottom:5px;
+}
+
+/* This is the selector i used for my menu, it needs to be set as position:absolute; */
+.subMenu {
+	position: absolute;
+	top: 84px;
+	z-index: 1001 !important;
+	width: 100%;
+	background-color: #838c75;
+	-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 3px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 3px 5px rgba(50, 50, 50, 0.75);
+}
+
 div.ui-tooltip {
     max-width: 20%;
 	text-align: center;
@@ -28,22 +44,18 @@ a.pp_close {
 	margin-top: 23px;
 	font-size: 13px;
 	text-shadow: none;
-	color: lightblue;
+	color: black;
+}
+
+.ui-dialog-titlebar-close:hover {
+	background: url('../images/close_m_dialog_hover_click.png') no-repeat !important;
+	background-size: 72% auto !important;
+	background-position: center !important;
+	border: none !important;
 }
 
 .storyBevelFix{
 	display:none;
-}
-/* This is the selector i used for my menu, it needs to be set as position:absolute; */
-.subMenu {
-	position: absolute;
-	top: 84px;
-	z-index: 1001 !important;
-	width: 100%;
-	background-color: #838c75;
-	-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow:    0px 3px 5px rgba(50, 50, 50, 0.75);
-	box-shadow:         0px 3px 5px rgba(50, 50, 50, 0.75);
 }
 
 #menuFix {
@@ -258,7 +270,7 @@ a.pp_close {
 .dialogRead:hover, .dialogDownload:hover{
 	border-top-color: #c4202e;
 	background: #c4202e;
-	color: #ccc;
+	color: #FFF;
 }
 
 .dialogReadAdults{
@@ -342,7 +354,7 @@ a.pp_close {
 }
 
 .logoImage{
-	width: 23%;
+	width: 299px;
 	height: auto;
 	margin-top: 11px;	
 }
@@ -427,6 +439,7 @@ a.pp_close {
 	font-family: 'Paytone One', sans-serif;
 	font-size:28px;
 	color: #ef332e;
+	margin-top: -8px;
 }
 
 #mobileTextBoxMake {
@@ -744,7 +757,7 @@ h3 {
 .logoImage{
 	height: auto;
 	margin-top: 3px;
-	margin-left: 69px;
+	margin-left: 5%;
 	transition:width 2s, height 2s, transform 1s;
 	-webkit-transition:width 0s, height 0s, -webkit-transform 1s; /* Safari */
 }
@@ -2847,7 +2860,7 @@ h3 {
 		background-size: 87% 73%;
 	}
 	#nav ul {
-		margin: 0 0 0 70px;
+		margin: 0 0 0 2%;
 	}
 	
 	.navBolt1 {
@@ -2902,11 +2915,20 @@ h3 {
 	}
 
 	.bottomMenu{
-		margin-left: 124px;
+		margin-left: 165px;
+		margin-top: 15px;
 	}
 	
 	.bottomMenu li{
-		margin-left: 52px;
+		margin-left: 25px;
+	}
+	
+	.copyrightBottomText {
+		margin-left: 10%;
+	}
+	
+	#copyright{
+		background-size: 97%;
 	}
 	
 	#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
@@ -3072,7 +3094,7 @@ h3 {
 
 	#name5_story_box h2{
 		position: absolute;
-		top: 79%;
+		top: 84%;
 		left: 12%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
@@ -3249,7 +3271,7 @@ h3 {
 	#name2_make_box h2{
 		position: absolute;
 		top: 77%;
-		left: 12%;
+		left: 8%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -3263,7 +3285,7 @@ h3 {
 	#name3_make_box h2{
 		position: absolute;
 		top: 77%;
-		right: 8%;
+		right: 14%;
 		font-family: 'Paytone One', sans-serif;
 		color: white;
 		text-shadow: none;
@@ -3474,6 +3496,7 @@ h3 {
 		display:none;
 	}	
 }
+
 /* iPads (portrait) ----------- */	
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	
@@ -4590,7 +4613,7 @@ body{
 }
 
 #name1_make_box_story h2{
-	top:51%;
+	top:-51%;
 }
 
 #mobileTextBoxMake h2{
@@ -4623,7 +4646,7 @@ body{
 }
 
 #name3_make_box_story h2{
-	top:51%;
+	top:-51%;
 	left: 10%;
 }
 
@@ -4717,11 +4740,11 @@ body{
 #name1_adults_box_story {
 	width:100%;
 	padding-top: 80px;
-	margin-bottom: 278px;
+	margin-bottom: 332px;
 }
 
 #name1_adults_box_story h2{
-	top: 64%;
+	top: -38.5%;
 }
 
 #name2_adults_box_story {
@@ -4738,11 +4761,11 @@ body{
 #name3_adults_box_story {
 	width:100%;
 	padding-top: 80px;
-	margin-bottom: 278px;
+	margin-bottom: 337px;
 }
 
 #name3_adults_box_story h2{
-	top: 64%;
+	top: -39%;
 	left: 20%;
 }
 
@@ -4896,7 +4919,7 @@ body{
 	position: absolute;
 	left: 0px;
 	bottom: 0px;
-	height: 280px;
+	height: 355px;
 	width: 100%;
 	background: #999;
 	text-align: center;
@@ -4950,7 +4973,6 @@ body{
 }
 
 .bottomMenu li{
-	padding-top: 6px;
 	float: none;
 	list-style-type: none !important;
 	margin-left: 0;
@@ -4961,7 +4983,7 @@ body{
 	background: -moz-linear-gradient(top, #f16022, #f16022);
 	background: -ms-linear-gradient(top, #f16022, #f16022);
 	background: -o-linear-gradient(top, #f16022, #f16022);
-	padding: 5px 10px;
+	padding: 10px;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	border-radius: 8px;
@@ -5035,7 +5057,7 @@ body{
 	margin-left: 9%;
 	height: auto;
 	position: relative;
-	margin-top: -262px;
+	margin-top: -324px;
 }
 
 .fbicon{
@@ -5043,7 +5065,7 @@ body{
 	height: auto;
 	float: right;
 	margin-right: 13%;
-	margin-top: -262px;
+	margin-top: -324px;
 }
 
 #topLeftButton{
@@ -5082,6 +5104,10 @@ body{
 
 .adultsButton{
 	margin-bottom: 320px;
+}
+
+.copyrightBottomText {
+	margin-left: 5%;
 }
 
 }

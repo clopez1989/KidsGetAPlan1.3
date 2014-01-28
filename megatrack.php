@@ -121,53 +121,53 @@
 			<h2>Wildfire Safety Facts</h2>
 				<div id="dialog4" title="MegaTrack Wildfire Facts" style="background:#ff962e; text-shadow: none;
 color: black;">
-						<ul>
-						        <li>Wildfire Safety actions
-						<ul>
-						        <li>Create a defensible or safe space of at least 30 feet around your home that is lean, clean and green.</li>
-						        <li>To help emergency vehicles gain access, make sure driveways are at least 12 feet wide with at least 15 feet of overhead clearance, and are easily identifiable.</li>
-						        <li>Keep gutters, eaves and yards clear of debris, sticks, pine needles and leaves.</li>
-						        <li>Trim all tree branches that hang over the house or are lower than 6 to 10 feet from the ground.</li>
-						        <li>Plant fire resistant plants such as dogwood, sycamore, magnolia, oaks, red maple, wild azalea, sweetgum, black cherry and ferns instead of pines and palmettos.</li>
-						        <li>Use fire resistant construction materials where possible, and fire resistant barriers when attaching flammable materials, such as wood decks or fences to the house.</li>
-						        <li>Follow local regulations for the burning or disposal of yard waste and other materials.</li>
-						        <li>Develop a personal disaster plan, including a plan for evacuating your home. Be sure to identify at least two routes out of your neighborhood or subdivision.</li>
-						</ul>
+					<ul>
+						<li><h4 style="margin-bottom: -11px;">Wildfire Safety actions</h4>
+							<ul>
+								<li>Create a defensible or safe space of at least 30 feet around your home that is lean, clean and green.</li>
+								<li>To help emergency vehicles gain access, make sure driveways are at least 12 feet wide with at least 15 feet of overhead clearance, and are easily identifiable.</li>
+								<li>Keep gutters, eaves and yards clear of debris, sticks, pine needles and leaves.</li>
+								<li>Trim all tree branches that hang over the house or are lower than 6 to 10 feet from the ground.</li>
+								<li>Plant fire resistant plants such as dogwood, sycamore, magnolia, oaks, red maple, wild azalea, sweetgum, black cherry and ferns instead of pines and palmettos.</li>
+								<li>Use fire resistant construction materials where possible, and fire resistant barriers when attaching flammable materials, such as wood decks or fences to the house.</li>
+								<li>Follow local regulations for the burning or disposal of yard waste and other materials.</li>
+								<li>Develop a personal disaster plan, including a plan for evacuating your home. Be sure to identify at least two routes out of your neighborhood or subdivision.</li>
+							</ul>
 						</li>
-						        <li>Wildfire Facts
-						<ul>
-						        <li>A Prescription For Good Forest Health
-						<ul>
-						        <li>Wildfires are fires that start in natural wildlands. Most wildfires are started accidentally. Sometimes, for instance, people do not put their campfire out completely. Wildifres can also be started on purpose by people who commit the crime of arson. Sometimes wildfire can also start naturally with a lightning strike.</li>
-						        <li>Wildfires are not always bad. Some ecosystems need fire. For instance, fire destroys the leaves and logs that lay decaying on the forest floor. It also keeps the leaves in the canopy, or on top of the trees, thinned out. This lets more light in so that seeds and plants can grow on the forest floor. Many plants, birds and other animals need fires to change the environment in this way.</li>
-						</ul>
+						<li><h4 style="margin-bottom: -11px;">Wildfire Facts</h4>
+							<ul>
+								<li>A Prescription For Good Forest Health
+									<ul>
+										<li>Wildfires are fires that start in natural wildlands. Most wildfires are started accidentally. Sometimes, for instance, people do not put their campfire out completely. Wildifres can also be started on purpose by people who commit the crime of arson. Sometimes wildfire can also start naturally with a lightning strike.</li>
+										<li>Wildfires are not always bad. Some ecosystems need fire. For instance, fire destroys the leaves and logs that lay decaying on the forest floor. It also keeps the leaves in the canopy, or on top of the trees, thinned out. This lets more light in so that seeds and plants can grow on the forest floor. Many plants, birds and other animals need fires to change the environment in this way.</li>
+									</ul>
+								</li>
+								<li>Prescribed Burns
+									<ul>
+										<li>There are many firefighters whose job is to put out wildfires. Sometimes these special men and women actually set carefully-controlled fires. This is called a prescribed burn. Prescribed burns mimic or copy what happens in nature. They are beneficial. They can keep wildfires from going out of control.</li>
+										<li>Prescribed burns may be as small as a city block. They may also be large, involving thousands of acres of land. They are only done when weather conditions are just right. For instance, the wind must be blowing in the right direction so the fire moves where the firefighters want.</li>
+										<li>Firefighters plan very carefully to set fires in the right place. They use rivers and roads to create a "line" that will stop the fires they set. These natural breaks keep the fire where they want it.</li>
+									</ul>
+								</li>
+								<li>Fighting Wildfires
+									<ul>
+										<li>Even with all firefighters do to prevent wildfires, they still occur. The Florida Division of Forestry joins with local fire departments and other agencies to fight wildfires.</li>
+										<li>The main tool Florida firefighters use is the fire plow. It is used to clear a break around the fire to keep it from moving forward. They also use helicopters to drop water on the flames to slow the spread of the fire, and allow the firefighters to get closer to the flames to create a fire break with the fire plow.</li>
+									</ul>
+								</li>
+							</ul>
 						</li>
-						        <li>Prescribed Burns
-						<ul>
-						        <li>There are many firefighters whose job is to put out wildfires. Sometimes these special men and women actually set carefully-controlled fires. This is called a prescribed burn. Prescribed burns mimic or copy what happens in nature. They are beneficial. They can keep wildfires from going out of control.</li>
-						        <li>Prescribed burns may be as small as a city block. They may also be large, involving thousands of acres of land. They are only done when weather conditions are just right. For instance, the wind must be blowing in the right direction so the fire moves where the firefighters want.</li>
-						        <li>Firefighters plan very carefully to set fires in the right place. They use rivers and roads to create a "line" that will stop the fires they set. These natural breaks keep the fire where they want it.</li>
-						</ul>
+						<li><h4 style="margin-bottom: -11px;">Lean, Clean and Green</h4>
+							<ul>
+								<li>Do you have a least 30 feet of space surrounding your home that is Lean, Clean and Green?</li>
+								<li>The objective of "Defensible Space" is to reduce the wildfire threat to your home by changing the characteristics of the surrounding vegetation.</li>
+								<li>Defensible space allows firefighters room to put out fires.</li>
+								<li>Lean- Prune shrubs and cut back tree branches, especially within 15 feet of your chimney.</li>
+								<li>Clean- Remove all dead plant material from around your home; this includes dead leaves, dry grass and even stacked firewood.</li>
+								<li>Green- Plant fire-resistant vegetation that is healthy and green throughout the year.</li>
+							</ul>
 						</li>
-						        <li>Fighting Wildfires
-						<ul>
-						        <li>Even with all firefighters do to prevent wildfires, they still occur. The Florida Division of Forestry joins with local fire departments and other agencies to fight wildfires.</li>
-						        <li>The main tool Florida firefighters use is the fire plow. It is used to clear a break around the fire to keep it from moving forward. They also use helicopters to drop water on the flames. The helicopters cannot drop enough water to put the fire out. It is done to slow the spread of the fire. It also allows the firefighters to get closer to the flames so they can create a fire break with the fire plow.</li>
-						</ul>
-						</li>
-						</ul>
-						</li>
-						        <li>Lean, Clean and Green
-						<ul>
-						        <li>Do you have a least 30 feet of space surrounding your home that is Lean, Clean and Green?</li>
-						        <li>The objective of "Defensible Space" is to reduce the wildfire threat to your home by changing the characteristics of the surrounding vegetation.</li>
-						        <li>Defensible space allows firefighters room to put out fires.</li>
-						        <li>Lean- Prune shrubs and cut back tree branches, especially within 15 feet of your chimney.</li>
-						        <li>Clean- Remove all dead plant material from around your home; this includes dead leaves, dry grass and even stacked firewood.</li>
-						</ul>
-						</li>
-						</ul>
-						Green- Plant fire-resistant vegetation that is healthy and green throughout the year.
+					</ul>
 			  	</div>
 		</div>
 		<div id="name5_adults_box_story" class="grid_4">

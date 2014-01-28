@@ -20,7 +20,20 @@
 <script src="http://code.createjs.com/preloadjs-0.4.0.min.js"></script>
 <script src="js/gearCanvas.js"></script>
 
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swfobject.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" 	src="js/jquery.smint.js"></script>
+
 <script>
+$(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto({deeplinking: false, keyboard_shortcuts: false, social_tools: false, allow_resize:false, theme: 'light_rounded'});
+});
+
+$(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {
+           var new_position = $(anchor_id).offset(); 
+           window.scrollTo(new_position.left,new_position.top); 
+  } });
+
 var canvas, stage, exportRoot;
 
 function init() {
@@ -47,16 +60,9 @@ function handleComplete() {
 	createjs.Ticker.setFPS(lib.properties.fps);
 	createjs.Ticker.addEventListener("tick", stage);
 }
-</script>
 
-<script>
-  var ctx = document.getCSSCanvasContext('2d', 'animation', 300, 300);
-</script>
+var ctx = document.getCSSCanvasContext('2d', 'animation', 300, 300);
 
-<script type="text/javascript" charset="utf-8">
-$(document).ready(function(){
-    $("a[rel^='prettyPhoto']").prettyPhoto({deeplinking: false, keyboard_shortcuts: false, social_tools: false, allow_resize:false});
-});
 </script>
 
 <meta name = "keywords" content = "" />

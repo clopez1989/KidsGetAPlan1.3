@@ -13,6 +13,20 @@
 		</div>
 		<div class="logoContainer" class="grid_4">
 			<a href="index.php" data-ajax="false"><img src="images/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan" class="logoImage" /></a>
+		   	
+			<audio id="beep-one">
+				<source src="audio/beep.mp3" controls></source>
+				<source src="audio/beep.ogg" controls></source>
+				Your browser isn't invited for super fun time.
+			</audio>
+			
+			<script>
+				var beepOne = $("#beep-one")[0];
+				$(".logoImage")
+					.mouseenter(function() {
+						beepOne.play();
+					});
+			</script>
 		</div>
 		<div id="topRightArt" class="grid_4">
 			<img src="images/Header_element_right.png" alt=""/>
@@ -281,7 +295,7 @@
   						<br>
   						<p>For Mobile & Tablet Devices:</p>
   						<div id="appStores">
-				  			<a href="https://itunes.apple.com/us/app/kgap-firewise-megatrack/id732887804?mt=8" target="itunes_store" id="appleStoreBtn" style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+				  			<a href="https://itunes.apple.com/us/app/kgap-firewise-megatrack/id732887804?mt=8" target="itunes_store" id="appleStoreBtn"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
 							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.FirewiseStarling" target="_blank" class="googlePlayBtn">
 					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
 							<a href="http://www.amazon.com/ideas-orlando-KGAP-Firewise-Simulator/dp/B00G5GIOGA/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1389819310&sr=1-1" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
@@ -380,68 +394,45 @@
 				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
 color: white;">	
 					<ul>
-						<li><h4>Lightning Safety Actions</h4>
-					<ul>
-						<li>Avoid open high ground and isolated large trees.</li>
-						<li>Avoid water (swimming pools, lakes and rivers), beaches and boats.</li>
-						<li>Seek shelter inside a building or an automobile, but not a convertible or golf cart.</li>
-						<li>Stay away from doors, windows, and metal objects such as pipes or faucets.</li>
-						<li>Stay off corded telephones and away from electrical devices.</li>
-					</ul>
-					</li>
-						<li><h4>Lightning Facts</h4>
-					<ul>
-						<li>Lightning heats the air up to 50,000 degrees Fahrenheit. This rapid heating of the air produces the shock wave that results in thunder.</li>
-						<li>A ground stoke can produce somewhere between 100 million to one billion volts of electricity.</li>
-						<li>The length of an average cloud-to-ground lightning channel can range from two to ten miles.</li>
-						<li>You can tell how far away lightning is by counting the seconds between seeing the lightning flash and hearing thunder. For every give seconds you count-lightning is one mile away.</li>
-					</ul>
-					</li>
-						<li><h4>Florida-Lightning Capital of the U.S.A</h4>
-					<ul>
-						<li>More people die from lightning strikes in Florida every year than in any other state. Why? It's simple really. We have more lightning, and we are fourth largest in populations. On average, 10 people die each year from lightning. Statistics show that teenage boys are most vulnerable. People in their 30's are the next most likely victims, followed by those in their 20's.</li>
-						<li>Florida's unique location, surrounded by warm water, provides the necessary ingredients for thunderstorms to form. It has earned us the title of, "Lightning Capital of the U.S.A" Other places in the world have even more lightning though. According to a NASA study, there are areas in the tropics of Africa, Asia, and South and Central America that have more lightning than Florida does. Rwanda, a country in Africa, is known as the, "Lightning Capital of the World."</li>
-					</ul>
-					</li>
-						<li><h4>July- The Cruelest Month</h4>
-					<ul>
-						<li>July is the worst month for lightning deaths. Summer brings thunderstorms. In July, kids are not usually in school. They are more likely to be outside when a thunderstorm approaches. The Fourth-of-July holiday weekend is particularly dangerous. With many outdoor activities taking place during the afternoon and evening, a prime time for summer thunderstorms, it is easy to see why it can be dangerous.</li>
-					</ul>
-					</li>
-						<li><h4>Location...Location...Location</h4>
-					<ul>
-						<li>Being safe from lightning is all about being in the right place. The most likely place to be struck by lightning in Florida is near water. Boating, beach going, or fishing in a canal can all be deadly activities when lightning is near. The second deadliest location is being near or under a tree. Trees may give some shelter from rain, but are often deadly locations during lightning. Group sporting events such as baseball, football and soccer are particularly hazardous. Tragically, persons in charge of such events often wait too long before "calling" the game so that people can take refuge. Perhaps this is the reason young people are most often the victims of lightning strikes.</li>
-						<li>If you can see lightning or head thunder, even in the distance, you are in danger. Go indoors or into a vehicle and remain there until 30 minutes after the last thunder is heard.</li>
-					</ul>
-					</li>
-						<li><h4>If Someone Is Struck By Lightning, What Should You Do?</h4>
-					<ul>
-						<li>In the event that a person is struck by lightning, medical care may be needed immediately to save the person's life. With proper treatment, including CPR if necessary, most victims survive a lightning strike.
-					<ul>
-						<li>Call 9-1-1. Provide directions and information about the likely number of lightning strike victims.</li>
-						<li>The first rule of emergency care is "make no more causalities." Rescuers must stay aware of the continuing danger that a lightning storm poses, both to the rescuers as well as to the victim(s).</li>
-					</ul>
-					</li>
-					</ul>
-					</li>
-						<li><h4>The 30-30 Rule</h4>
-					<ul>
-						<li>Use the '30-30 RULE' to determine the threat of lightning in your area.
-					<ul>
-						<li>30 Seconds:
-					<ul>
-						<li>Count the seconds between seeing lightning and hearing thunder. If this time is less than 30 seconds, lightning is still a potential threat. Seek shelter immediately.</li><br>
-						<li>30 Minutes:
-					<ul>
-						<li>After hearing the last thunder, wait 30 minutes before leaving shelter. Many lightning deaths occur after the storm passes. Stay in a safe area until you are sure the threat has passed.</li>
-					</ul>
-					</li>
-					</ul>
-					</li>
-					</ul>
-					</li>
-					</ul>
-					</li>
+						<li><h4 style="margin-bottom: -11px;">Lightning Safety Actions</h4>
+							<ul>
+								<li>Avoid open high ground and large isolated trees.</li>
+								<li>Avoid water (swimming pools, lakes and rivers), beaches and boats.</li>
+								<li>Seek shelter inside a building or an automobile, but not a convertible or golf cart.</li>
+								<li>Stay away from doors, windows, and metal objects such as pipes or faucets.</li>
+								<li>Stay off corded telephones and away from electrical devices.</li>
+							</ul>
+						</li>
+						<li><h4 style="margin-bottom: -11px;">Lightning Facts</h4>
+							<ul>
+								<li>Lightning heats the air up to 50,000 degrees Fahrenheit. This rapid heating of the air produces the shock wave that results in thunder.</li>
+								<li>A ground strike can produce somewhere between 100 million to one billion volts of electricity.</li>
+								<li>The length of an average cloud-to-ground lightning channel can range from two to ten miles.</li>
+							</ul>
+						</li>
+						<li><h4 style="margin-bottom: -11px;">Florida-Lightning Capital of the U.S.</h4>
+							<ul>
+								<li>Florida's unique location, surrounded by warm water, provides the necessary ingredients for thunderstorms to form. It has earned us the title of, "Lightning Capital of the U.S." Other places in the world have even more lightning though. According to a NASA study, there are areas in the tropics of Africa, Asia, and South and Central America that have more lightning than Florida does. Rwanda, a country in Africa, is known as the, "Lightning Capital of the World." The important thing is to stay safe by going indoors if you see lightning or hear thunder.</li>
+								<li>If you can see lightning or head thunder, even in the distance, you are in danger. Go indoors or into a vehicle and remain there until 30 minutes after the last thunder is heard.</li>
+							</ul>
+						</li>
+						<li><h4 style="margin-bottom: -11px;">If Someone Is Struck By Lightning, What Should You Do?</h4>
+							<ul>
+								<li>Call 9-1-1 immediately. With proper immediate treatment, including CPR if necessary, most victims survive a lightning strike.</li><br>
+								<li>Use the '30-30 RULE' to determine the threat of lightning in your area.</ul>
+									<ul>
+										<li>30 Seconds:
+											<ul>
+												<li>Count the seconds between seeing lightning and hearing thunder. If this time is less than 30 seconds, lightning is still a potential threat. Seek shelter immediately.</li></ul></ul>
+												<ul><li>30 Minutes:<ul>
+														<li>After hearing the last thunder, wait 30 minutes before leaving shelter. Many lightning deaths occur after the storm passes. Stay in a safe area until you are sure the threat has passed.</li>
+													</ul>
+												</ul>
+											</ul>
+									</ul>
+								</li>
+							</ul>
+						</li>
 					</ul>
 			  	</div>
 			</div>
@@ -450,56 +441,55 @@ color: white;">
 				 <h2>The Oak Tree Club</h2>
  				<div id="dialogOakFacts" title="The Oak Tree Club Hurricanes Facts" style="background:#6dcef5; text-shadow: none;
  color: black;">
- 					<br>
- 					<ul>
- 						<li>Hurricanes, cyclones, and typhoons are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li><br>
- 						<li>Hurricane Safety Actions
- 					<ul>
- 						<li>Know if you live in an evacuation area. Know your home's vulnerability to storm surge, flooding and wind. Have a family plan.</li>
- 						<li>At the beginning of hurricane season (June), check your supplies, replace batteries and rotate your stock of food and water.</li>
- 						<li>If a storm threatens, listen to your local authorities. Evacuate if ordered.</li>
- 					</ul>
- 					</li>
- 						<li>Saffir-Simpson Scale
- 					<ul>
- 						<li>Tropical Storm
- 					<ul>
- 						<li>Winds 39-73 mph</li>
- 					</ul>
- 					</li>
- 						<li>Category 1 Hurricane
- 					<ul>
- 						<li>Winds 74-95 mph</li>
- 						<li>No real damage to buildings. Damage to unanchored mobile homes.</li>
- 					</ul>
- 					</li>
- 						<li>Category 2 Hurricane
- 					<ul>
- 						<li>Winds 96-110 mph</li>
- 						<li>Some damage to building roofs, doors and windows. Considerable damage to mobile homes. Some trees blown down.</li>
- 					</ul>
- 					</li>
- 						<li>Category 3 Hurricane
- 					<ul>
- 						<li>Winds 111-130 mph</li>
- 						<li>Some structural damage to small homes. Large trees blown down. Mobile homes and poorly built signs destroyed.</li>
- 					</ul>
- 					</li>
- 						<li>Category 4 Hurricane
- 					<ul>
- 						<li>Winds 131-155 mph</li>
- 						<li>Wall failures in homes and complete roof structure failure on small homes. Total destruction of mobile homes. Trees, shrubs and signs all blown down.</li>
- 					</ul>
- 					</li>
- 						<li>Category 5 Hurricane
- 					<ul>
- 						<li>Winds 156 mph +</li>
- 						<li>Complete roof failure on homes and industrial buildings. Some complete building failures.</li><br>
- 					</ul>
- 					</li>
- 					</ul>
- 					</li>
- 					</ul>
+					<ul>
+						<li><b>Hurricanes</b>, <b>cyclones</b>, and <b>typhoons</b> are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li>
+						<li><h4 style="margin-bottom: -11px;">Hurricane Safety Actions</h4>
+							<ul>
+								<li>Know if you live in an evacuation area. Know your home's vulnerability to storm surge, flooding and wind. Have a family plan.</li>
+								<li>At the beginning of hurricane season (June), check your supplies, replace batteries and rotate your stock of food and water.</li>
+								<li>If a storm threatens, listen to your local authorities. Evacuate if ordered.</li>
+							</ul>
+						</li>
+						<li><h4 style="margin-bottom: -11px;">Saffir-Simpson Scale</h4>
+							<ul>
+								<li><b>Tropical Storm</b>
+									<ul>
+										<li>Winds 39-73 mph</li>
+									</ul>
+								</li>
+								<li><b>Category 1 Hurricane</b>
+									<ul>
+										<li>Winds 74-95 mph</li>
+										<li>No real damage to buildings. Damage to unanchored mobile homes.</li>
+									</ul>
+								</li>
+								<li><b>Category 2 Hurricane</b>
+									<ul>
+										<li>Winds 96-110 mph</li>
+										<li>Some damage to building roofs, doors and windows. Considerable damage to mobile homes. Some trees blown down.</li>
+									</ul>
+								</li>
+								<li><b>Category 3 Hurricane</b>
+									<ul>
+										<li>Winds 111-130 mph</li>
+										<li>Some structural damage to small homes. Large trees blown down. Mobile homes and poorly built signs destroyed.</li>
+									</ul>
+								</li>
+								<li><b>Category 4 Hurricane</b>
+									<ul>
+										<li>Winds 131-155 mph</li>
+										<li>Wall failures in homes and complete roof structure failure on small homes. Total destruction of mobile homes. Trees, shrubs and signs all blown down.</li>
+									</ul>
+								</li>
+								<li><b>Category 5 Hurricane</b>
+									<ul>
+										<li>Winds 156 mph +</li>
+										<li>Complete roof failure on homes and industrial buildings. Some complete building failures.</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
  			  	</div>
 			</div>
 			<div id="name3_facts_box" class="grid_4">
@@ -508,107 +498,106 @@ color: white;">
 				<div id="dialogTinkerFacts" title="The Tinkermeister Tornado Facts" style="background:#9fcb3a; text-shadow: none;
 color: black;">	
 					<ul>
-						<li>Tornado Safety Actions
-					<ul>
-						<li>Homes
-					<ul>
-						<li>When a tornado watch is issued, be prepared to take action.</li>
-						<li>When a tornado warning is issued, or a tornado is imminent, move to a small interior room away from windows.</li>
-						<li>Consider constructing a tornado safe room in or adjacent to your home.</li>
-					</ul>
-					</li>
-						<li>Open Country
-					<ul>
-						<li>Seek a nearby shelter if time permits.</li>
-						<li>If not, lie flat in the nearest depression, a ditch or culvert. Cover your head with your arms.</li>
-					</ul>
-					</li>
-						<li>Vehicles
-					<ul>
-						<li>Abandon your vehicle and seek refuge in a building or, as a last resort, a ditch.</li>
-						<li>Do not try to outrun a tornado.</li>
-					</ul>
-					</li>
-						<li>Offices, Hotels and Condominiums
-					<ul>
-						<li>When action is required, take shelter in an interior hallway on a lower floor, closet or small room.</li>
-						<li>As a last resort, get under heavy furniture, away from windows.</li>
-					</ul>
-					</li>
-						<li>Manufactured and Mobile Homes
-					<ul>
-						<li>Have a plan of where to go during a tornado threat-a nearby pre-identified safe structure within walking distance.</li>
-						<li>When a tornado watch is issued, be prepared to take action.</li>
-					</ul>
-					</li>
-					</ul>
-					</li>
-						<li>Tornado Facts
-					<ul>
-						<li>Tornadoes are powerful and hard to predict! The time of year makes a big difference in how they form and just how powerful they are likely to be.</li><br>
-						<li>Summer and Fall Tornadoes
-					<ul>
-						<li>There more tornadoes during June, July and August than at any other time of the year. In the summertime, thunderstorms move inland with the sea breezes. Tornadoes that develop within these thunderstorms may travel in almost any direction.</li>
-						<li>Summertime tornadoes are usually small. They don't last very long. They usually cause minor damage and few deaths or injuries.</li>
-						<li>During the summer and fall months tropical cyclones, or hurricanes, may produce tornadoes. These tornadoes often from in the outer rainbands and to the right of the hurricane's forward motion. Like other summer tornadoes, they are generally weak and don't usually last long. But sometimes, they can be violent. These tornadoes form quickly, and they may strike with little or no warning.</li>
-					</ul>
-					</li>
-						<li>Winter and Spring Tornadoes
-					<ul>
-						<li>The most deadly tornadoes have happened in the late winter an early spring months. During the cool season, the jet stream that flows east high above the United States dips south over the Gulf of Mexico. The jet stream picks up energy and moisture from the warm gulf waters. Strong thunderstorms can form into a squall line. The squall line can sweep across the state.</li>
-						<li>When the winds near the ground change quickly and are different from the winds high in the jet stream, it can create wind shear. Wind shear can cause the thunderstorms to spin and get stronger. Very strong thunderstorms are called supercells. Supercells can move over land 30 to 50 mph! These storms can produce strong winds (known as downbursts), large hail and violent tornadoes. Late winter and springtime tornadoes usually move from the southwest or west.</li>
-					</ul>
-					</li>
-					</ul>
-					</li>
-						<li>Tornado Safety
-					<ul>
-						<li>In most of the U.S., tornadoes occur during the late afternoon or early evening. Yet, tornadoes in Florida are just as likely to occur during the night as in the afternoon. This makes tornadoes in Florida even more dangerous. If people are asleep they may not receive warnings from radio or TV. A solution to this problem is to have a NOAA Weather Radio in your home. A NOAA Weather Radio will alert you to a warning at any time, day or night.</li>
-						<li>The National Weather Service issues watches and warnings during a tornado threat. When a warning is issued for your area, you should take cover immediately.</li>
-						<li>If you hear the roaring and rumbling of a tornado, seek shelter in a small room on the lowest floor of a strong building. You should stay away from doors and windows. Leave mobile homes for safer shelter. Never try to outrun a tornado in a car. Instead, leave your car and take cover in a nearby building or lie down in a ditch on the side of the road.</li>
-					</ul>
-					</li>
-						<li>Tornadoes Are Measured By The Fujita Scale
-					<ul>
-						<li>The Fujita scale (F-scale) uses actual damage to estimate a tornado's wind speed</li><br>
-						<li>F0 Gale Tornado
-					<ul>
-						<li>40-72 mph</li>
-						<li>Some damage to chimneys. Tree branches broken off. Shallow rooted trees uprooted.</li>
-					</ul>
-					</li>
-						<li>F1 Moderate Tornado
-					<ul>
-						<li>73-112 mph</li>
-						<li>Peels surface off roofs. Mobile homes overturned. Moving autos pushed off roads.</li>
-					</ul>
-					</li>
-						<li>F2 Significant Tornado
-					<ul>
-						<li>113-157 mph</li>
-						<li>Considerable damage. Roofs torn off frame houses. Large trees snapped or uprooted. Light-object missiles generated.</li>
-					</ul>
-					</li>
-						<li>F3 Severe Tornado
-					<ul>
-						<li>158-206 mph</li>
-						<li>Severe damage. Roofs and some walls torn off well-constructed homes. Most trees in forests uprooted. Heavy cars lifted off ground.</li>
-					</ul>
-					</li>
-						<li>F4 Devastating Tornado
-					<ul>
-						<li>207-260 mph</li>
-						<li>Well-constructed houses leveled. Structures blown off weak foundations. Cars thrown and large missiles generated.</li>
-					</ul>
-					</li>
-						<li>F5 Incredible Tornado
-					<ul>
-						<li>261-318 mph</li>
-						<li>Strong frame houses lifted off foundations and disintegrated. Automobile-sized missiles fly through the air in excess of 100 mph. Trees debarked.</li>
-					</ul>
-					</li>
-					</ul>
-					</li>
+						<li><h4 style="margin-bottom: -11px;">Tornado Safety Actions</h4>
+							<ul>
+								<li><b>Homes</b>
+									<ul>
+										<li>When a tornado watch is issued, be prepared to take action.</li>
+										<li>When a tornado warning is issued, or a tornado is imminent, move to a small interior room away from windows.</li>
+										<li>Consider constructing a tornado safe room in or adjacent to your home.</li>
+									</ul>
+								</li>
+								<li><b>Open Country</b>
+									<ul>
+										<li>Seek a nearby shelter if time permits.</li>
+										<li>If not, lie flat in the nearest depression, a ditch or culvert. Cover your head with your arms.</li>
+									</ul>
+								</li>
+								<li><b>Vehicles</b>
+									<ul>
+										<li>Abandon your vehicle and seek refuge in a building or, as a last resort, a ditch.</li>
+										<li>Do not try to outrun a tornado.</li>
+									</ul>
+								</li>
+								<li><b>Offices, Hotels and Condominiums</b>
+									<ul>
+										<li>When action is required, take shelter in an interior hallway on a lower floor, closet or small room.</li>
+										<li>As a last resort, get under heavy furniture, away from windows.</li>
+									</ul>
+								</li>
+								<li><b>Manufactured and Mobile Homes</b>
+									<ul>
+										<li>Have a plan of where to go during a tornado threat-a nearby pre-identified safe structure within walking distance.</li>
+										<li>When a tornado watch is issued, be prepared to take action.</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><h4 style="margin-bottom: -11px;">Tornado Facts</h4>
+							<ul>
+								<li>Tornadoes are powerful and hard to predict! The time of year makes a big difference in how they form and just how powerful they are likely to be.</li><br>
+								<li><b>Summer and Fall Tornadoes</b>
+									<ul>
+										<li>There more tornadoes during June, July and August than at any other time of the year. In the summertime, thunderstorms move inland with the sea breezes. Tornadoes that develop within these thunderstorms may travel in almost any direction.</li>
+										<li>Summertime tornadoes are usually small. They don't last very long. They usually cause minor damage and few deaths or injuries.</li>
+										<li>During the summer and fall months tropical cyclones, or hurricanes, may produce tornadoes. These tornadoes often form in the outer rainbands and to the right of the hurricane's forward motion. Like other summer tornadoes, they are generally weak and do not usually last long. But sometimes, they can be violent. These tornadoes form quickly, and they may strike with little or no warning.</li>
+									</ul>
+								</li>
+								<li><b>Winter and Spring Tornadoes</b>
+									<ul>
+										<li>When the winds near the ground change quickly and are different from the winds high in the jet stream, it can create wind shear. Wind shear can cause the thunderstorms to spin and get stronger. Very strong thunderstorms are called supercells. Supercells can move over land 30 to 50 mph! These storms can produce strong winds (known as downbursts), large hail and violent tornadoes.</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><h4 style="margin-bottom: -11px;">Tornado Safety</h4>
+							<ul>
+								<li>In most of the U.S., tornadoes occur during the late afternoon or early evening. Yet, tornadoes in Florida are just as likely to occur during the night as in the afternoon. That is why it is good to always be prepared. If people are asleep they may not receive warnings from radio or TV. A solution to this problem is to have a NOAA Weather Radio in your home. A NOAA Weather Radio will alert you to a warning at any time, day or night.</li>
+								<li>The National Weather Service issues watches and warnings during a tornado threat. When a warning is issued for your area, you should take cover immediately.</li>
+								<li>If you hear the roaring and rumbling of a tornado, seek shelter in a small room on the lowest floor of a strong building. You should stay away from doors and windows. Leave mobile homes for safer shelter. Never try to outrun a tornado in a car. Instead, leave your car and take cover in a nearby building or lie down in a ditch on the side of the road.</li>
+							</ul>
+						</li>
+						<li><h4 style="margin-bottom: -11px;">Tornadoes Are Measured By The Fujita Scale</h4>
+							<ul>
+								<li>The Fujita scale (F-scale) uses actual damage to estimate a tornado's wind speed</li><br>
+								<li><b>F0 Gale Tornado</b>
+									<ul>
+										<li>40-72 mph</li>
+										<li>Some damage to chimneys. Tree branches broken off. Shallow rooted trees uprooted.</li>
+									</ul>
+								</li>
+								<li><b>F1 Moderate Tornado</b>
+									<ul>
+										<li>73-112 mph</li>
+										<li>Peels surface off roofs. Mobile homes overturned. Moving autos pushed off roads.</li>
+									</ul>
+								</li>
+								<li><b>F2 Significant Tornado</b>
+									<ul>
+										<li>113-157 mph</li>
+										<li>Considerable damage. Roofs torn off frame houses. Large trees snapped or uprooted. Light-object missiles generated.</li>
+									</ul>
+								</li>
+								<li><b>F3 Severe Tornado</b>
+									<ul>
+										<li>158-206 mph</li>
+										<li>Severe damage. Roofs and some walls torn off well-constructed homes. Most trees in forests uprooted. Heavy cars lifted off ground.</li>
+									</ul>
+								</li>
+								<li><b>F4 Devastating Tornado</b>
+									<ul>
+										<li>207-260 mph</li>
+										<li>Well-constructed houses leveled. Structures blown off weak foundations. Cars thrown and large missiles generated.</li>
+									</ul>
+								</li>
+								<li><b>F5 Incredible Tornado</b>
+									<ul>
+										<li>261-318 mph</li>
+										<li>Strong frame houses lifted off foundations and disintegrated. Automobile-sized missiles fly through the air in excess of 100 mph. Trees debarked.</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
 					</ul>
 			  	</div>
 			</div>
@@ -621,52 +610,52 @@ color: black;">
 				<div id="dialogMegaFacts" title="The MegaTrack Wildfire Facts" style="background:#ff962e; text-shadow: none;
 color: black;">	
 					<ul>
-						<li>Wildfire Safety actions
-					<ul>
-						<li>Create a defensible or safe space of at least 30 feet around your home that is lean, clean and green.</li>
-						<li>To help emergency vehicles gain access, make sure driveways are at least 12 feet wide with at least 15 feet of overhead clearance, and are easily identifiable.</li>
-						<li>Keep gutters, eaves and yards clear of debris, sticks, pine needles and leaves.</li>
-						<li>Trim all tree branches that hang over the house or are lower than 6 to 10 feet from the ground.</li>
-						<li>Plant fire resistant plants such as dogwood, sycamore, magnolia, oaks, red maple, wild azalea, sweetgum, black cherry and ferns instead of pines and palmettos.</li>
-						<li>Use fire resistant construction materials where possible, and fire resistant barriers when attaching flammable materials, such as wood decks or fences to the house.</li>
-						<li>Follow local regulations for the burning or disposal of yard waste and other materials.</li>
-						<li>Develop a personal disaster plan, including a plan for evacuating your home. Be sure to identify at least two routes out of your neighborhood or subdivision.</li>
+						<li><h4 style="margin-bottom: -11px;">Wildfire Safety actions</h4>
+							<ul>
+								<li>Create a defensible or safe space of at least 30 feet around your home that is lean, clean and green.</li>
+								<li>To help emergency vehicles gain access, make sure driveways are at least 12 feet wide with at least 15 feet of overhead clearance, and are easily identifiable.</li>
+								<li>Keep gutters, eaves and yards clear of debris, sticks, pine needles and leaves.</li>
+								<li>Trim all tree branches that hang over the house or are lower than 6 to 10 feet from the ground.</li>
+								<li>Plant fire resistant plants such as dogwood, sycamore, magnolia, oaks, red maple, wild azalea, sweetgum, black cherry and ferns instead of pines and palmettos.</li>
+								<li>Use fire resistant construction materials where possible, and fire resistant barriers when attaching flammable materials, such as wood decks or fences to the house.</li>
+								<li>Follow local regulations for the burning or disposal of yard waste and other materials.</li>
+								<li>Develop a personal disaster plan, including a plan for evacuating your home. Be sure to identify at least two routes out of your neighborhood or subdivision.</li>
+							</ul>
+						</li>
+						<li><h4 style="margin-bottom: -11px;">Wildfire Facts</h4>
+							<ul>
+								<li>A Prescription For Good Forest Health
+									<ul>
+										<li>Wildfires are fires that start in natural wildlands. Most wildfires are started accidentally. Sometimes, for instance, people do not put their campfire out completely. Wildifres can also be started on purpose by people who commit the crime of arson. Sometimes wildfire can also start naturally with a lightning strike.</li>
+										<li>Wildfires are not always bad. Some ecosystems need fire. For instance, fire destroys the leaves and logs that lay decaying on the forest floor. It also keeps the leaves in the canopy, or on top of the trees, thinned out. This lets more light in so that seeds and plants can grow on the forest floor. Many plants, birds and other animals need fires to change the environment in this way.</li>
+									</ul>
+								</li>
+								<li>Prescribed Burns
+									<ul>
+										<li>There are many firefighters whose job is to put out wildfires. Sometimes these special men and women actually set carefully-controlled fires. This is called a prescribed burn. Prescribed burns mimic or copy what happens in nature. They are beneficial. They can keep wildfires from going out of control.</li>
+										<li>Prescribed burns may be as small as a city block. They may also be large, involving thousands of acres of land. They are only done when weather conditions are just right. For instance, the wind must be blowing in the right direction so the fire moves where the firefighters want.</li>
+										<li>Firefighters plan very carefully to set fires in the right place. They use rivers and roads to create a "line" that will stop the fires they set. These natural breaks keep the fire where they want it.</li>
+									</ul>
+								</li>
+								<li>Fighting Wildfires
+									<ul>
+										<li>Even with all firefighters do to prevent wildfires, they still occur. The Florida Division of Forestry joins with local fire departments and other agencies to fight wildfires.</li>
+										<li>The main tool Florida firefighters use is the fire plow. It is used to clear a break around the fire to keep it from moving forward. They also use helicopters to drop water on the flames to slow the spread of the fire, and allow the firefighters to get closer to the flames to create a fire break with the fire plow.</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li><h4 style="margin-bottom: -11px;">Lean, Clean and Green</h4>
+							<ul>
+								<li>Do you have a least 30 feet of space surrounding your home that is Lean, Clean and Green?</li>
+								<li>The objective of "Defensible Space" is to reduce the wildfire threat to your home by changing the characteristics of the surrounding vegetation.</li>
+								<li>Defensible space allows firefighters room to put out fires.</li>
+								<li>Lean- Prune shrubs and cut back tree branches, especially within 15 feet of your chimney.</li>
+								<li>Clean- Remove all dead plant material from around your home; this includes dead leaves, dry grass and even stacked firewood.</li>
+								<li>Green- Plant fire-resistant vegetation that is healthy and green throughout the year.</li>
+							</ul>
+						</li>
 					</ul>
-					</li>
-						<li>Wildfire Facts
-					<ul>
-						<li>A Prescription For Good Forest Health
-					<ul>
-						<li>Wildfires are fires that start in natural wildlands. Most wildfires are started accidentally. Sometimes, for instance, people do not put their campfire out completely. Wildifres can also be started on purpose by people who commit the crime of arson. Sometimes wildfire can also start naturally with a lightning strike.</li>
-						<li>Wildfires are not always bad. Some ecosystems need fire. For instance, fire destroys the leaves and logs that lay decaying on the forest floor. It also keeps the leaves in the canopy, or on top of the trees, thinned out. This lets more light in so that seeds and plants can grow on the forest floor. Many plants, birds and other animals need fires to change the environment in this way.</li>
-					</ul>
-					</li>
-						<li>Prescribed Burns
-					<ul>
-						<li>There are many firefighters whose job is to put out wildfires. Sometimes these special men and women actually set carefully-controlled fires. This is called a prescribed burn. Prescribed burns mimic or copy what happens in nature. They are beneficial. They can keep wildfires from going out of control.</li>
-						<li>Prescribed burns may be as small as a city block. They may also be large, involving thousands of acres of land. They are only done when weather conditions are just right. For instance, the wind must be blowing in the right direction so the fire moves where the firefighters want.</li>
-						<li>Firefighters plan very carefully to set fires in the right place. They use rivers and roads to create a "line" that will stop the fires they set. These natural breaks keep the fire where they want it.</li>
-					</ul>
-					</li>
-						<li>Fighting Wildfires
-					<ul>
-						<li>Even with all firefighters do to prevent wildfires, they still occur. The Florida Division of Forestry joins with local fire departments and other agencies to fight wildfires.</li>
-						<li>The main tool Florida firefighters use is the fire plow. It is used to clear a break around the fire to keep it from moving forward. They also use helicopters to drop water on the flames. The helicopters cannot drop enough water to put the fire out. It is done to slow the spread of the fire. It also allows the firefighters to get closer to the flames so they can create a fire break with the fire plow.</li>
-					</ul>
-					</li>
-					</ul>
-					</li>
-						<li>Lean, Clean and Green
-					<ul>
-						<li>Do you have a least 30 feet of space surrounding your home that is Lean, Clean and Green?</li>
-						<li>The objective of "Defensible Space" is to reduce the wildfire threat to your home by changing the characteristics of the surrounding vegetation.</li>
-						<li>Defensible space allows firefighters room to put out fires.</li>
-						<li>Lean- Prune shrubs and cut back tree branches, especially within 15 feet of your chimney.</li>
-						<li>Clean- Remove all dead plant material from around your home; this includes dead leaves, dry grass and even stacked firewood.</li>
-					</ul>
-					</li>
-					</ul>
-					Green- Plant fire-resistant vegetation that is healthy and green throughout the year.
 				</div>
 			</div>
 			<div id="name6_facts_box" class="grid_4">
@@ -726,18 +715,13 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 		<?php include 'footer.php'; ?>
 	</div>
 	
-	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript" 	src="js/jquery.smint.js"></script>
-	
-	
-	<script type="text/javascript">
-		$(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {
-		             var new_position = $(anchor_id).offset(); 
-		             window.scrollTo(new_position.left,new_position.top); 
-		} });
-	</script>
 	
 	<script>
+	  $(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {
+	             var new_position = $(anchor_id).offset(); 
+	             window.scrollTo(new_position.left,new_position.top); 
+	    } });
+		
 	  $(function() {
 	    $( "#dialog" ).dialog({
 	      autoOpen: false,
@@ -1161,25 +1145,19 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 	    $( "#openerTeacherGuide" ).click(function() {
 	      $( "#dialogTeacherGuide" ).dialog( "open" );
 	    });	
-	  });	 	  
-	</script>
+	  });
 	  
-	<script type="text/javascript">	
 	  $.ajaxSetup ({
 	      // Disable caching of AJAX responses
 	      cache: false
 	  });
-	</script>
-
-	<script type="text/javascript">	
+	  
 	  $(document).ready( function() {
 	      	$('.subMenu').smint({
 	      		'scrollSpeed' : 1000
 	      	});
-	  	});
-	</script>
-
-	<script type="text/javascript">	
+	  });
+	  
 	  $(document).ready(function(){
 	  	// Cache the Window object
 	  	$window = $(window);
@@ -1210,7 +1188,7 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 	   */
 
 	  document.createElement("article");
-	  document.createElement("section");
+	  document.createElement("section");	 	  
 	</script>
 			
 </body>
