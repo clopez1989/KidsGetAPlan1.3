@@ -12,20 +12,7 @@
 			<img src="images/top_left_panel_art.png" alt=""/>
 		</div></a>
 		<div class="logoContainer" class="grid_4">
-			<a href="index.php" data-ajax="false"><img src="images/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan" class="logoImage" /></a>
-		   	
-			<audio id="beep-one2">
-				<source src="audio/SFX Spinner 01 MONO.mp3" controls></source>
-				Your browser isn't invited for super fun time.
-			</audio>
-			
-			<script>
-				var beepOne2 = $("#beep-one2")[0];
-				$(".logoImage")
-					.mouseenter(function() {
-						beepOne2.play();
-					});
-			</script>
+			<a href="index.php" data-ajax="false"><img src="images/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan" class="logoImage" /></a>			
 		</div>
 		<a href="javascript:GearTrack();"><div id="topRightArt" class="grid_4">
 			<img src="images/Header_element_right.png" alt=""/>
@@ -53,20 +40,8 @@
 	<div class="mainWrapper">
 		
 		<a href="javascript:GearTrack();"><canvas id="canvas" width="1667" height="734"></canvas></a>
-		<audio id="Mp3Me" autoplay autobuffer>
-			<source src="audio/SFX Gears 01 MONO.mp3" controls></source>
-		</audio>
-
-		<script type="text/javascript">
-			function GearTrack(){
-			    var Mp3Me= document.getElementById('Mp3Me');
-			    Mp3Me.children[0].src = "audio/SFX Gears 01 MONO.mp3";
-			    Mp3Me.load();
-			}
-		</script>
 			
-		<div class="section mainSection mainButton" data-type="background" data-speed="10">
-			<!-- Text box for mobile site -->			
+		<div class="section mainSection mainButton" data-type="background" data-speed="10">		
 			<div id="mobileTextBox_main">
 				<h2>Explore the fun things related to each story character.</h2>
 			</div>
@@ -80,13 +55,13 @@
 				<a href="oaktree.php" rel="external"></a>
 			</div>
 			<div id="name4_box" class="grid_2 morph">
-				<h2>Coming Soon</h2>
+				<img src="images/comingsoon_main_m.png" width="225" height="226" alt="Comingsoon Main M">
 			</div>
 			<div id="name5_box" class="grid_2 morph" onclick="location.href='megatrack.php'">
 				<a href="megatrack.php" rel="external"></a>
 			</div>
 			<div id="name6_box" class="grid_2 morph">
-				<h2>Coming Soon</h2>
+				<img src="images/comingsoon_main_m.png" width="225" height="226" alt="Comingsoon Main M"> 
 			</div>
 			<div id="ipadClear"></div>
 			<div id="mobileTextBoxCS">
@@ -108,7 +83,7 @@
 					  </div>
 						<div id="dialogButtons">
 							<p class="desktopOnly">For Desktop:</p>  
-					  		<a href="book.swf?bookXML=book1-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashA]">Read the Story</a>
+					  		<a href="book.swf?bookXML=book1-english.xml&lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Read the Story</a>
 							<br>
 							<p>For Mobile & Tablet Devices:</p>
 							<div id="appStores">
@@ -133,7 +108,7 @@
   				  </div>
   					<div id="dialogButtons">
   						<p class="desktopOnly">For Desktop:</p>  
-  				  		<a href="book.swf?bookXML=book2-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashC]">Read the Story</a>
+  				  		<a href="book.swf?bookXML=book2-english.xml&lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Read the Story</a>
   						<br>
   						<p>For Mobile & Tablet Devices:</p>
   						<div id="appStores">
@@ -158,7 +133,7 @@
 				  </div>
 					<div id="dialogButtons">
 						<p class="desktopOnly">For Desktop:</p>  
-				  		<a href="book.swf?bookXML=book3-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashB]">Read the Story</a>
+				  		<a href="book.swf?bookXML=book3-english.xml&lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Read the Story</a>
 						<br>
 						<p>For Mobile & Tablet Devices:</p>
 						<div id="appStores">
@@ -186,7 +161,7 @@
     				  </div>
     					<div id="dialogButtons">
     						<p class="desktopOnly">For Desktop:</p>  
-    				  		<a href="book.swf?bookXML=book4-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashD]">Read the Story</a>
+    				  		<a href="book.swf?bookXML=book4-english.xml&lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Read the Story</a>
     						<br>
     						<p>For Mobile & Tablet Devices:</p>
     						<div id="appStores">
@@ -216,41 +191,44 @@
 			<div id="mobileTextBox_main">
 				<h2>Interact with the Kids Get A Plan Activities</h2>
 			</div>
-			<div id="name1_play_box" class="grid_4">
-				<button id="opener3"></button>
-				<h2>The 30/30 Game</h2>
-				<div id="dialog3" title="The 30/30 Rule Game" style="background:#9554c4;">	
-				  <div id="dialogEtchingLeft">
-					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
-				  </div>
-				  <div id="dialogButtons">
-					   <p class="desktopOnly">For Desktop:</p>  
-				  	   <a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flashE]">Play the Game</a>
-					   <br>
-					   <p>For Mobile & Tablet Devices:</p>
-					   <div id="appStores">
-   			  			<a href="https://itunes.apple.com/us/app/kgap-the-30-30-rule-activity/id635396018?mt=8" target="itunes_store" id="appleStoreBtn" style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-   						<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.mobile3030game" target="_blank" class="googlePlayBtn">
-   				  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/>
-   						</a>
-   						<a href="http://www.amazon.com/KGAP-The-30-Rule-Activity/dp/B00CC1ZBSG/ref=sr_1_8?s=mobile-apps&ie=UTF8&qid=1389631208&sr=1-8" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+			<a href="30_game.swf?lightbox[width]=800&lightbox[height]=650" class="desktopGame lightbox">
+				<div id="name1_play_box" class="grid_4">
+					<button id="opener3"></button>
+					<h2>The 30/30 Game</h2>
+					<div id="dialog3" title="The 30/30 Rule Game" style="background:#9554c4;">	
+					  <div id="dialogEtchingLeft">
+						   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
 					  </div>
+					  <div id="dialogButtons">
+						   <p class="desktopOnly">For Desktop:</p>  
+					  	   <a href="30_game.swf?lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Play the Game</a>
+						   <br>
+						   <p>For Mobile & Tablet Devices:</p>
+						   <div id="appStores">
+	   			  			<a href="https://itunes.apple.com/us/app/kgap-the-30-30-rule-activity/id635396018?mt=8" target="itunes_store" id="appleStoreBtn" style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+	   						<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.mobile3030game" target="_blank" class="googlePlayBtn">
+	   				  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/>
+	   						</a>
+	   						<a href="http://www.amazon.com/KGAP-The-30-Rule-Activity/dp/B00CC1ZBSG/ref=sr_1_8?s=mobile-apps&ie=UTF8&qid=1389631208&sr=1-8" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+					  </div>
+					</div>
+				    <div id="dialogEtchingRight">
+					  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+				    </div>
+				  </div>
 				</div>
-			    <div id="dialogEtchingRight">
-				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
-			    </div>
-			  </div>
-			</div>
-			<div id="name3_play_box" class="grid_4">
-				<button id="openerTinkerPlay"></button>
-				<h2>The Whiz-Bang Quiz</h2>
-    			  <div id="dialogTinkerPlay" title="The Whiz-Bang Game" style="background:#9fcb3a;">	
+			</a>
+			<a href="wacky/wacky.swf?lightbox[width]=800&lightbox[height]=650" class="lightbox desktopGame">
+				<div id="name3_play_box" class="grid_4">
+					<button id="openerTinkerPlay"></button>
+					<h2>The Whiz-Bang Quiz</h2>
+    				<div id="dialogTinkerPlay" title="The Whiz-Bang Game" style="background:#9fcb3a;">	
     				  <div id="dialogEtchingLeft">
     					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
     				  </div>
     					<div id="dialogButtons">
     						<p class="desktopOnly">For Desktop:</p>  
-    				  		<a href="wacky/wacky.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flashG]">Play the Game</a>
+    				  		<a href="wacky/wacky.swf?lightbox[width]=800&lightbox[height]=650" class="lightbox desktopGame">Play the Game</a>
     						<br>
     						<p>For Mobile & Tablet Devices:</p>
     						<div id="appStores">
@@ -264,17 +242,19 @@
     				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
     			  </div>
     			  </div>
-			</div>
-			<div id="name2_play_box" class="grid_4">
-				<button id="openerOakPlay"></button>
-				 <h2>Disaster Supply Kit</h2>
-   			  <div id="dialogOakPlay" title="Disaster Supply Kit" style="background:#6dcef5;">	
-   				  <div id="dialogEtchingLeft">
+			    </div>
+			</a>
+			<a href="Supply_Kit_Activity.swf?lightbox[width]=800&lightbox[height]=650" class="lightbox desktopGame">
+				<div id="name2_play_box" class="grid_4">
+					<button id="openerOakPlay"></button>
+					<h2>Disaster Supply Kit</h2>
+   			    	<div id="dialogOakPlay" title="Disaster Supply Kit" style="background:#6dcef5;">
+   				 	 <div id="dialogEtchingLeft">
    					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
    				  </div>
-   					<div id="dialogButtons">
+   				  	 <div id="dialogButtons">
    						<p class="desktopOnly">For Desktop:</p>  
-   				  		<a href="Supply_Kit_Activity.swf?width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashF]">Play the Game</a>
+   				  		<a href="Supply_Kit_Activity.swf?lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Play the Game</a>
    						<br>
    						<p>For Mobile & Tablet Devices:</p>
    						<div id="appStores">
@@ -283,16 +263,18 @@
 					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
 							<a href="http://www.amazon.com/ideas-orlando-KGAP-Disaster-Supply/dp/B00EZUVA6O/ref=sr_1_5?s=mobile-apps&ie=UTF8&qid=1389637118&sr=1-5" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
    						</div>
-   				</div>
-   			  <div id="dialogEtchingRight">
+   				  	 </div>
+   			      	 <div id="dialogEtchingRight">
    				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
    			  </div>
-   			  </div>
-			</div>
+		  	  	 </div>
+			 	</div>
+			</a>   
 			<div id="name4_play_box" class="grid_4">
 				<img src="images/coming_soon_play.png" width="296" height="232" alt="Coming Soon Play">
 			</div>
-			<div id="name5_play_box" class="grid_4">
+			<a href="firewise/dem-firewise_simulator.swf?lightbox[width]=800&lightbox[height]=650" class="lightbox desktopGame">
+				<div id="name5_play_box" class="grid_4">
 				<button id="openerMegaPlay"></button>
 				<h2>Firewise Simulator</h2>
   			  <div id="dialogMegaPlay" title="Firewise Simulator" style="background:#ff962e;">	
@@ -301,7 +283,7 @@
   				  </div>
   					<div id="dialogButtons">
   						<p class="desktopOnly">For Desktop:</p>  
-  				  		<a href="firewise/dem-firewise_simulator.swf?width=900&height=900" class="dialogRead desktopOnly" rel="prettyPhoto[flashH s]">Play the Game</a>
+  				  		<a href="firewise/dem-firewise_simulator.swf?lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Play the Game</a>
   						<br>
   						<p>For Mobile & Tablet Devices:</p>
   						<div id="appStores">
@@ -316,6 +298,7 @@
   			  </div>
   			  </div>
 			</div>
+			</a>
 			<div id="name6_play_box" class="grid_4">
 				<img src="images/coming_soon_play.png" width="296" height="232" alt="Coming Soon Play">
 			</div>
@@ -398,11 +381,11 @@
 			<div id="mobileTextBoxMake">
 				<h2>Get to know your Emergency Preparation Facts</h2>
 			</div>
-			<a href="javascript:ThunderTrack();"><div id="name1_facts_box" class="grid_4">
+			<a href="?lightbox[width]=850&lightbox[height]=650#textFacts" class="lightbox" onclick="javascript:ThunderTrack();"><div id="name1_facts_box" class="grid_4">
 				<button id="opener4"></button>
 				<h2>Lightning Safety Facts</h2>
 				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
-color: white;">	
+color: white;">		<div id="textFacts">
 					<ul>
 						<li><h4 style="margin-bottom: -11px;">Lightning Safety Actions</h4>
 							<ul>
@@ -444,18 +427,9 @@ color: white;">
 							</ul>
 						</li>
 					</ul>
+					</div>
 			  	</div>
 			</div></a>
-			<audio id="Mp3Me4" autoplay autobuffer>
-				<source src="audio/SFX Thunder 01 MONO.mp3" controls></source>
-			</audio> 
-			<script type="text/javascript">
-				function ThunderTrack(){
-				    var Mp3Me4= document.getElementById('Mp3Me4');
-				    Mp3Me4.children[0].src = "audio/SFX Thunder 01 MONO.mp3";
-				    Mp3Me4.load();
-				}
-			</script>
 			<a href="javascript:HurricaneTrack();"><div id="name3_facts_box" class="grid_4">
 				<button id="openerTinkerFacts"></button>
 				<h2>Tornado Safety Facts</h2>
@@ -565,16 +539,6 @@ color: black;">
 					</ul>
 			  	</div>
 			</div></a>
-			<audio id="Mp3Me5" autoplay autobuffer>
-				<source src="audio/SFX Wind 01 MONO.mp3" controls></source>
-			</audio>
-			<script type="text/javascript">
-				function HurricaneTrack(){
-				    var Mp3Me5= document.getElementById('Mp3Me5');
-				    Mp3Me5.children[0].src = "audio/SFX Wind 01 MONO.mp3";
-				    Mp3Me5.load();
-				}
-			</script>
 			<a href="javascript:TornadoTrack();"><div id="name2_facts_box" class="grid_4">
 				 <button id="openerOakFacts"></button>
 				 <h2>Hurricane Safety Facts</h2>
@@ -631,16 +595,6 @@ color: black;">
 					</ul>
  			  	</div>
 			</div></a>
-			<audio id="Mp3Me3" autoplay autobuffer>
-				<source src="audio/SFX Tornado 01 MONO.mp3" controls></source>
-			</audio>
-			<script type="text/javascript">
-				function TornadoTrack(){
-				    var Mp3Me3= document.getElementById('Mp3Me3');
-				    Mp3Me3.children[0].src = "audio/SFX Tornado 01 MONO.mp3";
-				    Mp3Me3.load();
-				}
-			</script>
 			<div id="name4_facts_box" class="grid_4">
 				<img src="images/wheel_left.png" width="300" height="236" alt="Wheel Left">
 			</div>
@@ -698,16 +652,6 @@ color: black;">
 					</ul>
 				</div>
 			</div></a>
-			<audio id="Mp3Me6" autoplay autobuffer>
-				<source src="audio/SFX Fire 01 MONO.mp3" controls></source>
-			</audio>
-			<script type="text/javascript">
-				function FireTrack(){
-				    var Mp3Me6= document.getElementById('Mp3Me6');
-				    Mp3Me6.children[0].src = "audio/SFX Fire 01 MONO.mp3";
-				    Mp3Me6.load();
-				}
-			</script>
 			<div id="name6_facts_box" class="grid_4">
 				<img src="images/wheel_right.png" width="296" height="236" alt="Wheel Right">
 			</div>
@@ -766,479 +710,649 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 	</div>
 	
 	
+	<audio id="Mp3Me" autoplay autobuffer>
+		<source src="audio/SFX Gears 01 MONO.mp3" controls></source>
+	</audio>
+	
+	<audio id="Mp3Me3" autoplay autobuffer>
+		<source src="audio/SFX Tornado 01 MONO.mp3" controls></source>
+	</audio>
+	
+	<audio id="Mp3Me6" autoplay autobuffer>
+		<source src="audio/SFX Fire 01 MONO.mp3" controls></source>
+	</audio>
+	
+	<audio id="Mp3Me5" autoplay autobuffer>
+		<source src="audio/SFX Wind 01 MONO.mp3" controls></source>
+	</audio>
+	
+	<audio id="Mp3Me4" autoplay autobuffer>
+		<source src="audio/SFX Thunder 01 MONO.mp3" controls></source>
+	</audio>
+	
+	<audio id="beep-one2">
+		<source src="audio/SFX Spinner 02 MONO.mp3" controls></source>
+	</audio> 
+	
+	<audio id="homeVO">
+		<source src="audio/Home.mp3" controls></source>
+	</audio>
+	
+	<audio id="storyVO">
+		<source src="audio/Story.mp3" controls></source>
+	</audio>
+	
+	<audio id="playVO">
+		<source src="audio/Play.mp3" controls></source>
+	</audio>
+	
+	<audio id="makeVO">
+		<source src="audio/Make.mp3" controls></source>
+	</audio>
+	
+	<audio id="factsVO">
+		<source src="audio/Facts.mp3" controls></source>
+	</audio>
+	
+	<audio id="guidesVO">
+		<source src="audio/Guides.mp3" controls></source>
+	</audio>
+	
 	<script>
-	  $(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {
-	             var new_position = $(anchor_id).offset(); 
+		var preload = function(sources) {
+		          var images = [];
+		          var length = sources.length;
+		          for(var i = 0;  i < length; i++) {
+		            images[i] = new Image();
+		            images[i].src = sources[i];
+		          }
+		}
+
+	    preload(['images/Home Character Buttons/home_d_3030_active.png']);
+	
+	  	jQuery(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {
+	             var new_position = jQuery(anchor_id).offset(); 
 	             window.scrollTo(new_position.left,new_position.top); 
 	    } });
 		
-	  $(function() {
-	    $( "#dialog" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
+		var beepOne2 = jQuery("#beep-one2")[0];
+		jQuery(".logoImage")
+			.mouseenter(function() {
+				beepOne2.play();
+			});
+		
+		var homeVO = jQuery("#homeVO")[0];
+		jQuery(".home")
+			.mouseenter(function() {
+				homeVO.play();
+			});
+		jQuery(".home")	
+			.mouseleave(function() {
+				homeVO.pause();
+				homeVO.currentTime = 0;
+			});
+			
+		
+		var storyVO = jQuery("#storyVO")[0];
+		jQuery(".story")
+			.mouseenter(function() {
+				storyVO.play();
+			});
+		jQuery(".story")
+			.mouseleave(function() {
+				storyVO.pause();
+				storyVO.currentTime = 0;
+			});	
+			
+		var playVO = jQuery("#playVO")[0];
+		jQuery(".play")
+			.mouseenter(function() {
+				playVO.play();
+			});
+		jQuery(".play")
+			.mouseleave(function() {
+				playVO.pause();
+				playVO.currentTime = 0;
+			});
+
+		var makeVO = jQuery("#makeVO")[0];
+		jQuery(".make")
+			.mouseenter(function() {
+				makeVO.play();
+			});	
+		jQuery(".make")
+			.mouseleave(function() {
+				makeVO.pause();
+				makeVO.currentTime = 0;
+			});		
+		
+		var factsVO = jQuery("#factsVO")[0];
+		jQuery(".facts")
+			.mouseenter(function() {
+				factsVO.play();
+			});
+		jQuery(".facts")
+			.mouseleave(function() {
+				factsVO.pause();
+				factsVO.currentTime = 0;
+			});
+	
+		var guidesVO = jQuery("#guidesVO")[0];
+		jQuery(".adults")
+			.mouseenter(function() {
+				guidesVO.play();
+			});
+		jQuery(".adults")
+			.mouseleave(function() {
+				guidesVO.pause();
+				guidesVO.currentTime = 0;
+			});
+		function GearTrack(){
+		    var Mp3Me= document.getElementById('Mp3Me');
+		    Mp3Me.children[0].src = "audio/SFX Gears 01 MONO.mp3";
+		    Mp3Me.load();
+		}
+		
+		function ThunderTrack(){
+		    var Mp3Me4= document.getElementById('Mp3Me4');
+		    Mp3Me4.children[0].src = "audio/SFX Thunder 01 MONO.mp3";
+		    Mp3Me4.load();
+		}
+		
+		function HurricaneTrack(){
+		    var Mp3Me5= document.getElementById('Mp3Me5');
+		    Mp3Me5.children[0].src = "audio/SFX Wind 01 MONO.mp3";
+		    Mp3Me5.load();
+		}
+		
+		function FireTrack(){
+		    var Mp3Me6= document.getElementById('Mp3Me6');
+		    Mp3Me6.children[0].src = "audio/SFX Fire 01 MONO.mp3";
+		    Mp3Me6.load();
+		}
+		
+		function TornadoTrack(){
+		    var Mp3Me3= document.getElementById('Mp3Me3');
+		    Mp3Me3.children[0].src = "audio/SFX Tornado 01 MONO.mp3";
+		    Mp3Me3.load();
+		}
+		
+		jQuery(function() {
+		    jQuery( "#dialog" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	    jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#opener" ).click(function() {
+		      jQuery( "#dialog" ).dialog( "open" );
+		    });		
+		});
+  
+		jQuery(function() {
+		    jQuery( "#dialog2" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	   jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#opener2" ).click(function() {
+		      jQuery( "#dialog2" ).dialog( "open" );
+		    });	
+		});
+  
+		jQuery(function() {
+		    jQuery( "#dialog4" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	   jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#opener4" ).click(function() {
+		      //jQuery( "#dialog4" ).dialog( "open" );
+		    });	
+		  });
+  
+		jQuery(function() {
+		    jQuery( "#dialogOakStory" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	   jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#openerOakStory" ).click(function() {
+		      jQuery( "#dialogOakStory" ).dialog( "open" );
+		    });	
+		});
+  
+		jQuery(function() {
+		    jQuery( "#dialogTinkerStory" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	   jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#openerTinkerStory" ).click(function() {
+		      jQuery( "#dialogTinkerStory" ).dialog( "open" );
+		    });	
+		});
+  
+		jQuery(function() {
+		    jQuery( "#dialogMegaStory" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	   jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#openerMegaStory" ).click(function() {
+		      jQuery( "#dialogMegaStory" ).dialog( "open" );
+		    });	
+		  });
+  		
+  		jQuery(function() {
+  		    jQuery( "#dialog3" ).dialog({
+  		      autoOpen: false,
+  		      show: {
+  		        effect: "slide",
+  		        duration: 1000
+  		      },
+  		      hide: {
+  		        effect: "slide",
+  		        duration: 1000
+  		      },
+  			  autoOpen: false,
+  	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+  	          modal: true,
+  	          fluid: true, //new option
+  	          resizable: false
+  		    });
+
+  	 	   jQuery('div.ui-resizable-handle').hide();
+   
+  		    jQuery( "#opener3" ).click(function() {
+				if ($(window).width() < 1024) {
+				   jQuery( "#dialog3" ).dialog( "open" );
+				   return false;
+				}
+				else{
+		      	  jQuery( "name1_play_box" ).addClass( "lightbox" );
+			  	}
+  		    });	
+  		});
+		
+		jQuery(function() {
+		    jQuery( "#dialogOakPlay" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	   jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#openerOakPlay" ).click(function() {
+				if ($(window).width() < 1024) {
+				   jQuery( "#dialogOakPlay" ).dialog( "open" );
+				   return false;
+				}
+				else{
+		      	  jQuery( "name2_play_box" ).addClass( "lightbox" );
+			  	}
+		    });	
+		});
+  
+		jQuery(function() {
+		    jQuery( "#dialogTinkerPlay" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	   jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#openerTinkerPlay" ).click(function() {
+		      jQuery( "name3_play_box" ).addClass( "lightbox" );
+		    });	
+		});
+  
+		jQuery(function() {
+		    jQuery( "#dialogMegaPlay" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	   jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#openerMegaPlay" ).click(function() {
+		      jQuery( "name3_play_box" ).addClass( "lightbox" );
+		    });	
+		});
+  
+		jQuery(function() {
+		    jQuery( "#dialogOakFacts" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	   jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#openerOakFacts" ).click(function() {
+		      jQuery( "#dialogOakFacts" ).dialog( "open" );
+		    });	
+		});
+  
+		jQuery(function() {
+		    jQuery( "#dialogTinkerFacts" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	   jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#openerTinkerFacts" ).click(function() {
+		      jQuery( "#dialogTinkerFacts" ).dialog( "open" );
+		    });	
+		});
+  
+		jQuery(function() {
+		    jQuery( "#dialogMegaFacts" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	   jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#openerMegaFacts" ).click(function() {
+		      jQuery( "#dialogMegaFacts" ).dialog( "open" );
+		    });	
+		});
+  
+	    jQuery(function() {
+		    jQuery( "#dialogThirtyMake" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	    jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#openerThirtyMake" ).click(function() {
+		      jQuery( "#dialogThirtyMake" ).dialog( "open" );
+		    });	
+		});
+  
+		jQuery(function() {
+		    jQuery( "#dialogOakMake" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	    jQuery('div.ui-resizable-handle').hide();
+   
+		    jQuery( "#openerOakMake" ).click(function() {
+		      jQuery( "#dialogOakMake" ).dialog( "open" );
+		    });	
+		});
+  
+		jQuery(function() {
+		  jQuery( "#dialogTinkerMake" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		  });
+
+	 	  jQuery('div.ui-resizable-handle').hide();
+   
+		  jQuery( "#openerTinkerMake" ).click(function() {
+		      jQuery( "#dialogTinkerMake" ).dialog( "open" );
+		  });	
 	    });
- 
- 	    $('div.ui-resizable-handle').hide();
-	   
-	    $( "#opener" ).click(function() {
-	      $( "#dialog" ).dialog( "open" );
-	    });		
-	  });
-	  
-	  $(function() {
-	    $( "#dialog2" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
+		
+		jQuery(function() {
+		  jQuery( "#dialogTeacherGuide" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		  });
+
+	 	  jQuery('div.ui-resizable-handle').hide();
+   
+		  jQuery( "#openerTeacherGuide" ).click(function() {
+		      jQuery( "#dialogTeacherGuide" ).dialog( "open" );
+		  });	
 	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#opener2" ).click(function() {
-	      $( "#dialog2" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialog3" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#opener3" ).click(function() {
-	      $( "#dialog3" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialog4" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#opener4" ).click(function() {
-	      $( "#dialog4" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialogOakStory" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#openerOakStory" ).click(function() {
-	      $( "#dialogOakStory" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialogTinkerStory" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#openerTinkerStory" ).click(function() {
-	      $( "#dialogTinkerStory" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialogMegaStory" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#openerMegaStory" ).click(function() {
-	      $( "#dialogMegaStory" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialogOakPlay" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#openerOakPlay" ).click(function() {
-	      $( "#dialogOakPlay" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialogTinkerPlay" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#openerTinkerPlay" ).click(function() {
-	      $( "#dialogTinkerPlay" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialogMegaPlay" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#openerMegaPlay" ).click(function() {
-	      $( "#dialogMegaPlay" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialogOakFacts" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#openerOakFacts" ).click(function() {
-	      $( "#dialogOakFacts" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialogTinkerFacts" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#openerTinkerFacts" ).click(function() {
-	      $( "#dialogTinkerFacts" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialogMegaFacts" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#openerMegaFacts" ).click(function() {
-	      $( "#dialogMegaFacts" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialogThirtyMake" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#openerThirtyMake" ).click(function() {
-	      $( "#dialogThirtyMake" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialogOakMake" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#openerOakMake" ).click(function() {
-	      $( "#dialogOakMake" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialogTinkerMake" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#openerTinkerMake" ).click(function() {
-	      $( "#dialogTinkerMake" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $(function() {
-	    $( "#dialogTeacherGuide" ).dialog({
-	      autoOpen: false,
-	      show: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-	      hide: {
-	        effect: "slide",
-	        duration: 1000
-	      },
-		  autoOpen: false,
-          width: 'auto', // overcomes width:'auto' and maxWidth bug
-          modal: true,
-          fluid: true, //new option
-          resizable: false
-	    });
- 
- 	   $('div.ui-resizable-handle').hide();
-	   
-	    $( "#openerTeacherGuide" ).click(function() {
-	      $( "#dialogTeacherGuide" ).dialog( "open" );
-	    });	
-	  });
-	  
-	  $.ajaxSetup ({
+			
+	    jQuery.ajaxSetup ({
 	      // Disable caching of AJAX responses
 	      cache: false
-	  });
-	  
-	  $(document).ready( function() {
-	      	$('.subMenu').smint({
+	    });
+		
+		jQuery(document).ready( function() {
+	      	jQuery('.subMenu').smint({
 	      		'scrollSpeed' : 1000
 	      	});
-	  });
+	    });
 	  
-	  $(document).ready(function(){
-	  	// Cache the Window object
-	  	$window = $(window);
-                
-	     $('section[data-type="background"]').each(function(){
-	       var $bgobj = $(this); // assigning the object
+	    jQuery(document).ready( function() {
+	  		// Cache the Window object
+	  		jQuerywindow = jQuery(window);   
+	     	jQuery('section[data-type="background"]').each(function(){
+	       	 	var jQuerybgobj = jQuery(this); // assigning the object
                     
-	        $(window).scroll(function() {
+	        	jQuery(window).scroll(function() {
                     
-	  		// Scroll the background at var speed
-	  		// the yPos is a negative value because we're scrolling it UP!								
-	  		var yPos = -($window.scrollTop() / $bgobj.data('speed')); 
+	  			// Scroll the background at var speed
+	  			// the yPos is a negative value because we're scrolling it UP!								
+	  			var yPos = -(jQuerywindow.scrollTop() / jQuerybgobj.data('speed')); 
 		
-	  		// Put together our final background position
-	  		var coords = '50% '+ yPos + 'px';
+	  			// Put together our final background position
+	  			var coords = '50% '+ yPos + 'px';
 
-	  		// Move the background
-	  		$bgobj.css({ backgroundPosition: coords });
+	  			// Move the background
+	  			jQuerybgobj.css({ backgroundPosition: coords });
 		
-	  	}); // window scroll Ends
-
-	   });	
-
-	  });
+	  		}); // window scroll Ends
+	    });
  
-	  /* 
-	   * Create HTML5 elements for IE's sake
-	   */
+	  	/* 
+	   	* Create HTML5 elements for IE's sake
+	   	*/
 
-	  document.createElement("article");
-	  document.createElement("section");	 	  
+	  	document.createElement("article");
+	  	document.createElement("section");
+		});	 	  
 	</script>
 			
 </body>

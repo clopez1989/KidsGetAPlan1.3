@@ -2,6 +2,10 @@
 	margin-bottom:5px;
 }
 
+#openerOakPlay{
+
+}
+
 /* This is the selector i used for my menu, it needs to be set as position:absolute; */
 .subMenu {
 	position: absolute;
@@ -898,16 +902,9 @@ h3 {
 	background-position: center;
 }
 
-#name4_box{
-	background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
-	background-size: 85%;
-	background-position: center;
-}
-
-#name4_box:hover{
-	background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
-	background-size: 85%;
-	background-position: center;
+#name4_box img{
+	width: 79%;
+	margin-top: 60px;
 }
 
 #name4_box h2{
@@ -934,16 +931,9 @@ h3 {
 	background-position: center;
 }
 
-#name6_box{
-	background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
-	background-size: 85%;
-	background-position: center;
-}
-
-#name6_box:hover{
-	background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
-	background-size: 85%;
-	background-position: center;
+#name6_box img{
+	width: 79%;
+	margin-top: 60px;
 }
 
 #name6_box h2{
@@ -3425,7 +3415,8 @@ h3 {
 	
 	#name3_story_box_story h2 {
 		left: 37%;
-
+	}
+	
 	#homeButton{
 		width:98px;
 		height:98px;
@@ -3505,6 +3496,10 @@ h3 {
 	object {
 		display:none;
 	}	
+	
+	#openerOakPlay{
+		display:inline !important;
+	}
 }
 
 @media screen and (max-width : 768px) {
@@ -5396,6 +5391,10 @@ body{
 
 .copyrightBottomText {
 	margin-left: 5%;
+}
+
+#openerOakPlay{
+	display:inline !important;
 }
 
 }

@@ -22,7 +22,7 @@
 
 <!-- <script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script> -->
 <script src="js/swfobject.js" type="text/javascript" charset="utf-8"></script>
-<script type="text/javascript" 	src="js/jquery.smint2.js"></script>
+<script type="text/javascript" 	src="js/jquery.smint.js"></script>
 
 <link rel="stylesheet" type="text/css" href="js/lightbox/themes/default/jquery.lightbox.css" />
 <!--[if IE 6]>
@@ -37,12 +37,12 @@
 });*/
 
   jQuery(document).ready(function($){
-    $('.lightbox').lightbox();
+    jQuery('.lightbox').lightbox();
   });
 
 
-  jQuery(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {
-           var new_position = $(anchor_id).offset(); 
+jQuery(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {
+           var new_position = jQuery(anchor_id).offset(); 
            window.scrollTo(new_position.left,new_position.top); 
   } });
 
