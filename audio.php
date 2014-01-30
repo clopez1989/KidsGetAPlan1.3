@@ -1,20 +1,22 @@
-<audio id="Mp3Me" autoplay autobuffer>
-	<source src="audio/SFX Gears 01 MONO.mp3" controls></source>
+<audio id="Mp3Me" autobuffer>
+	<source src="audio/SFX Gears 01 MONO.mp3" controls>
+		<p>Browser does not support this</p>
 </audio>
 
-<audio id="Mp3Me3" autoplay autobuffer>
-	<source src="audio/SFX Tornado 01 MONO.mp3" controls></source>
+<audio id="Mp3Me3" autobuffer>
+	<source src="audio/SFX Tornado 01 MONO.mp3" controls>
+		Browser does not support this
 </audio>
 
-<audio id="Mp3Me6" autoplay autobuffer>
+<audio id="Mp3Me6" autobuffer>
 	<source src="audio/SFX Fire 01 MONO.mp3" controls></source>
 </audio>
 
-<audio id="Mp3Me5" autoplay autobuffer>
+<audio id="Mp3Me5" autobuffer>
 	<source src="audio/SFX Wind 01 MONO.mp3" controls></source>
 </audio>
 
-<audio id="Mp3Me4" autoplay autobuffer>
+<audio id="Mp3Me4" autobuffer>
 	<source src="audio/SFX Thunder 01 MONO.mp3" controls></source>
 </audio>
 

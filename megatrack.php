@@ -18,7 +18,7 @@
 		<div id="topLeftArt" class="grid_4">
 			<img src="images/top_left_panel_art.png" alt=""/>
 		</div>
-		<div class="logoContainer_story" class="grid_4">
+		<div class="logoContainer" class="grid_4" style="display:none">
 			<a href="index.php" data-ajax="false"><img src="images/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
 		</div>
 		<div id="topRightButton" class="grid_4">
