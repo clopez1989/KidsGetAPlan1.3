@@ -983,7 +983,7 @@ h3 {
 }
 
 #name1_story_box_story{
-	background: url('../images/Sub_Story/sub_story_d_30_30.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_30_30_s.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -992,7 +992,7 @@ h3 {
 }
 
 #name1_story_box_story:hover{
-	background: url('../images/Sub_Story/sub_story_d_30_30_active.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_30_30_active_s.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1031,7 +1031,7 @@ h3 {
 }
 
 #name2_story_box_story{
-	background: url('../images/Sub_Story/sub_story_d_oak_tree_new.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_oak_tree__new_s.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1040,7 +1040,7 @@ h3 {
 }
 
 #name2_story_box_story:hover{
-	background: url('../images/Sub_Story/sub_story_d_oak_tree_active.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_oak_tree_active_s.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1082,7 +1082,7 @@ h3 {
 }
 
 #name3_story_box_story{
-	background: url('../images/Sub_Story/sub_story_d_tinkermeister.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_tinkermeister_s.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1091,7 +1091,7 @@ h3 {
 }
 
 #name3_story_box_story:hover{
-	background: url('../images/Sub_Story/sub_story_d_tinkermeister_active.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_tinkermeister_active_s.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1140,7 +1140,7 @@ h3 {
 }
 
 #name5_story_box_story{
-	background: url('../images/Sub_Story/sub_story_d_megatrack.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_megatrack_s.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1149,7 +1149,7 @@ h3 {
 }
 
 #name5_story_box_story:hover{
-	background: url('../images/Sub_Story/sub_story_d_megatrack_active.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_megatrack_active_s.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1434,7 +1434,7 @@ h3 {
 }
 
 #name1_make_box_story{
-	background: url('../images/Sub_Make/sub_make_d_3030.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_3030_s.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1443,7 +1443,7 @@ h3 {
 }
 
 #name1_make_box_story:hover{
-	background: url('../images/Sub_Make/sub_make_d_3030_active.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_3030_active_s.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1483,7 +1483,7 @@ h3 {
 }
 
 #name2_make_box_story{
-	background: url('../images/Sub_Make/sub_make_d_oaktree.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_oaktree_s.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1492,7 +1492,7 @@ h3 {
 }
 
 #name2_make_box_story:hover{
-	background: url('../images/Sub_Make/sub_make_d_oaktree_active.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_oaktree_active_s.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1532,7 +1532,7 @@ h3 {
 }
 
 #name3_make_box_story{
-	background: url('../images/Sub_Make/sub_make_d_tinkermeister.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_tinkermeister_s.png') no-repeat;
 	background-position: center;
 	width: 33.3%;
 	height: 231px;
@@ -1541,7 +1541,7 @@ h3 {
 }
 
 #name3_make_box_story:hover{
-	background: url('../images/Sub_Make/sub_make_d_tinkermeister_active.png') no-repeat;
+	background: url('../images/Sub_Make/sub_make_d_tinkermeister_active_s.png') no-repeat;
 	background-position: center;
 	color:black;
 }
@@ -1832,7 +1832,7 @@ h3 {
 	float:right;
 }
 
-#name1_adults_box{
+#name1_adults_box {
 	background: url('../images/Adults/adults_guides_d.png') no-repeat;
 	background-position: center;
 	width: 30%;
@@ -4629,7 +4629,7 @@ body{
 }
 
 #name1_story_box{
-	background: url('../images/Sub_Story/sub_story_m_30_30.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_30_30.png') no-repeat;
 	width: 98%;
 	height: 231px;
 	background-position: center;
@@ -4637,7 +4637,7 @@ body{
 }
 
 #name1_story_box:hover{
-	background: url('../images/Sub_Story/sub_story_m_30_30_active.png') no-repeat;
+	background: url('../images/Sub_Story/sub_story_d_30_30_active.png') no-repeat;
 	width: 98%;
 	height: 231px;
 	background-position: center;

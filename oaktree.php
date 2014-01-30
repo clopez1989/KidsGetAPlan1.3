@@ -49,14 +49,14 @@
 		</div>
 		<div id="name2_story_box_story" class="grid_4">
 				<button id="opener"></button>
-				<h2>The Story</h2>
+				<!-- <h2>The Story</h2> -->
 			  <div id="dialog" title="The Oak Tree Club Story" style="background:#6dcef5;">	
 				  <div id="dialogEtchingLeft">
 					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
 				  </div>
 					<div id="dialogButtons">
 						<p class="desktopOnly">For Desktop:</p>  
-				  		<a href="book.swf?bookXML=book3-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a>
+				  		<a href="book.swf?bookXML=book3-english.xml&lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Read the Story</a>
 						<br>
 						<p>For Mobile & Tablet Devices:</p>
 						<div id="appStores">
@@ -72,10 +72,11 @@
 			  </div>
 			  </div>
 		</div>
-		<div id="name2_play_box_story" class="grid_4">
-			<button id="opener3"></button>
-			<h2>The Oak Tree Club Activity</h2>
-			<div id="dialog3" title="The Oak Tree Club Game" style="background:#6dcef5;">	
+		<a href="Supply_Kit_Activity.swf?lightbox[width]=800&lightbox[height]=650" class="lightbox desktopGame">
+			<div id="name2_play_box_story" class="grid_4">
+			<button id="openerOakPlay"></button>
+			<!-- <h2>The Oak Tree Club Activity</h2> -->
+			<div id="dialogOakPlay" title="The Oak Tree Club Game" style="background:#6dcef5;">	
 			  <div id="dialogEtchingLeft">
 				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
 			  </div>
@@ -96,9 +97,10 @@
 		    </div>
 		  </div>
 		</div>
+		</a>
 		<div id="name2_make_box_story" class="grid_4">
 			<button id="openerOakMake"></button>
-			<h2>Cut-Out and Color</h2>
+			<!-- <h2>Cut-Out and Color</h2> -->
  			  <div id="dialogOakMake" title="The Oak Tree Club Downloads" style="background:#6dcef5;">	
  				  <div id="dialogEtchingLeft">
  					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -115,65 +117,69 @@
  			  </div>
  			  </div>
 		</div>
-		<div id="name2_facts_box_story" class="grid_4">
-			<button id="opener4"></button>
-			<h2>Hurricane Safety Facts</h2>
-				<div id="dialog4" title="The Oak Tree Club Hurricanes Facts" style="background:#6dcef5; text-shadow: none;
-color: black ;">
-					<ul>
-						<li><b>Hurricanes</b>, <b>cyclones</b>, and <b>typhoons</b> are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li>
-						<li><h4 style="margin-bottom: -11px;">Hurricane Safety Actions</h4>
-							<ul>
-								<li>Know if you live in an evacuation area. Know your home's vulnerability to storm surge, flooding and wind. Have a family plan.</li>
-								<li>At the beginning of hurricane season (June), check your supplies, replace batteries and rotate your stock of food and water.</li>
-								<li>If a storm threatens, listen to your local authorities. Evacuate if ordered.</li>
-							</ul>
-						</li>
-						<li><h4 style="margin-bottom: -11px;">Saffir-Simpson Scale</h4>
-							<ul>
-								<li><b>Tropical Storm</b>
-									<ul>
-										<li>Winds 39-73 mph</li>
-									</ul>
-								</li>
-								<li><b>Category 1 Hurricane</b>
-									<ul>
-										<li>Winds 74-95 mph</li>
-										<li>No real damage to buildings. Damage to unanchored mobile homes.</li>
-									</ul>
-								</li>
-								<li><b>Category 2 Hurricane</b>
-									<ul>
-										<li>Winds 96-110 mph</li>
-										<li>Some damage to building roofs, doors and windows. Considerable damage to mobile homes. Some trees blown down.</li>
-									</ul>
-								</li>
-								<li><b>Category 3 Hurricane</b>
-									<ul>
-										<li>Winds 111-130 mph</li>
-										<li>Some structural damage to small homes. Large trees blown down. Mobile homes and poorly built signs destroyed.</li>
-									</ul>
-								</li>
-								<li><b>Category 4 Hurricane</b>
-									<ul>
-										<li>Winds 131-155 mph</li>
-										<li>Wall failures in homes and complete roof structure failure on small homes. Total destruction of mobile homes. Trees, shrubs and signs all blown down.</li>
-									</ul>
-								</li>
-								<li><b>Category 5 Hurricane</b>
-									<ul>
-										<li>Winds 156 mph +</li>
-										<li>Complete roof failure on homes and industrial buildings. Some complete building failures.</li>
-									</ul>
-								</li>
-							</ul>
-						</li>
-					</ul>
+		<a href="?lightbox[width]=85p&lightbox[height]=85p#textFacts3" class="lightbox" onclick="javascript:HurricaneTrack();"><div id="name2_facts_box_story" class="grid_4">
+			 <!-- <button id="openerOakFacts"></button> -->
+			 <!-- <h2>Hurricane Safety Facts</h2> -->
+				<div id="dialogOakFacts" title="The Oak Tree Club Hurricanes Facts" style="background:#6dcef5; text-shadow: none;
+color: black;">
+			<div id="textFacts3" style="background:#6dcef5; text-shadow: none;
+			color: black;">
+			<br>
+				<ul>
+					<li><b>Hurricanes</b>, <b>cyclones</b>, and <b>typhoons</b> are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li>
+					<li><h4 style="margin-bottom: -11px;">Hurricane Safety Actions</h4>
+						<ul>
+							<li>Know if you live in an evacuation area. Know your home's vulnerability to storm surge, flooding and wind. Have a family plan.</li>
+							<li>At the beginning of hurricane season (June), check your supplies, replace batteries and rotate your stock of food and water.</li>
+							<li>If a storm threatens, listen to your local authorities. Evacuate if ordered.</li>
+						</ul>
+					</li>
+					<li><h4 style="margin-bottom: -11px;">Saffir-Simpson Scale</h4>
+						<ul>
+							<li><b>Tropical Storm</b>
+								<ul>
+									<li>Winds 39-73 mph</li>
+								</ul>
+							</li>
+							<li><b>Category 1 Hurricane</b>
+								<ul>
+									<li>Winds 74-95 mph</li>
+									<li>No real damage to buildings. Damage to unanchored mobile homes.</li>
+								</ul>
+							</li>
+							<li><b>Category 2 Hurricane</b>
+								<ul>
+									<li>Winds 96-110 mph</li>
+									<li>Some damage to building roofs, doors and windows. Considerable damage to mobile homes. Some trees blown down.</li>
+								</ul>
+							</li>
+							<li><b>Category 3 Hurricane</b>
+								<ul>
+									<li>Winds 111-130 mph</li>
+									<li>Some structural damage to small homes. Large trees blown down. Mobile homes and poorly built signs destroyed.</li>
+								</ul>
+							</li>
+							<li><b>Category 4 Hurricane</b>
+								<ul>
+									<li>Winds 131-155 mph</li>
+									<li>Wall failures in homes and complete roof structure failure on small homes. Total destruction of mobile homes. Trees, shrubs and signs all blown down.</li>
+								</ul>
+							</li>
+							<li><b>Category 5 Hurricane</b>
+								<ul>
+									<li>Winds 156 mph +</li>
+									<li>Complete roof failure on homes and industrial buildings. Some complete building failures.</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
 			  	</div>
-		</div>
+		</div></a>
 		<div id="name2_adults_box_story" class="grid_4">
 			<button id="openerTeacherGuide"></button>
-			<h2>The Oak Tree Club</h2>
+			<!-- <h2>The Oak Tree Club</h2> -->
 		    <div id="dialogTeacherGuide" title="Parent &amp; Teacher Guide" style="background:#6dcef5;">
 			  <div id="dialogEtchingLeft">
 				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -367,6 +373,37 @@ color: black ;">
 	      $( "#dialogOakMake" ).dialog( "open" );
 	    });	
 	  });
+	  
+	jQuery(function() {
+	    jQuery( "#dialogOakPlay" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+
+ 	    jQuery('div.ui-resizable-handle').hide();
+ 
+	    jQuery( "#openerOakPlay" ).click(function() {
+			if ($(window).width() < 1024) {
+			   jQuery( "#dialogOakPlay" ).dialog( "open" );
+			   return false;
+			}
+			else{
+	      	  jQuery( "name2_play_box" ).addClass( "lightbox" );
+		  	}
+	    });	
+	});
 	  
 	  $(function() {
 	    $( "#dialogTeacherGuide" ).dialog({

@@ -49,23 +49,22 @@
 			<img src="images/Sub_Title/sub_title_d_30_30.png" width="295" height="246" alt="Sub Title D 30 30">
 		</div>
 		<div id="name1_story_box_story" class="grid_4">
-				<button id="opener"></button>
-				<h2>The Story</h2>
+			<button id="opener"></button>
+			<!-- <h2>The 30/30 Rule</h2> -->
 			  <div id="dialog" title="The 30/30 Rule Story" style="background:#9554c4;">	
 				  <div id="dialogEtchingLeft">
 					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
 				  </div>
 					<div id="dialogButtons">
 						<p class="desktopOnly">For Desktop:</p>  
-				  		<!-- <a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read the Story</a> -->
-						<!-- ><a href="#" onclick="MM_openBrWindow('book.php?bookXML=book1-english.xml','taf','scrollbars=yes,resizable=no,width=840,height=680,location=no')" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Read The Story</a> -->
-						<a href="book.swf?bookXML=book1-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flashA]">Read the Story</a>
+				  		<a href="book.swf?bookXML=book1-english.xml&lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Read the Story</a>
 						<br>
 						<p>For Mobile & Tablet Devices:</p>
 						<div id="appStores">
 				  			<a href="https://itunes.apple.com/us/app/kids-get-plan-30-30-rule-ebook/id619446496?mt=8&uo=4" target="itunes_store" id="appleStoreBtn" style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank" class="googlePlayBtn">
-					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
+							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.ebook1" target="_blank">
+					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;" class="googlePlayBtn"/>
+							</a>
 							<a href="http://www.amazon.com/KGAP-The-30-rule/dp/B00BWS0GPI/ref=sr_1_5?ie=UTF8&qid=1387316808&sr=8-5&keywords=kids+get+a+plan+30%2F30" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
 						</div>
 				</div>
@@ -74,34 +73,36 @@
 			  </div>
 			  </div>
 		</div>
-		<div id="name1_play_box_story" class="grid_4">
-			<button id="opener3"></button>
-			<h2>The 30/30 Rule Activity</h2>
-			<div id="dialog3" title="The 30/30 Rule Game" style="background:#9554c4;">	
-			  <div id="dialogEtchingLeft">
-				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
-			  </div>
-			  <div id="dialogButtons">
-				   <p class="desktopOnly">For Desktop:</p>  
-			  	   <a href="30_game.swf?width=800&height=800" class="dialogRead desktopOnly" rel="prettyPhoto[flashB]">Play the Game</a>
-				   <br>
-				   <p>For Mobile & Tablet Devices:</p>
-				   <div id="appStores">
-			  			<a href="https://itunes.apple.com/us/app/kgap-the-30-30-rule-activity/id635396018?mt=8" target="itunes_store" id="appleStoreBtn" style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-						<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.mobile3030game" target="_blank" class="googlePlayBtn">
-				  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/>
-						</a>
-						<a href="http://www.amazon.com/KGAP-The-30-Rule-Activity/dp/B00CC1ZBSG/ref=sr_1_8?s=mobile-apps&ie=UTF8&qid=1389631208&sr=1-8" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+		<a href="30_game.swf?lightbox[width]=800&lightbox[height]=650" class="desktopGame lightbox">
+			<div id="name1_play_box_story" class="grid_4">
+				<button id="opener3"></button>
+				<!-- <h2>The 30/30 Game</h2> -->
+				<div id="dialog3" title="The 30/30 Rule Game" style="background:#9554c4;">	
+				  <div id="dialogEtchingLeft">
+					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
 				  </div>
+				  <div id="dialogButtons">
+					   <p class="desktopOnly">For Desktop:</p>  
+				  	   <a href="30_game.swf?lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Play the Game</a>
+					   <br>
+					   <p>For Mobile & Tablet Devices:</p>
+					   <div id="appStores">
+   			  			<a href="https://itunes.apple.com/us/app/kgap-the-30-30-rule-activity/id635396018?mt=8" target="itunes_store" id="appleStoreBtn" style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+   						<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.mobile3030game" target="_blank" class="googlePlayBtn">
+   				  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/>
+   						</a>
+   						<a href="http://www.amazon.com/KGAP-The-30-Rule-Activity/dp/B00CC1ZBSG/ref=sr_1_8?s=mobile-apps&ie=UTF8&qid=1389631208&sr=1-8" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+				  </div>
+				</div>
+			    <div id="dialogEtchingRight">
+				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+			    </div>
+			  </div>
 			</div>
-		    <div id="dialogEtchingRight">
-			  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
-		    </div>
-		  </div>
-		</div>
+		</a>
 		<div id="name1_make_box_story" class="grid_4">
 			<button id="openerThirtyMake"></button>
-			<h2>Cut-Out and Color</h2>
+			<!-- <h2>Cut-Out and Color</h2> -->
 		    <div id="dialogThirtyMake" title="The 30/30 Rule Downloads" style="background:#9554c4;">	
 			  <div id="dialogEtchingLeft">
 				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -120,11 +121,15 @@
 		  </div>
 		  </div>
 		</div>
-		<div id="name1_facts_box_story" class="grid_4">
-			<button id="opener4"></button>
-			<h2>Lightning Safety Facts</h2>
+		<a href="?lightbox[width]=85p&lightbox[height]=85p#textFacts" class="lightbox" onclick="javascript:ThunderTrack();">
+			<div id="name1_facts_box_story" class="grid_4">
+			<!-- <button id="opener4"></button> -->
+			<!-- <h2>Lightning Safety Facts</h2> -->
 				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
-color: white;">	
+color: white;">
+				<div id="textFacts" style="background:#9554c4; text-shadow: none;
+				color: white;">
+				<br>
 					<ul>
 						<li><h4 style="margin-bottom: -11px;">Lightning Safety Actions</h4>
 							<ul>
@@ -166,11 +171,14 @@ color: white;">
 							</ul>
 						</li>
 					</ul>
+					<br>
+				</div>
 			  	</div>
 		</div>
+		</a>
 		<div id="name1_adults_box_story" class="grid_4">
 			<button id="openerTeacherGuide"></button>
-			<h2>The 30/30 Rule</h2>
+			<!-- <h2>The 30/30 Rule</h2> -->
 		    <div id="dialogTeacherGuide" title="Parent &amp; Teacher Guide" style="background:#9554c4;">
 			  <div id="dialogEtchingLeft">
 				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -258,6 +266,37 @@ color: white;">
 	      $( "#dialog" ).dialog( "open" );
 	    });		
 	  });
+	  
+		jQuery(function() {
+		    jQuery( "#dialog3" ).dialog({
+		      autoOpen: false,
+		      show: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+		      hide: {
+		        effect: "slide",
+		        duration: 1000
+		      },
+			  autoOpen: false,
+	          width: 'auto', // overcomes width:'auto' and maxWidth bug
+	          modal: true,
+	          fluid: true, //new option
+	          resizable: false
+		    });
+
+	 	    jQuery('div.ui-resizable-handle').hide();
+ 
+		    jQuery( "#opener3" ).click(function() {
+			if ($(window).width() < 1024) {
+			   jQuery( "#dialog3" ).dialog( "open" );
+			   return false;
+			}
+			else{
+	      	  jQuery( "name1_play_box_story" ).addClass( "lightbox" );
+		  	}
+		    });	
+		});
 	  
 	  $(function() {
 	    $( "#dialog2" ).dialog({

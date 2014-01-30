@@ -6,7 +6,8 @@
 
 <body onload="window.scrollTo(0,100); init();" style="background-color:#D4D4D4">
 <!-- include Navigation -->
-<?php include 'nav.php'; ?>
+	<?php include 'nav.php'; ?>
+	
 	<div class="section homeButton" id="homeMain">
 		<a href="javascript:GearTrack();"><div id="topLeftArt" class="grid_4">
 			<img src="images/top_left_panel_art.png" alt=""/>
@@ -64,9 +65,6 @@
 				<img src="images/comingsoon_main_m.png" width="225" height="226" alt="Comingsoon Main M"> 
 			</div>
 			<div id="ipadClear"></div>
-			<div id="mobileTextBoxCS">
-				<h2>More Coming Soon</h2>
-			</div>
 		</div>
 
 		<div class="section storyButton" id="homeStory" data-type="background" data-speed="10">
@@ -76,7 +74,7 @@
 			</div>
 			<div id="name1_story_box" class="grid_4">
 				<button id="opener"></button>
-				<h2>The 30/30 Rule</h2>
+				<!-- <h2>The 30/30 Rule</h2> -->
 				  <div id="dialog" title="The 30/30 Rule Story" style="background:#9554c4;">	
 					  <div id="dialogEtchingLeft">
 						   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -101,7 +99,7 @@
 			</div>
 			<div id="name3_story_box" class="grid_4">
 				<button id="openerTinkerStory"></button>
-				<h2>The Wacky Whiz-Bang Weather Watching Wonder</h2>
+				<!-- <h2>The Wacky Whiz-Bang Weather Watching Wonder</h2> -->
   			  <div id="dialogTinkerStory" title="The Tinkermeister Story" style="background:#9fcb3a;">	
   				  <div id="dialogEtchingLeft">
   					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -126,7 +124,7 @@
 			</div>
 			<div id="name2_story_box" class="grid_4">
 				 <button id="openerOakStory"></button>
-				 <h2>The Oak Tree Club</h2>
+				 <!-- <h2>The Oak Tree Club</h2> -->
 			  <div id="dialogOakStory" title="The Oak Tree Club Story" style="background:#6dcef5;">	
 				  <div id="dialogEtchingLeft">
 					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -154,7 +152,7 @@
 			</div>
 			<div id="name5_story_box" class="grid_4">
 				<button id="openerMegaStory"></button>
-				<h2>Mega Track HTW</h2>
+				<!-- <h2>Mega Track HTW</h2> -->
     			  <div id="dialogMegaStory" title="The MegaTrack HTW Story" style="background:#ff962e;">	
     				  <div id="dialogEtchingLeft">
     					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -180,9 +178,6 @@
 			<div id="name6_story_box" class="grid_4">
 				<img src="images/coming_soon_story.png" width="293" height="230" alt="Coming Soon Story">
 			</div>
-			<div id="mobileTextBoxCS_story">
-				<h2>More Coming Soon</h2>
-			</div>
 			<img src="images/Adults/bevel_top.png" width="996" height="23" alt="Bevel Top" class="bevelBottom">
 		</div>
 
@@ -194,7 +189,7 @@
 			<a href="30_game.swf?lightbox[width]=800&lightbox[height]=650" class="desktopGame lightbox">
 				<div id="name1_play_box" class="grid_4">
 					<button id="opener3"></button>
-					<h2>The 30/30 Game</h2>
+					<!-- <h2>The 30/30 Game</h2> -->
 					<div id="dialog3" title="The 30/30 Rule Game" style="background:#9554c4;">	
 					  <div id="dialogEtchingLeft">
 						   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -221,7 +216,7 @@
 			<a href="wacky/wacky.swf?lightbox[width]=800&lightbox[height]=650" class="lightbox desktopGame">
 				<div id="name3_play_box" class="grid_4">
 					<button id="openerTinkerPlay"></button>
-					<h2>The Whiz-Bang Quiz</h2>
+					<!-- <h2>The Whiz-Bang Quiz</h2> -->
     				<div id="dialogTinkerPlay" title="The Whiz-Bang Game" style="background:#9fcb3a;">	
     				  <div id="dialogEtchingLeft">
     					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -247,7 +242,7 @@
 			<a href="Supply_Kit_Activity.swf?lightbox[width]=800&lightbox[height]=650" class="lightbox desktopGame">
 				<div id="name2_play_box" class="grid_4">
 					<button id="openerOakPlay"></button>
-					<h2>Disaster Supply Kit</h2>
+					<!-- <h2>Disaster Supply Kit</h2> -->
    			    	<div id="dialogOakPlay" title="Disaster Supply Kit" style="background:#6dcef5;">
    				 	 <div id="dialogEtchingLeft">
    					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -276,7 +271,7 @@
 			<a href="firewise/dem-firewise_simulator.swf?lightbox[width]=800&lightbox[height]=650" class="lightbox desktopGame">
 				<div id="name5_play_box" class="grid_4">
 				<button id="openerMegaPlay"></button>
-				<h2>Firewise Simulator</h2>
+				<!-- <h2>Firewise Simulator</h2> -->
   			  <div id="dialogMegaPlay" title="Firewise Simulator" style="background:#ff962e;">	
   				  <div id="dialogEtchingLeft">
   					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -302,9 +297,6 @@
 			<div id="name6_play_box" class="grid_4">
 				<img src="images/coming_soon_play.png" width="296" height="232" alt="Coming Soon Play">
 			</div>
-			<div id="mobileTextBoxCS_story">
-				<h2>More Coming Soon</h2>
-			</div>
 			<img src="images/Adults/bevel_yellow.png" width="999" height="22" alt="Bevel Yellow" class="bevelBottom">
 		</div>
 		
@@ -315,7 +307,7 @@
 			</div>
 			<div id="name1_make_box" class="grid_4">
 				<button id="openerThirtyMake"></button>
-				<h2>The 30/30 Rule</h2>
+				<!-- <h2>The 30/30 Rule</h2> -->
     			  <div id="dialogThirtyMake" title="The 30/30 Rule Downloads" style="background:#9554c4;">	
     				  <div id="dialogEtchingLeft">
     					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -336,7 +328,7 @@
 			</div>
 			<div id="name3_make_box" class="grid_4">
 				<button id="openerTinkerMake"></button>
-				<h2>Tinkermeister</h2>
+				<!-- <h2>Tinkermeister</h2> -->
      			  <div id="dialogTinkerMake" title="Tinkermeister Downloads" style="background:#9fcb3a;">	
      				  <div id="dialogEtchingLeft">
      					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -356,7 +348,7 @@
 			</div>
 			<div id="name2_make_box" class="grid_4">
 				<button id="openerOakMake"></button>
-				 <h2>The Oak Tree Club</h2>
+				 <!-- <h2>The Oak Tree Club</h2> -->
    			  <div id="dialogOakMake" title="The Oak Tree Club Downloads" style="background:#6dcef5;">	
    				  <div id="dialogEtchingLeft">
    					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -381,11 +373,13 @@
 			<div id="mobileTextBoxMake">
 				<h2>Get to know your Emergency Preparation Facts</h2>
 			</div>
-			<a href="?lightbox[width]=850&lightbox[height]=650#textFacts" class="lightbox" onclick="javascript:ThunderTrack();"><div id="name1_facts_box" class="grid_4">
+			<a href="?lightbox[width]=85p&lightbox[height]=85p#textFacts" class="lightbox" onclick="javascript:ThunderTrack();"><div id="name1_facts_box" class="grid_4">
 				<button id="opener4"></button>
-				<h2>Lightning Safety Facts</h2>
+				<!-- <h2>Lightning Safety Facts</h2> -->
 				<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
-color: white;">		<div id="textFacts">
+color: white;">		<div id="textFacts" style="background:#9554c4; text-shadow: none;
+color: white;">
+<br>
 					<ul>
 						<li><h4 style="margin-bottom: -11px;">Lightning Safety Actions</h4>
 							<ul>
@@ -430,11 +424,14 @@ color: white;">		<div id="textFacts">
 					</div>
 			  	</div>
 			</div></a>
-			<a href="javascript:HurricaneTrack();"><div id="name3_facts_box" class="grid_4">
-				<button id="openerTinkerFacts"></button>
-				<h2>Tornado Safety Facts</h2>
+			<a href="?lightbox[width]=85p&lightbox[height]=85p#textFacts2" class="lightbox" onclick="javascript:HurricaneTrack();"><div id="name3_facts_box" class="grid_4">
+				<!-- <button id="openerTinkerFacts"></button> -->
+				<!-- <h2>Tornado Safety Facts</h2> -->
 				<div id="dialogTinkerFacts" title="The Tinkermeister Tornado Facts" style="background:#9fcb3a; text-shadow: none;
 color: black;">	
+					<div id="textFacts2" style="background:#9fcb3a; text-shadow: none;
+					color: black;">
+					<br>
 					<ul>
 						<li><h4 style="margin-bottom: -11px;">Tornado Safety Actions</h4>
 							<ul>
@@ -537,13 +534,17 @@ color: black;">
 							</ul>
 						</li>
 					</ul>
+				</div>
 			  	</div>
 			</div></a>
-			<a href="javascript:TornadoTrack();"><div id="name2_facts_box" class="grid_4">
-				 <button id="openerOakFacts"></button>
-				 <h2>Hurricane Safety Facts</h2>
+			<a href="?lightbox[width]=85p&lightbox[height]=85p#textFacts3" class="lightbox" onclick="javascript:TornadoTrack();"><div id="name2_facts_box" class="grid_4">
+				 <!-- <button id="openerOakFacts"></button> -->
+				 <!-- <h2>Hurricane Safety Facts</h2> -->
  				<div id="dialogOakFacts" title="The Oak Tree Club Hurricanes Facts" style="background:#6dcef5; text-shadow: none;
  color: black;">
+				<div id="textFacts3" style="background:#6dcef5; text-shadow: none;
+				color: black;">
+				<br>
 					<ul>
 						<li><b>Hurricanes</b>, <b>cyclones</b>, and <b>typhoons</b> are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li>
 						<li><h4 style="margin-bottom: -11px;">Hurricane Safety Actions</h4>
@@ -593,16 +594,20 @@ color: black;">
 							</ul>
 						</li>
 					</ul>
+				</div>
  			  	</div>
 			</div></a>
 			<div id="name4_facts_box" class="grid_4">
 				<img src="images/wheel_left.png" width="300" height="236" alt="Wheel Left">
 			</div>
-			<a href="javascript:FireTrack();"><div id="name5_facts_box" class="grid_4">
-				<button id="openerMegaFacts"></button>
-				<h2>Wildfire Safety Facts</h2>
+			<a href="?lightbox[width]=85p&lightbox[height]=85p#textFacts4" class="lightbox" onclick="javascript:FireTrack();"><div id="name5_facts_box" class="grid_4">
+				<!-- <button id="openerMegaFacts"></button> -->
+				<!-- <h2>Wildfire Safety Facts</h2> -->
 				<div id="dialogMegaFacts" title="The MegaTrack Wildfire Facts" style="background:#ff962e; text-shadow: none;
-color: black;">	
+color: black;">		
+					<div id="textFacts4" style="background:#ff962e; text-shadow: none;
+					color: black;">
+					<br>
 					<ul>
 						<li><h4 style="margin-bottom: -11px;">Wildfire Safety actions</h4>
 							<ul>
@@ -651,12 +656,10 @@ color: black;">
 						</li>
 					</ul>
 				</div>
+				</div>
 			</div></a>
 			<div id="name6_facts_box" class="grid_4">
 				<img src="images/wheel_right.png" width="296" height="236" alt="Wheel Right">
-			</div>
-			<div id="mobileTextBoxCS_story">
-				<h2>More Coming Soon</h2>
 			</div>
 		</div>
 	
@@ -668,7 +671,7 @@ color: black;">
 			<div id="ventLeftDiv"><img src="images/Adults/vents_left.png" width="57" height="215" alt="Vents Left" class="ventLeft"></div>
 				<div id="name1_adults_box">
 					<button id="openerTeacherGuide"></button>
-					<h2>Teacher Guides</h2>
+					<!-- <h2>Teacher Guides</h2> -->
       			    <div id="dialogTeacherGuide" title="Parent &amp; Teacher Guide" style="background:#9554c4;">
       				  <div id="dialogEtchingLeft">
       					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -686,7 +689,7 @@ color: black;">
 			        </div>
 				</div>
 				<div id="name2_adults_box" onclick="window.open('https://dpifulfillment.myprintdesk.com/walk_up.php?id=eed80cb546ac9300f03bab6a7be84acd390a1fe5','_blank')">
-					<h2>Buy the Books</h2>
+					<!-- <h2>Buy the Books</h2> -->
 				</div>
 				
 			<div id="ventRightDiv"><img src="images/Adults/vents_right.png" width="57" height="215" alt="Vents Right" class="ventRight"></div>
@@ -709,54 +712,7 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 		<?php include 'footer.php'; ?>
 	</div>
 	
-	
-	<audio id="Mp3Me" autoplay autobuffer>
-		<source src="audio/SFX Gears 01 MONO.mp3" controls></source>
-	</audio>
-	
-	<audio id="Mp3Me3" autoplay autobuffer>
-		<source src="audio/SFX Tornado 01 MONO.mp3" controls></source>
-	</audio>
-	
-	<audio id="Mp3Me6" autoplay autobuffer>
-		<source src="audio/SFX Fire 01 MONO.mp3" controls></source>
-	</audio>
-	
-	<audio id="Mp3Me5" autoplay autobuffer>
-		<source src="audio/SFX Wind 01 MONO.mp3" controls></source>
-	</audio>
-	
-	<audio id="Mp3Me4" autoplay autobuffer>
-		<source src="audio/SFX Thunder 01 MONO.mp3" controls></source>
-	</audio>
-	
-	<audio id="beep-one2">
-		<source src="audio/SFX Spinner 02 MONO.mp3" controls></source>
-	</audio> 
-	
-	<audio id="homeVO">
-		<source src="audio/Home.mp3" controls></source>
-	</audio>
-	
-	<audio id="storyVO">
-		<source src="audio/Story.mp3" controls></source>
-	</audio>
-	
-	<audio id="playVO">
-		<source src="audio/Play.mp3" controls></source>
-	</audio>
-	
-	<audio id="makeVO">
-		<source src="audio/Make.mp3" controls></source>
-	</audio>
-	
-	<audio id="factsVO">
-		<source src="audio/Facts.mp3" controls></source>
-	</audio>
-	
-	<audio id="guidesVO">
-		<source src="audio/Guides.mp3" controls></source>
-	</audio>
+	<?php include 'audio.php'; ?>
 	
 	<script>
 		var preload = function(sources) {
@@ -768,7 +724,96 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 		          }
 		}
 
-	    preload(['images/Home Character Buttons/home_d_3030_active.png']);
+	     preload([
+			'images/Home Character Buttons/home_d_3030_active.png', 
+			'images/Home Character Buttons/home_d_tinkermeister_active.png',
+			'images/Home Character Buttons/home_d_oaktree_active.png', 
+			'images/Home Character Buttons/home_d_megatruck_active.png', 
+			'images/Sub_Story/sub_story_d_30_30_active.png',
+			'images/Sub_Story/sub_story_d_megatrack_active.png',
+			'images/Sub_Story/sub_story_d_oak_tree_active.png',
+			'images/Sub_Story/sub_story_d_tinkermeister_active.png', 
+			'images/Home Character Buttons/home_m_3030_active.png', 
+			'images/Home Character Buttons/home_m_tinkermeister_active.png', 
+			'images/Home Character Buttons/home_m_oaktree_active.png', 
+			'images/Home Character Buttons/home_m_megatruck_active.png', 
+			'images/Sub_Story/sub_story_m_30_30_active.png', 
+			'images/Sub_Story/sub_story_m_megatrack_active.png',
+			'images/Sub_Story/sub_story_m_oak_tree_active.png',
+			'images/Sub_Story/sub_story_m_tinkermeister_active.png',
+			'images/Sub_Story/sub_story_d_30_30_active.png', 
+			'images/Sub_Story/sub_story_d_megatrack_active.png',
+			'images/Sub_Story/sub_story_d_oak_tree_active.png',
+			'images/Sub_Story/sub_story_d_tinkermeister_active.png', 
+			'images/Sub_Play/sub_play_m_30_30_active.png', 
+			'images/Sub_Play/sub_play_m_megatrack_active.png',
+			'images/Sub_Play/sub_play_m_oak_tree_active.png',
+			'images/Sub_Play/sub_play_m_tinkermeister_active.png',
+			'images/Sub_Play/sub_play_d_30_30_active.png', 
+			'images/Sub_Play/sub_play_d_megatrack_active.png',
+			'images/Sub_Play/sub_play_d_oak_tree_active.png',
+			'images/Sub_Play/sub_play_d_tinkermeister_active.png', 
+			'images/Sub_Make/sub_make_m_3030_active.png', 
+			'images/Sub_Make/sub_make_m_oak_tree_active.png',
+			'images/Sub_Make/sub_make_m_tinkermeister_active.png',
+			'images/Sub_Make/sub_make_d_30_30_active.png',
+			'images/Sub_Make/sub_make_d_oak_tree_active.png',
+			'images/Sub_Make/sub_make_d_tinkermeister_active.png',
+			'images/Sub_Facts/sub_facts_m_30_30_active.png', 
+			'images/Sub_Facts/sub_facts_m_megatrack_active.png',
+			'images/Sub_Facts/sub_facts_m_oak_tree_active.png',
+			'images/Sub_Facts/sub_facts_m_tinkermeister_active.png',
+			'images/Sub_Facts/sub_facts_d_30_30_active.png', 
+			'images/Sub_Facts/sub_facts_d_megatrack_active.png',
+			'images/Sub_Facts/sub_facts_d_oak_tree_active.png',
+			'images/Sub_Facts/sub_facts_d_tinkermeister_active.png',
+			'images/Sub_Adults/sub_adults_m_30_30_active.png', 
+			'images/Sub_Adults/sub_adults_m_megatrack_active.png',
+			'images/Sub_Adults/sub_adults_m_oak_tree_active.png',
+			'images/Sub_Adults/sub_adults_m_tinkermeister_active.png',
+			'images/Sub_Adults/sub_adults_d_30_30_active.png', 
+			'images/Sub_Adults/sub_adults_d_megatrack_active.png',
+			'images/Sub_Adults/sub_adults_d_oak_tree_active.png',
+			'images/Sub_Adults/sub_adults_d_tinkermeister_active.png',
+			'images/Sub_Title/sub_title_m_megatrack_active.png',
+			'images/Sub_Title/sub_title_m_oak_tree_active.png',
+			'images/Sub_Title/sub_title_m_tinkermeister_active.png',
+			'images/Sub_Title/sub_title_d_30_30_active.png', 
+			'images/Sub_Title/sub_title_d_megatrack_active.png',
+			'images/Sub_Title/sub_title_d_oak_tree_active.png',
+			'images/Sub_Title/sub_title_d_tinkermeister_active.png',
+			'images/Top Nav/adults_down_d.png',
+			'images/Top Nav/adults_up_d.png',
+			'images/Top Nav/facts_down_d.png',
+			'images/Top Nav/facts_up_d.png',
+			'images/Top Nav/home_down_d.png',
+			'images/Top Nav/home_up_d.png',
+			'images/Top Nav/make_down_d.png',
+			'images/Top Nav/make_up_d.png',
+			'images/Top Nav/play_down_d.png',
+			'images/Top Nav/play_up_d.png',
+			'images/Top Nav/story_down_d.png',
+			'images/Top Nav/storyy_up_d.png',
+			'images/Adults/adults_guides_d_active.png',
+			'images/Adults/adults_guides_m_active.png',
+			'images/Adults/adults_shop_d_active.png',
+			'images/Adults/adults_shop_m_active.png',
+			'images/Facts/facts_d_3030_active.png',
+			'images/Facts/facts_m_3030_active.png',
+			'images/Facts/facts_d_megatrack_active.png',
+			'images/Facts/facts_m_megatrack_active.png',
+			'images/Facts/facts_d_tinkermeister_active.png',
+			'images/Facts/facts_m_tinkermeister_active.png',
+			'images/Facts/facts_d_oaktree_active.png',
+			'images/Facts/facts_m_oaktree_active.png',
+			'images/back_desktop_active.png',
+			'images/btn_facts_active.png',
+			'images/btn_home_active.png',
+			'images/btn_make_active.png',
+			'images/btn_play_active.png',
+			'images/btn_read_active.png',
+			'images/close_m_dialog_hover_click.png'
+		]);
 	
 	  	jQuery(document).ready(function () { var anchor_id = window.location.hash; if (anchor_id != "") {
 	             var new_position = jQuery(anchor_id).offset(); 
@@ -792,7 +837,6 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 				homeVO.currentTime = 0;
 			});
 			
-		
 		var storyVO = jQuery("#storyVO")[0];
 		jQuery(".story")
 			.mouseenter(function() {
@@ -847,6 +891,7 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 				guidesVO.pause();
 				guidesVO.currentTime = 0;
 			});
+			
 		function GearTrack(){
 		    var Mp3Me= document.getElementById('Mp3Me');
 		    Mp3Me.children[0].src = "audio/SFX Gears 01 MONO.mp3";
@@ -950,7 +995,7 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 		    jQuery( "#opener4" ).click(function() {
 		      //jQuery( "#dialog4" ).dialog( "open" );
 		    });	
-		  });
+		});
   
 		jQuery(function() {
 		    jQuery( "#dialogOakStory" ).dialog({
@@ -968,7 +1013,7 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 	          modal: true,
 	          fluid: true, //new option
 	          resizable: false
-		    });
+		 });
 
 	 	   jQuery('div.ui-resizable-handle').hide();
    
@@ -993,11 +1038,11 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 	          modal: true,
 	          fluid: true, //new option
 	          resizable: false
-		    });
+			});
 
-	 	   jQuery('div.ui-resizable-handle').hide();
+	 		jQuery('div.ui-resizable-handle').hide();
    
-		    jQuery( "#openerTinkerStory" ).click(function() {
+			jQuery( "#openerTinkerStory" ).click(function() {
 		      jQuery( "#dialogTinkerStory" ).dialog( "open" );
 		    });	
 		});
@@ -1020,12 +1065,12 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 	          resizable: false
 		    });
 
-	 	   jQuery('div.ui-resizable-handle').hide();
+	 	    jQuery('div.ui-resizable-handle').hide();
    
 		    jQuery( "#openerMegaStory" ).click(function() {
 		      jQuery( "#dialogMegaStory" ).dialog( "open" );
 		    });	
-		  });
+		});
   		
   		jQuery(function() {
   		    jQuery( "#dialog3" ).dialog({
@@ -1045,7 +1090,7 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
   	          resizable: false
   		    });
 
-  	 	   jQuery('div.ui-resizable-handle').hide();
+  	 	    jQuery('div.ui-resizable-handle').hide();
    
   		    jQuery( "#opener3" ).click(function() {
 				if ($(window).width() < 1024) {
@@ -1076,7 +1121,7 @@ echo(mt_rand(1,4)); ?>.png" width="106" height="141" alt="Footer Character">
 	          resizable: false
 		    });
 
-	 	   jQuery('div.ui-resizable-handle').hide();
+	 	    jQuery('div.ui-resizable-handle').hide();
    
 		    jQuery( "#openerOakPlay" ).click(function() {
 				if ($(window).width() < 1024) {

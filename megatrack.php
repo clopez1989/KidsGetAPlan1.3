@@ -50,7 +50,7 @@
 		</div>
 		<div id="name5_story_box_story" class="grid_4">
 				<button id="opener"></button>
-				<h2>The Story</h2>
+				<!-- <h2>The Story</h2> -->
 			  <div id="dialog" title="MegaTrack HTW Story" style="background:#ff962e;">	
 				  <div id="dialogEtchingLeft">
 					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -74,7 +74,7 @@
 		</div>
 		<div id="name5_play_box_story" class="grid_4">
 			<button id="opener3"></button>
-			<h2>MegaTrack HTW Activity</h2>
+			<!-- <h2>MegaTrack HTW Activity</h2> -->
 			<div id="dialog3" title="MegaTrack HTW Activity" style="background:#ff962e;">	
 			  <div id="dialogEtchingLeft">
 				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
@@ -118,7 +118,7 @@
 		</div> -->
 		<div id="name5_facts_box_story" class="grid_4">
 			<button id="opener4"></button>
-			<h2>Wildfire Safety Facts</h2>
+			<!-- <h2>Wildfire Safety Facts</h2> -->
 				<div id="dialog4" title="MegaTrack Wildfire Facts" style="background:#ff962e; text-shadow: none;
 color: black;">
 					<ul>
@@ -172,7 +172,7 @@ color: black;">
 		</div>
 		<div id="name5_adults_box_story" class="grid_4">
 			<button id="openerTeacherGuide"></button>
-			<h2>Mega Track HTW</h2>
+			<!--<h2>Mega Track HTW</h2> -->
 		    <div id="dialogTeacherGuide" title="Parent &amp; Teacher Guide" style="background:#ff962e;">
 			  <div id="dialogEtchingLeft">
 				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
