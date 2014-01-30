@@ -425,7 +425,7 @@ color: white;">
 					</div>
 			  	</div>
 			</div></a>
-			<a href="?lightbox[width]=85p&lightbox[height]=85p#textFacts2" class="lightbox" onclick="javascript:HurricaneTrack();"><div id="name3_facts_box" class="grid_4">
+			<a href="?lightbox[width]=85p&lightbox[height]=85p#textFacts2" class="lightbox" onclick="javascript:TornadoTrack();"><div id="name3_facts_box" class="grid_4">
 				<!-- <button id="openerTinkerFacts"></button> -->
 				<!-- <h2>Tornado Safety Facts</h2> -->
 				<div id="dialogTinkerFacts" title="The Tinkermeister Tornado Facts" style="background:#9fcb3a; text-shadow: none;
@@ -474,7 +474,7 @@ color: black;">
 								<li>Tornadoes are powerful and hard to predict! The time of year makes a big difference in how they form and just how powerful they are likely to be.</li><br>
 								<li><b>Summer and Fall Tornadoes</b>
 									<ul>
-										<li>There more tornadoes during June, July and August than at any other time of the year. In the summertime, thunderstorms move inland with the sea breezes. Tornadoes that develop within these thunderstorms may travel in almost any direction.</li>
+										<li>There are more tornadoes during June, July and August than at any other time of the year. In the summertime, thunderstorms move inland with the sea breezes. Tornadoes that develop within these thunderstorms may travel in almost any direction.</li>
 										<li>Summertime tornadoes are usually small. They don't last very long. They usually cause minor damage and few deaths or injuries.</li>
 										<li>During the summer and fall months tropical cyclones, or hurricanes, may produce tornadoes. These tornadoes often form in the outer rainbands and to the right of the hurricane's forward motion. Like other summer tornadoes, they are generally weak and do not usually last long. But sometimes, they can be violent. These tornadoes form quickly, and they may strike with little or no warning.</li>
 									</ul>
@@ -495,7 +495,7 @@ color: black;">
 						</li>
 						<li><h4 style="margin-bottom: -11px;">Tornadoes Are Measured By The Fujita Scale</h4>
 							<ul>
-								<li>The Fujita scale (F-scale) uses actual damage to estimate a tornado's wind speed</li><br>
+								<li>The Fujita scale (F-scale) uses actual damage to estimate a tornado's wind speed.</li><br>
 								<li><b>F0 Gale Tornado</b>
 									<ul>
 										<li>40-72 mph</li>
@@ -538,7 +538,7 @@ color: black;">
 				</div>
 			  	</div>
 			</div></a>
-			<a href="?lightbox[width]=85p&lightbox[height]=85p#textFacts3" class="lightbox" onclick="javascript:TornadoTrack();"><div id="name2_facts_box" class="grid_4">
+			<a href="?lightbox[width]=85p&lightbox[height]=85p#textFacts3" class="lightbox" onclick="javascript:HurricaneTrack();"><div id="name2_facts_box" class="grid_4">
 				 <!-- <button id="openerOakFacts"></button> -->
 				 <!-- <h2>Hurricane Safety Facts</h2> -->
  				<div id="dialogOakFacts" title="The Oak Tree Club Hurricanes Facts" style="background:#6dcef5; text-shadow: none;

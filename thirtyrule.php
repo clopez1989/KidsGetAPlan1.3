@@ -150,7 +150,7 @@ color: white;">
 						<li><h4 style="margin-bottom: -11px;">Florida-Lightning Capital of the U.S.</h4>
 							<ul>
 								<li>Florida's unique location, surrounded by warm water, provides the necessary ingredients for thunderstorms to form. It has earned us the title of, "Lightning Capital of the U.S." Other places in the world have even more lightning though. According to a NASA study, there are areas in the tropics of Africa, Asia, and South and Central America that have more lightning than Florida does. Rwanda, a country in Africa, is known as the, "Lightning Capital of the World." The important thing is to stay safe by going indoors if you see lightning or hear thunder.</li>
-								<li>If you can see lightning or head thunder, even in the distance, you are in danger. Go indoors or into a vehicle and remain there until 30 minutes after the last thunder is heard.</li>
+								<li>If you can see lightning or hear thunder, even in the distance, you are in danger. Go indoors or into a vehicle and remain there until 30 minutes after the last thunder is heard.</li>
 							</ul>
 						</li>
 						<li><h4 style="margin-bottom: -11px;">If Someone Is Struck By Lightning, What Should You Do?</h4>
