@@ -57,7 +57,7 @@
 				  </div>
 					<div id="dialogButtons">
 						<p class="desktopOnly">For Desktop:</p>  
-				  		<a href="book.swf?bookXML=book4-english.xml&width=800&height=650" class="dialogRead desktopOnly" rel="prettyPhoto[flash1]">Read the Story</a>
+				  		<a href="book.swf?bookXML=book4-english.xml&lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Read the Story</a>
 						<br>
 						<p>For Mobile & Tablet Devices:</p>
                         <div id="appStores">
@@ -72,30 +72,32 @@
 			  </div>
 			  </div>
 		</div>
-		<div id="name5_play_box_story" class="grid_4">
-			<button id="opener3"></button>
-			<!-- <h2>MegaTrack HTW Activity</h2> -->
-			<div id="dialog3" title="MegaTrack HTW Activity" style="background:#ff962e;">	
-			  <div id="dialogEtchingLeft">
-				   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
-			  </div>
-			  <div id="dialogButtons">
-				   <p class="desktopOnly">For Desktop:</p>  
-			  	   <a href="firewise/dem-firewise_simulator.swf?width=900&height=900" class="dialogRead desktopOnly" rel="prettyPhoto[flash]">Play the Game</a>
-				   <br>
-				   <p>For Mobile & Tablet Devices:</p>
-				   <div id="appStores">
-			  			<a href="https://itunes.apple.com/us/app/kgap-firewise-megatrack/id732887804?mt=8" target="itunes_store" id="appleStoreBtn" style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-						<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.FirewiseStarling" target="_blank" class="googlePlayBtn">
-				  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
-						<a href="http://www.amazon.com/ideas-orlando-KGAP-Firewise-Simulator/dp/B00G5GIOGA/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1389819310&sr=1-1" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
-				  </div>
-			</div>
-		    <div id="dialogEtchingRight">
-			  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+		<a href="firewise/dem-firewise_simulator.swf?lightbox[width]=800&lightbox[height]=650" class="lightbox desktopGame">
+			<div id="name5_play_box_story" class="grid_4">
+				<button id="openerMegaPlay"></button>
+				<!-- <h2>Firewise Simulator</h2> -->
+  			    <div id="dialogMegaPlay" title="Firewise Simulator" style="background:#ff962e;">
+  				  <div id="dialogEtchingLeft">
+  					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+  				  </div>
+  				  <div id="dialogButtons">
+  						<p class="desktopOnly">For Desktop:</p>  
+  				  		<a href="firewise/dem-firewise_simulator.swf?lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Play the Game</a>
+  						<br>
+  						<p>For Mobile & Tablet Devices:</p>
+  						<div id="appStores">
+				  			<a href="https://itunes.apple.com/us/app/kgap-firewise-megatrack/id732887804?mt=8" target="itunes_store" id="appleStoreBtn"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.FirewiseStarling" target="_blank" class="googlePlayBtn">
+					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
+							<a href="http://www.amazon.com/ideas-orlando-KGAP-Firewise-Simulator/dp/B00G5GIOGA/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1389819310&sr=1-1" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+  						</div>
+  					</div>
+    			  <div id="dialogEtchingRight">
+    				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+    			  </div>
+  			  </div>
 		    </div>
-		  </div>
-		</div>
+		</a>
 		<!-- <div id="name3_make_box_story" class="grid_4">
 			<button id="openerTinkerMake"></button>
 			<h2>Cut-Out and Color</h2>
@@ -116,11 +118,15 @@
 		  	</div>
 		  </div>
 		</div> -->
-		<div id="name5_facts_box_story" class="grid_4">
-			<button id="opener4"></button>
-			<!-- <h2>Wildfire Safety Facts</h2> -->
-				<div id="dialog4" title="MegaTrack Wildfire Facts" style="background:#ff962e; text-shadow: none;
-color: black;">
+			<a href="?lightbox[width]=85p&lightbox[height]=85p#textFacts" class="lightbox" onclick="javascript:ThunderTrack();">
+				<div id="name5_facts_box_story" class="grid_4">
+				<!-- <button id="opener4"></button> -->
+				<!-- <h2>Lightning Safety Facts</h2> -->
+					<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="#ff962e; text-shadow: none;
+	color: black;">
+					<div id="textFacts" style="background:#ff962e; text-shadow: none;
+					color: black;">
+					<br>
 					<ul>
 						<li><h4 style="margin-bottom: -11px;">Wildfire Safety actions</h4>
 							<ul>
@@ -168,8 +174,11 @@ color: black;">
 							</ul>
 						</li>
 					</ul>
-			  	</div>
-		</div>
+						<br>
+				</div>
+			</div>
+			</div>
+			</a>
 		<div id="name5_adults_box_story" class="grid_4">
 			<button id="openerTeacherGuide"></button>
 			<!--<h2>Mega Track HTW</h2> -->
@@ -339,6 +348,31 @@ color: black;">
 	</script>
 	
 	<script>
+	jQuery(function() {
+	    jQuery( "#dialogMegaPlay" ).dialog({
+	      autoOpen: false,
+	      show: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+	      hide: {
+	        effect: "slide",
+	        duration: 1000
+	      },
+		  autoOpen: false,
+          width: 'auto', // overcomes width:'auto' and maxWidth bug
+          modal: true,
+          fluid: true, //new option
+          resizable: false
+	    });
+
+ 	   jQuery('div.ui-resizable-handle').hide();
+
+	    jQuery( "#openerMegaPlay" ).click(function() {
+	      jQuery( "name3_play_box" ).addClass( "lightbox" );
+	    });	
+	});
+	
 	  $(function() {
 	    $( "#dialog_thirty_story" ).dialog({
 	      autoOpen: false,

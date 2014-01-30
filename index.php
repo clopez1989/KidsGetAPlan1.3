@@ -270,29 +270,29 @@
 			</div>
 			<a href="firewise/dem-firewise_simulator.swf?lightbox[width]=800&lightbox[height]=650" class="lightbox desktopGame">
 				<div id="name5_play_box" class="grid_4">
-				<button id="openerMegaPlay"></button>
-				<!-- <h2>Firewise Simulator</h2> -->
-  			  <div id="dialogMegaPlay" title="Firewise Simulator" style="background:#ff962e;">	
-  				  <div id="dialogEtchingLeft">
-  					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
-  				  </div>
-  					<div id="dialogButtons">
-  						<p class="desktopOnly">For Desktop:</p>  
-  				  		<a href="firewise/dem-firewise_simulator.swf?lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Play the Game</a>
-  						<br>
-  						<p>For Mobile & Tablet Devices:</p>
-  						<div id="appStores">
-				  			<a href="https://itunes.apple.com/us/app/kgap-firewise-megatrack/id732887804?mt=8" target="itunes_store" id="appleStoreBtn"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
-							<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.FirewiseStarling" target="_blank" class="googlePlayBtn">
-					  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
-							<a href="http://www.amazon.com/ideas-orlando-KGAP-Firewise-Simulator/dp/B00G5GIOGA/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1389819310&sr=1-1" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
-  						</div>
-  				</div>
-  			  <div id="dialogEtchingRight">
-  				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
-  			  </div>
-  			  </div>
-			</div>
+					<button id="openerMegaPlay"></button>
+					<!-- <h2>Firewise Simulator</h2> -->
+	  			    <div id="dialogMegaPlay" title="Firewise Simulator" style="background:#ff962e;">
+	  				  <div id="dialogEtchingLeft">
+	  					   <img src="images/story_bolts_and_etching_right.png" width="40" height="322" alt="Story Bolts And Etching Right">
+	  				  </div>
+	  				  <div id="dialogButtons">
+	  						<p class="desktopOnly">For Desktop:</p>  
+	  				  		<a href="firewise/dem-firewise_simulator.swf?lightbox[width]=800&lightbox[height]=650" class="dialogRead desktopOnly lightbox">Play the Game</a>
+	  						<br>
+	  						<p>For Mobile & Tablet Devices:</p>
+	  						<div id="appStores">
+					  			<a href="https://itunes.apple.com/us/app/kgap-firewise-megatrack/id732887804?mt=8" target="itunes_store" id="appleStoreBtn"style="display:inline-block;overflow:hidden;background:url(images/appleappstore.png) no-repeat; background-size: 103% auto; width:166px; height:54px; float:left; margin-left:-14px; @media only screen{background-image:url(images/appleappstore.png);}"></a>
+								<a href="https://play.google.com/store/apps/details?id=air.com.ideasorlando.FirewiseStarling" target="_blank" class="googlePlayBtn">
+						  			<img alt="Get it on Google Play" src="images/googleplay.png" style="width: 36%; margin-top: 3px; float:left; margin-bottom:5px;"/></a>
+								<a href="http://www.amazon.com/ideas-orlando-KGAP-Firewise-Simulator/dp/B00G5GIOGA/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1389819310&sr=1-1" target="_blank"><img src="images/6a0148c71fb71b970c014e8a07bf5a970d-pi.png" alt="Amazon Store Download" style="width: 42%; text-align: center; float: left; margin-left: 65px;" class="amazonBtn"></a>
+	  						</div>
+	  					</div>
+	    			  <div id="dialogEtchingRight">
+	    				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
+	    			  </div>
+	  			  </div>
+			    </div>
 			</a>
 			<div id="name6_play_box" class="grid_4">
 				<img src="images/coming_soon_play.png" width="296" height="232" alt="Coming Soon Play">
@@ -320,8 +320,8 @@
     						<a href="character_sheets/character_sheet_rabbit_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Rabbit</a>
 							<a href="character_sheets/character_sheet_possum_2.pdf" class="dialogRead" target="_blank" style="margin-bottom:10px;">Possum</a>
 							<a href="character_sheets/character_sheet_squirrel_2.pdf" class="dialogRead" target="_blank">Squirrel</a>
-    				</div>
-    			  <div id="dialogEtchingRight">
+    				    </div>
+    			 	  <div id="dialogEtchingRight">
     				  <img src="images/story_bolts_and_etching_left.png" width="40" height="322" alt="Story Bolts And Etching Left">
     			  </div>
     			  </div>
@@ -400,7 +400,7 @@ color: white;">
 						<li><h4 style="margin-bottom: -11px;">Florida-Lightning Capital of the U.S.</h4>
 							<ul>
 								<li>Florida's unique location, surrounded by warm water, provides the necessary ingredients for thunderstorms to form. It has earned us the title of, "Lightning Capital of the U.S." Other places in the world have even more lightning though. According to a NASA study, there are areas in the tropics of Africa, Asia, and South and Central America that have more lightning than Florida does. Rwanda, a country in Africa, is known as the, "Lightning Capital of the World." The important thing is to stay safe by going indoors if you see lightning or hear thunder.</li>
-								<li>If you can see lightning or head thunder, even in the distance, you are in danger. Go indoors or into a vehicle and remain there until 30 minutes after the last thunder is heard.</li>
+								<li>If you can see lightning or hear thunder, even in the distance, you are in danger. Go indoors or into a vehicle and remain there until 30 minutes after the last thunder is heard.</li>
 							</ul>
 						</li>
 						<li><h4 style="margin-bottom: -11px;">If Someone Is Struck By Lightning, What Should You Do?</h4>
@@ -421,6 +421,7 @@ color: white;">
 							</ul>
 						</li>
 					</ul>
+					<br>
 					</div>
 			  	</div>
 			</div></a>
@@ -594,6 +595,7 @@ color: black;">
 							</ul>
 						</li>
 					</ul>
+				<br>
 				</div>
  			  	</div>
 			</div></a>
@@ -609,7 +611,7 @@ color: black;">
 					color: black;">
 					<br>
 					<ul>
-						<li><h4 style="margin-bottom: -11px;">Wildfire Safety actions</h4>
+						<li><h4 style="margin-bottom: -11px;">Wildfire Safety Actions</h4>
 							<ul>
 								<li>Create a defensible or safe space of at least 30 feet around your home that is lean, clean and green.</li>
 								<li>To help emergency vehicles gain access, make sure driveways are at least 12 feet wide with at least 15 feet of overhead clearance, and are easily identifiable.</li>
@@ -655,6 +657,7 @@ color: black;">
 							</ul>
 						</li>
 					</ul>
+					<br>
 				</div>
 				</div>
 			</div></a>

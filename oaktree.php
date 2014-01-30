@@ -122,25 +122,68 @@
 				
 			</div>
 				
-			<a href="?lightbox[width]=85p&lightbox[height]=85p#textFacts3" class="lightbox" onclick="javascript:HurricaneTrack();">
+			<a href="?lightbox[width]=85p&lightbox[height]=85p#textFacts" class="lightbox" onclick="javascript:ThunderTrack();">
 				<div id="name2_facts_box_story" class="grid_4">
-					<!-- <button id="openerOakFacts"></button> -->
-					
-<!-- <h2>Hurricane Safety Facts</h2> -->
-					
-					<div id="dialogOakFacts" title="The Oak Tree Club Hurricanes Facts" style="background:#6dcef5; text-shadow: none;
- color: black;">
-					
-					<div id="textFacts3" style="background:#6dcef5; text-shadow: none;
-
-
-
-
-">
-					</div>
-			
-					</div>
+				<!-- <button id="opener4"></button> -->
+				<!-- <h2>Lightning Safety Facts</h2> -->
+					<div id="dialog4" title="The 30/30 Rule Lightning Facts" style="background:#9554c4; text-shadow: none;
+	color: black;">
+					<div id="textFacts" style="background:#6dcef5; text-shadow: none;
+					color: black;">
+					<br>
+					<ul>
+						<li><b>Hurricanes</b>, <b>cyclones</b>, and <b>typhoons</b> are all the same weather phenomenon; we just use different names for these storms in different places. In the Atlantic and Northeast Pacific, the term "hurricane" is used. The same type of disturbance in the Northwest Pacific is called a "typhoon".</li>
+						<li><h4 style="margin-bottom: -11px;">Hurricane Safety Actions</h4>
+							<ul>
+								<li>Know if you live in an evacuation area. Know your home's vulnerability to storm surge, flooding and wind. Have a family plan.</li>
+								<li>At the beginning of hurricane season (June), check your supplies, replace batteries and rotate your stock of food and water.</li>
+								<li>If a storm threatens, listen to your local authorities. Evacuate if ordered.</li>
+							</ul>
+						</li>
+						<li><h4 style="margin-bottom: -11px;">Saffir-Simpson Scale</h4>
+							<ul>
+								<li><b>Tropical Storm</b>
+									<ul>
+										<li>Winds 39-73 mph</li>
+									</ul>
+								</li>
+								<li><b>Category 1 Hurricane</b>
+									<ul>
+										<li>Winds 74-95 mph</li>
+										<li>No real damage to buildings. Damage to unanchored mobile homes.</li>
+									</ul>
+								</li>
+								<li><b>Category 2 Hurricane</b>
+									<ul>
+										<li>Winds 96-110 mph</li>
+										<li>Some damage to building roofs, doors and windows. Considerable damage to mobile homes. Some trees blown down.</li>
+									</ul>
+								</li>
+								<li><b>Category 3 Hurricane</b>
+									<ul>
+										<li>Winds 111-130 mph</li>
+										<li>Some structural damage to small homes. Large trees blown down. Mobile homes and poorly built signs destroyed.</li>
+									</ul>
+								</li>
+								<li><b>Category 4 Hurricane</b>
+									<ul>
+										<li>Winds 131-155 mph</li>
+										<li>Wall failures in homes and complete roof structure failure on small homes. Total destruction of mobile homes. Trees, shrubs and signs all blown down.</li>
+									</ul>
+								</li>
+								<li><b>Category 5 Hurricane</b>
+									<ul>
+										<li>Winds 156 mph +</li>
+										<li>Complete roof failure on homes and industrial buildings. Some complete building failures.</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+						<br>
 				</div>
+			</div>
+			</div>
 			</a>
 			<div id="name2_adults_box_story" class="grid_4">
 				<button id="openerTeacherGuide"></button>
@@ -175,6 +218,8 @@
 			<?php include 'footer.php'; ?>
 		
 		</div>
+	
+		<?php include 'audio.php'; ?>
 	
 		<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 		<script type="text/javascript" 	src="js/jquery.smint.js"></script>

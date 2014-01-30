@@ -347,20 +347,37 @@ a.pp_close {
 
 /* ------------SECTIONS------------ */
 #topLeftArt {
-	position:relative;
-	top:-5px;
+	position: relative;
+	top: -5px;
+	width: 35%;
+	float: left;
 }
 
-#logoContainer { 
-	text-align: center;
+.logoContainer { 
 	position: relative;
-	left: -216px;
+	width: 30%;
+	float: left;
+	text-align: center;
 }
 
 .logoImage{
-	width: 299px;
 	height: auto;
-	margin-top: 11px;	
+	margin-top: 3px;
+	width: 289px;
+	transition: width 2s, height 2s, transform 1s;
+	-webkit-transition: width 0s, height 0s, -webkit-transform 1s;
+}
+
+.logoImage:hover{
+	transform:rotateX(360deg);
+	-webkit-transform:rotateX(360deg); /* Safari */
+}
+
+#topRightArt {
+	position: relative;
+	top: -7px;
+	float: right;
+	width: 35%;
 }
 
 #topMobileMenuBar{
@@ -373,11 +390,7 @@ a.pp_close {
 	position: relative;
 }
 
-#topRightArt {
-	position: relative;
-	top: -73px;
-	float: right;
-}
+
 
 #topRightArt img {
 	float: right;
@@ -757,19 +770,6 @@ h3 {
 
 #logo {
 	text-align:center;
-}
-
-.logoImage{
-	height: auto;
-	margin-top: 3px;
-	margin-left: 5%;
-	transition:width 2s, height 2s, transform 1s;
-	-webkit-transition:width 0s, height 0s, -webkit-transform 1s; /* Safari */
-}
-
-.logoImage:hover{
-	transform:rotateX(360deg);
-	-webkit-transform:rotateX(360deg); /* Safari */
 }
 
 .clear {
@@ -2079,10 +2079,8 @@ h3 {
 	}
 	
 	.logoImage{
-		position: absolute;
-		width: 16% !important;
-		margin-left: 8% !important;
-		margin-top: -2px;
+		width: 307px;
+		margin-left: -12px;
 	}
 	
 	#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
@@ -2126,7 +2124,7 @@ h3 {
 		background-position: center;
 	}
 
-	#name4_box{
+	/*#name4_box{
 		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 68% !important;
 		background-position: center;
@@ -2136,7 +2134,7 @@ h3 {
 			background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 68% !important;
 		background-position: center;
-	}
+	}*/
 
 	#name4_box h2{
 		position: absolute;
@@ -2162,7 +2160,7 @@ h3 {
 		background-position: center;
 	}
 
-	#name6_box{
+	/*#name6_box{
 		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 68% !important;
 		background-position: center;
@@ -2172,7 +2170,7 @@ h3 {
 		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 68% !important;
 		background-position: center;
-	}
+	}*/
 
 	#name6_box h2{
 		position: absolute;
@@ -2507,8 +2505,6 @@ h3 {
 	}
 	
 	.logoImage{
-		width: 19%;
-		margin-left: 108px;
 	}
 	
 	#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
@@ -2554,17 +2550,17 @@ h3 {
 		background-position: center;
 	}
 
-	#name4_box{
+	/*#name4_box{
 		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
-	}
+	}*/
 
-	#name4_box:hover{
+	/*#name4_box:hover{
 			background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
-	}
+	}*/
 
 	#name4_box h2{
 		position: absolute;
@@ -2590,7 +2586,7 @@ h3 {
 		background-position: center;
 	}
 
-	#name6_box{
+	/*#name6_box{
 		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
@@ -2600,7 +2596,7 @@ h3 {
 		background: url('../images/Home Character Buttons/home_d_comingsoon.png') no-repeat;
 		background-size: 72%;
 		background-position: center;
-	}
+	}*/
 
 	#name6_box h2{
 		position: absolute;
@@ -2812,8 +2808,8 @@ h3 {
 	.logoImage{
 		height: auto;
 		margin-top: 2px;
-		margin-left: 30px;
-		width: 29%;
+		margin-left: 2%;
+		width: 308px;
 	}
 
 	#topLeftArt {
@@ -2841,7 +2837,6 @@ h3 {
 
 	#topRightArt {
 		position: relative;
-		top: -70px;
 		float: right;
 	}
 	
@@ -3506,9 +3501,8 @@ h3 {
 	
 /* Styles */
 .logoImage{
-	margin-left: -15px;
-	width:40%;
-	height:auto;
+	width: 100%;
+	height: auto;
 }
 
 #appStores{
@@ -3595,7 +3589,6 @@ h3 {
 
 #topRightArt {
 	position: relative;
-	top: -80px;
 	float: right;
 }
 
@@ -3770,9 +3763,8 @@ h3 {
 	
 /* Styles */
 .logoImage{
-	margin-left: -15px;
-	width:40%;
-	height:auto;
+	width: 100%;
+	height: auto;
 }
 
 #appStores{
@@ -4041,8 +4033,8 @@ margin-left: 67px !important;
 	}
 	
 	.logoImage{
-		width: 40% !important;
-		margin-left: -10px;
+		width: 100%;
+		height: auto;
 	}
 	
 	.topBolts {
@@ -4119,6 +4111,10 @@ margin-left: 67px !important;
 
 body{
 	overflow-x: hidden;
+}
+
+.logoContainer {
+	float:none;
 }	
 	
 .grid_1,
@@ -4177,11 +4173,10 @@ body{
 }
 
 .logoImage{
-	width: 70%;
-	max-width: 80%;
+	width: 226px;
 	height: auto;
 	margin: 0 0 18px 0;
-	padding-top: 6px;
+	padding-top: 13px;
 	margin-left: 15px;
 }
 
@@ -4212,7 +4207,8 @@ body{
 .logoContainer {
 	text-align: center;
 	position: static;
-	height:54px;
+	height: 54px;
+	width: 100%;
 }
 
 .logoContainer_story {
