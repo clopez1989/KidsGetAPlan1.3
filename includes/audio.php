@@ -24,6 +24,22 @@
 	<source src="audio/SFX Spinner 02 MONO.mp3" controls></source>
 </audio> 
 
+<audio id="thirtyVO">
+	<source src="audio/30_30 Rule.mp3" controls></source>
+</audio>
+
+<audio id="tinkerVO">
+	<source src="audio/Wacky Weather Watching.mp3" controls></source>
+</audio>
+
+<audio id="oakVO">
+	<source src="audio/The Oak Tree Club.mp3" controls></source>
+</audio>
+
+<audio id="megaVO">
+	<source src="audio/Mega Track HTW.mp3" controls></source>
+</audio>
+
 <audio id="homeVO">
 	<source src="audio/Home.mp3" controls></source>
 </audio>

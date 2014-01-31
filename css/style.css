@@ -2,10 +2,6 @@
 	margin-bottom:5px;
 }
 
-#openerOakPlay{
-
-}
-
 /* This is the selector i used for my menu, it needs to be set as position:absolute; */
 .subMenu {
 	position: absolute;
@@ -16,6 +12,10 @@
 	-webkit-box-shadow: 0px 3px 5px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    0px 3px 5px rgba(50, 50, 50, 0.75);
 	box-shadow:         0px 3px 5px rgba(50, 50, 50, 0.75);
+}
+
+#textFacts{
+	padding-right: 10%;
 }
 
 div.ui-tooltip {
@@ -207,7 +207,8 @@ a.pp_close {
 	width: 95%;
 	font-size: 1.2em;
 	font-family: 'Paytone One', Helvetica, sans-serif;
-	text-shadow: 2px 2px #000;
+	text-shadow: none;
+	font-weight: initial;
 }
 
 .ui-widget-content{
@@ -360,6 +361,13 @@ a.pp_close {
 	text-align: center;
 }
 
+.logoContainerStory { 
+	position: relative;
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+
 .logoImage{
 	height: auto;
 	margin-top: 3px;
@@ -390,8 +398,6 @@ a.pp_close {
 	position: relative;
 }
 
-
-
 #topRightArt img {
 	float: right;
 }
@@ -415,7 +421,6 @@ a.pp_close {
 	margin-left: 66px;
 	height: 100px;
 	margin-top: -24px;
-	width:23%;
 }
 
 #backButton:hover{
@@ -629,7 +634,7 @@ h3 {
 	margin-top: -11px;
 	background: #00adef url('../images/Header_metal_story.png') no-repeat;
 	background-position: 0% 100%;
-	background-size: 100% auto;
+	background-size: 100% 72px;
 	width: 100%;
 	
 }	
@@ -2060,7 +2065,7 @@ h3 {
 
 /* ----------------------------MEDIA QUERIES---------------------------- */
 
-/* Larger --------------------------------------- */
+/* Largest Screens --------------------------------------- */
 @media only screen and (min-width : 1600px) {
 	.homeButton{
 	}
@@ -2355,6 +2360,7 @@ h3 {
 	
 }
 
+/* Larger Screens --------------------------------------- */
 @media only screen and (min-width : 1500px) {
 	
 	.ui-dialog .ui-dialog-content {
@@ -2502,9 +2508,6 @@ h3 {
 	
 	#topRightArt img {
 		margin-top: -74px;
-	}
-	
-	.logoImage{
 	}
 	
 	#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
@@ -2799,6 +2802,7 @@ h3 {
 	
 }
 
+/* Tablet (landscape)  --------------------------------------- */
 @media screen and (max-width: 1024px) {
 
 	.desktopOnly{
@@ -2851,6 +2855,7 @@ h3 {
 		color: #838c75;
 		background-size: 87% 73%;
 	}
+	
 	#nav ul {
 		margin: 0 0 0 0%;
 		width:67%;
@@ -2904,7 +2909,7 @@ h3 {
 	}
 	
 	#thirtynav {
-		background-size: 100% 90%;
+		background-size: 100% 72px;
 	}
 
 	.bottomMenu{
@@ -3498,6 +3503,7 @@ h3 {
 	}
 }
 
+/* Tablet (portrait) and smaller screens ----------- */	
 @media screen and (max-width : 768px) {
 	
 /* Styles */
@@ -3605,6 +3611,7 @@ h3 {
 #nav ul li.facts {
 	width:16% !important;
 }
+
 .mainButton {
 	min-height: 880px;
 	background-color: #fbee3c;
@@ -3861,7 +3868,7 @@ h3 {
 	
 } 
 
-/* iPads (portrait) ----------- */	
+/* Tablet (portrait) ----------- */	
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 	
 /* Styles */
@@ -3897,7 +3904,7 @@ h3 {
 }
 
 #nav ul {
-margin-left: 67px !important;
+	margin-left: 67px !important;
 }
 
 #name1_box{
@@ -4129,87 +4136,109 @@ margin-left: 67px !important;
 	
 }
 
+/* Mobile (landscape)  --------------------------------------- */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-    /* styles go here */
-	body{
-		overflow-x: hidden;
+/* styles go here */
+body{
+	overflow-x: hidden;
+}
+
+.logoImage{
+	width: 100%;
+	height: auto;
+}
+
+.topBolts {
+	width:100% !important;
+}
+
+.homeButton{
+	margin-top:0px !important;
+}
+
+#name1_box, #name2_box, #name3_box, #name4_box, #name5_box, #name6_box{
+	height: 315px !important;
+}
+
+.mainButton {
+min-height: 901px !important;
+}
+
+#topMobileMenuBar img {
+	height: auto !important;
+	width: 65% !important;
+}
+
+#logoContainer {
+	background: none !important;
+	margin-top:25% !important;
+}
+
+#nav{
+	/*height:23px;*/
+}
+
+#nav ul li {
+	float: left;
+	margin: 0 0;
+	height: 68px;
+}
+
+	#nav ul  li.home {
+		width: 17% !important;
+		text-align: left;
+		margin-top: 0px;
+		margin-left:-9px;
+	}
+	#nav ul  li.story {
+		width: 17% !important;
+		text-align: center;
+		margin-top: 0px;
+	}
+	#nav ul  li.play {
+		width: 17% !important;
+		text-align: right;
+		margin-top: 0px;
+	}
+	#nav ul  li.make {
+		width: 17% !important;
+		text-align: left;
+		margin-top: 0px;
+	}
+	#nav ul  li.facts {
+		width: 17%;
+		text-align: center;
+		margin-top: 0px;
+	}
+	#nav ul  li.adults {
+		width: 17% !important;
+		text-align: right;
+		margin-top: 0px;
 	}
 	
-	.logoImage{
-		width: 100%;
-		height: auto;
-	}
-	
-	.topBolts {
-		width:100% !important;
-	}
-	
-	.homeButton{
-		margin-top:0px !important;
-	}
-	
-	#topMobileMenuBar img {
-		height: auto !important;
-		width: 65% !important;
-	}
-	
-	#logoContainer {
-		background: none !important;
-		margin-top:25% !important;
-	}
-	
-	#nav{
-		/*height:23px;*/
-	}
-	
-	#nav ul li {
-		float: left;
-		margin: 0 0;
-		height: 68px;
-		}
-	
-		#nav ul  li.home {
-			width: 17% !important;
-			text-align: left;
-			margin-top: 0px;
-			margin-left:-9px;
-		}
-		#nav ul  li.story {
-			width: 17% !important;
-			text-align: center;
-			margin-top: 0px;
-		}
-		#nav ul  li.play {
-			width: 17% !important;
-			text-align: right;
-			margin-top: 0px;
-		}
-		#nav ul  li.make {
-			width: 17% !important;
-			text-align: left;
-			margin-top: 0px;
-		}
-		#nav ul  li.facts {
-			width: 17%;
-			text-align: center;
-			margin-top: 0px;
-		}
-		#nav ul  li.adults {
-			width: 17% !important;
-			text-align: right;
-			margin-top: 0px;
-		}
-		
-	.mainButton {
-		margin-top: 99px;
-	}
-	
-	#mobileTextBox p {
-		margin-left:15% !important;
-	}
+.mainButton {
+	margin-top: 99px;
+}
+
+#mobileTextBox p {
+	margin-left:15% !important;
+}
+
+.fbicon{
+	margin-top:-360px !important;
+}
+
+.serticon{
+	margin-top:-360px !important;
+}
+
+.ui-page-active.ui-page-panel {
+overflow: hidden !important;
+}
+
 }
 	
-/* Smaller --------------------------------------- */
+/* Mobile (portrait)  --------------------------------------- */
 @media screen and (max-width : 650px) {
 
 body{
@@ -4217,6 +4246,10 @@ body{
 }
 
 .logoContainer {
+	float:none;
+}
+
+.logoContainerStory {
 	float:none;
 }	
 	
@@ -4279,7 +4312,7 @@ body{
 	width: 226px;
 	height: auto;
 	margin: 0 0 18px 0;
-	padding-top: 13px;
+	padding-top: 6px;
 	margin-left: 15px;
 }
 
@@ -4314,10 +4347,7 @@ body{
 	width: 100%;
 }
 
-.logoContainer_story {
-	text-align: center;
-	position: static;
-	height:54px;
+.logoContainerStory {
 	display: none;
 }
 
@@ -4441,7 +4471,7 @@ body{
 	margin-top: 3px;
 	text-align: center;
 	z-index: 100;
-	margin-bottom: -135px;
+	margin-bottom: -186px;
 }
 
 .backButton {
@@ -4728,20 +4758,21 @@ body{
 }
 
 #name1_story_box{
-	background: url('../images/Sub_Story/sub_story_d_30_30.png') no-repeat;
+	/*background: url('../images/Sub_Story/sub_story_d_30_30.png') no-repeat;
 	width: 98%;
-	height: 231px;
+	height: 222px;
 	background-position: center;
 	background-size: 97% auto;
+	margin-bottom: 1px;*/
 }
 
-#name1_story_box:hover{
+/*#name1_story_box:hover{
 	background: url('../images/Sub_Story/sub_story_d_30_30_active.png') no-repeat;
 	width: 98%;
 	height: 231px;
 	background-position: center;
 	background-size: 97% auto;
-}
+}*/
 
 #name1_story_box img{
 	margin-top:60px !important;
@@ -4784,6 +4815,14 @@ body{
 	font-family: 'Paytone One', sans-serif;
 	color: white;
 	text-shadow: none;
+}
+
+#name2_story_box {
+	margin-bottom: -1px;
+}
+
+#name3_story_box {
+	margin-bottom: -1px;
 }
 
 #name3_story_box_story {
@@ -5469,14 +5508,14 @@ body{
 }
 
 #topLeftButton img{
-	width: 86%;
+	width: 141px;
 	height: auto;
 	margin-top: -5px;
 	margin-left: -2px;
 }
 
 #topRightButton img{
-	width: 86%;
+	width: 141px;
 	height: auto;
 	margin-top: -5px;
 	float:right;
@@ -5500,6 +5539,12 @@ body{
 
 #openerOakPlay{
 	display:inline !important;
+}
+
+#name5_box{
+	width: 53% !important;
+	margin-top: -7px;
+	margin-left: -1%;
 }
 
 }

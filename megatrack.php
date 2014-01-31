@@ -2,11 +2,11 @@
 <html>
 
 <!-- include Header -->
-<?php include 'header.php'; ?>
+<?php include 'includes/header.php'; ?>
 
-<body onload="window.scrollTo(0,100);" style="background:#9fcb3a;">
+<body onload="window.scrollTo(0,100);" style="background:#ff962e;">
 
-<?php include 'story_nav.php'; ?>
+<?php include 'includes/story_nav.php'; ?>
 
 <!--  include Navigation -->
 	<!-- <?php include 'story_nav.php'; ?> -->
@@ -18,7 +18,7 @@
 		<div id="topLeftArt" class="grid_4">
 			<img src="images/top_left_panel_art.png" alt=""/>
 		</div>
-		<div class="logoContainer" class="grid_4" style="display:none">
+		<div class="logoContainerStory" class="grid_4">
 			<a href="index.php" data-ajax="false"><img src="images/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
 		</div>
 		<div id="topRightButton" class="grid_4">
@@ -44,7 +44,7 @@
 	</div>
 	
 	
-	<div class="mainWrapper" style="background-color:#ff962e; margin-top: 54px; background-image: none;">
+	<div class="mainWrapper" style="background-color:#ff962e; margin-top: 72px; background-image: none;">
 		<div id="thirty_story_title_box" class="grid_4">
 			<img src="images/Sub_Title/sub_title_d_megatrack.png" width="295" height="246" alt="Sub Title D 30 30">
 		</div>
@@ -209,9 +209,11 @@
 		<div class="characterImg">
 					<a href="#" target="_blank"><img src="images/FooterCharacters/footer_character4.png" width="106" height="141" alt="Footer Character"></a>
 				</div>
-		<?php include 'footer.php'; ?>
+		<?php include 'includes/footer.php'; ?>
 		
 	</div>
+	
+	<?php include 'includes/audio.php'; ?>
 	
 	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript" 	src="js/jquery.smint.js"></script>

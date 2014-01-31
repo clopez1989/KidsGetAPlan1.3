@@ -2,11 +2,11 @@
 <html>
 
 <!-- include Header -->
-<?php include 'header.php'; ?>
+<?php include 'includes/header.php'; ?>
 
 <body onload="window.scrollTo(0,100);" style="background-color:#6dcef5;">
 
-<?php include 'story_nav.php'; ?>
+<?php include 'includes/story_nav.php'; ?>
 
 <!--  include Navigation -->
 	<!-- <?php include 'story_nav.php'; ?> -->
@@ -18,7 +18,7 @@
 		<div id="topLeftArt" class="grid_4">
 			<img src="images/top_left_panel_art.png" alt=""/>
 		</div>
-		<div class="logoContainer_story" class="grid_4">
+		<div class="logoContainerStory" class="grid_4">
 			<a href="index.php" data-ajax="false"><img src="images/Kids-Get-A-Plan-Logo-Horiz-2013-900x100-opt.png" width="500" height="95" alt="Kids Get A Plan Logo Horiz 2013 900x100 Opt" class="logoImage" /></a>
 		</div>
 		<div id="topRightButton" class="grid_4">
@@ -84,7 +84,7 @@
 		<div class="characterImg">
 					<a href="#" target="_blank"><img src="images/FooterCharacters/footer_character3.png" width="106" height="141" alt="Footer Character"></a>
 				</div>
-		<?php include 'footer.php'; ?>
+		<?php include 'includes/footer.php'; ?>
 	</div>
 	
 	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
